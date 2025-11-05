@@ -1,0 +1,11 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v0.1.2
+_src_path: gh:ONEcampaign/bblocks-projects
+author_email: lpicci96@gmail.com
+author_name: Luca Picci
+license: mit
+project_description: Sovereign debt overview page
+project_name: Debt Overview
+project_slug: debt_overview
+project_type: research
+python_version: '3.12'
