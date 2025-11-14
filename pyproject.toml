@@ -9,7 +9,11 @@ authors = [
 
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "bblocks-data-importers>=0.4.1",
+    "bblocks-places>=0.0.4",
+    "notebook>=7.4.7",
+]
 
 
 
