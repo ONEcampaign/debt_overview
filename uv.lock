@@ -133,18 +133,15 @@ wheels = [
 [[package]]
 name = "bblocks-data-importers"
 version = "0.4.1"
-source = { registry = "https://pypi.org/simple" }
+source = { git = "https://github.com/ONEcampaign/bblocks_data_importers#5f20c53b1c04a7fe041d16c937bc0ba4e2c70338" }
 dependencies = [
     { name = "country-converter" },
+    { name = "diskcache" },
     { name = "imf-reader" },
     { name = "openpyxl" },
     { name = "pandas" },
     { name = "pyarrow" },
     { name = "wbgapi" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/4e/49/cdac8bd7afa04468a7e70a3095f11f7ebf991b274be298e1b6650f2eb444/bblocks_data_importers-0.4.1.tar.gz", hash = "sha256:6155d7490b2ae972bd44fb00a314d600b236077a6b226a2797d2edcc8bcb868a", size = 27663 }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/1f/cc/8ee314556973c438c6ff769cd49f38a6b582a4237b296cb8d348b61a3e01/bblocks_data_importers-0.4.1-py3-none-any.whl", hash = "sha256:1920ba20ae745a4f2418c8632e2491ee4c0d49f9000f3d7f1183ff26c7175596", size = 34700 },
 ]
 
 [[package]]
@@ -386,7 +383,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "bblocks-data-importers", specifier = ">=0.4.1" },
+    { name = "bblocks-data-importers", git = "https://github.com/ONEcampaign/bblocks_data_importers" },
     { name = "bblocks-places", specifier = ">=0.0.4" },
     { name = "notebook", specifier = ">=7.4.7" },
 ]
@@ -434,6 +431,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/0f/d5/c66da9b79e5bdb124974bfe172b4daf3c984ebd9c2a06e2b8a4dc7331c72/defusedxml-0.7.1.tar.gz", hash = "sha256:1bb3032db185915b62d7c6209c5a8792be6a32ab2fedacc84e01b52c51aa3e69", size = 75520 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/07/6c/aa3f2f849e01cb6a001cd8554a88d4c77c5c1a31c95bdf1cf9301e6d9ef4/defusedxml-0.7.1-py2.py3-none-any.whl", hash = "sha256:a352e7e428770286cc899e2542b6cdaedb2b4953ff269a210103ec58f6198a61", size = 25604 },
+]
+
+[[package]]
+name = "diskcache"
+version = "5.6.3"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/3f/21/1c1ffc1a039ddcc459db43cc108658f32c57d271d7289a2794e401d0fdb6/diskcache-5.6.3.tar.gz", hash = "sha256:2c3a3fa2743d8535d832ec61c2054a1641f41775aa7c556758a109941e33e4fc", size = 67916 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/3f/27/4570e78fc0bf5ea0ca45eb1de3818a23787af9b390c0b0a0033a1b8236f9/diskcache-5.6.3-py3-none-any.whl", hash = "sha256:5e31b2d5fbad117cc363ebaf6b689474db18a1f6438bc82358b024abd4c2ca19", size = 45550 },
 ]
 
 [[package]]
@@ -520,17 +526,18 @@ wheels = [
 
 [[package]]
 name = "imf-reader"
-version = "1.3.0"
+version = "1.4.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "beautifulsoup4" },
     { name = "chardet" },
+    { name = "diskcache" },
     { name = "pandas" },
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/af/45/24521d229aec5c058d998510794567788bc7b1b764dfaa02fb8e0aeda4b7/imf_reader-1.3.0.tar.gz", hash = "sha256:3f3130dd793a112fdd5913a7c7b733847a5a07fd70dee14d57624ae4e021a141", size = 12990 }
+sdist = { url = "https://files.pythonhosted.org/packages/16/5a/c8bc268ae5b6dbab4db01d92f9d34713a7c487bc85f2522173cf24bc5c74/imf_reader-1.4.1.tar.gz", hash = "sha256:2584e45485b539cd2d15bf0a785e6ac5f29775c042d9d5f83c7af5d5f0947c0b", size = 13271 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/fd/5b/3a063116950f2aa2b450120e78162bb5b87098dde3b75ae90210c6f2c099/imf_reader-1.3.0-py3-none-any.whl", hash = "sha256:3515c6644dfef44d5fda89f5bb3786b4f83da20f49184911f0df2386782106f1", size = 16520 },
+    { url = "https://files.pythonhosted.org/packages/c1/79/97bd7b6c3af609b33ba2d787ea9e06ad93b1deca38388a345b6c913825ea/imf_reader-1.4.1-py3-none-any.whl", hash = "sha256:16c0dafcbe0e6630e7d3adbccb81e828b3e971b79e3969b79fbd6772151165c5", size = 19285 },
 ]
 
 [[package]]
@@ -1373,6 +1380,7 @@ source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "typing-extensions" },
 ]
+sdist = { url = "https://files.pythonhosted.org/packages/71/70/23b021c950c2addd24ec408e9ab05d59b035b39d97cdc1130e1bce647bb6/pydantic_core-2.41.5.tar.gz", hash = "sha256:08daa51ea16ad373ffd5e7606252cc32f07bc72b28284b6bc9c6df804816476e", size = 460952 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/5f/5d/5f6c63eebb5afee93bcaae4ce9a898f3373ca23df3ccaef086d0233a35a7/pydantic_core-2.41.5-cp312-cp312-macosx_10_12_x86_64.whl", hash = "sha256:f41a7489d32336dbf2199c8c0a215390a751c5b014c2c1c5366e817202e9cdf7", size = 2110990 },
     { url = "https://files.pythonhosted.org/packages/aa/32/9c2e8ccb57c01111e0fd091f236c7b371c1bccea0fa85247ac55b1e2b6b6/pydantic_core-2.41.5-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:070259a8818988b9a84a449a2a7337c7f430a22acc0859c6b110aa7212a6d9c0", size = 1896003 },
