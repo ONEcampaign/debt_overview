@@ -71,7 +71,6 @@ def chart_1():
 
 
 if __name__ == "__main__":
-
     chart_1()
 
     logger.info("Successfully created all charts")
