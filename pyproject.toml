@@ -21,7 +21,6 @@ dependencies = [
 
 [dependency-groups]
 dev = [
-
     "mypy>=1.8.0",
     "ruff>=0.3.0",
 ]

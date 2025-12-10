@@ -1,11 +1,11 @@
 """Get raw data"""
 
+import signal
+
 from bblocks.data_importers import InternationalDebtStatistics
 
 from scripts.config import Paths
 from scripts.logger import logger
-
-import signal
 
 
 def timeout_30min(func):
@@ -21,7 +21,7 @@ def timeout_30min(func):
         try:
             return func()
         except Exception as e:
-            raise RuntimeError(f"Could not complete data download: {e}")
+            raise RuntimeError(f"Could not complete data download: {e!s}") from e
         finally:
             signal.alarm(0)
 
