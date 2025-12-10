@@ -7,7 +7,7 @@ from scripts.logger import logger
 from scripts.utils import custom_sort
 
 
-def chart_1():
+def chart_1() -> None:
     """Chart 1: Debt stocks"""
 
     df = pd.read_parquet(Paths.raw_data / "ids_debt_stocks.parquet")

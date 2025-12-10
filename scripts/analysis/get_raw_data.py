@@ -8,7 +8,7 @@ from scripts.config import Paths
 from scripts.logger import logger
 
 
-def timeout_30min(func):
+def timeout_30min(func) -> None:
     """Decorator to timeout a function after 30 minutes and implement a
     try except block to catch any exceptions raised within the function."""
 
