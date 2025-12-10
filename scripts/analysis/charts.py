@@ -4,6 +4,7 @@ import pandas as pd
 
 from scripts.config import Paths
 from scripts.logger import logger
+from scripts.utils import custom_sort
 
 
 def chart_1():
@@ -28,7 +29,8 @@ def chart_1():
     df.to_csv(Paths.output / "chart_1_download.csv", index=False)
 
     # Chart data
-    cats = {'DT.DOD.BLAT.CD': 'bilateral',
+
+    cols_map = {'DT.DOD.BLAT.CD': 'bilateral',
             'DT.DOD.MLAT.CD': 'multilateral',
             'DT.DOD.PBND.CD': 'bonds',
             'DT.DOD.PCBK.CD': 'commercial banks',
@@ -40,31 +42,13 @@ def chart_1():
             values='value',
             )
      .reset_index()
-     .rename(columns=cats)
-
-    # resort entities
-     .assign(
-        debtor_name=lambda d: pd.Categorical(
-            d["debtor_name"],
-            categories=["Low & middle income"]
-                       + sorted(v for v in d["debtor_name"].unique()
-                                if v != "Low & middle income"),
-            ordered=True,
-        ),
-        creditor_name=lambda d: pd.Categorical(
-            d["creditor_name"],
-            categories=["All creditors"]
-                       + sorted(v for v in d["creditor_name"].unique()
-                                if v != "All creditors"),
-            ordered=True,
-        ),
-    )
-
-     .sort_values(["debtor_name", "creditor_name"])
+     .rename(columns=cols_map)
+    .pipe(custom_sort, {"debtor_name": "Low & middle income", "creditor_name": "All creditors"})
      .reset_index(drop=True)
 
      )
 
+    # export chart data
     df.to_csv(Paths.output / "chart_1_chart.csv", index=False)
 
     logger.info("Chart 1 created successfully")
