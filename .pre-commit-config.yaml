@@ -73,10 +73,6 @@ repos:
     rev: v1.8.0
     hooks:
       - id: mypy
-#        additional_dependencies: []
-#
-#        args: [--install-types, --non-interactive, --strict]
-
         additional_dependencies: []
         args:
             - --install-types
@@ -88,6 +84,7 @@ repos:
             - --disable-error-code=import-untyped
             # DO NOT require typed decorators
             - --disable-error-code=misc
+
 
 
   # ---------------------------------------------------------------------------
