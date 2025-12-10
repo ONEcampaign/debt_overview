@@ -1,33 +1,13 @@
 """Get raw data"""
 
-import signal
-from collections.abc import Callable
-from typing import Any
-
 from bblocks.data_importers import InternationalDebtStatistics
 
 from scripts.config import Paths
 from scripts.logger import logger
+from scripts.utils import timeout_30min
 
 
-def timeout_30min(func: Callable[..., Any]) -> Callable[..., Any]:
-    """Decorator to timeout a function after 30 minutes and implement a
-    try except block to catch any exceptions raised within the function."""
-
-    def handler(signum: int, frame: Any) -> None:
-        raise TimeoutError("Function timed out after 30 minutes")
-
-    def wrapper() -> Any:
-        signal.signal(signal.SIGALRM, handler)
-        signal.alarm(30 * 60)  # 30 minutes
-        try:
-            return func()
-        except Exception as e:
-            raise RuntimeError(f"Could not complete data download: {e!s}") from e
-        finally:
-            signal.alarm(0)
-
-    return wrapper
+TDS_VARS = ['DT.TDS.BLAT.CD', 'DT.TDS.MLAT.CD', 'DT.TDS.PBND.CD', 'DT.TDS.PCBK.CD','DT.TDS.PROP.CD']
 
 
 @timeout_30min
@@ -43,5 +23,17 @@ def get_debt_stocks_data() -> None:
     logger.info("IDS debt stocks data downloaded successfully.")
 
 
+@timeout_30min
+def get_total_debt_service_data() -> None:
+    """Get the raw data for the International Debt Statistics total debt service."""
+
+    ids = InternationalDebtStatistics()
+    df = ids.get_data(TDS_VARS, include_labels=True)
+    df.to_parquet(Paths.raw_data / "ids_total_debt_service.parquet", index=False)
+
+    logger.info("IDS total debt service data downloaded successfully.")
+
+
 if __name__ == "__main__":
     get_debt_stocks_data()
+    get_total_debt_service_data()
