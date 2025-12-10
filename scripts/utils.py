@@ -1,5 +1,9 @@
 """Utility functions"""
 
+import signal
+from collections.abc import Callable
+from typing import Any
+
 import pandas as pd
 
 
@@ -41,3 +45,23 @@ def custom_sort(
 
     _df = _df.sort_values(list(resort_dict.keys()))
     return _df
+
+
+def timeout_30min(func: Callable[..., Any]) -> Callable[..., Any]:
+    """Decorator to timeout a function after 30 minutes and implement a
+    try except block to catch any exceptions raised within the function."""
+
+    def handler(signum: int, frame: Any) -> None:
+        raise TimeoutError("Function timed out after 30 minutes")
+
+    def wrapper() -> Any:
+        signal.signal(signal.SIGALRM, handler)
+        signal.alarm(30 * 60)  # 30 minutes
+        try:
+            return func()
+        except Exception as e:
+            raise RuntimeError(f"Could not complete data download: {e!s}") from e
+        finally:
+            signal.alarm(0)
+
+    return wrapper
