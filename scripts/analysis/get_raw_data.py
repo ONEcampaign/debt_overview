@@ -14,8 +14,7 @@ def timeout_30min(func: Callable[..., Any]) -> Callable[..., Any]:
     """Decorator to timeout a function after 30 minutes and implement a
     try except block to catch any exceptions raised within the function."""
 
-    def handler(signum: int
-                , frame: Any) -> None:
+    def handler(signum: int, frame: Any) -> None:
         raise TimeoutError("Function timed out after 30 minutes")
 
     def wrapper() -> Any:
