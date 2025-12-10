@@ -1,7 +1,8 @@
 """Get raw data"""
 
 import signal
-from typing import Any, Callable
+from collections.abc import Callable
+from typing import Any
 
 from bblocks.data_importers import InternationalDebtStatistics
 
