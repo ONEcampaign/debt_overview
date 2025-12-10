@@ -6,7 +6,6 @@ from scripts.config import Paths
 from scripts.logger import logger
 from scripts.utils import timeout_30min
 
-
 TDS_VARS = [
     "DT.TDS.BLAT.CD",
     "DT.TDS.MLAT.CD",
