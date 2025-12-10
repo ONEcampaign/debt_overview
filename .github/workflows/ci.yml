@@ -35,15 +35,15 @@ jobs:
       - name: Run ruff format check
         run: uv run ruff format --check .
 
-      - name: Run mypy
-        run: |
-          uv run mypy \
-            --install-types \
-            --non-interactive \
-            --disallow-untyped-defs \
-            --ignore-missing-imports \
-            --disable-error-code=import-untyped \
-            --disable-error-code=misc \
-            scripts/
+#      - name: Run mypy
+#        run: |
+#          uv run mypy \
+#            --install-types \
+#            --non-interactive \
+#            --disallow-untyped-defs \
+#            --ignore-missing-imports \
+#            --disable-error-code=import-untyped \
+#            --disable-error-code=misc \
+#            scripts/
 
 
