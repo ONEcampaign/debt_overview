@@ -21,7 +21,7 @@ def timeout_30min(func):
         try:
             return func()
         except Exception as e:
-            raise RuntimeError(f"Could not complete data download: {str(e)}")
+            raise RuntimeError(f"Could not complete data download: {e}")
         finally:
             signal.alarm(0)
 
