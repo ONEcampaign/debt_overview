@@ -73,9 +73,21 @@ repos:
     rev: v1.8.0
     hooks:
       - id: mypy
-        additional_dependencies: []
+#        additional_dependencies: []
+#
+#        args: [--install-types, --non-interactive, --strict]
 
-        args: [--install-types, --non-interactive, --strict]
+        additional_dependencies: []
+        args:
+            - --install-types
+            - --non-interactive
+            # REQUIRE function type hints
+            - --disallow-untyped-defs
+            # DO NOT require stubs for external libraries
+            - --ignore-missing-imports
+            - --disable-error-code=import-untyped
+            # DO NOT require typed decorators
+            - --disable-error-code=misc
 
 
   # ---------------------------------------------------------------------------
