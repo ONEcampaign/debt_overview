@@ -7,7 +7,13 @@ from scripts.logger import logger
 from scripts.utils import timeout_30min
 
 
-TDS_VARS = ['DT.TDS.BLAT.CD', 'DT.TDS.MLAT.CD', 'DT.TDS.PBND.CD', 'DT.TDS.PCBK.CD','DT.TDS.PROP.CD']
+TDS_VARS = [
+    "DT.TDS.BLAT.CD",
+    "DT.TDS.MLAT.CD",
+    "DT.TDS.PBND.CD",
+    "DT.TDS.PCBK.CD",
+    "DT.TDS.PROP.CD",
+]
 
 
 @timeout_30min

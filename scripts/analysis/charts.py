@@ -81,28 +81,29 @@ def chart_2() -> None:
 
     # Basic cleaning
 
-    df = (df
-     .loc[lambda d: d.year >= 2000,
-    [
-        "indicator_name",
-        "indicator_code",
-        "year",
-        "entity_name",
-        "counterpart_name",
-        "value",
-    ],
-     ]
-     .dropna(subset=["value"])
-     .assign(
-        counterpart_name=lambda d: d.counterpart_name.replace(
-            {"World": "All creditors"}
+    df = (
+        df.loc[
+            lambda d: d.year >= 2000,
+            [
+                "indicator_name",
+                "indicator_code",
+                "year",
+                "entity_name",
+                "counterpart_name",
+                "value",
+            ],
+        ]
+        .dropna(subset=["value"])
+        .assign(
+            counterpart_name=lambda d: d.counterpart_name.replace(
+                {"World": "All creditors"}
+            )
         )
+        .rename(
+            columns={"entity_name": "debtor_name", "counterpart_name": "creditor_name"}
+        )
+        .reset_index(drop=True)
     )
-     .rename(
-        columns={"entity_name": "debtor_name", "counterpart_name": "creditor_name"}
-    )
-     .reset_index(drop=True)
-     )
 
     # export data for download
     df.to_csv(Paths.output / "chart_2_download.csv", index=False)
@@ -117,21 +118,20 @@ def chart_2() -> None:
         "DT.TDS.PROP.CD": "other private",
     }
 
-    df = (df
- .pivot(
+    df = (
+        df.pivot(
             index=["debtor_name", "year", "creditor_name"],
             columns="indicator_code",
             values="value",
         )
         .reset_index()
- .rename(columns=cols_map)
- .pipe(
+        .rename(columns=cols_map)
+        .pipe(
             custom_sort,
             {"debtor_name": "Low & middle income", "creditor_name": "All creditors"},
         )
         .reset_index(drop=True)
-
- )
+    )
 
     # export chart data
     df.to_csv(Paths.output / "chart_2_chart.csv", index=False)
