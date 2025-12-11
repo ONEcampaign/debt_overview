@@ -71,6 +71,24 @@ def chart_1() -> None:
     # export chart data
     df.to_csv(Paths.output / "chart_1_chart.csv", index=False)
 
+
+    # create json data for chart
+
+    (df
+     .rename(columns={"debtor_name": "filter1_values",
+                      "year": "x_values",
+                      "creditor_name": "filter2_values",
+                      "bilateral": "y1",
+                      "multilateral": "y2",
+                      "bonds": "y3",
+                      "commercial banks": "y4",
+                      "other private": "y5",
+                      })
+     .assign(y_values=lambda d: d[["y1", "y2", "y3", "y4", "y5"]].values.tolist())
+     .loc[:, ["filter1_values", "x_values", "filter2_values", "y_values"]]
+     .to_json(Paths.output / "chart_1_chart.json", orient="records", date_format="iso")
+     )
+
     logger.info("Chart 1 created successfully")
 
 
@@ -135,6 +153,25 @@ def chart_2() -> None:
 
     # export chart data
     df.to_csv(Paths.output / "chart_2_chart.csv", index=False)
+
+
+    # json chart data
+
+    (df
+     .rename(columns={"debtor_name": "filter1_values",
+                      "year": "x_values",
+                      "creditor_name": "filter2_values",
+                      "bilateral": "y1",
+                      "multilateral": "y2",
+                      "bonds": "y3",
+                      "commercial banks": "y4",
+                      "other private": "y5",
+                      })
+     .assign(y_values=lambda d: d[["y1", "y2", "y3", "y4", "y5"]].values.tolist())
+     .loc[:, ["filter1_values", "x_values", "filter2_values", "y_values"]]
+     .to_json(Paths.output / "chart_2_chart.json",
+              orient="records", date_format="iso")
+     )
 
     logger.info("Chart 2 created successfully")
 
