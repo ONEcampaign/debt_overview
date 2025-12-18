@@ -130,9 +130,6 @@ def _get_debt_service_data() -> pd.DataFrame:
 
     df = pd.read_parquet(Paths.raw_data / "ids_debt_service.parquet")
 
-    # # add Africa values
-    # df = add_africa_values(df, agg_operation="sum")
-
     return (
         df.loc[
             lambda d: (d.year >= START_YEAR) & (d.year <= LATEST_YEAR + NUM_EST_YEARS),
