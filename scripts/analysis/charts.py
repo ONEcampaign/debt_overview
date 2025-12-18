@@ -2,16 +2,19 @@
 
 import pandas as pd
 import json
+from datetime import datetime
 
 from scripts.config import Paths
 from scripts.logger import logger
-from scripts.utils import custom_sort
+from scripts.utils import custom_sort, add_africa_values
 
 from bblocks.data_importers import get_dsa, InternationalDebtStatistics
 from bblocks import places
 
 
 LATEST_YEAR = 2024
+START_YEAR = 2000
+NUM_EST_YEARS = 6 # number of estimated years in debt service data
 
 def chart_1() -> None:
     """Chart 1: Bar debt stocks
@@ -25,7 +28,7 @@ def chart_1() -> None:
     # Basic cleaning
     df = (
         df.loc[
-            lambda d: d.year >= 2000,
+            lambda d: d.year >= START_YEAR,
             [
                 "indicator_name",
                 "indicator_code",
@@ -122,8 +125,11 @@ def _get_debt_service_data() -> pd.DataFrame:
 
     df = pd.read_parquet(Paths.raw_data / "ids_debt_service.parquet")
 
+    # # add Africa values
+    # df = add_africa_values(df, agg_operation="sum")
+
     return (df.loc[
-        lambda d: d.year >= 2000,
+        lambda d: (d.year >= START_YEAR) & (d.year <= LATEST_YEAR + NUM_EST_YEARS),
         [
             "indicator_name",
             "indicator_code",
@@ -209,7 +215,7 @@ def chart_2() -> None:
 
 
 
-def chart_3():
+def chart_3() -> None:
     """Chart 3: Currency composition of debt"""
 
     indicators = {"DT.CUR.USDL.ZS": 'U.S. dollars',
@@ -217,12 +223,13 @@ def chart_3():
                  "DT.CUR.SDRW.ZS": "SDR",
                  "DT.CUR.JYEN.ZS": "Japanese yen",
                  "DT.CUR.UKPS.ZS": "Pound sterling",
-                 'DT.CUR.MULC.ZS': 'Multiple currencies'}
+                 # 'DT.CUR.MULC.ZS': 'Multiple currencies'
+                  }
 
     df = pd.read_parquet(Paths.raw_data / "ids_currency_composition.parquet")
 
     df = (df
-    .loc[lambda d: (d.value.notna()) & (d.counterpart_name == "World") & (d.year >= 2000)]
+    .loc[lambda d: (d.value.notna()) & (d.counterpart_name == "World") & (d.year >= 2001)]
     )
 
     # export data for download
@@ -230,7 +237,6 @@ def chart_3():
 
     # chart data
     df = (df
-          .loc[lambda d: (d.value.notna()) & (d.counterpart_name == "World") & (d.year >= 2000)]
           .pivot(index=['entity_name', "year"], columns="indicator_code", values="value")
           .assign(**{"All other currencies": lambda d: d.loc[:, list(i for i in df.indicator_code.unique()
                                                                      if i not in indicators)].sum(axis=1)})
@@ -245,7 +251,7 @@ def chart_3():
 
 
 
-def chart_4():
+def chart_4() -> None:
     """Chart 4: Debt service broken down by interest and principal"""
 
     df = _get_debt_service_data()
@@ -274,6 +280,9 @@ def chart_4():
     )
      .reset_index(drop=True)
 
+    # reorder columns with principal first
+    .loc[:, ["debtor_name", "year", "creditor_name", "interest", "principal"]]
+
      )
 
     df.to_csv(Paths.output / "chart_4_chart.csv", index=False)
@@ -283,8 +292,8 @@ def chart_4():
      .rename(columns={"debtor_name": "filter1_values",
                       "year": "x_values",
                       "creditor_name": "filter2_values",
-                      "interest": "y1",
-                      "principal": "y2",
+                      "principal": "y1",
+                      "interest": "y2",
                       })
      .assign(y_values=lambda d: d[["y1", "y2"]].values.tolist())
      .loc[:, ["filter1_values", "x_values", "filter2_values", "y_values"]]
@@ -295,12 +304,12 @@ def chart_4():
     logger.info("Chart 4 created successfully")
 
 
-def chart_5():
+def chart_5() -> None:
     """Chart 5: DSA map"""
 
-    color_map = {"High": "#ff5e1f",
+    color_map = {"High": "#ff6224",
               "Moderate": "#f5be29",
-              "Low": "#1cb9c4",
+              "Low": "#00c3d1",
               "In debt distress": "#73175a"
               }
 
@@ -328,7 +337,7 @@ def chart_5():
 
     logger.info("Chart 5 created successfully")
 
-def key_stats():
+def key_stats() -> None:
     """Key statistics"""
 
     stats_dict = {}
@@ -366,19 +375,37 @@ def key_stats():
     .loc[lambda d: d.risk_of_debt_distress.isin(["In debt distress", "High"])]
     ))
 
-    stats_dict["countries_debt_distress"] = f"{val} countries"
+    stats_dict["countries_debt_distress"] = val
 
 
-    stats_dict["year"] = LATEST_YEAR
+    stats_dict["latest_year"] = LATEST_YEAR # latest year of data
 
     with open(Paths.output / "key_stats.json", "w") as f:
         json.dump(stats_dict, f)
 
+def last_update() -> None:
+    """Set the last update date for the analysis
+    in the key_stats.json file without overriding other kv pairs
+    """
 
+    with open(Paths.output / "key_stats.json", "r+") as f:
+
+        key_stats_dict = json.load(f)
+        key_stats_dict["last_data_update"] = datetime.now().strftime("%d %B %Y")
+
+        # replace the file content
+        f.seek(0)
+        json.dump(key_stats_dict, f)
+        f.truncate()
+
+
+    logger.info("Updated last data update date")
 
 
 
 if __name__ == "__main__":
+
+    logger.info("Running charts and key statistics")
 
     chart_1() # debt stocks chart
     chart_2() # total debt service chart
@@ -386,5 +413,6 @@ if __name__ == "__main__":
     chart_4() # debt service by interest and principal chart
     chart_5() # DSA map chart
     key_stats() # key statistics
+    last_update() # last update date
 
     logger.info("Successfully created all charts")
