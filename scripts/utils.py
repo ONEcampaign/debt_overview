@@ -79,32 +79,41 @@ def add_africa_values(df, agg_operation: "sum") -> pd.DataFrame:
         DataFrame with Africa (excluding high income) aggregate values added.
     """
 
-    dff = df.copy(deep=True) # make a copy to avoid modifying the original dataframe
+    dff = df.copy(deep=True)  # make a copy to avoid modifying the original dataframe
 
-    afr_dff = (df
-               .assign(iso3_code=lambda d: places.resolve_places(d.entity_name,
-                                                                 to_type="iso3_code",
-                                                                 not_found="ignore"))
-               .dropna(subset=["iso3_code"])
-               .assign(continent=lambda d: places.resolve_places(d.iso3_code,
-                                                                 from_type="iso3_code",
-                                                                 to_type="region"))
-               .assign(income_level=lambda d: places.resolve_places(d.iso3_code,
-                                                                    from_type="iso3_code",
-                                                                    to_type="income_level"))
-               .loc[lambda d: (d.continent == "Africa") & (d.income_level != "High income")]
-               .drop(columns=["income_level", "iso3_code", "continent"])
-               .dropna(subset="value")
-               .groupby([i for i in dff.columns if i not in ["value", "entity_name", "entity_code"]], observed=True)
-               .agg({"value": agg_operation})
-               .reset_index()
-               .assign(entity_name="Africa (excluding high income)",
-                       is_aggregate=True
-                       )
-
-               )
+    afr_dff = (
+        df.assign(
+            iso3_code=lambda d: places.resolve_places(
+                d.entity_name, to_type="iso3_code", not_found="ignore"
+            )
+        )
+        .dropna(subset=["iso3_code"])
+        .assign(
+            continent=lambda d: places.resolve_places(
+                d.iso3_code, from_type="iso3_code", to_type="region"
+            )
+        )
+        .assign(
+            income_level=lambda d: places.resolve_places(
+                d.iso3_code, from_type="iso3_code", to_type="income_level"
+            )
+        )
+        .loc[lambda d: (d.continent == "Africa") & (d.income_level != "High income")]
+        .drop(columns=["income_level", "iso3_code", "continent"])
+        .dropna(subset="value")
+        .groupby(
+            [
+                i
+                for i in dff.columns
+                if i not in ["value", "entity_name", "entity_code"]
+            ],
+            observed=True,
+        )
+        .agg({"value": agg_operation})
+        .reset_index()
+        .assign(entity_name="Africa (excluding high income)", is_aggregate=True)
+    )
 
     dff = pd.concat([dff, afr_dff], ignore_index=True)
 
     return dff
-
