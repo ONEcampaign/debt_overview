@@ -1,6 +1,6 @@
 # Debt Overview
 
-Sovereign debt overview page
+This repository powers the [Sovereign debt overview page](https://data.one.org/analysis/sovereign-debt)
 
 ## Installation
 
@@ -11,46 +11,18 @@ This project uses [uv](https://docs.astral.sh/uv/) for dependency management.
 uv sync
 ```
 
-
 ## Usage
 
 Scripts are located in the `scripts/` directory.
 
-```bash
-# Run an analysis script
-uv run python scripts/example_analysis.py
-```
+To run the analysis, run the `get_raw_data.py` script to fetch the latest data. 
+This module will save the data in the `raw_data/` directory. Raw data is
+not tracked in version control.
 
-### Project Structure
+Once the raw data is fetched, run the `charts.py` script to generate the analysis outputs
+stored in the `output/` directory.
 
-- `scripts/`: Analysis scripts
-  - `config.py`: Project paths configuration
-  - `logger.py`: Logging setup
-- `raw_data/`: Input data files
-- `output/`: Analysis results and outputs
-
-### Code Quality
-
-```bash
-# Run linter
-uv run ruff check scripts/
-
-# Run formatter
-uv run ruff format scripts/
-
-# Run type checker
-uv run mypy scripts/
-```
-
-
-## Pre-commit Hooks
-
-Pre-commit hooks are configured to run automatically. To manually run:
-
-```bash
-pre-commit run --all-files
-```
-
+For any issues or requests please open an issue on the GitHub repository.
 
 ## License
 

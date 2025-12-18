@@ -35,10 +35,10 @@ jobs:
         run: uv sync --frozen
 
       - name: Run get_raw_data script
-        run: uv run python scripts/analysis/get_raw_data.py
+        run: uv run python -m scripts.analysis.get_raw_data
 
       - name: Run charts script
-        run: uv run python scripts/analysis/charts.py
+        run: uv run python -m scripts.analysis.charts
 
       - name: Detect changes
         id: git_status
