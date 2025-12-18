@@ -1,68 +1,68 @@
 country_name,risk_of_debt_distress,latest_publication,debt_sustainability_assessment,iso3_code,color
-Afghanistan,High,28 June 2021,Sustainable,AFG,#ff5e1f
+Afghanistan,High,28 June 2021,Sustainable,AFG,#ff6224
 Bangladesh,Moderate,26 June 2025,,BGD,#f5be29
 Benin,Moderate,14 July 2025,,BEN,#f5be29
 Bhutan,Moderate,19 September 2024,,BTN,#f5be29
 Burkina Faso,Moderate,16 July 2025,,BFA,#f5be29
-Burundi,High,25 July 2023,Sustainable,BDI,#ff5e1f
-Cambodia,Low,27 January 2025,,KHM,#1cb9c4
-Cameroon,High,24 March 2025,Sustainable,CMR,#ff5e1f
+Burundi,High,25 July 2023,Sustainable,BDI,#ff6224
+Cambodia,Low,27 January 2025,,KHM,#00c3d1
+Cameroon,High,24 March 2025,Sustainable,CMR,#ff6224
 Cabo Verde,Moderate,11 February 2025,,CPV,#f5be29
-Central African Republic,High,23 June 2025,Sustainable,CAF,#ff5e1f
-Chad,High,13 August 2025,Sustainable,TCD,#ff5e1f
-Comoros,High,19 December 2024,Sustainable,COM,#ff5e1f
+Central African Republic,High,23 June 2025,Sustainable,CAF,#ff6224
+Chad,High,13 August 2025,Sustainable,TCD,#ff6224
+Comoros,High,19 December 2024,Sustainable,COM,#ff6224
 "Congo, Democratic Republic of",Moderate,16 July 2025,,COD,#f5be29
 "Congo, Republic of",In debt distress,24 March 2025,Sustainable,COG,#73175a
 Côte d'Ivoire,Moderate,15 July 2024,,CIV,#f5be29
 Djibouti,In debt distress,22 September 2025,Unsustainable,DJI,#73175a
 Dominica,Moderate,12 June 2025,,DMA,#f5be29
 Ethiopia,In debt distress,15 July 2025,Unsustainable,ETH,#73175a
-"Gambia, The",High,26 June 2025,Sustainable,GMB,#ff5e1f
-Ghana,High,10 July 2025,Sustainable,GHA,#ff5e1f
+"Gambia, The",High,26 June 2025,Sustainable,GMB,#ff6224
+Ghana,High,10 July 2025,Sustainable,GHA,#ff6224
 Grenada,In debt distress,04 February 2025,Sustainable,GRD,#73175a
 Guinea,Moderate,17 May 2024,,GIN,#f5be29
-Guinea-Bissau,High,07 July 2025,Sustainable,GNB,#ff5e1f
-Haiti,High,10 December 2024,Sustainable,HTI,#ff5e1f
-Honduras,Low,10 December 2024,,HND,#1cb9c4
-Kenya,High,01 November 2024,Sustainable,KEN,#ff5e1f
-Kiribati,High,10 July 2025,Sustainable,KIR,#ff5e1f
+Guinea-Bissau,High,07 July 2025,Sustainable,GNB,#ff6224
+Haiti,High,10 December 2024,Sustainable,HTI,#ff6224
+Honduras,Low,10 December 2024,,HND,#00c3d1
+Kenya,High,01 November 2024,Sustainable,KEN,#ff6224
+Kiribati,High,10 July 2025,Sustainable,KIR,#ff6224
 Kyrgyz Republic,Moderate,04 June 2025,,KGZ,#f5be29
 Lao P.D.R.,In debt distress,08 November 2024,Unsustainable,LAO,#73175a
 Lesotho,Moderate,18 September 2025,,LSO,#f5be29
 Liberia,Moderate,11 October 2024,,LBR,#f5be29
 Madagascar,Moderate,21 March 2025,,MDG,#f5be29
 Malawi,In debt distress,06 August 2025,Unsustainable,MWI,#73175a
-Maldives,High,13 May 2024,Unsustainable,MDV,#ff5e1f
+Maldives,High,13 May 2024,Unsustainable,MDV,#ff6224
 Mali,Moderate,10 September 2025,,MLI,#f5be29
-Marshall Islands,High,26 October 2023,Sustainable,MHL,#ff5e1f
+Marshall Islands,High,26 October 2023,Sustainable,MHL,#ff6224
 Mauritania,Moderate,20 December 2024,,MRT,#f5be29
 Micronesia,Moderate,04 March 2024,,FSM,#f5be29
-Moldova,Low,19 December 2024,,MDA,#1cb9c4
-Mozambique,High,12 July 2024,Sustainable,MOZ,#ff5e1f
-Myanmar,Low,28 January 2021,,MMR,#1cb9c4
-Nepal,Low,15 July 2024,,NPL,#1cb9c4
+Moldova,Low,19 December 2024,,MDA,#00c3d1
+Mozambique,High,12 July 2024,Sustainable,MOZ,#ff6224
+Myanmar,Low,28 January 2021,,MMR,#00c3d1
+Nepal,Low,15 July 2024,,NPL,#00c3d1
 Nicaragua,Moderate,07 February 2025,,NIC,#f5be29
-Niger,High,28 January 2025,Sustainable,NER,#ff5e1f
-Papua New Guinea,High,18 June 2025,Sustainable,PNG,#ff5e1f
+Niger,High,28 January 2025,Sustainable,NER,#ff6224
+Papua New Guinea,High,18 June 2025,Sustainable,PNG,#ff6224
 Rwanda,Moderate,10 June 2025,,RWA,#f5be29
 Samoa,Moderate,31 January 2025,,WSM,#f5be29
 São Tomé and Príncipe,In debt distress,08 August 2025,Sustainable,STP,#73175a
 Senegal,Moderate,07 July 2023,,SEN,#f5be29
-Sierra Leone,High,22 November 2024,Sustainable,SLE,#ff5e1f
-Solomon Islands,Low,25 February 2025,,SLB,#1cb9c4
+Sierra Leone,High,22 November 2024,Sustainable,SLE,#ff6224
+Solomon Islands,Low,25 February 2025,,SLB,#00c3d1
 Somalia,Moderate,16 July 2025,,SOM,#f5be29
-South Sudan,High,10 June 2024,Sustainable,SSD,#ff5e1f
-St. Vincent and the Grenadines,High,22 July 2024,Sustainable,VCT,#ff5e1f
+South Sudan,High,10 June 2024,Sustainable,SSD,#ff6224
+St. Vincent and the Grenadines,High,22 July 2024,Sustainable,VCT,#ff6224
 Sudan,In debt distress,01 July 2021,Sustainable,SDN,#73175a
-Tajikistan,High,08 July 2025,Sustainable,TJK,#ff5e1f
+Tajikistan,High,08 July 2025,Sustainable,TJK,#ff6224
 Tanzania,Moderate,03 July 2025,,TZA,#f5be29
 Timor Leste,Moderate,26 September 2025,,TLS,#f5be29
 Togo,Moderate,11 July 2025,,TGO,#f5be29
-Tonga,High,25 November 2024,Sustainable,TON,#ff5e1f
-Tuvalu,High,12 September 2025,Sustainable,TUV,#ff5e1f
+Tonga,High,25 November 2024,Sustainable,TON,#ff6224
+Tuvalu,High,12 September 2025,Sustainable,TUV,#ff6224
 Uganda,Moderate,11 September 2024,,UGA,#f5be29
-Uzbekistan,Low,24 June 2025,,UZB,#1cb9c4
+Uzbekistan,Low,24 June 2025,,UZB,#00c3d1
 Vanuatu,Moderate,25 September 2025,,VUT,#f5be29
 "Yemen, Republic of",Moderate,24 September 2014,,YEM,#f5be29
-Zambia,High,05 August 2025,Sustainable,ZMB,#ff5e1f
+Zambia,High,05 August 2025,Sustainable,ZMB,#ff6224
 Zimbabwe,In debt distress,08 April 2022,Unsustainable,ZWE,#73175a
