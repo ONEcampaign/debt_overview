@@ -1,16 +1,15 @@
 """Module for chart creation"""
 
-import pandas as pd
 import json
 from datetime import datetime
 
+import pandas as pd
+from bblocks import places
+from bblocks.data_importers import InternationalDebtStatistics, get_dsa
+
 from scripts.config import Paths
 from scripts.logger import logger
-from scripts.utils import custom_sort, add_africa_values
-
-from bblocks.data_importers import get_dsa, InternationalDebtStatistics
-from bblocks import places
-
+from scripts.utils import custom_sort
 
 LATEST_YEAR = 2024
 START_YEAR = 2000
@@ -255,11 +254,11 @@ def chart_3() -> None:
             **{
                 "All other currencies": lambda d: d.loc[
                     :,
-                    list(i for i in df.indicator_code.unique() if i not in indicators),
+                    [i for i in df.indicator_code.unique() if i not in indicators],
                 ].sum(axis=1)
             }
         )
-        .loc[:, list(indicators.keys()) + ["All other currencies"]]
+        .loc[:, [*list(indicators.keys()), "All other currencies"]]
         .rename(columns=indicators)
         .reset_index()
         .pipe(custom_sort, {"entity_name": "Low & middle income"})
@@ -423,11 +422,9 @@ def key_stats() -> None:
 
     # countries in debt distress
     val = len(
-        (
-            get_dsa().loc[
-                lambda d: d.risk_of_debt_distress.isin(["In debt distress", "High"])
-            ]
-        )
+        get_dsa().loc[
+            lambda d: d.risk_of_debt_distress.isin(["In debt distress", "High"])
+        ]
     )
 
     stats_dict["countries_debt_distress"] = val

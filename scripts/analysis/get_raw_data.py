@@ -4,7 +4,7 @@ from bblocks.data_importers import InternationalDebtStatistics
 
 from scripts.config import Paths
 from scripts.logger import logger
-from scripts.utils import timeout_30min, add_africa_values
+from scripts.utils import add_africa_values, timeout_30min
 
 START_YEAR = 2000
 
