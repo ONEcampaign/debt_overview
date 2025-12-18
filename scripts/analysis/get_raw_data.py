@@ -61,7 +61,6 @@ def get_currency_composition_data() -> None:
 
 
 if __name__ == "__main__":
-
     logger.info("Fetching raw data")
 
     get_debt_stocks_data()

@@ -444,7 +444,6 @@ def last_update() -> None:
     """
 
     with open(Paths.output / "key_stats.json", "r+") as f:
-
         key_stats_dict = json.load(f)
         key_stats_dict["last_data_update"] = datetime.now().strftime("%d %B %Y")
 
@@ -457,7 +456,6 @@ def last_update() -> None:
 
 
 if __name__ == "__main__":
-
     logger.info("Running charts and key statistics")
 
     chart_1()  # debt stocks chart
