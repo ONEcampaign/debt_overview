@@ -488,13 +488,13 @@ def last_update() -> None:
 if __name__ == "__main__":
     logger.info("Running charts and key statistics")
 
-    # chart_1()  # debt stocks chart
-    # chart_2()  # total debt service chart
-    # chart_3()  # debt composition chart
-    # chart_4()  # debt service by interest and principal chart
-    # chart_5()  # DSA map chart
+    chart_1()  # debt stocks chart
+    chart_2()  # total debt service chart
+    chart_3()  # debt composition chart
+    chart_4()  # debt service by interest and principal chart
+    chart_5()  # DSA map chart
     chart_6()  # packed circle chart
-    # key_stats()  # key statistics
-    # last_update()  # last update date
+    key_stats()  # key statistics
+    last_update()  # last update date
 
     logger.info("Successfully created all charts")
