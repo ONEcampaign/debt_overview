@@ -9,7 +9,7 @@ from bblocks.data_importers import InternationalDebtStatistics, get_dsa
 
 from scripts.config import Paths
 from scripts.logger import logger
-from scripts.utils import custom_sort
+from scripts.utils import custom_sort, format_values
 
 LATEST_YEAR = 2024
 START_YEAR = 2000
@@ -369,6 +369,42 @@ def chart_5() -> None:
 
     logger.info("Chart 5 created successfully")
 
+def chart_6()-> None:
+    """Chart 6: Packed circle chart total debt stocks latest value"""
+
+    cols_map = {
+        "DT.DOD.BLAT.CD": "bilateral",
+        "DT.DOD.MLAT.CD": "multilateral",
+        "DT.DOD.PBND.CD": "private",
+        "DT.DOD.PCBK.CD": "private",
+        "DT.DOD.PROP.CD": "private",
+    }
+
+    df = pd.read_parquet(Paths.raw_data / "ids_debt_stocks.parquet")
+
+    df = (df
+     .loc[lambda d: d.year == LATEST_YEAR,]
+     .dropna(subset=["value"])
+     .assign(category=lambda d: d.indicator_code.map(cols_map))
+
+     .loc[:, ['counterpart_name', "entity_name", "category", "indicator_code", "value"]]
+     .loc[lambda d: d.counterpart_name != "World"]
+     .groupby(['counterpart_name', "entity_name", "category"])
+     .agg({'value': 'sum'})
+     .reset_index()
+     .pipe(custom_sort, {'entity_name': ["Low & middle income"]})
+          )
+
+    # save chart data
+    df.to_csv(Paths.output / "chart_6_download.csv", index=False)
+
+    (df
+     .assign(value_annotation=lambda d: d.value.apply(format_values))
+     .to_csv(Paths.output / "chart_6_chart.csv", index=False)
+     )
+
+    logger.info("Chart 6 created successfully")
+
 
 def key_stats() -> None:
     """Key statistics"""
@@ -452,12 +488,13 @@ def last_update() -> None:
 if __name__ == "__main__":
     logger.info("Running charts and key statistics")
 
-    chart_1()  # debt stocks chart
-    chart_2()  # total debt service chart
-    chart_3()  # debt composition chart
-    chart_4()  # debt service by interest and principal chart
-    chart_5()  # DSA map chart
-    key_stats()  # key statistics
-    last_update()  # last update date
+    # chart_1()  # debt stocks chart
+    # chart_2()  # total debt service chart
+    # chart_3()  # debt composition chart
+    # chart_4()  # debt service by interest and principal chart
+    # chart_5()  # DSA map chart
+    chart_6()  # packed circle chart
+    # key_stats()  # key statistics
+    # last_update()  # last update date
 
     logger.info("Successfully created all charts")
