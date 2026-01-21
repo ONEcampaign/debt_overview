@@ -406,6 +406,93 @@ def chart_6()-> None:
     logger.info("Chart 6 created successfully")
 
 
+
+def chart_7()-> None:
+    """Chart 7: Debt disbursements"""
+
+    df = pd.read_parquet(Paths.raw_data / "ids_disbursements.parquet")
+
+    # Basic cleaning
+    df = (
+        df.loc[
+            lambda d: d.year >= START_YEAR,
+            [
+                "indicator_name",
+                "indicator_code",
+                "year",
+                "entity_name",
+                "counterpart_name",
+                "value",
+            ],
+        ]
+        .dropna(subset=["value"])
+        .assign(
+            counterpart_name=lambda d: d.counterpart_name.replace(
+                {"World": "All creditors"}
+            )
+        )
+        .rename(
+            columns={"entity_name": "debtor_name", "counterpart_name": "creditor_name"}
+        )
+    )
+
+    # go through each debtor/creditor pair and if all the values are zero, drop the pair
+    df = (
+        df.groupby(["debtor_name", "creditor_name"])
+        .filter(lambda d: d["value"].sum() != 0)
+        .reset_index(drop=True)
+    )
+
+    cols_map = {
+        "DT.DIS.BLAT.CD": "bilateral",
+        "DT.DIS.MLAT.CD": "multilateral",
+        "DT.DIS.PBND.CD": "bonds",
+        "DT.DIS.PCBK.CD": "commercial banks",
+        "DT.DIS.PROP.CD": "other private",
+    }
+
+    # export data for download
+    df.to_csv(Paths.output / "chart_7_download.csv", index=False)
+
+    df = (
+        df.pivot(
+            index=["debtor_name", "year", "creditor_name"],
+            columns="indicator_code",
+            values="value",
+        )
+        .reset_index()
+        .rename(columns=cols_map)
+        .pipe(
+            custom_sort,
+            {"debtor_name": "Low & middle income", "creditor_name": "All creditors"},
+        )
+        .reset_index(drop=True)
+    )
+
+    # export chart data
+    df.to_csv(Paths.output / "chart_7_chart.csv", index=False)
+
+    (
+        df.rename(
+            columns={
+                "debtor_name": "filter1_values",
+                "year": "x_values",
+                "creditor_name": "filter2_values",
+                "bilateral": "y1",
+                "multilateral": "y2",
+                "bonds": "y3",
+                "commercial banks": "y4",
+                "other private": "y5",
+            }
+        )
+        .assign(y_values=lambda d: d[["y1", "y2", "y3", "y4", "y5"]].values.tolist())
+        .loc[:, ["filter1_values", "x_values", "filter2_values", "y_values"]]
+        .to_json(Paths.output / "chart_7_chart.json", orient="records", date_format="iso")
+    )
+
+    logger.info("Chart 7 created successfully")
+
+
 def key_stats() -> None:
     """Key statistics"""
 
@@ -494,6 +581,7 @@ if __name__ == "__main__":
     chart_4()  # debt service by interest and principal chart
     chart_5()  # DSA map chart
     chart_6()  # packed circle chart
+    chart_7()  # debt disbursements chart
     key_stats()  # key statistics
     last_update()  # last update date
 
