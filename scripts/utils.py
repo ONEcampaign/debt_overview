@@ -117,3 +117,32 @@ def add_africa_values(df, agg_operation: "sum") -> pd.DataFrame:
     dff = pd.concat([dff, afr_dff], ignore_index=True)
 
     return dff
+
+
+def format_values(value: float | int) -> str:
+    """Format a numeric value into a human-readable string with appropriate
+    units (millions, billions, trillions).
+
+    Args:
+        value: Numeric value to format.
+
+    Returns:
+        Formatted string representation of the value.
+    """
+    if value < 1_000_000:
+        return f"US${value:,.0f}"
+
+    elif value < 1_000_000_000:
+        scaled = value / 1_000_000
+        fmt = f"{scaled:.1f}" if not scaled.is_integer() else f"{int(scaled)}"
+        return f"US${fmt} million"
+
+    elif value < 1_000_000_000_000:
+        scaled = value / 1_000_000_000
+        fmt = f"{scaled:.1f}" if not scaled.is_integer() else f"{int(scaled)}"
+        return f"US${fmt} billion"
+
+    else:
+        scaled = value / 1_000_000_000_000
+        fmt = f"{scaled:.1f}" if not scaled.is_integer() else f"{int(scaled)}"
+        return f"US${fmt} trillion"
