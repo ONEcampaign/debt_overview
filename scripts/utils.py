@@ -6,6 +6,13 @@ from typing import Any
 
 import pandas as pd
 from bblocks import places
+from bblocks.data_importers import WEO
+from pydeflate import imf_exchange, set_pydeflate_path
+
+from scripts.config import Paths
+
+
+set_pydeflate_path(Paths.raw_data)
 
 
 def custom_sort(
@@ -117,3 +124,65 @@ def add_africa_values(df, agg_operation: "sum") -> pd.DataFrame:
     dff = pd.concat([dff, afr_dff], ignore_index=True)
 
     return dff
+
+
+def format_values(value: float | int) -> str:
+    """Format a numeric value into a human-readable string with appropriate
+    units (millions, billions, trillions).
+
+    Args:
+        value: Numeric value to format.
+
+    Returns:
+        Formatted string representation of the value.
+    """
+    if value < 1_000_000:
+        return f"US${value:,.0f}"
+
+    elif value < 1_000_000_000:
+        scaled = value / 1_000_000
+        fmt = f"{scaled:.1f}" if not scaled.is_integer() else f"{int(scaled)}"
+        return f"US${fmt} million"
+
+    elif value < 1_000_000_000_000:
+        scaled = value / 1_000_000_000
+        fmt = f"{scaled:.1f}" if not scaled.is_integer() else f"{int(scaled)}"
+        return f"US${fmt} billion"
+
+    else:
+        scaled = value / 1_000_000_000_000
+        fmt = f"{scaled:.1f}" if not scaled.is_integer() else f"{int(scaled)}"
+        return f"US${fmt} trillion"
+
+
+def get_gov_expenditure_curr_usd() -> pd.DataFrame:
+    """ """
+
+    weo = WEO()
+    return (weo.get_data()
+        .loc[lambda d: d.indicator_code == "GGX"]
+        .assign(value=lambda d: d.value * d.scale_code)
+        .loc[:, ["entity_code", "year", "value"]]
+        .pipe(
+        imf_exchange,
+        source_currency="LCU",
+        target_currency="USD",
+        id_column="entity_code",
+        value_column="value",
+        target_value_column="value"
+        )
+        .dropna(subset=["value"])
+    )
+
+
+
+
+
+
+
+
+
+
+
+
+

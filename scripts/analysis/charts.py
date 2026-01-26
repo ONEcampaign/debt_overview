@@ -5,15 +5,17 @@ from datetime import datetime
 
 import pandas as pd
 from bblocks import places
-from bblocks.data_importers import InternationalDebtStatistics, get_dsa
+from bblocks.data_importers import InternationalDebtStatistics, get_dsa, GHED
+import unesco_reader as uis
 
 from scripts.config import Paths
 from scripts.logger import logger
-from scripts.utils import custom_sort
+from scripts.utils import custom_sort, format_values, get_gov_expenditure_curr_usd
 
 LATEST_YEAR = 2024
 START_YEAR = 2000
 NUM_EST_YEARS = 6  # number of estimated years in debt service data
+GHED_END_YEAR = 2023 # latest year for GHED data NOTE: to be updated with new releases!!!!!
 
 
 def chart_1() -> None:
@@ -369,6 +371,129 @@ def chart_5() -> None:
 
     logger.info("Chart 5 created successfully")
 
+def chart_6()-> None:
+    """Chart 6: Packed circle chart total debt stocks latest value"""
+
+    cols_map = {
+        "DT.DOD.BLAT.CD": "bilateral",
+        "DT.DOD.MLAT.CD": "multilateral",
+        "DT.DOD.PBND.CD": "private",
+        "DT.DOD.PCBK.CD": "private",
+        "DT.DOD.PROP.CD": "private",
+    }
+
+    df = pd.read_parquet(Paths.raw_data / "ids_debt_stocks.parquet")
+
+    df = (df
+     .loc[lambda d: d.year == LATEST_YEAR,]
+     .dropna(subset=["value"])
+     .assign(category=lambda d: d.indicator_code.map(cols_map))
+
+     .loc[:, ['counterpart_name', "entity_name", "category", "indicator_code", "value"]]
+     .loc[lambda d: d.counterpart_name != "World"]
+     .groupby(['counterpart_name', "entity_name", "category"])
+     .agg({'value': 'sum'})
+     .reset_index()
+     .pipe(custom_sort, {'entity_name': ["Low & middle income"]})
+          )
+
+    # save chart data
+    df.to_csv(Paths.output / "chart_6_download.csv", index=False)
+
+    (df
+     .assign(value_annotation=lambda d: d.value.apply(format_values))
+     .to_csv(Paths.output / "chart_6_chart.csv", index=False)
+     )
+
+    logger.info("Chart 6 created successfully")
+
+
+
+def chart_7()-> None:
+    """Chart 7: Debt disbursements"""
+
+    df = pd.read_parquet(Paths.raw_data / "ids_disbursements.parquet")
+
+    # Basic cleaning
+    df = (
+        df.loc[
+            lambda d: d.year >= START_YEAR,
+            [
+                "indicator_name",
+                "indicator_code",
+                "year",
+                "entity_name",
+                "counterpart_name",
+                "value",
+            ],
+        ]
+        .dropna(subset=["value"])
+        .assign(
+            counterpart_name=lambda d: d.counterpart_name.replace(
+                {"World": "All creditors"}
+            )
+        )
+        .rename(
+            columns={"entity_name": "debtor_name", "counterpart_name": "creditor_name"}
+        )
+    )
+
+    # go through each debtor/creditor pair and if all the values are zero, drop the pair
+    df = (
+        df.groupby(["debtor_name", "creditor_name"])
+        .filter(lambda d: d["value"].sum() != 0)
+        .reset_index(drop=True)
+    )
+
+    cols_map = {
+        "DT.DIS.BLAT.CD": "bilateral",
+        "DT.DIS.MLAT.CD": "multilateral",
+        "DT.DIS.PBND.CD": "bonds",
+        "DT.DIS.PCBK.CD": "commercial banks",
+        "DT.DIS.PROP.CD": "other private",
+    }
+
+    # export data for download
+    df.to_csv(Paths.output / "chart_7_download.csv", index=False)
+
+    df = (
+        df.pivot(
+            index=["debtor_name", "year", "creditor_name"],
+            columns="indicator_code",
+            values="value",
+        )
+        .reset_index()
+        .rename(columns=cols_map)
+        .pipe(
+            custom_sort,
+            {"debtor_name": "Low & middle income", "creditor_name": "All creditors"},
+        )
+        .reset_index(drop=True)
+    )
+
+    # export chart data
+    df.to_csv(Paths.output / "chart_7_chart.csv", index=False)
+
+    (
+        df.rename(
+            columns={
+                "debtor_name": "filter1_values",
+                "year": "x_values",
+                "creditor_name": "filter2_values",
+                "bilateral": "y1",
+                "multilateral": "y2",
+                "bonds": "y3",
+                "commercial banks": "y4",
+                "other private": "y5",
+            }
+        )
+        .assign(y_values=lambda d: d[["y1", "y2", "y3", "y4", "y5"]].values.tolist())
+        .loc[:, ["filter1_values", "x_values", "filter2_values", "y_values"]]
+        .to_json(Paths.output / "chart_7_chart.json", orient="records", date_format="iso")
+    )
+
+    logger.info("Chart 7 created successfully")
+
 
 def key_stats() -> None:
     """Key statistics"""
@@ -449,6 +574,80 @@ def last_update() -> None:
     logger.info("Updated last data update date")
 
 
+
+def chart_8() -> None:
+    """Chart 8: Line chart compare debt service (% of gov expenditure) to education and health"""
+
+    gov_exp = get_gov_expenditure_curr_usd().rename(columns={"value": "gov_expenditure_usd"})
+    ds = _get_debt_service_data()
+
+    # combine debt service for all creditors and calculate debt service to gov expenditure ratio
+    df = (ds.loc[lambda d: d.creditor_name == "All creditors"]
+           .groupby(["debtor_name", "year"], as_index=False)
+           .agg({"value": "sum"})
+           .assign(entity_code=lambda d: places.resolve_places(d.debtor_name, to_type="iso3_code", not_found="ignore"))
+           .merge(gov_exp, how="left")
+           .assign(**{"debt service": lambda d: d.value / d.gov_expenditure_usd * 100})
+           .dropna(subset=["debt service"])
+          .drop(columns = ["gov_expenditure_usd", "value"])
+          .loc[lambda d: d.year <= LATEST_YEAR]
+           )
+
+    # health expenditure data from GHED
+    health_data = (GHED()
+                   .get_data()
+                   .loc[lambda d: (d.indicator_code == "gghed_gge") & (d.year <=GHED_END_YEAR), ["iso3_code", "value", "year"]]
+                   .rename(columns={"iso3_code": "entity_code", "value": "health"})
+                   )
+
+    # education expenditure data from UIS
+    education_data = (uis.get_data("XGOVEXP.IMF")
+                      .loc[:, ["geoUnit", "year", "value"]]
+                      .rename(columns={"geoUnit": "entity_code", "value": "education"})
+                      )
+
+    # merge all data
+    df = (df
+          .merge(health_data, how="left") # merge health data
+          .merge(education_data, how="left") # merge education data
+          )
+
+    # add world and Africa median
+    world_median = (df
+                    .groupby("year", as_index=False)
+                    .agg({"debt service": "median", "health": "median", "education": "median"})
+                    .assign(debtor_name="Low & middle income (median)")
+                   )
+
+    africa_median = (df
+                     .assign(region=lambda d: places.resolve_places(d.entity_code, from_type="iso3_code", to_type="region"))
+                     .loc[lambda d: d.region == "Africa"]
+                     .groupby("year", as_index=False)
+                     .agg({"debt service": "median", "health": "median", "education": "median"})
+                     .assign(debtor_name="Africa (excluding high income) (median)")
+                    )
+
+    df = pd.concat([df, world_median, africa_median], ignore_index=True)
+
+    df = custom_sort(df,
+                     {"debtor_name": ["Low & middle income (median)",
+                                      "Africa (excluding high income) (median)"]
+                      })
+
+    # export data for download
+    df.to_csv(Paths.output / "chart_8_download.csv", index=False)
+
+    # chart data
+    df.to_csv(Paths.output / "chart_8_chart.csv", index=False)
+
+    logger.info("Chart 8 created successfully")
+
+
+
+
+
+
+
 if __name__ == "__main__":
     logger.info("Running charts and key statistics")
 
@@ -457,6 +656,9 @@ if __name__ == "__main__":
     chart_3()  # debt composition chart
     chart_4()  # debt service by interest and principal chart
     chart_5()  # DSA map chart
+    chart_6()  # packed circle chart
+    chart_7()  # debt disbursements chart
+    chart_8()  # debt service vs social expenditure chart
     key_stats()  # key statistics
     last_update()  # last update date
 

@@ -14,6 +14,8 @@ dependencies = [
     "bblocks-places>=0.0.4",
     "black>=25.12.0",
     "notebook>=7.4.7",
+    "pydeflate>=2.3.3",
+    "unesco-reader>=3.0.0",
 ]
 
 
