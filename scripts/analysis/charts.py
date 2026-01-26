@@ -380,9 +380,9 @@ def chart_6() -> None:
     cols_map = {
         "DT.DOD.BLAT.CD": "bilateral",
         "DT.DOD.MLAT.CD": "multilateral",
-        "DT.DOD.PBND.CD": "private",
-        "DT.DOD.PCBK.CD": "private",
-        "DT.DOD.PROP.CD": "private",
+        "DT.DOD.PBND.CD": "bonds",
+        "DT.DOD.PCBK.CD": "commercial banks",
+        "DT.DOD.PROP.CD": "other private",
     }
 
     df = pd.read_parquet(Paths.raw_data / "ids_debt_stocks.parquet")
