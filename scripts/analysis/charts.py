@@ -15,7 +15,9 @@ from scripts.utils import custom_sort, format_values, get_gov_expenditure_curr_u
 LATEST_YEAR = 2024
 START_YEAR = 2000
 NUM_EST_YEARS = 6  # number of estimated years in debt service data
-GHED_END_YEAR = 2023 # latest year for GHED data NOTE: to be updated with new releases!!!!!
+GHED_END_YEAR = (
+    2023  # latest year for GHED data NOTE: to be updated with new releases!!!!!
+)
 
 
 def chart_1() -> None:
@@ -371,7 +373,8 @@ def chart_5() -> None:
 
     logger.info("Chart 5 created successfully")
 
-def chart_6()-> None:
+
+def chart_6() -> None:
     """Chart 6: Packed circle chart total debt stocks latest value"""
 
     cols_map = {
@@ -384,32 +387,34 @@ def chart_6()-> None:
 
     df = pd.read_parquet(Paths.raw_data / "ids_debt_stocks.parquet")
 
-    df = (df
-     .loc[lambda d: d.year == LATEST_YEAR,]
-     .dropna(subset=["value"])
-     .assign(category=lambda d: d.indicator_code.map(cols_map))
-
-     .loc[:, ['counterpart_name', "entity_name", "category", "indicator_code", "value"]]
-     .loc[lambda d: d.counterpart_name != "World"]
-     .groupby(['counterpart_name', "entity_name", "category"])
-     .agg({'value': 'sum'})
-     .reset_index()
-     .pipe(custom_sort, {'entity_name': ["Low & middle income"]})
-          )
+    df = (
+        df.loc[lambda d: d.year == LATEST_YEAR,]
+        .dropna(subset=["value"])
+        .assign(category=lambda d: d.indicator_code.map(cols_map))
+        .loc[
+            :,
+            ["counterpart_name", "entity_name", "category", "indicator_code", "value"],
+        ]
+        .loc[lambda d: d.counterpart_name != "World"]
+        .groupby(["counterpart_name", "entity_name", "category"])
+        .agg({"value": "sum"})
+        .reset_index()
+        .pipe(custom_sort, {"entity_name": ["Low & middle income"]})
+    )
 
     # save chart data
     df.to_csv(Paths.output / "chart_6_download.csv", index=False)
 
-    (df
-     .assign(value_annotation=lambda d: d.value.apply(format_values))
-     .to_csv(Paths.output / "chart_6_chart.csv", index=False)
-     )
+    (
+        df.assign(value_annotation=lambda d: d.value.apply(format_values)).to_csv(
+            Paths.output / "chart_6_chart.csv", index=False
+        )
+    )
 
     logger.info("Chart 6 created successfully")
 
 
-
-def chart_7()-> None:
+def chart_7() -> None:
     """Chart 7: Debt disbursements"""
 
     df = pd.read_parquet(Paths.raw_data / "ids_disbursements.parquet")
@@ -489,7 +494,9 @@ def chart_7()-> None:
         )
         .assign(y_values=lambda d: d[["y1", "y2", "y3", "y4", "y5"]].values.tolist())
         .loc[:, ["filter1_values", "x_values", "filter2_values", "y_values"]]
-        .to_json(Paths.output / "chart_7_chart.json", orient="records", date_format="iso")
+        .to_json(
+            Paths.output / "chart_7_chart.json", orient="records", date_format="iso"
+        )
     )
 
     logger.info("Chart 7 created successfully")
@@ -574,65 +581,84 @@ def last_update() -> None:
     logger.info("Updated last data update date")
 
 
-
 def chart_8() -> None:
     """Chart 8: Line chart compare debt service (% of gov expenditure) to education and health"""
 
-    gov_exp = get_gov_expenditure_curr_usd().rename(columns={"value": "gov_expenditure_usd"})
+    gov_exp = get_gov_expenditure_curr_usd().rename(
+        columns={"value": "gov_expenditure_usd"}
+    )
     ds = _get_debt_service_data()
 
     # combine debt service for all creditors and calculate debt service to gov expenditure ratio
-    df = (ds.loc[lambda d: d.creditor_name == "All creditors"]
-           .groupby(["debtor_name", "year"], as_index=False)
-           .agg({"value": "sum"})
-           .assign(entity_code=lambda d: places.resolve_places(d.debtor_name, to_type="iso3_code", not_found="ignore"))
-           .merge(gov_exp, how="left")
-           .assign(**{"debt service": lambda d: d.value / d.gov_expenditure_usd * 100})
-           .dropna(subset=["debt service"])
-          .drop(columns = ["gov_expenditure_usd", "value"])
-          .loc[lambda d: d.year <= LATEST_YEAR]
-           )
+    df = (
+        ds.loc[lambda d: d.creditor_name == "All creditors"]
+        .groupby(["debtor_name", "year"], as_index=False)
+        .agg({"value": "sum"})
+        .assign(
+            entity_code=lambda d: places.resolve_places(
+                d.debtor_name, to_type="iso3_code", not_found="ignore"
+            )
+        )
+        .merge(gov_exp, how="left")
+        .assign(**{"debt service": lambda d: d.value / d.gov_expenditure_usd * 100})
+        .dropna(subset=["debt service"])
+        .drop(columns=["gov_expenditure_usd", "value"])
+        .loc[lambda d: d.year <= LATEST_YEAR]
+    )
 
     # health expenditure data from GHED
-    health_data = (GHED()
-                   .get_data()
-                   .loc[lambda d: (d.indicator_code == "gghed_gge") & (d.year <=GHED_END_YEAR), ["iso3_code", "value", "year"]]
-                   .rename(columns={"iso3_code": "entity_code", "value": "health"})
-                   )
+    health_data = (
+        GHED()
+        .get_data()
+        .loc[
+            lambda d: (d.indicator_code == "gghed_gge") & (d.year <= GHED_END_YEAR),
+            ["iso3_code", "value", "year"],
+        ]
+        .rename(columns={"iso3_code": "entity_code", "value": "health"})
+    )
 
     # education expenditure data from UIS
-    education_data = (uis.get_data("XGOVEXP.IMF")
-                      .loc[:, ["geoUnit", "year", "value"]]
-                      .rename(columns={"geoUnit": "entity_code", "value": "education"})
-                      )
+    education_data = (
+        uis.get_data("XGOVEXP.IMF")
+        .loc[:, ["geoUnit", "year", "value"]]
+        .rename(columns={"geoUnit": "entity_code", "value": "education"})
+    )
 
     # merge all data
-    df = (df
-          .merge(health_data, how="left") # merge health data
-          .merge(education_data, how="left") # merge education data
-          )
+    df = df.merge(health_data, how="left").merge(  # merge health data
+        education_data, how="left"
+    )  # merge education data
 
     # add world and Africa median
-    world_median = (df
-                    .groupby("year", as_index=False)
-                    .agg({"debt service": "median", "health": "median", "education": "median"})
-                    .assign(debtor_name="Low & middle income (median)")
-                   )
+    world_median = (
+        df.groupby("year", as_index=False)
+        .agg({"debt service": "median", "health": "median", "education": "median"})
+        .assign(debtor_name="Low & middle income (median)")
+    )
 
-    africa_median = (df
-                     .assign(region=lambda d: places.resolve_places(d.entity_code, from_type="iso3_code", to_type="region"))
-                     .loc[lambda d: d.region == "Africa"]
-                     .groupby("year", as_index=False)
-                     .agg({"debt service": "median", "health": "median", "education": "median"})
-                     .assign(debtor_name="Africa (excluding high income) (median)")
-                    )
+    africa_median = (
+        df.assign(
+            region=lambda d: places.resolve_places(
+                d.entity_code, from_type="iso3_code", to_type="region"
+            )
+        )
+        .loc[lambda d: d.region == "Africa"]
+        .groupby("year", as_index=False)
+        .agg({"debt service": "median", "health": "median", "education": "median"})
+        .assign(debtor_name="Africa (excluding high income) (median)")
+    )
 
     df = pd.concat([df, world_median, africa_median], ignore_index=True)
 
-    df = custom_sort(df,
-                     {"debtor_name": ["Low & middle income (median)",
-                                      "Africa (excluding high income) (median)"]
-                      })
+    df = custom_sort(
+        df,
+        {
+            "debtor_name": [
+                "Low & middle income (median)",
+                "Africa (excluding high income) (median)",
+            ]
+        },
+    )
 
     # export data for download
     df.to_csv(Paths.output / "chart_8_download.csv", index=False)
@@ -641,11 +667,6 @@ def chart_8() -> None:
     df.to_csv(Paths.output / "chart_8_chart.csv", index=False)
 
     logger.info("Chart 8 created successfully")
-
-
-
-
-
 
 
 if __name__ == "__main__":

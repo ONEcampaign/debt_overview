@@ -59,29 +59,25 @@ def get_currency_composition_data() -> None:
 
     logger.info("IDS currency composition data downloaded successfully.")
 
+
 def get_disbursements_data() -> None:
     """Get the raw data for the International Debt Statistics disbursements."""
 
     ids = InternationalDebtStatistics()
 
-    disbursement_vars = ['DT.DIS.BLAT.CD',
- 'DT.DIS.MLAT.CD',
- 'DT.DIS.PBND.CD',
- 'DT.DIS.PCBK.CD',
- 'DT.DIS.PROP.CD']
+    disbursement_vars = [
+        "DT.DIS.BLAT.CD",
+        "DT.DIS.MLAT.CD",
+        "DT.DIS.PBND.CD",
+        "DT.DIS.PCBK.CD",
+        "DT.DIS.PROP.CD",
+    ]
 
     df = ids.get_data(disbursement_vars, include_labels=True, start_year=START_YEAR)
     df = add_africa_values(df, agg_operation="sum")
     df.to_parquet(Paths.raw_data / "ids_disbursements.parquet", index=False)
 
     logger.info("IDS disbursements data downloaded successfully.")
-
-
-
-
-
-
-
 
 
 if __name__ == "__main__":

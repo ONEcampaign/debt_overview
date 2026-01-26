@@ -159,30 +159,18 @@ def get_gov_expenditure_curr_usd() -> pd.DataFrame:
     """ """
 
     weo = WEO()
-    return (weo.get_data()
+    return (
+        weo.get_data()
         .loc[lambda d: d.indicator_code == "GGX"]
         .assign(value=lambda d: d.value * d.scale_code)
         .loc[:, ["entity_code", "year", "value"]]
         .pipe(
-        imf_exchange,
-        source_currency="LCU",
-        target_currency="USD",
-        id_column="entity_code",
-        value_column="value",
-        target_value_column="value"
+            imf_exchange,
+            source_currency="LCU",
+            target_currency="USD",
+            id_column="entity_code",
+            value_column="value",
+            target_value_column="value",
         )
         .dropna(subset=["value"])
     )
-
-
-
-
-
-
-
-
-
-
-
-
-
