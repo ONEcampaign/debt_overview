@@ -83,9 +83,9 @@ def get_disbursements_data() -> None:
 if __name__ == "__main__":
     logger.info("Fetching raw data")
 
-    # get_debt_stocks_data()
-    # get_debt_service_data()
-    # get_currency_composition_data()
+    get_debt_stocks_data()
+    get_debt_service_data()
+    get_currency_composition_data()
     get_disbursements_data()
 
     logger.info("Successfully fetched all raw data.")
