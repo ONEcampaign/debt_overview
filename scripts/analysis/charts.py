@@ -732,9 +732,6 @@ def _calculate_china_and_other_proportion(df: pd.DataFrame) -> pd.DataFrame:
         combined_df.merge(total_df, on=["year", "entity_name"], how="left")
         .assign(value=lambda d: 100 * d.value / d.total_value)
         .drop(columns="total_value")
-        # .rename(
-        #     columns={"indicator_name": "creditor_name", "entity_name": "debtor_name"}
-        # )
     )
 
     return combined_df
