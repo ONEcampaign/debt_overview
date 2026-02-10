@@ -800,19 +800,118 @@ def chart_9() -> None:
     )
 
 
+def chart_10()-> None:
+    """Chart 10: China proportion of debt disbursements"""
+
+    df = pd.read_parquet(Paths.raw_data / "ids_disbursements.parquet")
+
+    cols_map = {
+        "DT.DIS.BLAT.CD": "bilateral",
+        "DT.DIS.MLAT.CD": "multilateral",
+        # all private categories grouped together
+        "DT.DIS.PBND.CD": "private",
+        "DT.DIS.PCBK.CD": "private",
+        "DT.DIS.PROP.CD": "private",
+    }
+
+    # Basic cleaning
+    df = _cleaning_china_chart_data(df, cols_map)
+    df = _add_low_lower_middle_income(df)
+    combined_df = _calculate_china_and_other_proportion(df)
+    combined_df = combined_df.rename(columns={"indicator_name": "creditor_name", "entity_name": "debtor_name"})
+
+    # export data for download
+    combined_df.to_csv(Paths.output / "chart_10_download.csv", index=False)
+
+    # chart data
+    (
+        combined_df.pivot(
+            index=["debtor_name", "year"], columns="creditor_name", values="value"
+        )
+        .reset_index()
+        .pipe(
+            custom_sort,
+            {
+                "debtor_name": [
+                    "Low & middle income",
+                    "Low & lower middle income",
+                    "Africa (excluding high income)",
+                ]
+            },
+        )
+        # keep only entity_name where at least one of the China columns is not null
+        .loc[lambda d: d.filter(like="China").notna().any(axis=1)]
+        .to_csv(Paths.output / "chart_10_chart.csv", index=False)
+    )
+
+
+def chart_11() -> None:
+    """Chart 11: China proportion of debt service"""
+
+    cols_map = {
+        "DT.AMT.PBND.CD": "private",
+        "DT.AMT.BLAT.CD": "bilateral",
+        "DT.AMT.PCBK.CD": "private",
+        "DT.AMT.MLAT.CD": "multilateral",
+        "DT.AMT.PROP.CD": "private",
+        "DT.INT.BLAT.CD": "bilateral",
+        "DT.INT.MLAT.CD": "multilateral",
+        "DT.INT.PBND.CD": "private",
+        "DT.INT.PCBK.CD": "private",
+        "DT.INT.PROP.CD": "private",
+    }
+
+    df = pd.read_parquet(Paths.raw_data / "ids_debt_service.parquet")
+
+    # Basic cleaning
+    df = _cleaning_china_chart_data(df, cols_map)
+    df = _add_low_lower_middle_income(df)
+    combined_df = _calculate_china_and_other_proportion(df)
+    combined_df = combined_df.rename(columns={"indicator_name": "creditor_name", "entity_name": "debtor_name"})
+
+    # export data for download
+    combined_df.to_csv(Paths.output / "chart_11_download.csv", index=False)
+
+    # chart data
+    (
+        combined_df.pivot(
+            index=["debtor_name", "year"], columns="creditor_name", values="value"
+        )
+        .reset_index()
+        .pipe(
+            custom_sort,
+            {
+                "debtor_name": [
+                    "Low & middle income",
+                    "Low & lower middle income",
+                    "Africa (excluding high income)",
+                ]
+            },
+        )
+        # keep only entity_name where at least one of the China columns is not null
+        .loc[lambda d: d.filter(like="China").notna().any(axis=1)]
+        .to_csv(Paths.output / "chart_11_chart.csv", index=False)
+    )
+
+
 if __name__ == "__main__":
     logger.info("Running charts and key statistics")
 
-    # chart_1()  # debt stocks chart
-    # chart_2()  # total debt service chart
-    # chart_3()  # debt composition chart
-    # chart_4()  # debt service by interest and principal chart
-    # chart_5()  # DSA map chart
-    # chart_6()  # packed circle chart
-    # chart_7()  # debt disbursements chart
-    # chart_8()  # debt service vs social expenditure chart
+    chart_1()  # debt stocks chart
+    chart_2()  # total debt service chart
+    chart_3()  # debt composition chart
+    chart_4()  # debt service by interest and principal chart
+    chart_5()  # DSA map chart
+    chart_6()  # packed circle chart
+    chart_7()  # debt disbursements chart
+    chart_8()  # debt service vs social expenditure chart
     chart_9()  # China bilateral vs private vs other creditors chart
-    # key_stats()  # key statistics
-    # last_update()  # last update date
+
+    key_stats()  # key statistics
+    last_update()  # last update date
+
+    # temporary chart objects not embedded in page
+    chart_10() # China proportion of debt disbursements chart
+    chart_11() # China proportion of debt service chart
 
     logger.info("Successfully created all charts")
