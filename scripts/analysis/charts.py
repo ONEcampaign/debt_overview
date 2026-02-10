@@ -779,7 +779,7 @@ def chart_9() -> None:
             {
                 "debtor_name": [
                     "Low & middle income",
-                    "Low and lower middle income",
+                    "Low & lower middle income",
                     "Africa (excluding high income)",
                 ]
             },
