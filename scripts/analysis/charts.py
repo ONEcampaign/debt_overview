@@ -669,39 +669,35 @@ def chart_8() -> None:
     logger.info("Chart 8 created successfully")
 
 
-def chart_9() -> None:
-    """Chart 9: bar chart, China bilateral vs private vs other creditors"""
+def _add_low_lower_middle_income(
+    df: pd.DataFrame,
+    debtor_col: str = "entity_name",
+    index_cols=None,
+    value_col: str = "value",
+) -> pd.DataFrame:
+    """Helper function to aggregate data for low and lower middle income countries
+    and add it to the main dataframe
 
-    df = pd.read_parquet(Paths.raw_data / "ids_debt_stocks.parquet")
-
-    cols_map = {
-        "DT.DOD.BLAT.CD": "bilateral",
-        "DT.DOD.MLAT.CD": "multilateral",
-        # all private categories grouped together
-        "DT.DOD.PBND.CD": "private",
-        "DT.DOD.PCBK.CD": "private",
-        "DT.DOD.PROP.CD": "private",
-    }
-
-    # Basic cleaning
-    df = (
-        df.dropna(subset=["value"])
-        .loc[lambda d: d.year >= START_YEAR]
-        .assign(indicator_name=lambda d: d.indicator_code.map(cols_map))
-        .loc[:, ["entity_name", "year", "value", "indicator_name", "counterpart_name"]]
-    )
+    """
 
     # aggregate for debtor Low and lower middle income
+    if index_cols is None:
+        index_cols = ["year", "indicator_name", "counterpart_name"]
+
     llmi_df = (
-        df.loc[lambda d: d.entity_name.isin(["Low income", "Lower middle income"])]
-        .groupby(["year", "indicator_name", "counterpart_name"], observed=True)
-        .agg({"value": "sum"})
+        df.loc[lambda d: d[debtor_col].isin(["Low income", "Lower middle income"])]
+        .groupby(index_cols, observed=True)
+        .agg({value_col: "sum"})
         .reset_index()
-        .assign(entity_name="Low and lower middle income")
+        .assign(**{debtor_col: "Low & lower middle income"})
     )
 
     # add the low and lower middle income aggregate to the main df
-    df = pd.concat([df, llmi_df], ignore_index=True)
+    return pd.concat([df, llmi_df], ignore_index=True)
+
+
+def _calculate_china_and_other_proportion(df: pd.DataFrame) -> pd.DataFrame:
+    """ """
 
     # aggregate for creditor: China bilateral and private
     china_df = (
@@ -736,9 +732,46 @@ def chart_9() -> None:
         combined_df.merge(total_df, on=["year", "entity_name"], how="left")
         .assign(value=lambda d: 100 * d.value / d.total_value)
         .drop(columns="total_value")
-        .rename(
-            columns={"indicator_name": "creditor_name", "entity_name": "debtor_name"}
-        )
+    )
+
+    return combined_df
+
+
+def _cleaning_china_chart_data(df: pd.DataFrame, cols_map: dict) -> pd.DataFrame:
+    """helper function to clean data for China proportion charts"""
+
+    # Basic cleaning
+    return (
+        df.dropna(subset=["value"])
+        .loc[lambda d: d.year >= START_YEAR]
+        .assign(indicator_name=lambda d: d.indicator_code.map(cols_map))
+        .loc[:, ["entity_name", "year", "value", "indicator_name", "counterpart_name"]]
+        # drop any entity counterpart combinations where the value is 0 for all years (e.g. no stocks at all)
+        .groupby(["entity_name", "counterpart_name", "indicator_name"], as_index=False)
+        .filter(lambda d: d.value.ne(0).any())
+    )
+
+
+def chart_9() -> None:
+    """Chart 9: bar chart, China bilateral vs private vs other creditors"""
+
+    df = pd.read_parquet(Paths.raw_data / "ids_debt_stocks.parquet")
+
+    cols_map = {
+        "DT.DOD.BLAT.CD": "bilateral",
+        "DT.DOD.MLAT.CD": "multilateral",
+        # all private categories grouped together
+        "DT.DOD.PBND.CD": "private",
+        "DT.DOD.PCBK.CD": "private",
+        "DT.DOD.PROP.CD": "private",
+    }
+
+    # Basic cleaning
+    df = _cleaning_china_chart_data(df, cols_map)
+    df = _add_low_lower_middle_income(df)
+    combined_df = _calculate_china_and_other_proportion(df)
+    combined_df = combined_df.rename(
+        columns={"indicator_name": "creditor_name", "entity_name": "debtor_name"}
     )
 
     # export data for download
@@ -755,7 +788,7 @@ def chart_9() -> None:
             {
                 "debtor_name": [
                     "Low & middle income",
-                    "Low and lower middle income",
+                    "Low & lower middle income",
                     "Africa (excluding high income)",
                 ]
             },
@@ -763,6 +796,104 @@ def chart_9() -> None:
         # keep only entity_name where at least one of the China columns is not null
         .loc[lambda d: d.filter(like="China").notna().any(axis=1)]
         .to_csv(Paths.output / "chart_9_chart.csv", index=False)
+    )
+
+
+def chart_10() -> None:
+    """Chart 10: China proportion of debt disbursements"""
+
+    df = pd.read_parquet(Paths.raw_data / "ids_disbursements.parquet")
+
+    cols_map = {
+        "DT.DIS.BLAT.CD": "bilateral",
+        "DT.DIS.MLAT.CD": "multilateral",
+        # all private categories grouped together
+        "DT.DIS.PBND.CD": "private",
+        "DT.DIS.PCBK.CD": "private",
+        "DT.DIS.PROP.CD": "private",
+    }
+
+    # Basic cleaning
+    df = _cleaning_china_chart_data(df, cols_map)
+    df = _add_low_lower_middle_income(df)
+    combined_df = _calculate_china_and_other_proportion(df)
+    combined_df = combined_df.rename(
+        columns={"indicator_name": "creditor_name", "entity_name": "debtor_name"}
+    )
+
+    # export data for download
+    combined_df.to_csv(Paths.output / "chart_10_download.csv", index=False)
+
+    # chart data
+    (
+        combined_df.pivot(
+            index=["debtor_name", "year"], columns="creditor_name", values="value"
+        )
+        .reset_index()
+        .pipe(
+            custom_sort,
+            {
+                "debtor_name": [
+                    "Low & middle income",
+                    "Low & lower middle income",
+                    "Africa (excluding high income)",
+                ]
+            },
+        )
+        # keep only entity_name where at least one of the China columns is not null
+        .loc[lambda d: d.filter(like="China").notna().any(axis=1)]
+        .to_csv(Paths.output / "chart_10_chart.csv", index=False)
+    )
+
+
+def chart_11() -> None:
+    """Chart 11: China proportion of debt service"""
+
+    cols_map = {
+        "DT.AMT.PBND.CD": "private",
+        "DT.AMT.BLAT.CD": "bilateral",
+        "DT.AMT.PCBK.CD": "private",
+        "DT.AMT.MLAT.CD": "multilateral",
+        "DT.AMT.PROP.CD": "private",
+        "DT.INT.BLAT.CD": "bilateral",
+        "DT.INT.MLAT.CD": "multilateral",
+        "DT.INT.PBND.CD": "private",
+        "DT.INT.PCBK.CD": "private",
+        "DT.INT.PROP.CD": "private",
+    }
+
+    df = pd.read_parquet(Paths.raw_data / "ids_debt_service.parquet")
+
+    # Basic cleaning
+    df = _cleaning_china_chart_data(df, cols_map)
+    df = _add_low_lower_middle_income(df)
+    combined_df = _calculate_china_and_other_proportion(df)
+    combined_df = combined_df.rename(
+        columns={"indicator_name": "creditor_name", "entity_name": "debtor_name"}
+    )
+
+    # export data for download
+    combined_df.to_csv(Paths.output / "chart_11_download.csv", index=False)
+
+    # chart data
+    (
+        combined_df.pivot(
+            index=["debtor_name", "year"], columns="creditor_name", values="value"
+        )
+        .reset_index()
+        .pipe(
+            custom_sort,
+            {
+                "debtor_name": [
+                    "Low & middle income",
+                    "Low & lower middle income",
+                    "Africa (excluding high income)",
+                ]
+            },
+        )
+        # keep only entity_name where at least one of the China columns is not null
+        .loc[lambda d: d.filter(like="China").notna().any(axis=1)]
+        .to_csv(Paths.output / "chart_11_chart.csv", index=False)
     )
 
 
@@ -778,7 +909,12 @@ if __name__ == "__main__":
     chart_7()  # debt disbursements chart
     chart_8()  # debt service vs social expenditure chart
     chart_9()  # China bilateral vs private vs other creditors chart
+
     key_stats()  # key statistics
     last_update()  # last update date
+
+    # temporary chart objects not embedded in page
+    chart_10()  # China proportion of debt disbursements chart
+    chart_11()  # China proportion of debt service chart
 
     logger.info("Successfully created all charts")

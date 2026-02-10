@@ -56,8 +56,8 @@ year,creditor_name,debtor_name,value
 2000,China (bilateral),Lebanon,0.0520040165613865
 2000,China (bilateral),Lesotho,0.6891006052063829
 2000,China (bilateral),Liberia,1.4673497116291068
+2000,China (bilateral),Low & lower middle income,0.8328466973598947
 2000,China (bilateral),Low & middle income,0.4866520226425433
-2000,China (bilateral),Low and lower middle income,0.8328466973598947
 2000,China (bilateral),Low income,2.297976944597845
 2000,China (bilateral),Lower middle income,0.5375842591424507
 2000,China (bilateral),Madagascar,0.49401277214276373
@@ -122,8 +122,8 @@ year,creditor_name,debtor_name,value
 2000,China (private),Kenya,0.01687094756136763
 2000,China (private),Latin America & Caribbean (excluding high income),0.002810119078296273
 2000,China (private),Least developed countries: UN classification,0.17287699966177586
+2000,China (private),Low & lower middle income,0.0977774580785309
 2000,China (private),Low & middle income,0.06887934833877868
-2000,China (private),Low and lower middle income,0.0977774580785309
 2000,China (private),Low income,0.00010840804552671621
 2000,China (private),Lower middle income,0.1174603510537401
 2000,China (private),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",0.3492454345779994
@@ -136,7 +136,6 @@ year,creditor_name,debtor_name,value
 2000,China (private),Sudan,0.0007971230069450829
 2000,China (private),Upper middle income,0.049500483292676756
 2000,China (private),Viet Nam,0.05947674832935749
-2000,China (private),Zimbabwe,0.0
 2001,China (bilateral),Africa (excluding high income),1.166192679342708
 2001,China (bilateral),Albania,0.5832676595648529
 2001,China (bilateral),Algeria,0.15474000202055668
@@ -194,8 +193,8 @@ year,creditor_name,debtor_name,value
 2001,China (bilateral),Lebanon,0.06424756469618474
 2001,China (bilateral),Lesotho,1.8340100706533475
 2001,China (bilateral),Liberia,1.503919072179312
+2001,China (bilateral),Low & lower middle income,0.7957924896936712
 2001,China (bilateral),Low & middle income,0.45847733760630427
-2001,China (bilateral),Low and lower middle income,0.7957924896936712
 2001,China (bilateral),Low income,2.3430630417053226
 2001,China (bilateral),Lower middle income,0.486473677704122
 2001,China (bilateral),Madagascar,0.5594067741886217
@@ -259,8 +258,8 @@ year,creditor_name,debtor_name,value
 2001,China (private),Kenya,0.14071514037915636
 2001,China (private),Latin America & Caribbean (excluding high income),0.0029790524759723803
 2001,China (private),Least developed countries: UN classification,0.2100675840796979
+2001,China (private),Low & lower middle income,0.057033094751397645
 2001,China (private),Low & middle income,0.05991787584286833
-2001,China (private),Low and lower middle income,0.057033094751397645
 2001,China (private),Low income,0.00011267511916598662
 2001,China (private),Lower middle income,0.06841220136962788
 2001,China (private),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",0.2456649731019192
@@ -273,7 +272,6 @@ year,creditor_name,debtor_name,value
 2001,China (private),Sudan,0.0008039409564430355
 2001,China (private),Upper middle income,0.06179987684017559
 2001,China (private),Viet Nam,0.04701475992186991
-2001,China (private),Zimbabwe,0.0
 2002,China (bilateral),Africa (excluding high income),1.1166086470777437
 2002,China (bilateral),Albania,4.166548396120092
 2002,China (bilateral),Algeria,0.15735790485583004
@@ -330,8 +328,8 @@ year,creditor_name,debtor_name,value
 2002,China (bilateral),Lebanon,0.04192783916675185
 2002,China (bilateral),Lesotho,1.3455972037980917
 2002,China (bilateral),Liberia,1.4352326174124272
+2002,China (bilateral),Low & lower middle income,0.7960988447217272
 2002,China (bilateral),Low & middle income,0.4174166767457596
-2002,China (bilateral),Low and lower middle income,0.7960988447217272
 2002,China (bilateral),Low income,2.224985743005277
 2002,China (bilateral),Lower middle income,0.5089192221694814
 2002,China (bilateral),Madagascar,0.5129617602157394
@@ -395,8 +393,8 @@ year,creditor_name,debtor_name,value
 2002,China (private),Kenya,0.10769881200364288
 2002,China (private),Latin America & Caribbean (excluding high income),0.0022977554037533748
 2002,China (private),Least developed countries: UN classification,0.19347372891809558
+2002,China (private),Low & lower middle income,0.05346555172042243
 2002,China (private),Low & middle income,0.04800222214029721
-2002,China (private),Low and lower middle income,0.05346555172042243
 2002,China (private),Low income,0.00010472097113708866
 2002,China (private),Lower middle income,0.06419008369846924
 2002,China (private),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",0.16429746216495855
@@ -466,8 +464,8 @@ year,creditor_name,debtor_name,value
 2003,China (bilateral),Lebanon,0.03840772723577393
 2003,China (bilateral),Lesotho,1.257357126340105
 2003,China (bilateral),Liberia,1.3597040616061882
+2003,China (bilateral),Low & lower middle income,0.8290271888180637
 2003,China (bilateral),Low & middle income,0.4197698307429521
-2003,China (bilateral),Low and lower middle income,0.8290271888180637
 2003,China (bilateral),Low income,2.1130351369060016
 2003,China (bilateral),Lower middle income,0.5548401737280362
 2003,China (bilateral),Madagascar,0.45910340374284453
@@ -532,8 +530,8 @@ year,creditor_name,debtor_name,value
 2003,China (private),Kenya,0.09056127378983489
 2003,China (private),Latin America & Caribbean (excluding high income),0.0016430551077670707
 2003,China (private),Least developed countries: UN classification,0.17989492724278666
+2003,China (private),Low & lower middle income,0.06137434715070386
 2003,China (private),Low & middle income,0.04222880919322984
-2003,China (private),Low and lower middle income,0.06137434715070386
 2003,China (private),Low income,9.634487495001114e-05
 2003,China (private),Lower middle income,0.07445964974535585
 2003,China (private),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",0.12158601206442962
@@ -603,8 +601,8 @@ year,creditor_name,debtor_name,value
 2004,China (bilateral),Lebanon,0.03271843945956164
 2004,China (bilateral),Lesotho,1.0046606100755755
 2004,China (bilateral),Liberia,1.304624491563374
+2004,China (bilateral),Low & lower middle income,0.9326533514295428
 2004,China (bilateral),Low & middle income,0.4437245877407023
-2004,China (bilateral),Low and lower middle income,0.9326533514295428
 2004,China (bilateral),Low income,2.2246516557721607
 2004,China (bilateral),Lower middle income,0.6638371496345196
 2004,China (bilateral),Madagascar,0.9893438251472537
@@ -668,8 +666,8 @@ year,creditor_name,debtor_name,value
 2004,China (private),Kenya,0.08681200196777555
 2004,China (private),Latin America & Caribbean (excluding high income),0.0012816916050964174
 2004,China (private),Least developed countries: UN classification,0.1745867889974317
+2004,China (private),Low & lower middle income,0.06648218710460534
 2004,China (private),Low & middle income,0.041060717633431894
-2004,China (private),Low and lower middle income,0.06648218710460534
 2004,China (private),Low income,9.564329460881744e-05
 2004,China (private),Lower middle income,0.08029472733574927
 2004,China (private),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",0.09225988364465323
@@ -740,8 +738,8 @@ year,creditor_name,debtor_name,value
 2005,China (bilateral),Lebanon,0.032726176805917426
 2005,China (bilateral),Lesotho,1.2012228898531623
 2005,China (bilateral),Liberia,1.373949679704134
+2005,China (bilateral),Low & lower middle income,1.1356447033830994
 2005,China (bilateral),Low & middle income,0.5640626932660493
-2005,China (bilateral),Low and lower middle income,1.1356447033830994
 2005,China (bilateral),Low income,2.6664876262554666
 2005,China (bilateral),Lower middle income,0.8425937810149549
 2005,China (bilateral),Madagascar,1.1111764067075376
@@ -806,8 +804,8 @@ year,creditor_name,debtor_name,value
 2005,China (private),Kenya,0.09340920818828993
 2005,China (private),Latin America & Caribbean (excluding high income),0.0010879359234820813
 2005,China (private),Least developed countries: UN classification,0.19712647901341923
+2005,China (private),Low & lower middle income,0.11526977986164419
 2005,China (private),Low & middle income,0.06356822741399647
-2005,China (private),Low and lower middle income,0.11526977986164419
 2005,China (private),Low income,0.00011446196162721494
 2005,China (private),Lower middle income,0.13731408736177458
 2005,China (private),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",0.1344072832254028
@@ -880,8 +878,8 @@ year,creditor_name,debtor_name,value
 2006,China (bilateral),Lebanon,0.031700681627821796
 2006,China (bilateral),Lesotho,1.2524818629998444
 2006,China (bilateral),Liberia,1.3457266837176405
+2006,China (bilateral),Low & lower middle income,1.5495704264152048
 2006,China (bilateral),Low & middle income,0.8852492003849153
-2006,China (bilateral),Low and lower middle income,1.5495704264152048
 2006,China (bilateral),Low income,3.5607681239624376
 2006,China (bilateral),Lower middle income,1.2258679315119105
 2006,China (bilateral),Madagascar,3.0311558996247365
@@ -946,8 +944,8 @@ year,creditor_name,debtor_name,value
 2006,China (private),Kenya,0.0525304543309811
 2006,China (private),Latin America & Caribbean (excluding high income),0.0007581809327391343
 2006,China (private),Least developed countries: UN classification,0.23742295155176976
+2006,China (private),Low & lower middle income,0.2047804224536017
 2006,China (private),Low & middle income,0.09409057776770674
-2006,China (private),Low and lower middle income,0.2047804224536017
 2006,China (private),Low income,0.0001449914251045334
 2006,China (private),Lower middle income,0.2377165180200993
 2006,China (private),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",0.13671479789481336
@@ -1019,8 +1017,8 @@ year,creditor_name,debtor_name,value
 2007,China (bilateral),Lebanon,0.03255436627132793
 2007,China (bilateral),Lesotho,0.2131807263162953
 2007,China (bilateral),Liberia,1.5674343237674622
+2007,China (bilateral),Low & lower middle income,1.8356039919404756
 2007,China (bilateral),Low & middle income,1.0088744692542249
-2007,China (bilateral),Low and lower middle income,1.8356039919404756
 2007,China (bilateral),Low income,3.0914342533192425
 2007,China (bilateral),Lower middle income,1.6329059350642539
 2007,China (bilateral),Madagascar,0.21071237736925488
@@ -1089,8 +1087,8 @@ year,creditor_name,debtor_name,value
 2007,China (private),Kenya,0.04234184807369261
 2007,China (private),Latin America & Caribbean (excluding high income),0.013914087775987363
 2007,China (private),Least developed countries: UN classification,0.23114772403981368
+2007,China (private),Low & lower middle income,0.21990621102217914
 2007,China (private),Low & middle income,0.09516067159637893
-2007,China (private),Low and lower middle income,0.21990621102217914
 2007,China (private),Low income,0.0001334804801492729
 2007,China (private),Lower middle income,0.25537876396603204
 2007,China (private),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",0.10890372176496399
@@ -1162,8 +1160,8 @@ year,creditor_name,debtor_name,value
 2008,China (bilateral),Lebanon,0.035284505577349155
 2008,China (bilateral),Lesotho,2.484838408795788
 2008,China (bilateral),Liberia,0.5895861408269308
+2008,China (bilateral),Low & lower middle income,2.2368696183906045
 2008,China (bilateral),Low & middle income,1.2728794599138693
-2008,China (bilateral),Low and lower middle income,2.2368696183906045
 2008,China (bilateral),Low income,3.6618310742866265
 2008,China (bilateral),Lower middle income,2.013137049590532
 2008,China (bilateral),Madagascar,1.9141371017847308
@@ -1232,8 +1230,8 @@ year,creditor_name,debtor_name,value
 2008,China (private),Kenya,0.044192612781920604
 2008,China (private),Latin America & Caribbean (excluding high income),0.013191487156294632
 2008,China (private),Least developed countries: UN classification,0.1711559366142673
+2008,China (private),Low & lower middle income,0.20878732243335374
 2008,China (private),Low & middle income,0.08870672351972994
-2008,China (private),Low and lower middle income,0.20878732243335374
 2008,China (private),Low income,0.00013011556176482198
 2008,China (private),Lower middle income,0.241548498322616
 2008,China (private),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",0.1006461373751406
@@ -1305,8 +1303,8 @@ year,creditor_name,debtor_name,value
 2009,China (bilateral),Lebanon,0.03527372126511958
 2009,China (bilateral),Lesotho,3.9869038480970174
 2009,China (bilateral),Liberia,0.0
+2009,China (bilateral),Low & lower middle income,2.831639830035669
 2009,China (bilateral),Low & middle income,1.7996489234292714
-2009,China (bilateral),Low and lower middle income,2.831639830035669
 2009,China (bilateral),Low income,5.269123632292593
 2009,China (bilateral),Lower middle income,2.4621976679974384
 2009,China (bilateral),Madagascar,2.852693304001596
@@ -1376,8 +1374,8 @@ year,creditor_name,debtor_name,value
 2009,China (private),Kenya,0.04204495392661959
 2009,China (private),Latin America & Caribbean (excluding high income),0.012989178765737137
 2009,China (private),Least developed countries: UN classification,0.9349854768395055
+2009,China (private),Low & lower middle income,0.39114939981545815
 2009,China (private),Low & middle income,0.15923574089572504
-2009,China (private),Low and lower middle income,0.39114939981545815
 2009,China (private),Low income,1.4858090970994928
 2009,China (private),Lower middle income,0.2252350889649519
 2009,China (private),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",0.08522204766883863
@@ -1452,8 +1450,8 @@ year,creditor_name,debtor_name,value
 2010,China (bilateral),Lebanon,0.03701490865699628
 2010,China (bilateral),Lesotho,4.173332234905884
 2010,China (bilateral),Liberia,0.0
+2010,China (bilateral),Low & lower middle income,3.8189883597257404
 2010,China (bilateral),Low & middle income,2.5492681174363674
-2010,China (bilateral),Low and lower middle income,3.8189883597257404
 2010,China (bilateral),Low income,8.338609321672207
 2010,China (bilateral),Lower middle income,3.2195965811277625
 2010,China (bilateral),Madagascar,3.0573214534704394
@@ -1524,8 +1522,8 @@ year,creditor_name,debtor_name,value
 2010,China (private),Kenya,0.04174692437225516
 2010,China (private),Latin America & Caribbean (excluding high income),0.011851926912566679
 2010,China (private),Least developed countries: UN classification,3.95698081277266
+2010,China (private),Low & lower middle income,1.198790294017459
 2010,China (private),Low & middle income,0.46322939650093103
-2010,China (private),Low and lower middle income,1.198790294017459
 2010,China (private),Low income,2.006632749468279
 2010,China (private),Lower middle income,1.0916542907383064
 2010,China (private),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",0.1125987759624071
@@ -1600,8 +1598,8 @@ year,creditor_name,debtor_name,value
 2011,China (bilateral),Lebanon,0.03816473603563128
 2011,China (bilateral),Lesotho,4.456896004850542
 2011,China (bilateral),Liberia,3.1281179878400422
+2011,China (bilateral),Low & lower middle income,4.576013936187618
 2011,China (bilateral),Low & middle income,3.0625413561568906
-2011,China (bilateral),Low and lower middle income,4.576013936187618
 2011,China (bilateral),Low income,9.051904832059057
 2011,China (bilateral),Lower middle income,3.9933490965229628
 2011,China (bilateral),Madagascar,3.0457821635731346
@@ -1672,8 +1670,8 @@ year,creditor_name,debtor_name,value
 2011,China (private),Kenya,0.0100769667473548
 2011,China (private),Latin America & Caribbean (excluding high income),0.011149688092075227
 2011,China (private),Least developed countries: UN classification,5.259336809849515
+2011,China (private),Low & lower middle income,1.51112369609839
 2011,China (private),Low & middle income,0.579925918220952
-2011,China (private),Low and lower middle income,1.51112369609839
 2011,China (private),Low income,1.978407643125336
 2011,China (private),Lower middle income,1.450293364795305
 2011,China (private),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",0.1715173174245668
@@ -1748,8 +1746,8 @@ year,creditor_name,debtor_name,value
 2012,China (bilateral),Lebanon,0.032771564599658236
 2012,China (bilateral),Lesotho,5.45783080815525
 2012,China (bilateral),Liberia,2.7862100956946105
+2012,China (bilateral),Low & lower middle income,5.447260850708117
 2012,China (bilateral),Low & middle income,3.3867702415078473
-2012,China (bilateral),Low and lower middle income,5.447260850708117
 2012,China (bilateral),Low income,9.313239420244177
 2012,China (bilateral),Lower middle income,4.939186687533742
 2012,China (bilateral),Madagascar,2.918546609622673
@@ -1819,8 +1817,8 @@ year,creditor_name,debtor_name,value
 2012,China (private),Kenya,0.0
 2012,China (private),Latin America & Caribbean (excluding high income),0.00980671033662134
 2012,China (private),Least developed countries: UN classification,5.184553750696431
+2012,China (private),Low & lower middle income,1.497406308676117
 2012,China (private),Low & middle income,0.5459864084395405
-2012,China (private),Low and lower middle income,1.497406308676117
 2012,China (private),Low income,1.9129257889449696
 2012,China (private),Lower middle income,1.4427979583133306
 2012,China (private),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",0.15420050394834717
@@ -1893,8 +1891,8 @@ year,creditor_name,debtor_name,value
 2013,China (bilateral),Lebanon,0.03183289250184723
 2013,China (bilateral),Lesotho,5.644146606386643
 2013,China (bilateral),Liberia,2.567099057196666
+2013,China (bilateral),Low & lower middle income,6.528684265724052
 2013,China (bilateral),Low & middle income,4.0283007902362655
-2013,China (bilateral),Low and lower middle income,6.528684265724052
 2013,China (bilateral),Low income,10.540856905119272
 2013,China (bilateral),Lower middle income,5.977794253738148
 2013,China (bilateral),Madagascar,2.9017433428134787
@@ -1962,8 +1960,8 @@ year,creditor_name,debtor_name,value
 2013,China (private),"Iran, Islamic Rep.",3.932591395277642
 2013,China (private),Latin America & Caribbean (excluding high income),0.00881677094087572
 2013,China (private),Least developed countries: UN classification,6.147966317626639
+2013,China (private),Low & lower middle income,1.783344690221728
 2013,China (private),Low & middle income,0.6443869422209859
-2013,China (private),Low and lower middle income,1.783344690221728
 2013,China (private),Low income,1.7252937116601843
 2013,China (private),Lower middle income,1.7913153602675669
 2013,China (private),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",0.1280288040669888
@@ -2035,8 +2033,8 @@ year,creditor_name,debtor_name,value
 2014,China (bilateral),Lebanon,0.03236912819335532
 2014,China (bilateral),Lesotho,5.543080170692305
 2014,China (bilateral),Liberia,1.954716975790865
+2014,China (bilateral),Low & lower middle income,7.512340509979647
 2014,China (bilateral),Low & middle income,4.308353646382659
-2014,China (bilateral),Low and lower middle income,7.512340509979647
 2014,China (bilateral),Low income,12.924726814914475
 2014,China (bilateral),Lower middle income,6.789648408882717
 2014,China (bilateral),Madagascar,2.617862394527937
@@ -2103,8 +2101,8 @@ year,creditor_name,debtor_name,value
 2014,China (private),"Iran, Islamic Rep.",3.659045555000357
 2014,China (private),Latin America & Caribbean (excluding high income),0.0076146874629813704
 2014,China (private),Least developed countries: UN classification,6.884376194146742
+2014,China (private),Low & lower middle income,1.9795807453966587
 2014,China (private),Low & middle income,0.7052804280598667
-2014,China (private),Low and lower middle income,1.9795807453966587
 2014,China (private),Low income,2.21141314870641
 2014,China (private),Lower middle income,1.9486251858318298
 2014,China (private),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",0.11055632945740367
@@ -2177,8 +2175,8 @@ year,creditor_name,debtor_name,value
 2015,China (bilateral),Lebanon,0.02880910329531169
 2015,China (bilateral),Lesotho,5.191556948564925
 2015,China (bilateral),Liberia,1.2579381135538261
+2015,China (bilateral),Low & lower middle income,8.08306555790654
 2015,China (bilateral),Low & middle income,4.646185169278248
-2015,China (bilateral),Low and lower middle income,8.08306555790654
 2015,China (bilateral),Low income,14.440224817449758
 2015,China (bilateral),Lower middle income,7.251950590669009
 2015,China (bilateral),Madagascar,2.1962737534472856
@@ -2248,8 +2246,8 @@ year,creditor_name,debtor_name,value
 2015,China (private),"Iran, Islamic Rep.",2.5731160171140246
 2015,China (private),Latin America & Caribbean (excluding high income),0.014368689437017098
 2015,China (private),Least developed countries: UN classification,6.334295618347528
+2015,China (private),Low & lower middle income,1.80608327529806
 2015,China (private),Low & middle income,0.6692499602685175
-2015,China (private),Low and lower middle income,1.80608327529806
 2015,China (private),Low income,2.8844419835891
 2015,China (private),Lower middle income,1.6651020561841612
 2015,China (private),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",0.07471593455808231
@@ -2323,8 +2321,8 @@ year,creditor_name,debtor_name,value
 2016,China (bilateral),Lebanon,0.025957050005767476
 2016,China (bilateral),Lesotho,6.41477471847884
 2016,China (bilateral),Liberia,0.9706272961622562
+2016,China (bilateral),Low & lower middle income,8.987036315076963
 2016,China (bilateral),Low & middle income,4.784126399448552
-2016,China (bilateral),Low and lower middle income,8.987036315076963
 2016,China (bilateral),Low income,15.318663411676448
 2016,China (bilateral),Lower middle income,8.158603861062716
 2016,China (bilateral),Madagascar,1.9095990061182946
@@ -2396,8 +2394,8 @@ year,creditor_name,debtor_name,value
 2016,China (private),Lao PDR,0.444871048914705
 2016,China (private),Latin America & Caribbean (excluding high income),0.12039995983744013
 2016,China (private),Least developed countries: UN classification,9.46284382812742
+2016,China (private),Low & lower middle income,2.762000846594146
 2016,China (private),Low & middle income,1.0285057444498784
-2016,China (private),Low and lower middle income,2.762000846594146
 2016,China (private),Low income,2.861888901290261
 2016,China (private),Lower middle income,2.748931456212161
 2016,China (private),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",0.06547316607219786
@@ -2472,8 +2470,8 @@ year,creditor_name,debtor_name,value
 2017,China (bilateral),Lebanon,0.025586432770289408
 2017,China (bilateral),Lesotho,6.04090880613961
 2017,China (bilateral),Liberia,3.2492509613159366
+2017,China (bilateral),Low & lower middle income,8.94626053922724
 2017,China (bilateral),Low & middle income,5.010716942566638
-2017,China (bilateral),Low and lower middle income,8.94626053922724
 2017,China (bilateral),Low income,15.439882293564759
 2017,China (bilateral),Lower middle income,8.142987640197807
 2017,China (bilateral),Madagascar,1.666031673831772
@@ -2545,8 +2543,8 @@ year,creditor_name,debtor_name,value
 2017,China (private),Lao PDR,0.43435892576215207
 2017,China (private),Latin America & Caribbean (excluding high income),0.10729301704132295
 2017,China (private),Least developed countries: UN classification,9.084033994053971
+2017,China (private),Low & lower middle income,2.651767649331098
 2017,China (private),Low & middle income,1.000005192913526
-2017,China (private),Low and lower middle income,2.651767649331098
 2017,China (private),Low income,2.3954915299706756
 2017,China (private),Lower middle income,2.6834694744663787
 2017,China (private),Maldives,0.0
@@ -2622,8 +2620,8 @@ year,creditor_name,debtor_name,value
 2018,China (bilateral),Lebanon,0.022046950567074865
 2018,China (bilateral),Lesotho,5.397718570683496
 2018,China (bilateral),Liberia,7.565590353505671
+2018,China (bilateral),Low & lower middle income,10.015309228092566
 2018,China (bilateral),Low & middle income,5.287272939626047
-2018,China (bilateral),Low and lower middle income,10.015309228092566
 2018,China (bilateral),Low income,16.158555208994084
 2018,China (bilateral),Lower middle income,9.261208803177691
 2018,China (bilateral),Madagascar,2.6744084891637945
@@ -2696,8 +2694,8 @@ year,creditor_name,debtor_name,value
 2018,China (private),Lao PDR,0.9245355870403933
 2018,China (private),Latin America & Caribbean (excluding high income),0.10040598617740747
 2018,China (private),Least developed countries: UN classification,8.412614044081101
+2018,China (private),Low & lower middle income,2.6952611135829994
 2018,China (private),Low & middle income,1.0318195385903302
-2018,China (private),Low and lower middle income,2.6952611135829994
 2018,China (private),Low income,1.9923425303531852
 2018,China (private),Lower middle income,2.781546312636086
 2018,China (private),Maldives,12.17788483178076
@@ -2776,8 +2774,8 @@ year,creditor_name,debtor_name,value
 2019,China (bilateral),Lebanon,0.021463668794776448
 2019,China (bilateral),Lesotho,8.355472156271821
 2019,China (bilateral),Liberia,6.429500214323396
+2019,China (bilateral),Low & lower middle income,10.039755329303857
 2019,China (bilateral),Low & middle income,5.04720679791509
-2019,China (bilateral),Low and lower middle income,10.039755329303857
 2019,China (bilateral),Low income,15.396518656790102
 2019,China (bilateral),Lower middle income,9.400897955241335
 2019,China (bilateral),Madagascar,4.344916991029041
@@ -2850,8 +2848,8 @@ year,creditor_name,debtor_name,value
 2019,China (private),Lao PDR,0.7874824646835169
 2019,China (private),Latin America & Caribbean (excluding high income),0.07252222298741995
 2019,China (private),Least developed countries: UN classification,7.990652517164134
+2019,China (private),Low & lower middle income,2.688632357700783
 2019,China (private),Low & middle income,1.0450667641021008
-2019,China (private),Low and lower middle income,2.688632357700783
 2019,China (private),Low income,1.665531854036562
 2019,China (private),Lower middle income,2.810649191601056
 2019,China (private),Maldives,14.124774644680873
@@ -2931,8 +2929,8 @@ year,creditor_name,debtor_name,value
 2020,China (bilateral),Lebanon,0.02291735056094686
 2020,China (bilateral),Lesotho,12.320244889884583
 2020,China (bilateral),Liberia,6.077265828461489
+2020,China (bilateral),Low & lower middle income,9.722383557801487
 2020,China (bilateral),Low & middle income,4.825785338717215
-2020,China (bilateral),Low and lower middle income,9.722383557801487
 2020,China (bilateral),Low income,14.975053368564797
 2020,China (bilateral),Lower middle income,9.090611761293053
 2020,China (bilateral),Madagascar,4.428308532040035
@@ -3006,8 +3004,8 @@ year,creditor_name,debtor_name,value
 2020,China (private),Lao PDR,0.6763727919354446
 2020,China (private),Latin America & Caribbean (excluding high income),0.04775343105452661
 2020,China (private),Least developed countries: UN classification,7.1777566048500985
+2020,China (private),Low & lower middle income,2.570186936595199
 2020,China (private),Low & middle income,1.0124774197226323
-2020,China (private),Low and lower middle income,2.570186936595199
 2020,China (private),Low income,1.2986610372913274
 2020,China (private),Lower middle income,2.7231213929099907
 2020,China (private),Maldives,14.265529549075959
@@ -3086,8 +3084,8 @@ year,creditor_name,debtor_name,value
 2021,China (bilateral),Lebanon,0.023569043867917784
 2021,China (bilateral),Lesotho,14.975859642110924
 2021,China (bilateral),Liberia,5.798476724763531
+2021,China (bilateral),Low & lower middle income,9.665756055370194
 2021,China (bilateral),Low & middle income,4.616675402293667
-2021,China (bilateral),Low and lower middle income,9.665756055370194
 2021,China (bilateral),Low income,14.81083353500742
 2021,China (bilateral),Lower middle income,9.079182465789934
 2021,China (bilateral),Madagascar,4.961149252380784
@@ -3161,8 +3159,8 @@ year,creditor_name,debtor_name,value
 2021,China (private),Lao PDR,0.6944587199809785
 2021,China (private),Latin America & Caribbean (excluding high income),0.03750012309732696
 2021,China (private),Least developed countries: UN classification,6.780234567343177
+2021,China (private),Low & lower middle income,2.442269854531993
 2021,China (private),Low & middle income,0.9451761922447497
-2021,China (private),Low and lower middle income,2.442269854531993
 2021,China (private),Low income,1.1049869993152623
 2021,China (private),Lower middle income,2.5947291338670686
 2021,China (private),Maldives,12.348218549319483
@@ -3242,8 +3240,8 @@ year,creditor_name,debtor_name,value
 2022,China (bilateral),Lebanon,0.02143378287381317
 2022,China (bilateral),Lesotho,16.79727584753053
 2022,China (bilateral),Liberia,4.8490514871517965
+2022,China (bilateral),Low & lower middle income,9.313857972495555
 2022,China (bilateral),Low & middle income,4.509492762575583
-2022,China (bilateral),Low and lower middle income,9.313857972495555
 2022,China (bilateral),Low income,13.986333550814319
 2022,China (bilateral),Lower middle income,8.794879958718022
 2022,China (bilateral),Madagascar,7.935750507309652
@@ -3316,8 +3314,8 @@ year,creditor_name,debtor_name,value
 2022,China (private),Lao PDR,0.6735600268683889
 2022,China (private),Latin America & Caribbean (excluding high income),0.03684698609957852
 2022,China (private),Least developed countries: UN classification,6.34362041040412
+2022,China (private),Low & lower middle income,2.3546454420705016
 2022,China (private),Low & middle income,0.9111515499694043
-2022,China (private),Low and lower middle income,2.3546454420705016
 2022,China (private),Low income,0.9377778860246909
 2022,China (private),Lower middle income,2.512018786820452
 2022,China (private),Maldives,11.341409286098106
@@ -3396,8 +3394,8 @@ year,creditor_name,debtor_name,value
 2023,China (bilateral),Lebanon,0.02085121591260035
 2023,China (bilateral),Lesotho,18.309904617351943
 2023,China (bilateral),Liberia,4.097931387257886
+2023,China (bilateral),Low & lower middle income,8.749293250461053
 2023,China (bilateral),Low & middle income,4.427635098382736
-2023,China (bilateral),Low and lower middle income,8.749293250461053
 2023,China (bilateral),Low income,12.749807526467869
 2023,China (bilateral),Lower middle income,8.303170242833568
 2023,China (bilateral),Madagascar,7.370712888527221
@@ -3471,8 +3469,8 @@ year,creditor_name,debtor_name,value
 2023,China (private),Lao PDR,0.6782797150657356
 2023,China (private),Latin America & Caribbean (excluding high income),0.03199913748011179
 2023,China (private),Least developed countries: UN classification,5.3309764079628374
+2023,China (private),Low & lower middle income,2.030379012728521
 2023,China (private),Low & middle income,0.7983347358946552
-2023,China (private),Low and lower middle income,2.030379012728521
 2023,China (private),Low income,0.8231320837737459
 2023,China (private),Lower middle income,2.1650068614839917
 2023,China (private),Maldives,9.036067515116997
@@ -3550,8 +3548,8 @@ year,creditor_name,debtor_name,value
 2024,China (bilateral),Lebanon,0.02030958556908807
 2024,China (bilateral),Lesotho,17.87099496952721
 2024,China (bilateral),Liberia,3.521685059937866
+2024,China (bilateral),Low & lower middle income,8.45475294112004
 2024,China (bilateral),Low & middle income,4.145169132426498
-2024,China (bilateral),Low and lower middle income,8.45475294112004
 2024,China (bilateral),Low income,12.690037763602602
 2024,China (bilateral),Lower middle income,7.988690608996678
 2024,China (bilateral),Madagascar,6.661707342814808
@@ -3614,7 +3612,6 @@ year,creditor_name,debtor_name,value
 2024,China (private),Cote d'Ivoire,1.0818898718968213
 2024,China (private),East Asia & Pacific (excluding high income),0.13953744218798111
 2024,China (private),"Egypt, Arab Rep.",2.173442261084034
-2024,China (private),El Salvador,0.0
 2024,China (private),Ethiopia,4.123203784242102
 2024,China (private),Europe & Central Asia (excluding high income),0.10713863852596581
 2024,China (private),Gabon,1.4538943786100802
@@ -3626,15 +3623,14 @@ year,creditor_name,debtor_name,value
 2024,China (private),Lao PDR,0.6900332767892842
 2024,China (private),Latin America & Caribbean (excluding high income),0.026600630636633354
 2024,China (private),Least developed countries: UN classification,4.445882149583504
+2024,China (private),Low & lower middle income,1.5969160856070912
 2024,China (private),Low & middle income,0.6290758983638867
-2024,China (private),Low and lower middle income,1.5969160856070912
 2024,China (private),Low income,1.0406158172388202
 2024,China (private),Lower middle income,1.6581328895066207
 2024,China (private),Maldives,6.966563290450671
 2024,China (private),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",0.6673691239038805
 2024,China (private),Middle income,0.6129129635571495
 2024,China (private),Myanmar,13.611523014330768
-2024,China (private),Nicaragua,0.0
 2024,China (private),Senegal,0.08722263439153302
 2024,China (private),South Asia,0.0769976424711354
 2024,China (private),Sri Lanka,0.0
@@ -3713,8 +3709,8 @@ year,creditor_name,debtor_name,value
 2000,Other creditors,Lebanon,99.9479959834386
 2000,Other creditors,Lesotho,99.31089939479361
 2000,Other creditors,Liberia,98.21852875751104
+2000,Other creditors,Low & lower middle income,99.05931652787183
 2000,Other creditors,Low & middle income,99.43551352325629
-2000,Other creditors,Low and lower middle income,99.05931652787183
 2000,Other creditors,Low income,97.66680697162839
 2000,Other creditors,Lower middle income,99.33994397897568
 2000,Other creditors,Madagascar,99.2512785008068
@@ -3841,8 +3837,8 @@ year,creditor_name,debtor_name,value
 2001,Other creditors,Lebanon,99.93575243530381
 2001,Other creditors,Lesotho,98.16598992934668
 2001,Other creditors,Liberia,98.17413084496155
+2001,Other creditors,Low & lower middle income,99.1379350421578
 2001,Other creditors,Low & middle income,99.47328230904385
-2001,Other creditors,Low and lower middle income,99.1379350421578
 2001,Other creditors,Low income,97.62630513197509
 2001,Other creditors,Lower middle income,99.44012884231621
 2001,Other creditors,Madagascar,99.17082461691875
@@ -3969,8 +3965,8 @@ year,creditor_name,debtor_name,value
 2002,Other creditors,Lebanon,99.95807216083325
 2002,Other creditors,Lesotho,98.6544027962019
 2002,Other creditors,Liberia,98.2575212889341
+2002,Other creditors,Low & lower middle income,99.13771426681308
 2002,Other creditors,Low & middle income,99.52552593138174
-2002,Other creditors,Low and lower middle income,99.13771426681308
 2002,Other creditors,Low income,97.7446823401912
 2002,Other creditors,Lower middle income,99.41768770863766
 2002,Other creditors,Madagascar,99.22776678111036
@@ -4097,8 +4093,8 @@ year,creditor_name,debtor_name,value
 2003,Other creditors,Lebanon,99.96159227276424
 2003,Other creditors,Lesotho,98.74264287365988
 2003,Other creditors,Liberia,98.3492185503907
+2003,Other creditors,Low & lower middle income,99.09919239497576
 2003,Other creditors,Low & middle income,99.53017109044166
-2003,Other creditors,Low and lower middle income,99.09919239497576
 2003,Other creditors,Low income,97.85692978009611
 2003,Other creditors,Lower middle income,99.36446511298269
 2003,Other creditors,Madagascar,99.29544724429596
@@ -4225,8 +4221,8 @@ year,creditor_name,debtor_name,value
 2004,Other creditors,Lebanon,99.96728156054044
 2004,Other creditors,Lesotho,98.99533938992442
 2004,Other creditors,Liberia,98.41608922839083
+2004,Other creditors,Low & lower middle income,98.9926255497381
 2004,Other creditors,Low & middle income,99.5095965032063
-2004,Other creditors,Low and lower middle income,98.9926255497381
 2004,Other creditors,Low income,97.75859462367355
 2004,Other creditors,Lower middle income,99.24938092265712
 2004,Other creditors,Madagascar,99.01065617485274
@@ -4353,8 +4349,8 @@ year,creditor_name,debtor_name,value
 2005,Other creditors,Lebanon,99.96727382319409
 2005,Other creditors,Lesotho,98.79877711014684
 2005,Other creditors,Liberia,98.33192331478881
+2005,Other creditors,Low & lower middle income,98.74190091368035
 2005,Other creditors,Low & middle income,99.36734022539399
-2005,Other creditors,Low and lower middle income,98.74190091368035
 2005,Other creditors,Low income,97.31583770294945
 2005,Other creditors,Lower middle income,99.01489374202086
 2005,Other creditors,Madagascar,98.88882359329247
@@ -4482,8 +4478,8 @@ year,creditor_name,debtor_name,value
 2006,Other creditors,Lebanon,99.96829931837217
 2006,Other creditors,Lesotho,98.74751813700016
 2006,Other creditors,Liberia,98.36618812250873
+2006,Other creditors,Low & lower middle income,98.2393951407626
 2006,Other creditors,Low & middle income,99.01615316759396
-2006,Other creditors,Low and lower middle income,98.2393951407626
 2006,Other creditors,Low income,96.43043751959883
 2006,Other creditors,Lower middle income,98.53054707269808
 2006,Other creditors,Madagascar,96.96884410037528
@@ -4612,8 +4608,8 @@ year,creditor_name,debtor_name,value
 2007,Other creditors,Lebanon,99.96744563372869
 2007,Other creditors,Lesotho,99.78681927368369
 2007,Other creditors,Liberia,98.0970186247001
+2007,Other creditors,Low & lower middle income,97.93843949530682
 2007,Other creditors,Low & middle income,98.89173209615454
-2007,Other creditors,Low and lower middle income,97.93843949530682
 2007,Other creditors,Low income,96.90063436950842
 2007,Other creditors,Lower middle income,98.10594707088042
 2007,Other creditors,Madagascar,99.78928762263075
@@ -4742,8 +4738,8 @@ year,creditor_name,debtor_name,value
 2008,Other creditors,Lebanon,99.96471549442266
 2008,Other creditors,Lesotho,97.51516159120422
 2008,Other creditors,Liberia,99.00949528341076
+2008,Other creditors,Low & lower middle income,97.54889191602122
 2008,Other creditors,Low & middle income,98.63483170747216
-2008,Other creditors,Low and lower middle income,97.54889191602122
 2008,Other creditors,Low income,96.33161174394641
 2008,Other creditors,Lower middle income,97.74001653817912
 2008,Other creditors,Madagascar,98.08586289821527
@@ -4874,8 +4870,8 @@ year,creditor_name,debtor_name,value
 2009,Other creditors,Lebanon,99.96472627873489
 2009,Other creditors,Lesotho,96.01309615190299
 2009,Other creditors,Liberia,99.48479683795087
+2009,Other creditors,Low & lower middle income,96.77215516082242
 2009,Other creditors,Low & middle income,98.03801935492768
-2009,Other creditors,Low and lower middle income,96.77215516082242
 2009,Other creditors,Low income,93.23892606938341
 2009,Other creditors,Lower middle income,97.30767617364269
 2009,Other creditors,Madagascar,97.1473066959984
@@ -5006,8 +5002,8 @@ year,creditor_name,debtor_name,value
 2010,Other creditors,Lebanon,99.962985091343
 2010,Other creditors,Lesotho,95.82666776509413
 2010,Other creditors,Liberia,100.00000000000001
+2010,Other creditors,Low & lower middle income,94.97827717992725
 2010,Other creditors,Low & middle income,96.98522966570057
-2010,Other creditors,Low and lower middle income,94.97827717992725
 2010,Other creditors,Low income,89.65388813342713
 2010,Other creditors,Lower middle income,95.68439723897636
 2010,Other creditors,Madagascar,96.94267854652955
@@ -5138,8 +5134,8 @@ year,creditor_name,debtor_name,value
 2011,Other creditors,Lebanon,99.96183526396437
 2011,Other creditors,Lesotho,95.54310399514945
 2011,Other creditors,Liberia,96.87188201215997
+2011,Other creditors,Low & lower middle income,93.909239594093
 2011,Other creditors,Low & middle income,96.35570253834716
-2011,Other creditors,Low and lower middle income,93.909239594093
 2011,Other creditors,Low income,88.96885414898428
 2011,Other creditors,Lower middle income,94.5523716453928
 2011,Other creditors,Madagascar,96.95421783642688
@@ -5270,8 +5266,8 @@ year,creditor_name,debtor_name,value
 2012,Other creditors,Lebanon,99.96722843540034
 2012,Other creditors,Lesotho,94.54216919184474
 2012,Other creditors,Liberia,97.2137899043054
+2012,Other creditors,Low & lower middle income,93.05211870868285
 2012,Other creditors,Low & middle income,96.06588284872608
-2012,Other creditors,Low and lower middle income,93.05211870868285
 2012,Other creditors,Low income,88.77383479081085
 2012,Other creditors,Lower middle income,93.61437881496587
 2012,Other creditors,Madagascar,97.08145339037732
@@ -5403,8 +5399,8 @@ year,creditor_name,debtor_name,value
 2013,Other creditors,Lebanon,99.96816710749815
 2013,Other creditors,Lesotho,94.35585339361337
 2013,Other creditors,Liberia,97.43290094280333
+2013,Other creditors,Low & lower middle income,91.68507914308931
 2013,Other creditors,Low & middle income,95.3262359242344
-2013,Other creditors,Low and lower middle income,91.68507914308931
 2013,Other creditors,Low income,87.73384938322053
 2013,Other creditors,Lower middle income,92.22760141354206
 2013,Other creditors,Madagascar,97.09825665718654
@@ -5536,8 +5532,8 @@ year,creditor_name,debtor_name,value
 2014,Other creditors,Lebanon,99.96763087180666
 2014,Other creditors,Lesotho,94.4569198293077
 2014,Other creditors,Liberia,98.04528302420914
+2014,Other creditors,Low & lower middle income,90.50562072906303
 2014,Other creditors,Low & middle income,94.98547238592425
-2014,Other creditors,Low and lower middle income,90.50562072906303
 2014,Other creditors,Low income,84.86386003637911
 2014,Other creditors,Lower middle income,91.25894018173481
 2014,Other creditors,Madagascar,97.38213760547205
@@ -5670,8 +5666,8 @@ year,creditor_name,debtor_name,value
 2015,Other creditors,Lebanon,99.97119089670468
 2015,Other creditors,Lesotho,94.80844305143509
 2015,Other creditors,Liberia,98.74206188644617
+2015,Other creditors,Low & lower middle income,90.10867515631045
 2015,Other creditors,Low & middle income,94.68375372719996
-2015,Other creditors,Low and lower middle income,90.10867515631045
 2015,Other creditors,Low income,82.67533319896113
 2015,Other creditors,Lower middle income,91.08048685790872
 2015,Other creditors,Madagascar,97.80372624655273
@@ -5805,8 +5801,8 @@ year,creditor_name,debtor_name,value
 2016,Other creditors,Lebanon,99.97404294999423
 2016,Other creditors,Lesotho,93.58522528152115
 2016,Other creditors,Liberia,99.02937270383774
+2016,Other creditors,Low & lower middle income,88.2489859864182
 2016,Other creditors,Low & middle income,94.18665337904321
-2016,Other creditors,Low and lower middle income,88.2489859864182
 2016,Other creditors,Low income,81.81944768703327
 2016,Other creditors,Lower middle income,89.09022917877215
 2016,Other creditors,Madagascar,98.09040099388172
@@ -5940,8 +5936,8 @@ year,creditor_name,debtor_name,value
 2017,Other creditors,Lebanon,99.97441356722972
 2017,Other creditors,Lesotho,93.9590911938604
 2017,Other creditors,Liberia,96.75074903868406
+2017,Other creditors,Low & lower middle income,88.40090311267568
 2017,Other creditors,Low & middle income,93.98888190759166
-2017,Other creditors,Low and lower middle income,88.40090311267568
 2017,Other creditors,Low income,82.16462617646457
 2017,Other creditors,Lower middle income,89.17234198657599
 2017,Other creditors,Madagascar,98.33396832616823
@@ -6075,8 +6071,8 @@ year,creditor_name,debtor_name,value
 2018,Other creditors,Lebanon,99.97795304943293
 2018,Other creditors,Lesotho,94.6022814293165
 2018,Other creditors,Liberia,92.43440964649433
+2018,Other creditors,Low & lower middle income,87.28851598218337
 2018,Other creditors,Low & middle income,93.68056999529828
-2018,Other creditors,Low and lower middle income,87.28851598218337
 2018,Other creditors,Low income,81.84910226065273
 2018,Other creditors,Lower middle income,87.95621905177332
 2018,Other creditors,Madagascar,97.3255915108362
@@ -6211,8 +6207,8 @@ year,creditor_name,debtor_name,value
 2019,Other creditors,Lebanon,99.9785363312052
 2019,Other creditors,Lesotho,91.64452784372818
 2019,Other creditors,Liberia,93.5704997856766
+2019,Other creditors,Low & lower middle income,87.27082228168486
 2019,Other creditors,Low & middle income,93.90743251555926
-2019,Other creditors,Low and lower middle income,87.27082228168486
 2019,Other creditors,Low income,82.93794948917333
 2019,Other creditors,Lower middle income,87.78756860127069
 2019,Other creditors,Madagascar,95.65508300897096
@@ -6347,8 +6343,8 @@ year,creditor_name,debtor_name,value
 2020,Other creditors,Lebanon,99.97708264943904
 2020,Other creditors,Lesotho,87.67975511011542
 2020,Other creditors,Liberia,93.92273417153851
+2020,Other creditors,Low & lower middle income,87.70672953394877
 2020,Other creditors,Low & middle income,94.16108769231118
-2020,Other creditors,Low and lower middle income,87.70672953394877
 2020,Other creditors,Low income,83.72628559414387
 2020,Other creditors,Lower middle income,88.18548268412749
 2020,Other creditors,Madagascar,95.57169146795997
@@ -6483,8 +6479,8 @@ year,creditor_name,debtor_name,value
 2021,Other creditors,Lebanon,99.97643095613209
 2021,Other creditors,Lesotho,85.02414035788908
 2021,Other creditors,Liberia,94.20152327523647
+2021,Other creditors,Low & lower middle income,87.89137251151503
 2021,Other creditors,Low & middle income,94.43689301709246
-2021,Other creditors,Low and lower middle income,87.89137251151503
 2021,Other creditors,Low income,84.08417946567732
 2021,Other creditors,Lower middle income,88.3254182377379
 2021,Other creditors,Madagascar,95.03885074761922
@@ -6619,8 +6615,8 @@ year,creditor_name,debtor_name,value
 2022,Other creditors,Lebanon,99.97856621712619
 2022,Other creditors,Lesotho,83.20272415246947
 2022,Other creditors,Liberia,95.15094851284822
+2022,Other creditors,Low & lower middle income,88.33097365818973
 2022,Other creditors,Low & middle income,94.5468054084685
-2022,Other creditors,Low and lower middle income,88.33097365818973
 2022,Other creditors,Low income,85.07588856316099
 2022,Other creditors,Lower middle income,88.69252024499987
 2022,Other creditors,Madagascar,92.06424949269035
@@ -6755,8 +6751,8 @@ year,creditor_name,debtor_name,value
 2023,Other creditors,Lebanon,99.9791487840874
 2023,Other creditors,Lesotho,81.69009538264805
 2023,Other creditors,Liberia,95.86862670866917
+2023,Other creditors,Low & lower middle income,89.2198396399882
 2023,Other creditors,Low & middle income,94.74092296940056
-2023,Other creditors,Low and lower middle income,89.2198396399882
 2023,Other creditors,Low income,86.42673736874563
 2023,Other creditors,Lower middle income,89.53131639019784
 2023,Other creditors,Madagascar,92.62928711147278
@@ -6891,8 +6887,8 @@ year,creditor_name,debtor_name,value
 2024,Other creditors,Lebanon,99.9796904144309
 2024,Other creditors,Lesotho,82.12900503047278
 2024,Other creditors,Liberia,96.44785778536053
+2024,Other creditors,Low & lower middle income,89.94790743247835
 2024,Other creditors,Low & middle income,95.19321504110911
-2024,Other creditors,Low and lower middle income,89.94790743247835
 2024,Other creditors,Low income,86.26902750783769
 2024,Other creditors,Lower middle income,90.35274144698857
 2024,Other creditors,Madagascar,93.3382926571852
