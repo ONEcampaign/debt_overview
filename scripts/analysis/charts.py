@@ -670,15 +670,13 @@ def chart_8() -> None:
 
 
 def chart_9() -> None:
-    """Chart 9: bar chart, China bilateral vs private vs other creditors
-    """
+    """Chart 9: bar chart, China bilateral vs private vs other creditors"""
 
     df = pd.read_parquet(Paths.raw_data / "ids_debt_stocks.parquet")
 
     cols_map = {
         "DT.DOD.BLAT.CD": "bilateral",
         "DT.DOD.MLAT.CD": "multilateral",
-
         # all private categories grouped together
         "DT.DOD.PBND.CD": "private",
         "DT.DOD.PCBK.CD": "private",
@@ -686,74 +684,85 @@ def chart_9() -> None:
     }
 
     # Basic cleaning
-    df = (df
-          .dropna(subset=["value"])
-          .loc[lambda d: d.year >= START_YEAR]
-          .assign(indicator_name=lambda d: d.indicator_code.map(cols_map))
-          .loc[:, ["entity_name", "year", "value", "indicator_name", "counterpart_name"]]
+    df = (
+        df.dropna(subset=["value"])
+        .loc[lambda d: d.year >= START_YEAR]
+        .assign(indicator_name=lambda d: d.indicator_code.map(cols_map))
+        .loc[:, ["entity_name", "year", "value", "indicator_name", "counterpart_name"]]
     )
 
     # aggregate for debtor Low and lower middle income
-    llmi_df = (df
-               .loc[lambda d: d.entity_name.isin(["Low income", "Lower middle income"])]
-               .groupby(["year", "indicator_name", "counterpart_name"], observed=True)
-               .agg({"value": "sum"})
-               .reset_index()
-               .assign(entity_name="Low and lower middle income")
-
-               )
+    llmi_df = (
+        df.loc[lambda d: d.entity_name.isin(["Low income", "Lower middle income"])]
+        .groupby(["year", "indicator_name", "counterpart_name"], observed=True)
+        .agg({"value": "sum"})
+        .reset_index()
+        .assign(entity_name="Low and lower middle income")
+    )
 
     # add the low and lower middle income aggregate to the main df
-    df = (pd.concat([df, llmi_df], ignore_index=True))
+    df = pd.concat([df, llmi_df], ignore_index=True)
 
     # aggregate for creditor: China bilateral and private
-    china_df = (df
-                .loc[lambda d: d.counterpart_name == "China"]
-                .groupby(["year", "indicator_name", "entity_name"], observed=True)
-                .agg({"value": "sum"})
-                .reset_index()
-                .assign(indicator_name=lambda d: "China " + "(" + d.indicator_name + ")")
-                )
+    china_df = (
+        df.loc[lambda d: d.counterpart_name == "China"]
+        .groupby(["year", "indicator_name", "entity_name"], observed=True)
+        .agg({"value": "sum"})
+        .reset_index()
+        .assign(indicator_name=lambda d: "China " + "(" + d.indicator_name + ")")
+    )
 
     # aggregate for total of all other creditors
-    other_df = (df
-                .loc[lambda d: ~d.counterpart_name.isin(["World", "China"])]
-                .groupby(["year", "entity_name"], observed=True)
-                .agg({"value": "sum"})
-                .reset_index()
-                .assign(indicator_name="Other creditors")
+    other_df = (
+        df.loc[lambda d: ~d.counterpart_name.isin(["World", "China"])]
+        .groupby(["year", "entity_name"], observed=True)
+        .agg({"value": "sum"})
+        .reset_index()
+        .assign(indicator_name="Other creditors")
+    )
 
-                )
-
-    combined_df = (pd.concat([china_df, other_df], ignore_index=True))
+    combined_df = pd.concat([china_df, other_df], ignore_index=True)
 
     # total debt stock (World) per debtor and year
-    total_df = (df
-                .loc[lambda d: d.counterpart_name == "World"]
-                .groupby(["year", "entity_name"], observed=True)
-                .agg(total_value=("value", "sum"))
-                .reset_index()
-                )
+    total_df = (
+        df.loc[lambda d: d.counterpart_name == "World"]
+        .groupby(["year", "entity_name"], observed=True)
+        .agg(total_value=("value", "sum"))
+        .reset_index()
+    )
 
     # convert each creditor value to % of total
-    combined_df = (combined_df
-                   .merge(total_df, on=["year", "entity_name"], how="left")
-                   .assign(value=lambda d: 100 * d.value / d.total_value)
-                   .drop(columns="total_value")
-                   .rename(columns={"indicator_name": "creditor_name", "entity_name": "debtor_name"})
-                   )
+    combined_df = (
+        combined_df.merge(total_df, on=["year", "entity_name"], how="left")
+        .assign(value=lambda d: 100 * d.value / d.total_value)
+        .drop(columns="total_value")
+        .rename(
+            columns={"indicator_name": "creditor_name", "entity_name": "debtor_name"}
+        )
+    )
 
     # export data for download
     combined_df.to_csv(Paths.output / "chart_9_download.csv", index=False)
 
     # chart data
-    (combined_df
-    .pivot(index=["debtor_name", "year"], columns="creditor_name", values="value")
-    .reset_index()
-    .pipe(custom_sort,{"debtor_name": ["Low & middle income", "Low and lower middle income", "Africa (excluding high income)"]},)
-    # keep only entity_name where at least one of the China columns is not null
-    .loc[lambda d: d.filter(like="China").notna().any(axis=1)]
-    .to_csv(Paths.output / "chart_9_chart.csv", index=False)
+    (
+        combined_df.pivot(
+            index=["debtor_name", "year"], columns="creditor_name", values="value"
+        )
+        .reset_index()
+        .pipe(
+            custom_sort,
+            {
+                "debtor_name": [
+                    "Low & middle income",
+                    "Low and lower middle income",
+                    "Africa (excluding high income)",
+                ]
+            },
+        )
+        # keep only entity_name where at least one of the China columns is not null
+        .loc[lambda d: d.filter(like="China").notna().any(axis=1)]
+        .to_csv(Paths.output / "chart_9_chart.csv", index=False)
     )
 
 
