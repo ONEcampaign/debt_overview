@@ -793,16 +793,16 @@ def chart_9() -> None:
 if __name__ == "__main__":
     logger.info("Running charts and key statistics")
 
-    # chart_1()  # debt stocks chart
-    # chart_2()  # total debt service chart
-    # chart_3()  # debt composition chart
-    # chart_4()  # debt service by interest and principal chart
-    # chart_5()  # DSA map chart
-    # chart_6()  # packed circle chart
-    # chart_7()  # debt disbursements chart
-    # chart_8()  # debt service vs social expenditure chart
+    chart_1()  # debt stocks chart
+    chart_2()  # total debt service chart
+    chart_3()  # debt composition chart
+    chart_4()  # debt service by interest and principal chart
+    chart_5()  # DSA map chart
+    chart_6()  # packed circle chart
+    chart_7()  # debt disbursements chart
+    chart_8()  # debt service vs social expenditure chart
     chart_9()  # China bilateral vs private vs other creditors chart
-    # key_stats()  # key statistics
-    # last_update()  # last update date
+    key_stats()  # key statistics
+    last_update()  # last update date
 
     logger.info("Successfully created all charts")
