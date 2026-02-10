@@ -821,6 +821,9 @@ def chart_10() -> None:
         columns={"indicator_name": "creditor_name", "entity_name": "debtor_name"}
     )
 
+    # remove estimate years
+    combined_df = combined_df.loc[lambda d: d.year <= LATEST_YEAR]
+
     # export data for download
     combined_df.to_csv(Paths.output / "chart_10_download.csv", index=False)
 
