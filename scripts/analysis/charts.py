@@ -526,9 +526,11 @@ def key_stats() -> None:
     val = (
         pd.read_parquet(Paths.raw_data / "ids_debt_stocks.parquet")
         .loc[
-            lambda d: (d.entity_code == "LMY")
-            & (d.counterpart_code == "WLD")
-            & (d.year == LATEST_YEAR)
+            lambda d: (
+                (d.entity_code == "LMY")
+                & (d.counterpart_code == "WLD")
+                & (d.year == LATEST_YEAR)
+            )
         ]
         .value.sum()
         / 1_000_000_000_000
@@ -539,9 +541,11 @@ def key_stats() -> None:
     val = (
         _get_debt_service_data()
         .loc[
-            lambda d: (d.debtor_name == "Low & middle income")
-            & (d.creditor_name == "All creditors")
-            & (d.year == LATEST_YEAR)
+            lambda d: (
+                (d.debtor_name == "Low & middle income")
+                & (d.creditor_name == "All creditors")
+                & (d.year == LATEST_YEAR)
+            )
         ]
         .value.sum()
         / 1_000_000_000
