@@ -669,11 +669,12 @@ def chart_8() -> None:
     logger.info("Chart 8 created successfully")
 
 
-def _add_low_lower_middle_income(df: pd.DataFrame,
-                                 debtor_col: str = "entity_name",
-                                 index_cols=None,
-                                 value_col: str = "value"
-                                 ) -> pd.DataFrame:
+def _add_low_lower_middle_income(
+    df: pd.DataFrame,
+    debtor_col: str = "entity_name",
+    index_cols=None,
+    value_col: str = "value",
+) -> pd.DataFrame:
     """Helper function to aggregate data for low and lower middle income countries
     and add it to the main dataframe
 
@@ -688,7 +689,7 @@ def _add_low_lower_middle_income(df: pd.DataFrame,
         .groupby(index_cols, observed=True)
         .agg({value_col: "sum"})
         .reset_index()
-        .assign(**{debtor_col:"Low & lower middle income"})
+        .assign(**{debtor_col: "Low & lower middle income"})
     )
 
     # add the low and lower middle income aggregate to the main df
@@ -738,21 +739,20 @@ def _calculate_china_and_other_proportion(df: pd.DataFrame) -> pd.DataFrame:
 
     return combined_df
 
+
 def _cleaning_china_chart_data(df: pd.DataFrame, cols_map: dict) -> pd.DataFrame:
     """helper function to clean data for China proportion charts"""
 
     # Basic cleaning
-    return (df
-          .dropna(subset=["value"])
-          .loc[lambda d: d.year >= START_YEAR]
-          .assign(indicator_name=lambda d: d.indicator_code.map(cols_map))
-          .loc[:, ["entity_name", "year", "value", "indicator_name", "counterpart_name"]]
-          # drop any entity counterpart combinations where the value is 0 for all years (e.g. no stocks at all)
-          .groupby(["entity_name", "counterpart_name", "indicator_name"], as_index=False)
-          .filter(lambda d: d.value.ne(0).any())
-          )
-
-
+    return (
+        df.dropna(subset=["value"])
+        .loc[lambda d: d.year >= START_YEAR]
+        .assign(indicator_name=lambda d: d.indicator_code.map(cols_map))
+        .loc[:, ["entity_name", "year", "value", "indicator_name", "counterpart_name"]]
+        # drop any entity counterpart combinations where the value is 0 for all years (e.g. no stocks at all)
+        .groupby(["entity_name", "counterpart_name", "indicator_name"], as_index=False)
+        .filter(lambda d: d.value.ne(0).any())
+    )
 
 
 def chart_9() -> None:
@@ -773,7 +773,9 @@ def chart_9() -> None:
     df = _cleaning_china_chart_data(df, cols_map)
     df = _add_low_lower_middle_income(df)
     combined_df = _calculate_china_and_other_proportion(df)
-    combined_df = combined_df.rename(columns={"indicator_name": "creditor_name", "entity_name": "debtor_name"})
+    combined_df = combined_df.rename(
+        columns={"indicator_name": "creditor_name", "entity_name": "debtor_name"}
+    )
 
     # export data for download
     combined_df.to_csv(Paths.output / "chart_9_download.csv", index=False)
@@ -800,7 +802,7 @@ def chart_9() -> None:
     )
 
 
-def chart_10()-> None:
+def chart_10() -> None:
     """Chart 10: China proportion of debt disbursements"""
 
     df = pd.read_parquet(Paths.raw_data / "ids_disbursements.parquet")
@@ -818,7 +820,9 @@ def chart_10()-> None:
     df = _cleaning_china_chart_data(df, cols_map)
     df = _add_low_lower_middle_income(df)
     combined_df = _calculate_china_and_other_proportion(df)
-    combined_df = combined_df.rename(columns={"indicator_name": "creditor_name", "entity_name": "debtor_name"})
+    combined_df = combined_df.rename(
+        columns={"indicator_name": "creditor_name", "entity_name": "debtor_name"}
+    )
 
     # export data for download
     combined_df.to_csv(Paths.output / "chart_10_download.csv", index=False)
@@ -867,7 +871,9 @@ def chart_11() -> None:
     df = _cleaning_china_chart_data(df, cols_map)
     df = _add_low_lower_middle_income(df)
     combined_df = _calculate_china_and_other_proportion(df)
-    combined_df = combined_df.rename(columns={"indicator_name": "creditor_name", "entity_name": "debtor_name"})
+    combined_df = combined_df.rename(
+        columns={"indicator_name": "creditor_name", "entity_name": "debtor_name"}
+    )
 
     # export data for download
     combined_df.to_csv(Paths.output / "chart_11_download.csv", index=False)
@@ -911,7 +917,7 @@ if __name__ == "__main__":
     last_update()  # last update date
 
     # temporary chart objects not embedded in page
-    chart_10() # China proportion of debt disbursements chart
-    chart_11() # China proportion of debt service chart
+    chart_10()  # China proportion of debt disbursements chart
+    chart_11()  # China proportion of debt service chart
 
     logger.info("Successfully created all charts")
