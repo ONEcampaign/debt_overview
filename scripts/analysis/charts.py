@@ -738,6 +738,22 @@ def _calculate_china_and_other_proportion(df: pd.DataFrame) -> pd.DataFrame:
 
     return combined_df
 
+def _cleaning_china_chart_data(df: pd.DataFrame, cols_map: dict) -> pd.DataFrame:
+    """helper function to clean data for China proportion charts"""
+
+    # Basic cleaning
+    return (df
+          .dropna(subset=["value"])
+          .loc[lambda d: d.year >= START_YEAR]
+          .assign(indicator_name=lambda d: d.indicator_code.map(cols_map))
+          .loc[:, ["entity_name", "year", "value", "indicator_name", "counterpart_name"]]
+          # drop any entity counterpart combinations where the value is 0 for all years (e.g. no stocks at all)
+          .groupby(["entity_name", "counterpart_name", "indicator_name"], as_index=False)
+          .filter(lambda d: d.value.ne(0).any())
+          )
+
+
+
 
 def chart_9() -> None:
     """Chart 9: bar chart, China bilateral vs private vs other creditors"""
@@ -754,13 +770,7 @@ def chart_9() -> None:
     }
 
     # Basic cleaning
-    df = (
-        df.dropna(subset=["value"])
-        .loc[lambda d: d.year >= START_YEAR]
-        .assign(indicator_name=lambda d: d.indicator_code.map(cols_map))
-        .loc[:, ["entity_name", "year", "value", "indicator_name", "counterpart_name"]]
-    )
-
+    df = _cleaning_china_chart_data(df, cols_map)
     df = _add_low_lower_middle_income(df)
     combined_df = _calculate_china_and_other_proportion(df)
     combined_df = combined_df.rename(columns={"indicator_name": "creditor_name", "entity_name": "debtor_name"})
@@ -793,16 +803,16 @@ def chart_9() -> None:
 if __name__ == "__main__":
     logger.info("Running charts and key statistics")
 
-    chart_1()  # debt stocks chart
-    chart_2()  # total debt service chart
-    chart_3()  # debt composition chart
-    chart_4()  # debt service by interest and principal chart
-    chart_5()  # DSA map chart
-    chart_6()  # packed circle chart
-    chart_7()  # debt disbursements chart
-    chart_8()  # debt service vs social expenditure chart
+    # chart_1()  # debt stocks chart
+    # chart_2()  # total debt service chart
+    # chart_3()  # debt composition chart
+    # chart_4()  # debt service by interest and principal chart
+    # chart_5()  # DSA map chart
+    # chart_6()  # packed circle chart
+    # chart_7()  # debt disbursements chart
+    # chart_8()  # debt service vs social expenditure chart
     chart_9()  # China bilateral vs private vs other creditors chart
-    key_stats()  # key statistics
-    last_update()  # last update date
+    # key_stats()  # key statistics
+    # last_update()  # last update date
 
     logger.info("Successfully created all charts")
