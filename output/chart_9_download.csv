@@ -136,7 +136,6 @@ year,creditor_name,debtor_name,value
 2000,China (private),Sudan,0.0007971230069450829
 2000,China (private),Upper middle income,0.049500483292676756
 2000,China (private),Viet Nam,0.05947674832935749
-2000,China (private),Zimbabwe,0.0
 2001,China (bilateral),Africa (excluding high income),1.166192679342708
 2001,China (bilateral),Albania,0.5832676595648529
 2001,China (bilateral),Algeria,0.15474000202055668
@@ -273,7 +272,6 @@ year,creditor_name,debtor_name,value
 2001,China (private),Sudan,0.0008039409564430355
 2001,China (private),Upper middle income,0.06179987684017559
 2001,China (private),Viet Nam,0.04701475992186991
-2001,China (private),Zimbabwe,0.0
 2002,China (bilateral),Africa (excluding high income),1.1166086470777437
 2002,China (bilateral),Albania,4.166548396120092
 2002,China (bilateral),Algeria,0.15735790485583004
@@ -3614,7 +3612,6 @@ year,creditor_name,debtor_name,value
 2024,China (private),Cote d'Ivoire,1.0818898718968213
 2024,China (private),East Asia & Pacific (excluding high income),0.13953744218798111
 2024,China (private),"Egypt, Arab Rep.",2.173442261084034
-2024,China (private),El Salvador,0.0
 2024,China (private),Ethiopia,4.123203784242102
 2024,China (private),Europe & Central Asia (excluding high income),0.10713863852596581
 2024,China (private),Gabon,1.4538943786100802
@@ -3634,7 +3631,6 @@ year,creditor_name,debtor_name,value
 2024,China (private),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",0.6673691239038805
 2024,China (private),Middle income,0.6129129635571495
 2024,China (private),Myanmar,13.611523014330768
-2024,China (private),Nicaragua,0.0
 2024,China (private),Senegal,0.08722263439153302
 2024,China (private),South Asia,0.0769976424711354
 2024,China (private),Sri Lanka,0.0
