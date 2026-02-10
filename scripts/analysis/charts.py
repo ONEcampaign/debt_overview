@@ -4,9 +4,9 @@ import json
 from datetime import datetime
 
 import pandas as pd
-from bblocks import places
-from bblocks.data_importers import InternationalDebtStatistics, get_dsa, GHED
 import unesco_reader as uis
+from bblocks import places
+from bblocks.data_importers import GHED, InternationalDebtStatistics, get_dsa
 
 from scripts.config import Paths
 from scripts.logger import logger

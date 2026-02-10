@@ -11,7 +11,6 @@ from pydeflate import imf_exchange, set_pydeflate_path
 
 from scripts.config import Paths
 
-
 set_pydeflate_path(Paths.raw_data)
 
 
