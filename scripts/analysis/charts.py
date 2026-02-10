@@ -697,7 +697,7 @@ def chart_9() -> None:
         .groupby(["year", "indicator_name", "counterpart_name"], observed=True)
         .agg({"value": "sum"})
         .reset_index()
-        .assign(entity_name="Low and lower middle income")
+        .assign(entity_name="Low & lower middle income")
     )
 
     # add the low and lower middle income aggregate to the main df
