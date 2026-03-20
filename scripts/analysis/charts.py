@@ -562,6 +562,34 @@ def key_stats() -> None:
 
     stats_dict["countries_debt_distress"] = val
 
+    # countries where debt service > health/education spending (% of gov expenditure)
+    chart_8_df = pd.read_csv(Paths.output / "chart_8_chart.csv")
+    country_df = chart_8_df.loc[
+        lambda d: d.entity_code.notna() & (d.year <= GHED_END_YEAR)
+    ]
+
+    # latest year per country where both debt service and health exist
+    health_compare = (
+        country_df.dropna(subset=["debt service", "health"])
+        .sort_values("year")
+        .groupby("entity_code")
+        .last()
+    )
+    stats_dict["countries_debt_vs_health"] = int(
+        (health_compare["debt service"] > health_compare["health"]).sum()
+    )
+
+    # latest year per country where both debt service and education exist
+    edu_compare = (
+        country_df.dropna(subset=["debt service", "education"])
+        .sort_values("year")
+        .groupby("entity_code")
+        .last()
+    )
+    stats_dict["countries_debt_vs_education"] = int(
+        (edu_compare["debt service"] > edu_compare["education"]).sum()
+    )
+
     stats_dict["latest_year"] = LATEST_YEAR  # latest year of data
 
     with open(Paths.output / "key_stats.json", "w") as f:
