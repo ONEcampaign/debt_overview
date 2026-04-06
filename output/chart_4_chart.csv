@@ -14,7 +14,7 @@ Low & middle income,2011,All creditors,48069227651.6,110910728037.3
 Low & middle income,2012,All creditors,72360111193.7,91425437199.4
 Low & middle income,2013,All creditors,57426139007.8,122925777713.4
 Low & middle income,2014,All creditors,62825521626.9,136713250741.7
-Low & middle income,2015,All creditors,69982764573.2,180645292883.7
+Low & middle income,2015,All creditors,69982764573.2,180645292883.69998
 Low & middle income,2016,All creditors,79494448696.3,172761707597.1
 Low & middle income,2017,All creditors,92072104356.9,187001608332.4
 Low & middle income,2018,All creditors,98160250530.0,207169697538.2
@@ -6762,8 +6762,8 @@ Albania,2023,All creditors,146476868.9,311035894.7
 Albania,2024,All creditors,191138298.7,312451644.1
 Albania,2025,All creditors,179117284.9,1213869624.8
 Albania,2026,All creditors,157151051.2,435533523.3
-Albania,2027,All creditors,156618763.70000002,778455880.8000001
-Albania,2028,All creditors,138464598.6,968902259.6999999
+Albania,2027,All creditors,156618763.70000002,778455880.8
+Albania,2028,All creditors,138464598.6,968902259.7
 Albania,2029,All creditors,96501424.7,366887279.6
 Albania,2030,All creditors,88492691.9,361356150.8
 Albania,2000,Austria,187721.5,931186.6
@@ -8933,10 +8933,10 @@ Argentina,2004,All creditors,746438706.0999999,1837036427.5
 Argentina,2005,All creditors,1453918706.1,1724365749.8
 Argentina,2006,All creditors,1370255020.1000001,2634311730.7
 Argentina,2007,All creditors,1678114741.1,3333017212.9
-Argentina,2008,All creditors,2478079224.6,3396554866.7
+Argentina,2008,All creditors,2478079224.6,3396554866.7000003
 Argentina,2009,All creditors,2030828477.0000002,5592410723.5
-Argentina,2010,All creditors,2699988526.0,6034819678.200001
-Argentina,2011,All creditors,2455701020.2,5364644957.599999
+Argentina,2010,All creditors,2699988526.0,6034819678.2
+Argentina,2011,All creditors,2455701020.2,5364644957.6
 Argentina,2012,All creditors,2624919145.6,3479199596.6
 Argentina,2013,All creditors,2649920217.3,4767567036.4
 Argentina,2014,All creditors,5360955305.800001,4747336147.0
@@ -8955,7 +8955,7 @@ Argentina,2026,All creditors,3637019644.1,7806888531.2
 Argentina,2027,All creditors,3432712342.0,3995221403.6
 Argentina,2028,All creditors,3264256172.1,4196565847.0
 Argentina,2029,All creditors,3054787810.8,4012173732.0
-Argentina,2030,All creditors,2781797454.6,5861447533.9
+Argentina,2030,All creditors,2781797454.6,5861447533.900001
 Argentina,2006,Australia,39174.2,33147.4
 Argentina,2007,Australia,37735.2,39412.3
 Argentina,2008,Australia,40197.4,39342.2
@@ -9662,7 +9662,7 @@ Armenia,2011,All creditors,37905316.5,28492787.2
 Armenia,2012,All creditors,43442841.199999996,30012866.9
 Armenia,2013,All creditors,41681508.4,536818090.1
 Armenia,2014,All creditors,71398114.3,41835863.7
-Armenia,2015,All creditors,100114324.3,259703479.89999998
+Armenia,2015,All creditors,100114324.3,259703479.9
 Armenia,2016,All creditors,123018990.9,72829146.3
 Armenia,2017,All creditors,139893426.9,90547361.30000001
 Armenia,2018,All creditors,161761417.0,138209771.1
@@ -9672,7 +9672,7 @@ Armenia,2021,All creditors,144697121.6,245947690.59999996
 Armenia,2022,All creditors,161923261.2,256086582.7
 Armenia,2023,All creditors,238456852.4,473060936.9
 Armenia,2024,All creditors,254440888.6,314692084.1
-Armenia,2025,All creditors,219115556.5,700524753.8000001
+Armenia,2025,All creditors,219115556.5,700524753.8
 Armenia,2026,All creditors,209561524.79999998,481563975.8
 Armenia,2027,All creditors,206303807.6,400446492.9
 Armenia,2028,All creditors,201400888.4,409465704.29999995
@@ -11504,7 +11504,7 @@ Belarus,2014,All creditors,703831463.6,2099344060.6999998
 Belarus,2015,All creditors,780651638.3000001,2482969596.6
 Belarus,2016,All creditors,745085485.9,2313757257.0
 Belarus,2017,All creditors,868272731.1,1680017987.6
-Belarus,2018,All creditors,1022415069.2,3454947044.1000004
+Belarus,2018,All creditors,1022415069.2,3454947044.1
 Belarus,2019,All creditors,1015371903.6999999,2562830712.6
 Belarus,2020,All creditors,891616274.8,2712307453.1
 Belarus,2021,All creditors,852912584.2,1938076993.7
@@ -11964,7 +11964,7 @@ Belize,2017,All creditors,41548619.1,44441231.1
 Belize,2018,All creditors,43316655.4,42248299.1
 Belize,2019,All creditors,49734556.400000006,43946878.099999994
 Belize,2020,All creditors,32268726.4,43174367.5
-Belize,2021,All creditors,16638060.5,596629593.1999999
+Belize,2021,All creditors,16638060.5,596629593.2
 Belize,2022,All creditors,30798993.4,40988543.0
 Belize,2023,All creditors,50280903.4,56494694.1
 Belize,2024,All creditors,61745214.900000006,62194778.8
@@ -12488,7 +12488,7 @@ Benin,2022,All creditors,163466678.60000002,291913650.5
 Benin,2023,All creditors,190661655.7,569365444.2
 Benin,2024,All creditors,315457948.0,637214710.3
 Benin,2025,All creditors,287301008.1,705981070.3
-Benin,2026,All creditors,292795207.8,717920567.1
+Benin,2026,All creditors,292795207.8,717920567.0999999
 Benin,2027,All creditors,286998617.8,768620967.5
 Benin,2028,All creditors,273258227.5,739919830.9
 Benin,2029,All creditors,256870630.3,709304670.8
@@ -13348,7 +13348,7 @@ Bolivia,2018,All creditors,316224428.8,359541050.2
 Bolivia,2019,All creditors,371300298.3,411711102.8
 Bolivia,2020,All creditors,362834415.8,458263753.3
 Bolivia,2021,All creditors,306535163.6,494657607.8
-Bolivia,2022,All creditors,389016010.1,1420343622.3999999
+Bolivia,2022,All creditors,389016010.1,1420343622.4
 Bolivia,2023,All creditors,630120386.7,856936233.6
 Bolivia,2024,All creditors,685428949.3,851314462.0
 Bolivia,2025,All creditors,631251284.7,638961534.9000001
@@ -13999,17 +13999,17 @@ Bosnia and Herzegovina,2006,All creditors,61591010.800000004,67411357.2
 Bosnia and Herzegovina,2007,All creditors,69973837.2,81149398.3
 Bosnia and Herzegovina,2008,All creditors,80408545.10000001,92511792.4
 Bosnia and Herzegovina,2009,All creditors,63553770.2,111842266.9
-Bosnia and Herzegovina,2010,All creditors,55636527.4,147017713.79999998
-Bosnia and Herzegovina,2011,All creditors,65960073.9,173998561.8
+Bosnia and Herzegovina,2010,All creditors,55636527.4,147017713.8
+Bosnia and Herzegovina,2011,All creditors,65960073.9,173998561.79999998
 Bosnia and Herzegovina,2012,All creditors,65640087.6,171666707.3
 Bosnia and Herzegovina,2013,All creditors,57665686.900000006,200833861.7
 Bosnia and Herzegovina,2014,All creditors,81927388.4,231709422.5
 Bosnia and Herzegovina,2015,All creditors,55783915.5,347382539.5
 Bosnia and Herzegovina,2016,All creditors,64846012.9,271151306.8
-Bosnia and Herzegovina,2017,All creditors,63356606.0,308606627.79999995
+Bosnia and Herzegovina,2017,All creditors,63356606.0,308606627.8
 Bosnia and Herzegovina,2018,All creditors,76825868.5,344850225.2
 Bosnia and Herzegovina,2019,All creditors,79775591.60000001,374799553.1
-Bosnia and Herzegovina,2020,All creditors,81613791.8,393271121.4
+Bosnia and Herzegovina,2020,All creditors,81613791.8,393271121.40000004
 Bosnia and Herzegovina,2021,All creditors,78631201.60000001,421484008.1
 Bosnia and Herzegovina,2022,All creditors,84874314.0,375561916.09999996
 Bosnia and Herzegovina,2023,All creditors,134746924.1,692862212.9
@@ -15384,14 +15384,14 @@ Brazil,2002,All creditors,6843880768.8,15040217131.2
 Brazil,2003,All creditors,6803500939.900001,13920493225.0
 Brazil,2004,All creditors,7093964998.7,13441896961.0
 Brazil,2005,All creditors,6700180689.5,9481404012.6
-Brazil,2006,All creditors,7145642745.0,24515545631.699997
+Brazil,2006,All creditors,7145642745.0,24515545631.7
 Brazil,2007,All creditors,7078154923.799999,14123773196.9
-Brazil,2008,All creditors,6056586429.099999,16352615311.099998
-Brazil,2009,All creditors,5656466033.5,7787766739.1
+Brazil,2008,All creditors,6056586429.099999,16352615311.1
+Brazil,2009,All creditors,5656466033.5,7787766739.099999
 Brazil,2010,All creditors,5172181054.8,9628053650.300001
 Brazil,2011,All creditors,5445709522.8,15852247933.8
-Brazil,2012,All creditors,5039901778.0,6732234454.900001
-Brazil,2013,All creditors,6059435695.8,14813854401.099998
+Brazil,2012,All creditors,5039901778.0,6732234454.9
+Brazil,2013,All creditors,6059435695.8,14813854401.1
 Brazil,2014,All creditors,5725760687.0,9168137431.7
 Brazil,2015,All creditors,5895399713.5,22929391951.9
 Brazil,2016,All creditors,5537386459.0,18982869476.9
@@ -15406,7 +15406,7 @@ Brazil,2024,All creditors,10779100848.7,30913799605.1
 Brazil,2025,All creditors,10302665351.0,18061532622.399998
 Brazil,2026,All creditors,9923822542.8,12419793170.5
 Brazil,2027,All creditors,9296546429.3,9819134580.6
-Brazil,2028,All creditors,8712098315.7,12473009394.900002
+Brazil,2028,All creditors,8712098315.7,12473009394.9
 Brazil,2029,All creditors,8085512610.7,13215668412.3
 Brazil,2030,All creditors,6864569856.6,42603669173.2
 Brazil,2000,Argentina,1761000.0,10359000.0
@@ -20758,23 +20758,23 @@ Colombia,2006,All creditors,1642382782.6999998,3475661923.7
 Colombia,2007,All creditors,1934110652.4,2872489670.1
 Colombia,2008,All creditors,2098979049.0,2211715599.7
 Colombia,2009,All creditors,1981401100.3000002,1803170911.8
-Colombia,2010,All creditors,2121425282.2,2318217879.3
-Colombia,2011,All creditors,2080927975.9,2351284537.7000003
+Colombia,2010,All creditors,2121425282.2,2318217879.2999997
+Colombia,2011,All creditors,2080927975.9,2351284537.7
 Colombia,2012,All creditors,2266318465.2,2784757157.8
 Colombia,2013,All creditors,2287431599.5000005,2007732773.7
 Colombia,2014,All creditors,2711758782.1,2622920846.3
 Colombia,2015,All creditors,3106947333.4,1754883291.8
 Colombia,2016,All creditors,3121032800.6,2726119259.2
 Colombia,2017,All creditors,3525879314.1,6738169587.599999
-Colombia,2018,All creditors,3572535936.1,6753153506.599999
+Colombia,2018,All creditors,3572535936.1,6753153506.6
 Colombia,2019,All creditors,3796638880.3999996,4669916526.1
 Colombia,2020,All creditors,3482721849.9,3591094137.1
 Colombia,2021,All creditors,3811677916.0,9533025004.6
 Colombia,2022,All creditors,3885374724.2,4925138799.5
 Colombia,2023,All creditors,4918345360.3,8676333684.8
-Colombia,2024,All creditors,5844939864.2,9026474618.7
+Colombia,2024,All creditors,5844939864.2,9026474618.699999
 Colombia,2025,All creditors,6144079631.5,2997600517.8
-Colombia,2026,All creditors,6027306637.4,5768396723.099999
+Colombia,2026,All creditors,6027306637.4,5768396723.1
 Colombia,2027,All creditors,5748842217.3,8416431569.5
 Colombia,2028,All creditors,5287169589.4,4385854702.8
 Colombia,2029,All creditors,4948241788.5,8905514634.0
@@ -22915,7 +22915,7 @@ Cote d'Ivoire,2026,All creditors,1356533473.4,2280192387.3
 Cote d'Ivoire,2027,All creditors,1315958812.8000002,2461864688.9
 Cote d'Ivoire,2028,All creditors,1233680672.5,2743512359.5
 Cote d'Ivoire,2029,All creditors,1139447386.6,2743110813.4
-Cote d'Ivoire,2030,All creditors,1025438402.3,3258974932.3999996
+Cote d'Ivoire,2030,All creditors,1025438402.3,3258974932.4
 Cote d'Ivoire,2020,Africa Finance Corporation,16149959.2,35288390.0
 Cote d'Ivoire,2022,Africa Finance Corporation,27938052.6,172291316.3
 Cote d'Ivoire,2023,Africa Finance Corporation,15727851.2,61340870.4
@@ -24182,15 +24182,15 @@ Dominica,2017,All creditors,7972759.800000001,19531734.200000003
 Dominica,2018,All creditors,8668712.2,18473363.5
 Dominica,2019,All creditors,6621539.2,18539080.5
 Dominica,2020,All creditors,6627796.3,20389032.7
-Dominica,2021,All creditors,6441048.9,11854383.2
-Dominica,2022,All creditors,8236070.2,20531022.9
+Dominica,2021,All creditors,6441048.9,11854383.200000001
+Dominica,2022,All creditors,8236070.2,20531022.900000002
 Dominica,2023,All creditors,8285454.8,22431208.3
 Dominica,2024,All creditors,8035801.5,44224588.4
 Dominica,2025,All creditors,6142018.5,18753620.3
 Dominica,2026,All creditors,6086374.7,26650732.1
-Dominica,2027,All creditors,5390555.6,17169816.7
+Dominica,2027,All creditors,5390555.6,17169816.700000003
 Dominica,2028,All creditors,5078648.8,17125994.8
-Dominica,2029,All creditors,4741226.7,21635078.4
+Dominica,2029,All creditors,4741226.7,21635078.400000002
 Dominica,2030,All creditors,4297905.1,23858285.6
 Dominica,2004,Bahamas,29000.0,
 Dominica,2005,Bahamas,30000.0,
@@ -24733,14 +24733,14 @@ Dominican Republic,2016,All creditors,922197771.0999999,861073075.6
 Dominican Republic,2017,All creditors,715951316.0,807600529.0
 Dominican Republic,2018,All creditors,967917151.6,752279100.3
 Dominican Republic,2019,All creditors,1294737739.5,679480696.7
-Dominican Republic,2020,All creditors,1415064252.6000001,2789280852.7999997
+Dominican Republic,2020,All creditors,1415064252.6000001,2789280852.8
 Dominican Republic,2021,All creditors,1667771218.0,548880430.6
 Dominican Republic,2022,All creditors,1851122163.7,1310572839.9
 Dominican Republic,2023,All creditors,2187453316.2,1979901543.3999999
 Dominican Republic,2024,All creditors,2502478380.0,1753256421.3999999
 Dominican Republic,2025,All creditors,2593267385.5,1110084101.0
-Dominican Republic,2026,All creditors,2495026456.1,3101265122.2000003
-Dominican Republic,2027,All creditors,2327983496.4,2964159041.7000003
+Dominican Republic,2026,All creditors,2495026456.1,3101265122.2
+Dominican Republic,2027,All creditors,2327983496.4,2964159041.7
 Dominican Republic,2028,All creditors,2242368225.5,2264828676.7
 Dominican Republic,2029,All creditors,2087413338.6999998,950319116.9
 Dominican Republic,2030,All creditors,1952277584.3,2938679631.4
@@ -25570,7 +25570,7 @@ East Asia & Pacific (excluding high income),2018,All creditors,18266481865.7,340
 East Asia & Pacific (excluding high income),2019,All creditors,22658725226.7,44087549033.0
 East Asia & Pacific (excluding high income),2020,All creditors,23264281020.3,60136315978.6
 East Asia & Pacific (excluding high income),2021,All creditors,28698107003.300003,70261117929.8
-East Asia & Pacific (excluding high income),2022,All creditors,33854510695.6,118304280147.79999
+East Asia & Pacific (excluding high income),2022,All creditors,33854510695.6,118304280147.8
 East Asia & Pacific (excluding high income),2023,All creditors,41129788735.4,124863144911.5
 East Asia & Pacific (excluding high income),2024,All creditors,33739887753.6,107062938578.0
 East Asia & Pacific (excluding high income),2025,All creditors,43453911466.0,104027345957.2
@@ -27114,7 +27114,7 @@ Ecuador,2016,All creditors,1199930279.5,1858233581.2
 Ecuador,2017,All creditors,1752881757.5,2904692005.4
 Ecuador,2018,All creditors,2238169126.2,3202489449.9
 Ecuador,2019,All creditors,2385031974.9,3917097719.4
-Ecuador,2020,All creditors,1172588490.0,3812741262.6000004
+Ecuador,2020,All creditors,1172588490.0,3812741262.6
 Ecuador,2021,All creditors,1360046228.0,1749535749.9
 Ecuador,2022,All creditors,1353246610.1,1881569447.8
 Ecuador,2023,All creditors,1579889742.0,2405716946.4
@@ -27124,7 +27124,7 @@ Ecuador,2026,All creditors,1973964776.0,2327965013.5
 Ecuador,2027,All creditors,1879360061.1,2530859184.2
 Ecuador,2028,All creditors,1733410712.3,2597336997.0
 Ecuador,2029,All creditors,1574989956.4,2710310944.9
-Ecuador,2030,All creditors,1407555409.1999998,2909885579.8999996
+Ecuador,2030,All creditors,1407555409.1999998,2909885579.9
 Ecuador,2000,Argentina,3564000.0,10544000.0
 Ecuador,2001,Argentina,2629000.0,7636000.0
 Ecuador,2002,Argentina,3082000.0,5624000.0
@@ -27867,7 +27867,7 @@ Ecuador,2023,World Bank-IDA                         ,0.
 "Egypt, Arab Rep.",2011,All creditors,766294269.4,2788728162.6
 "Egypt, Arab Rep.",2012,All creditors,721571647.0,2232529523.9
 "Egypt, Arab Rep.",2013,All creditors,704845169.6,2591543125.1
-"Egypt, Arab Rep.",2014,All creditors,732110607.4,5121013680.900001
+"Egypt, Arab Rep.",2014,All creditors,732110607.4,5121013680.9
 "Egypt, Arab Rep.",2015,All creditors,715008187.6,2861358335.0
 "Egypt, Arab Rep.",2016,All creditors,1026204615.6,5104527672.8
 "Egypt, Arab Rep.",2017,All creditors,1566002257.5,4584116334.799999
@@ -29005,7 +29005,7 @@ El Salvador,2018,All creditors,588796669.2,436352836.2
 El Salvador,2019,All creditors,683775236.1,1178736733.2
 El Salvador,2020,All creditors,624796637.9,420531219.09999996
 El Salvador,2021,All creditors,696355913.0,412556816.0
-El Salvador,2022,All creditors,737369324.6999999,1046474633.4000001
+El Salvador,2022,All creditors,737369324.6999999,1046474633.4
 El Salvador,2023,All creditors,805701909.8,1100234603.6
 El Salvador,2024,All creditors,897220765.5,2163150003.8
 El Salvador,2025,All creditors,1030439713.5,668524180.9
@@ -31340,7 +31340,7 @@ Europe & Central Asia (excluding high income),2008,All creditors,7226504997.0999
 Europe & Central Asia (excluding high income),2009,All creditors,6803247269.8,10865943968.0
 Europe & Central Asia (excluding high income),2010,All creditors,6374341877.8,10120876809.4
 Europe & Central Asia (excluding high income),2011,All creditors,7332559762.4,12046615980.3
-Europe & Central Asia (excluding high income),2012,All creditors,7899671341.4,13405382217.1
+Europe & Central Asia (excluding high income),2012,All creditors,7899671341.4,13405382217.099998
 Europe & Central Asia (excluding high income),2013,All creditors,8289005805.7,17237944522.6
 Europe & Central Asia (excluding high income),2014,All creditors,9338705365.8,16333108144.6
 Europe & Central Asia (excluding high income),2015,All creditors,8960319063.199999,28645336462.9
@@ -33399,7 +33399,7 @@ Fiji,2016,All creditors,23351739.4,47915601.8
 Fiji,2017,All creditors,23919006.6,32828340.6
 Fiji,2018,All creditors,25664036.4,39829036.8
 Fiji,2019,All creditors,146137838.6,37872932.9
-Fiji,2020,All creditors,24291103.6,231222337.39999998
+Fiji,2020,All creditors,24291103.6,231222337.4
 Fiji,2021,All creditors,9158201.2,14860789.8
 Fiji,2022,All creditors,59164733.0,44348564.4
 Fiji,2023,All creditors,74704992.2,66338437.7
@@ -37063,12 +37063,12 @@ Guatemala,2021,All creditors,465680441.90000004,392504509.59999996
 Guatemala,2022,All creditors,483613783.09999996,1081173468.3
 Guatemala,2023,All creditors,598757952.3,358524280.2
 Guatemala,2024,All creditors,697972689.7,439834872.0
-Guatemala,2025,All creditors,701000116.5999999,451635706.7
+Guatemala,2025,All creditors,701000116.5999999,451635706.70000005
 Guatemala,2026,All creditors,725463411.5,1154512579.8
 Guatemala,2027,All creditors,663130870.6,945000673.2
 Guatemala,2028,All creditors,633133265.8,1129144193.9
 Guatemala,2029,All creditors,612113506.7,897019208.6
-Guatemala,2030,All creditors,554875200.1,356008347.59999996
+Guatemala,2030,All creditors,554875200.1,356008347.6
 Guatemala,2000,Bondholders,22199000.0,30576000.0
 Guatemala,2001,Bondholders,19716000.0,30576000.0
 Guatemala,2002,Bondholders,49124000.0,32053000.0
@@ -38160,7 +38160,7 @@ Guinea-Bissau,2026,All creditors,40544782.3,34227224.2
 Guinea-Bissau,2027,All creditors,40339408.4,35710343.2
 Guinea-Bissau,2028,All creditors,39923759.5,38429015.800000004
 Guinea-Bissau,2029,All creditors,39405116.3,39357578.4
-Guinea-Bissau,2030,All creditors,36406115.9,119845559.39999999
+Guinea-Bissau,2030,All creditors,36406115.9,119845559.4
 Guinea-Bissau,2000,African Dev. Bank         ,0.0,0.0
 Guinea-Bissau,2001,African Dev. Bank         ,0.0,131032.0
 Guinea-Bissau,2002,African Dev. Bank         ,0.0,20717.7
@@ -40022,14 +40022,14 @@ IDA only,2017,All creditors,5380139254.8,9869128523.4
 IDA only,2018,All creditors,6106128925.1,13099520797.6
 IDA only,2019,All creditors,7106014241.1,14027397122.300001
 IDA only,2020,All creditors,7182684940.799999,14357896581.6
-IDA only,2021,All creditors,7363217030.099999,18738327987.4
+IDA only,2021,All creditors,7363217030.099999,18738327987.399998
 IDA only,2022,All creditors,6233537581.9,16210219139.9
 IDA only,2023,All creditors,6929921646.700001,15620897067.6
 IDA only,2024,All creditors,9174887864.1,17919870907.6
-IDA only,2025,All creditors,11574385179.800001,39558861068.4
-IDA only,2026,All creditors,11047005854.5,34255869550.7
+IDA only,2025,All creditors,11574385179.800001,39558861068.399994
+IDA only,2026,All creditors,11047005854.5,34255869550.699997
 IDA only,2027,All creditors,10421250161.3,31639047965.2
-IDA only,2028,All creditors,9704408619.2,31526452328.800003
+IDA only,2028,All creditors,9704408619.2,31526452328.8
 IDA only,2029,All creditors,8861422743.2,30146571053.3
 IDA only,2030,All creditors,7884872973.3,30083488837.0
 IDA only,2023,Africa Finance Corporation,1059680.6,0.0
@@ -43003,7 +43003,7 @@ IDA total,2012,All creditors,3829296917.2,9100926726.4
 IDA total,2013,All creditors,4984808316.0,11243140186.1
 IDA total,2014,All creditors,5371574266.3,13508568119.6
 IDA total,2015,All creditors,6302920924.6,12096083137.1
-IDA total,2016,All creditors,7248164157.900001,13403735398.7
+IDA total,2016,All creditors,7248164157.900001,13403735398.699999
 IDA total,2017,All creditors,8567604922.4,18014403661.7
 IDA total,2018,All creditors,10806662342.9,20477849515.6
 IDA total,2019,All creditors,13241299928.6,27943315558.8
@@ -47258,12 +47258,12 @@ Indonesia,2021,All creditors,7914165403.2,23291878002.0
 Indonesia,2022,All creditors,8432543360.2,31171131437.5
 Indonesia,2023,All creditors,9597701134.5,16451371194.7
 Indonesia,2024,All creditors,10934686640.9,27271887190.5
-Indonesia,2025,All creditors,11475078159.5,14639936143.699999
+Indonesia,2025,All creditors,11475078159.5,14639936143.7
 Indonesia,2026,All creditors,11193967485.5,13004974542.6
 Indonesia,2027,All creditors,10745067633.0,14531185505.8
 Indonesia,2028,All creditors,10126706597.1,19797378090.8
 Indonesia,2029,All creditors,9374523949.0,14446871322.3
-Indonesia,2030,All creditors,8834049220.900002,44605613694.3
+Indonesia,2030,All creditors,8834049220.900002,44605613694.299995
 Indonesia,2000,Asian Dev. Bank   ,407368470.7,286303000.0
 Indonesia,2001,Asian Dev. Bank   ,402866863.5,280495000.0
 Indonesia,2002,Asian Dev. Bank   ,407798858.4,385219000.0
@@ -49315,15 +49315,15 @@ Jamaica,2004,All creditors,306573935.6,501578842.0
 Jamaica,2005,All creditors,361382279.20000005,543155200.0
 Jamaica,2006,All creditors,423557222.1,310521320.40000004
 Jamaica,2007,All creditors,473290685.0,574125514.7
-Jamaica,2008,All creditors,483075604.49999994,465747659.09999996
+Jamaica,2008,All creditors,483075604.49999994,465747659.1
 Jamaica,2009,All creditors,522799353.4,726965030.4
-Jamaica,2010,All creditors,488555037.1,336901995.09999996
+Jamaica,2010,All creditors,488555037.1,336901995.1
 Jamaica,2011,All creditors,491914052.7,726049582.9
 Jamaica,2012,All creditors,462446959.4,635027270.4
 Jamaica,2013,All creditors,415984260.4,357722829.9
 Jamaica,2014,All creditors,406662481.5,515511918.0
-Jamaica,2015,All creditors,426816123.29999995,706937682.6999999
-Jamaica,2016,All creditors,574966601.5,1169581981.6000001
+Jamaica,2015,All creditors,426816123.29999995,706937682.7
+Jamaica,2016,All creditors,574966601.5,1169581981.6
 Jamaica,2017,All creditors,558403776.8,683048361.5
 Jamaica,2018,All creditors,591111304.0,455825035.1
 Jamaica,2019,All creditors,607166396.1,1354776374.7
@@ -49337,7 +49337,7 @@ Jamaica,2026,All creditors,482238931.6,713307638.2
 Jamaica,2027,All creditors,441883252.5,711505373.6
 Jamaica,2028,All creditors,401416425.20000005,702766714.5
 Jamaica,2029,All creditors,375212851.20000005,277518592.1
-Jamaica,2030,All creditors,362259033.70000005,539061167.2
+Jamaica,2030,All creditors,362259033.70000005,539061167.1999999
 Jamaica,2000,Algeria,1871000.0,8526000.0
 Jamaica,2001,Algeria,302000.0,1526000.0
 Jamaica,2002,Algeria,209000.0,1526000.0
@@ -50066,7 +50066,7 @@ Jordan,2021,All creditors,604340130.3,2021501104.7
 Jordan,2022,All creditors,638703367.7,2977995307.6
 Jordan,2023,All creditors,920043611.1,1451916704.3
 Jordan,2024,All creditors,1207645929.8,864972078.8
-Jordan,2025,All creditors,1192615949.7,2075254041.7
+Jordan,2025,All creditors,1192615949.7,2075254041.6999998
 Jordan,2026,All creditors,1064325321.5,3800568961.7999997
 Jordan,2027,All creditors,901379085.4000001,2577237994.4
 Jordan,2028,All creditors,842207888.1,1782665890.7
@@ -50924,7 +50924,7 @@ Kazakhstan,2003,All creditors,195114171.0,271603014.1
 Kazakhstan,2004,All creditors,186512133.89999998,690181311.4
 Kazakhstan,2005,All creditors,145720534.8,1090021598.2
 Kazakhstan,2006,All creditors,113112459.3,222107977.5
-Kazakhstan,2007,All creditors,95937029.1,639516893.1999999
+Kazakhstan,2007,All creditors,95937029.1,639516893.2
 Kazakhstan,2008,All creditors,66564609.2,130531406.1
 Kazakhstan,2009,All creditors,58144538.099999994,131469399.4
 Kazakhstan,2010,All creditors,54044249.1,278344263.7
@@ -50942,7 +50942,7 @@ Kazakhstan,2021,All creditors,1752655596.0,1264217082.5
 Kazakhstan,2022,All creditors,1530646562.4,6092658017.7
 Kazakhstan,2023,All creditors,1656408719.3,4598017225.8
 Kazakhstan,2024,All creditors,1957880027.0,3594126317.8
-Kazakhstan,2025,All creditors,1420361401.8,5188583331.200001
+Kazakhstan,2025,All creditors,1420361401.8,5188583331.2
 Kazakhstan,2026,All creditors,1198477540.8000002,3249515298.9
 Kazakhstan,2027,All creditors,1099389430.8,2742603919.0
 Kazakhstan,2028,All creditors,993982894.4,3350897268.9
@@ -51415,7 +51415,7 @@ Kenya,2024,All creditors,1476726031.0,3812413242.0
 Kenya,2025,All creditors,1427330157.1,3280101559.5
 Kenya,2026,All creditors,1302056126.3,2482755609.8
 Kenya,2027,All creditors,1213010248.7,2416658682.0
-Kenya,2028,All creditors,1092387260.2,3007297736.6
+Kenya,2028,All creditors,1092387260.2,3007297736.6000004
 Kenya,2029,All creditors,957365255.2,2599097989.6
 Kenya,2030,All creditors,820501235.8000001,2892344378.5
 Kenya,2000,African Dev. Bank         ,8833376.6,17354148.7
@@ -53176,7 +53176,7 @@ Lao PDR,2015,All creditors,103725593.3,145302165.10000002
 Lao PDR,2016,All creditors,139862080.3,241577284.2
 Lao PDR,2017,All creditors,182382380.2,294313354.5
 Lao PDR,2018,All creditors,229050026.0,420970402.2
-Lao PDR,2019,All creditors,273934524.4,537692838.1
+Lao PDR,2019,All creditors,273934524.4,537692838.0999999
 Lao PDR,2020,All creditors,202614334.4,446981539.2
 Lao PDR,2021,All creditors,130290376.9,550219190.1
 Lao PDR,2022,All creditors,124045575.60000001,346994895.5
@@ -53731,10 +53731,10 @@ Latin America & Caribbean (excluding high income),2010,All creditors,19061308906
 Latin America & Caribbean (excluding high income),2011,All creditors,20648976790.8,41289596293.2
 Latin America & Caribbean (excluding high income),2012,All creditors,42042410562.1,26903340903.6
 Latin America & Caribbean (excluding high income),2013,All creditors,24892717223.7,40803027161.5
-Latin America & Caribbean (excluding high income),2014,All creditors,27945758778.499996,31046551709.1
+Latin America & Caribbean (excluding high income),2014,All creditors,27945758778.499996,31046551709.100002
 Latin America & Caribbean (excluding high income),2015,All creditors,33118493343.0,50969759565.7
 Latin America & Caribbean (excluding high income),2016,All creditors,38587027838.5,62293083528.9
-Latin America & Caribbean (excluding high income),2017,All creditors,47265318901.799995,75513983286.70001
+Latin America & Caribbean (excluding high income),2017,All creditors,47265318901.799995,75513983286.7
 Latin America & Caribbean (excluding high income),2018,All creditors,42931909610.6,73684241692.7
 Latin America & Caribbean (excluding high income),2019,All creditors,48952745851.3,89834087052.1
 Latin America & Caribbean (excluding high income),2020,All creditors,36672727595.3,71017628136.7
@@ -53745,8 +53745,8 @@ Latin America & Caribbean (excluding high income),2024,All creditors,47300629109
 Latin America & Caribbean (excluding high income),2025,All creditors,43136879606.4,51471446387.200005
 Latin America & Caribbean (excluding high income),2026,All creditors,45350445555.5,64723633536.700005
 Latin America & Caribbean (excluding high income),2027,All creditors,42383022554.7,64560635086.3
-Latin America & Caribbean (excluding high income),2028,All creditors,39190826966.3,48796963545.8
-Latin America & Caribbean (excluding high income),2029,All creditors,36673725248.7,66829079042.799995
+Latin America & Caribbean (excluding high income),2028,All creditors,39190826966.3,48796963545.799995
+Latin America & Caribbean (excluding high income),2029,All creditors,36673725248.7,66829079042.8
 Latin America & Caribbean (excluding high income),2030,All creditors,32423965519.999996,83255027330.4
 Latin America & Caribbean (excluding high income),2023,African Export-Import Bank,0.0,0.0
 Latin America & Caribbean (excluding high income),2024,African Export-Import Bank,126000.0,
@@ -55853,7 +55853,7 @@ Least developed countries: UN classification,2015,All creditors,3793655408.9,987
 Least developed countries: UN classification,2016,All creditors,5030903927.4,12237473838.6
 Least developed countries: UN classification,2017,All creditors,4499216262.0,12385295421.1
 Least developed countries: UN classification,2018,All creditors,5925491830.1,13910213966.0
-Least developed countries: UN classification,2019,All creditors,6629936329.2,15435606883.2
+Least developed countries: UN classification,2019,All creditors,6629936329.2,15435606883.199999
 Least developed countries: UN classification,2020,All creditors,6499370379.0,12909650811.0
 Least developed countries: UN classification,2021,All creditors,6301029098.7,19280113904.1
 Least developed countries: UN classification,2022,All creditors,6420653883.7,18140195517.7
@@ -58230,14 +58230,14 @@ Least developed countries: UN classification,2005,Zimbabwe,89000.0,686000.0
 Least developed countries: UN classification,2006,Zimbabwe,60000.0,2688000.0
 Lebanon,2000,All creditors,417893681.6,833843423.9
 Lebanon,2001,All creditors,597062800.8,597873964.0
-Lebanon,2002,All creditors,908942891.8,857538548.3
+Lebanon,2002,All creditors,908942891.8,857538548.3000001
 Lebanon,2003,All creditors,1252760485.1,1706115798.9
 Lebanon,2004,All creditors,1224538455.1,2843101581.3
 Lebanon,2005,All creditors,1197079291.6999998,1906533475.8
 Lebanon,2006,All creditors,1241849734.2,2800901472.0
 Lebanon,2007,All creditors,1372838211.8,2812357856.5
 Lebanon,2008,All creditors,1402868251.1000001,2856822100.0
-Lebanon,2009,All creditors,1431672017.3,3107311514.1000004
+Lebanon,2009,All creditors,1431672017.3,3107311514.1
 Lebanon,2010,All creditors,1406410586.7,2476516324.6
 Lebanon,2011,All creditors,1457629169.0,3758497014.2000003
 Lebanon,2012,All creditors,1451444643.3999999,2357456086.6
@@ -58245,7 +58245,7 @@ Lebanon,2013,All creditors,1584735189.6999998,1816178800.5
 Lebanon,2014,All creditors,1665880246.9,2282108500.6
 Lebanon,2015,All creditors,1624349510.4,2285642523.7
 Lebanon,2016,All creditors,1719012003.3,2626401074.1
-Lebanon,2017,All creditors,1761002542.6,3030315007.2999997
+Lebanon,2017,All creditors,1761002542.6,3030315007.3
 Lebanon,2018,All creditors,2150343496.1,2589166129.6
 Lebanon,2019,All creditors,2142006119.5,2916848431.8
 Lebanon,2020,All creditors,157077226.8,196057470.0
@@ -58256,9 +58256,9 @@ Lebanon,2024,All creditors,75270123.3,101193068.5
 Lebanon,2025,All creditors,1724079756.4,1983667632.2
 Lebanon,2026,All creditors,1679090339.3999999,1885635224.5
 Lebanon,2027,All creditors,1532059157.3,2521926570.2
-Lebanon,2028,All creditors,1297888176.3999999,2880732232.7000003
+Lebanon,2028,All creditors,1297888176.3999999,2880732232.7
 Lebanon,2029,All creditors,1108464608.6,2819381924.9
-Lebanon,2030,All creditors,930332452.9,1677456352.1999998
+Lebanon,2030,All creditors,930332452.9,1677456352.2
 Lebanon,2000,Arab Fund for Economic & Social Development,13900544.0,13652785.7
 Lebanon,2001,Arab Fund for Economic & Social Development,4581335.2,
 Lebanon,2002,Arab Fund for Economic & Social Development,9865293.8,18256387.6
@@ -61465,7 +61465,7 @@ Low income,2005,Zimbabwe,89000.0,686000.0
 Low income,2006,Zimbabwe,60000.0,2688000.0
 Lower middle income,2000,All creditors,11672051227.6,22149983717.1
 Lower middle income,2001,All creditors,11235734820.8,22158365578.1
-Lower middle income,2002,All creditors,11271183650.6,25476235426.1
+Lower middle income,2002,All creditors,11271183650.6,25476235426.100002
 Lower middle income,2003,All creditors,11651055483.4,34633806417.0
 Lower middle income,2004,All creditors,9902439635.7,29940492184.1
 Lower middle income,2005,All creditors,15973829622.699999,34078984433.600002
@@ -61475,7 +61475,7 @@ Lower middle income,2008,All creditors,11630984792.3,35669302131.0
 Lower middle income,2009,All creditors,11159340842.4,27574152555.5
 Lower middle income,2010,All creditors,11061714844.3,29654739371.4
 Lower middle income,2011,All creditors,11224504748.199999,32166585933.9
-Lower middle income,2012,All creditors,12404258950.4,30128845715.3
+Lower middle income,2012,All creditors,12404258950.4,30128845715.300003
 Lower middle income,2013,All creditors,13979280247.699999,35576615146.5
 Lower middle income,2014,All creditors,14929055577.0,45166860400.1
 Lower middle income,2015,All creditors,15588139887.199999,41132728690.8
@@ -61491,7 +61491,7 @@ Lower middle income,2024,All creditors,45418097718.4,96854105128.8
 Lower middle income,2025,All creditors,49190198063.4,115300193885.4
 Lower middle income,2026,All creditors,46606382596.3,123178608890.0
 Lower middle income,2027,All creditors,42426537574.8,118712678953.3
-Lower middle income,2028,All creditors,80776306917.9,108229649920.1
+Lower middle income,2028,All creditors,80776306917.9,108229649920.09999
 Lower middle income,2029,All creditors,33418660672.2,108341585404.4
 Lower middle income,2030,All creditors,29063074376.3,94594649533.3
 Lower middle income,2020,Africa Finance Corporation,16149959.2,35288390.0
@@ -65459,11 +65459,11 @@ Maldives,2018,All creditors,54580902.1,333883985.79999995
 Maldives,2019,All creditors,80377321.6,331111481.4
 Maldives,2020,All creditors,73827252.1,190757692.8
 Maldives,2021,All creditors,85400118.3,655581385.4
-Maldives,2022,All creditors,133870131.8,470187665.20000005
+Maldives,2022,All creditors,133870131.8,470187665.2
 Maldives,2023,All creditors,163931179.5,250878777.0
 Maldives,2024,All creditors,164611684.2,262328980.5
 Maldives,2025,All creditors,183733359.7,892374055.6
-Maldives,2026,All creditors,147260003.6,977134346.8
+Maldives,2026,All creditors,147260003.6,977134346.8000001
 Maldives,2027,All creditors,107994088.0,436916264.8
 Maldives,2028,All creditors,92540152.0,760250015.4
 Maldives,2029,All creditors,76396641.4,383033574.5
@@ -67437,7 +67437,7 @@ Mauritius,2013,All creditors,24864415.4,60259024.1
 Mauritius,2014,All creditors,29039561.0,108808881.5
 Mauritius,2015,All creditors,26778457.900000002,91888925.4
 Mauritius,2016,All creditors,27275502.400000002,111440110.0
-Mauritius,2017,All creditors,30364713.0,243595648.2
+Mauritius,2017,All creditors,30364713.0,243595648.20000002
 Mauritius,2018,All creditors,27830212.3,149609144.5
 Mauritius,2019,All creditors,29380748.8,158933584.8
 Mauritius,2020,All creditors,26627251.8,341465296.0
@@ -67445,7 +67445,7 @@ Mauritius,2021,All creditors,19548637.2,163534863.2
 Mauritius,2022,All creditors,38364332.2,146707590.9
 Mauritius,2023,All creditors,103233638.3,1222614736.0
 Mauritius,2024,All creditors,111993471.9,913708407.7
-Mauritius,2025,All creditors,106061961.0,684687837.8
+Mauritius,2025,All creditors,106061961.0,684687837.8000001
 Mauritius,2026,All creditors,95078094.3,680644865.0
 Mauritius,2027,All creditors,75707784.7,151524912.5
 Mauritius,2028,All creditors,73773356.7,173517875.5
@@ -68064,32 +68064,32 @@ Mexico,2001,All creditors,7473803696.6,16979255146.2
 Mexico,2002,All creditors,6493169896.1,12940350143.9
 Mexico,2003,All creditors,6579266568.2,15473552818.699999
 Mexico,2004,All creditors,7030560912.9,18107928894.899998
-Mexico,2005,All creditors,7544566757.599999,15685690521.599998
+Mexico,2005,All creditors,7544566757.599999,15685690521.6
 Mexico,2006,All creditors,7241205076.099999,31573627513.5
 Mexico,2007,All creditors,7933532827.400001,13544101495.4
-Mexico,2008,All creditors,7176161784.9,14867276258.2
+Mexico,2008,All creditors,7176161784.9,14867276258.199999
 Mexico,2009,All creditors,6018931745.4,11872505036.7
 Mexico,2010,All creditors,5858957023.700001,13941132058.4
 Mexico,2011,All creditors,7317862044.599999,12383204452.0
-Mexico,2012,All creditors,28712239071.0,8504117276.0
+Mexico,2012,All creditors,28712239071.0,8504117275.999999
 Mexico,2013,All creditors,10283835902.6,12182594647.8
 Mexico,2014,All creditors,10278013580.8,9000027738.4
 Mexico,2015,All creditors,14474980031.699999,11709482042.4
 Mexico,2016,All creditors,12361655706.199999,28429768536.4
 Mexico,2017,All creditors,18711714694.899998,17635223546.600002
 Mexico,2018,All creditors,15898577995.8,15051086318.7
-Mexico,2019,All creditors,17120249676.0,25171932544.299995
+Mexico,2019,All creditors,17120249676.0,25171932544.3
 Mexico,2020,All creditors,16415184722.5,25548216620.3
 Mexico,2021,All creditors,16154904384.9,35863375269.1
-Mexico,2022,All creditors,11508739869.0,13014589433.400002
+Mexico,2022,All creditors,11508739869.0,13014589433.4
 Mexico,2023,All creditors,13562819962.5,13495560576.8
 Mexico,2024,All creditors,14468287085.3,24345470529.3
 Mexico,2025,All creditors,11484082541.0,15528745271.9
 Mexico,2026,All creditors,14320085927.0,25226354101.4
 Mexico,2027,All creditors,12886128624.2,27942016763.8
 Mexico,2028,All creditors,11425366994.7,14425329736.1
-Mexico,2029,All creditors,10706654867.800001,24629351239.199997
-Mexico,2030,All creditors,9402729483.6,11168940271.599998
+Mexico,2029,All creditors,10706654867.800001,24629351239.2
+Mexico,2030,All creditors,9402729483.6,11168940271.6
 Mexico,2000,Argentina,4244000.0,11346000.0
 Mexico,2001,Argentina,3331000.0,16350000.0
 Mexico,2002,Argentina,1728000.0,4260000.0
@@ -68601,7 +68601,7 @@ Mexico,2030,World Bank-IBRD                         ,24
 "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",2010,All creditors,5438210278.6,12718748959.5
 "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",2011,All creditors,5320410129.3,14567300379.5
 "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",2012,All creditors,5140540911.7,11284364770.6
-"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",2013,All creditors,5474345185.8,11433511583.7
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",2013,All creditors,5474345185.8,11433511583.699999
 "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",2014,All creditors,5592735672.900001,14898073198.5
 "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",2015,All creditors,5573780432.2,13707151789.4
 "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",2016,All creditors,6204626272.2,18228411526.9
@@ -68617,7 +68617,7 @@ Mexico,2030,World Bank-IBRD                         ,24
 "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",2026,All creditors,13012415046.7,44287347756.0
 "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",2027,All creditors,11331793750.8,35084463653.8
 "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",2028,All creditors,9820131681.6,22104350559.699997
-"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",2029,All creditors,8916974779.5,22077759841.899998
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",2029,All creditors,8916974779.5,22077759841.9
 "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",2030,All creditors,8087093150.799999,18375441296.6
 "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",2023,Africa Finance Corporation,40364000.0,0.0
 "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",2024,Africa Finance Corporation,91923000.0,0.0
@@ -70558,7 +70558,7 @@ Middle income,2003,All creditors,44788031959.200005,116198362203.5
 Middle income,2004,All creditors,44026059916.5,104686923546.3
 Middle income,2005,All creditors,50173563946.0,107618289537.59999
 Middle income,2006,All creditors,45489236625.5,143722341823.1
-Middle income,2007,All creditors,49618655104.9,103728007523.79999
+Middle income,2007,All creditors,49618655104.9,103728007523.8
 Middle income,2008,All creditors,48359885423.799995,112190459624.7
 Middle income,2009,All creditors,44171579700.4,95984423320.1
 Middle income,2010,All creditors,43848940557.0,102894408979.0
@@ -70572,14 +70572,14 @@ Middle income,2017,All creditors,90950247810.5,184660382112.4
 Middle income,2018,All creditors,97037157946.5,204432618766.0
 Middle income,2019,All creditors,113027407435.8,224608630273.0
 Middle income,2020,All creditors,97855601388.0,236908203416.4
-Middle income,2021,All creditors,103857080367.50002,256664070195.1
+Middle income,2021,All creditors,103857080367.50002,256664070195.09998
 Middle income,2022,All creditors,106810602172.8,287816480058.9
 Middle income,2023,All creditors,136098756944.4,294691267000.6
-Middle income,2024,All creditors,142607816778.7,322668947674.60004
+Middle income,2024,All creditors,142607816778.7,322668947674.6
 Middle income,2025,All creditors,152027925696.4,315965297109.4
 Middle income,2026,All creditors,145710662005.9,301096789191.0
 Middle income,2027,All creditors,134420178546.5,292260732724.9
-Middle income,2028,All creditors,164605384889.2,263325794301.8
+Middle income,2028,All creditors,164605384889.2,263325794301.80002
 Middle income,2029,All creditors,109764904213.7,242022542292.4
 Middle income,2030,All creditors,98150861809.8,406391204557.8
 Middle income,2020,Africa Finance Corporation,16149959.2,35288390.0
@@ -75059,9 +75059,9 @@ Mongolia,2017,All creditors,217427218.3,67855538.3
 Mongolia,2018,All creditors,244132367.29999998,630126948.6
 Mongolia,2019,All creditors,308542697.9,171185697.9
 Mongolia,2020,All creditors,319634230.7,817441760.2
-Mongolia,2021,All creditors,269516186.0,1052503377.8000001
+Mongolia,2021,All creditors,269516186.0,1052503377.8
 Mongolia,2022,All creditors,358113345.0,1778889534.0
-Mongolia,2023,All creditors,309079881.2,1602399902.8000002
+Mongolia,2023,All creditors,309079881.2,1602399902.8
 Mongolia,2024,All creditors,354569229.2,1004103938.4
 Mongolia,2025,All creditors,390883569.4,531454323.9
 Mongolia,2026,All creditors,387428151.2,1546860989.1999998
@@ -76225,9 +76225,9 @@ Montenegro,2027,World Bank-IDA                         
 Morocco,2000,All creditors,877525074.0999999,1593028889.5
 Morocco,2001,All creditors,893609990.4,1596831020.6
 Morocco,2002,All creditors,1055321552.8,1965082216.0
-Morocco,2003,All creditors,1236462851.4,2526928435.9
+Morocco,2003,All creditors,1236462851.4,2526928435.8999996
 Morocco,2004,All creditors,509092588.5,2100336963.0
-Morocco,2005,All creditors,502339874.7,1886491597.8000002
+Morocco,2005,All creditors,502339874.7,1886491597.8
 Morocco,2006,All creditors,474000004.9,1563291402.0
 Morocco,2007,All creditors,557148176.7,1866113935.3
 Morocco,2008,All creditors,656955661.4,1801634236.3
@@ -76250,7 +76250,7 @@ Morocco,2024,All creditors,1652920532.2,4412693228.900001
 Morocco,2025,All creditors,1558491623.3999999,4492077284.0
 Morocco,2026,All creditors,1494603935.8,2971760950.6
 Morocco,2027,All creditors,1457982975.2,3100017207.0
-Morocco,2028,All creditors,1359748030.6999998,3559145560.8
+Morocco,2028,All creditors,1359748030.6999998,3559145560.7999997
 Morocco,2029,All creditors,1268100843.7,2900318561.8
 Morocco,2030,All creditors,1166336600.6,2878067078.3
 Morocco,2000,African Dev. Bank         ,98469000.0,102902175.7
@@ -80278,10 +80278,10 @@ Nigeria,2023,All creditors,1787793764.4,1779585125.6
 Nigeria,2024,All creditors,2199250018.0,1660638430.5
 Nigeria,2025,All creditors,2492252634.6,2918288852.9
 Nigeria,2026,All creditors,2433425112.3,2637015177.8
-Nigeria,2027,All creditors,2299950189.3,5726517862.900001
+Nigeria,2027,All creditors,2299950189.3,5726517862.9
 Nigeria,2028,All creditors,2046713648.7,3583419152.0
-Nigeria,2029,All creditors,1837173350.5,3667970169.8999996
-Nigeria,2030,All creditors,1659102207.0,3428984377.2
+Nigeria,2029,All creditors,1837173350.5,3667970169.9
+Nigeria,2030,All creditors,1659102207.0,3428984377.2000003
 Nigeria,2000,African Dev. Bank         ,81725550.5,124570790.1
 Nigeria,2001,African Dev. Bank         ,54836241.8,107087464.7
 Nigeria,2002,African Dev. Bank         ,67537179.1,114039397.6
@@ -80730,7 +80730,7 @@ North Macedonia,2017,All creditors,112110000.6,262260587.7
 North Macedonia,2018,All creditors,105363615.6,406184535.8
 North Macedonia,2019,All creditors,115090241.4,219474518.89999998
 North Macedonia,2020,All creditors,112364163.6,625265335.4
-North Macedonia,2021,All creditors,129172160.7,829441245.6000001
+North Macedonia,2021,All creditors,129172160.7,829441245.6
 North Macedonia,2022,All creditors,106848497.3,237666379.4
 North Macedonia,2023,All creditors,155371375.1,736459789.0
 North Macedonia,2024,All creditors,198556907.4,440904472.9
@@ -82947,14 +82947,14 @@ Paraguay,2018,All creditors,254230779.39999998,209233640.7
 Paraguay,2019,All creditors,329974760.5,208245738.79999998
 Paraguay,2020,All creditors,358523802.5,219077154.2
 Paraguay,2021,All creditors,365268223.3,553639541.4
-Paraguay,2022,All creditors,456449199.6,534490312.20000005
+Paraguay,2022,All creditors,456449199.6,534490312.2
 Paraguay,2023,All creditors,681714934.5,573389496.2
 Paraguay,2024,All creditors,909853326.5,532925318.8
 Paraguay,2025,All creditors,896962496.9,652858670.6999999
 Paraguay,2026,All creditors,923108609.3,1037510198.9
-Paraguay,2027,All creditors,918035026.6,1263965065.7
-Paraguay,2028,All creditors,900816381.0,845152757.8000001
-Paraguay,2029,All creditors,845835120.9,2900113064.2000003
+Paraguay,2027,All creditors,918035026.6,1263965065.6999998
+Paraguay,2028,All creditors,900816381.0,845152757.8
+Paraguay,2029,All creditors,845835120.9,2900113064.2
 Paraguay,2030,All creditors,759008531.0,1175523694.2
 Paraguay,2004,Belgium,7111000.0,
 Paraguay,2005,Belgium,,477000.0
@@ -83426,7 +83426,7 @@ Paraguay,2025,World Bank-IDA                         ,0
 Paraguay,2026,World Bank-IDA                         ,0.0,120000.0
 Peru,2000,All creditors,1105819880.5,985838579.4000001
 Peru,2001,All creditors,1076993493.6,676437055.0
-Peru,2002,All creditors,1115040938.1,1984808378.6999998
+Peru,2002,All creditors,1115040938.1,1984808378.7
 Peru,2003,All creditors,1187167612.6,1031152895.1
 Peru,2004,All creditors,1242157003.7,1205557818.0
 Peru,2005,All creditors,1403620636.6999998,3036576033.0000005
@@ -84013,20 +84013,20 @@ Philippines,2000,All creditors,1882085616.3,2514577854.0
 Philippines,2001,All creditors,1958829418.0,3512300969.3999996
 Philippines,2002,All creditors,2037024775.6,3487745625.3
 Philippines,2003,All creditors,1868892563.3,3771965497.3
-Philippines,2004,All creditors,2246304324.0,4600120805.9
+Philippines,2004,All creditors,2246304324.0,4600120805.900001
 Philippines,2005,All creditors,2409033871.5,3353114926.9
 Philippines,2006,All creditors,2735887806.5,5741610121.3
 Philippines,2007,All creditors,2527393623.3,2549277177.6
 Philippines,2008,All creditors,2864746808.0,3592325829.6
 Philippines,2009,All creditors,2840581032.3,3841283449.1
-Philippines,2010,All creditors,2977469803.1,6813216063.2
+Philippines,2010,All creditors,2977469803.1,6813216063.200001
 Philippines,2011,All creditors,2850065082.4,4889036245.2
 Philippines,2012,All creditors,2844871026.1000004,2632984846.9
 Philippines,2013,All creditors,2670770189.5,2787212346.8
 Philippines,2014,All creditors,2549709774.9999995,2601638444.5
 Philippines,2015,All creditors,2431932471.0,3152247935.8
 Philippines,2016,All creditors,2430923167.8999996,4079638536.4
-Philippines,2017,All creditors,2237071218.5,3027885354.2000003
+Philippines,2017,All creditors,2237071218.5,3027885354.2
 Philippines,2018,All creditors,2300004989.8,2382061746.0
 Philippines,2019,All creditors,2416451692.6,4110927577.4
 Philippines,2020,All creditors,2295196356.4,3356416239.6
@@ -84036,7 +84036,7 @@ Philippines,2023,All creditors,3634589370.9,2496510233.7
 Philippines,2024,All creditors,4235481144.6,5437214751.0
 Philippines,2025,All creditors,3485971761.8,3267838083.1000004
 Philippines,2026,All creditors,3477682188.5,2761348527.0
-Philippines,2027,All creditors,3433475868.5,4199275815.1
+Philippines,2027,All creditors,3433475868.5,4199275815.1000004
 Philippines,2028,All creditors,3341290445.7000003,4777452093.2
 Philippines,2029,All creditors,3177564391.7000003,5626886618.7
 Philippines,2030,All creditors,2991704041.0,4676721696.3
@@ -86854,9 +86854,9 @@ Serbia,2023,All creditors,825217874.2,1571977177.6000001
 Serbia,2024,All creditors,1079852631.2,3182608748.6
 Serbia,2025,All creditors,1017663369.1,1055093753.0999999
 Serbia,2026,All creditors,1034844532.0,1860653817.8000002
-Serbia,2027,All creditors,938284355.7,4018382861.2000003
+Serbia,2027,All creditors,938284355.7,4018382861.2
 Serbia,2028,All creditors,816537830.4,3461002497.7
-Serbia,2029,All creditors,722224778.7,2873132563.3
+Serbia,2029,All creditors,722224778.7,2873132563.2999997
 Serbia,2030,All creditors,616492162.1,2307555828.4
 Serbia,2002,Austria,1206967.7,
 Serbia,2003,Austria,1923537.6,
@@ -88529,7 +88529,7 @@ South Africa,2012,All creditors,2658667353.0,3324345318.9
 South Africa,2013,All creditors,2379802600.1,6042141251.4
 South Africa,2014,All creditors,2551141604.7999997,1879333898.3
 South Africa,2015,All creditors,2976409945.2,12912073218.5
-South Africa,2016,All creditors,3175709517.7000003,2516844809.3999996
+South Africa,2016,All creditors,3175709517.7000003,2516844809.4
 South Africa,2017,All creditors,3265309641.2,2268084130.7999997
 South Africa,2018,All creditors,4308446892.4,11393297837.2
 South Africa,2019,All creditors,4281301777.1,3392746091.3999996
@@ -88867,7 +88867,7 @@ South Asia,2003,All creditors,3199531005.3999996,16021939839.3
 South Asia,2004,All creditors,1771121730.0,8852473961.4
 South Asia,2005,All creditors,3343504294.7,13384506767.0
 South Asia,2006,All creditors,1683355086.5,5913651483.1
-South Asia,2007,All creditors,1868161595.6000001,10273657638.800001
+South Asia,2007,All creditors,1868161595.6000001,10273657638.8
 South Asia,2008,All creditors,2063065083.3,15041330728.7
 South Asia,2009,All creditors,1882601234.4,7084409053.2
 South Asia,2010,All creditors,1935973326.5,6715852499.3
@@ -88877,14 +88877,14 @@ South Asia,2013,All creditors,2423066720.4,11626780468.0
 South Asia,2014,All creditors,2930648031.4,15985012007.7
 South Asia,2015,All creditors,3024837145.2000003,14817949203.3
 South Asia,2016,All creditors,3456388500.4,22844700228.9
-South Asia,2017,All creditors,3707758293.3,15777305263.8
+South Asia,2017,All creditors,3707758293.3,15777305263.800001
 South Asia,2018,All creditors,4526646840.3,25944457088.899998
 South Asia,2019,All creditors,5493443620.5,18600627911.8
-South Asia,2020,All creditors,4015039850.0,28937078003.100002
+South Asia,2020,All creditors,4015039850.0,28937078003.1
 South Asia,2021,All creditors,4856206000.6,19424012379.7
 South Asia,2022,All creditors,4861923878.5,19209949227.7
 South Asia,2023,All creditors,8613289933.3,20390302327.2
-South Asia,2024,All creditors,10414125194.699999,25170825204.699997
+South Asia,2024,All creditors,10414125194.699999,25170825204.7
 South Asia,2025,All creditors,14079987402.7,33392603044.6
 South Asia,2026,All creditors,13445471250.9,39829141485.5
 South Asia,2027,All creditors,12162238957.3,39665502537.4
@@ -91326,7 +91326,7 @@ St. Lucia,2011,All creditors,11463371.3,31787664.400000002
 St. Lucia,2012,All creditors,14843625.100000001,28727534.5
 St. Lucia,2013,All creditors,14082577.3,21040796.799999997
 St. Lucia,2014,All creditors,16998702.5,17521359.7
-St. Lucia,2015,All creditors,18863498.0,47235623.800000004
+St. Lucia,2015,All creditors,18863498.0,47235623.8
 St. Lucia,2016,All creditors,19825532.0,24462287.1
 St. Lucia,2017,All creditors,23429957.9,18985447.0
 St. Lucia,2018,All creditors,24930837.1,19100096.6
@@ -91687,13 +91687,13 @@ St. Vincent and the Grenadines,2014,All creditors,7778057.899999999,21673679.3
 St. Vincent and the Grenadines,2015,All creditors,7855270.1,24576140.400000002
 St. Vincent and the Grenadines,2016,All creditors,7139729.5,32979067.799999997
 St. Vincent and the Grenadines,2017,All creditors,7408261.100000001,32063610.099999998
-St. Vincent and the Grenadines,2018,All creditors,7934182.1,36142577.8
+St. Vincent and the Grenadines,2018,All creditors,7934182.1,36142577.800000004
 St. Vincent and the Grenadines,2019,All creditors,9294565.4,34411252.9
 St. Vincent and the Grenadines,2020,All creditors,8166820.499999999,32133604.9
 St. Vincent and the Grenadines,2021,All creditors,7415489.800000001,24159366.3
 St. Vincent and the Grenadines,2022,All creditors,8534621.5,23407454.4
 St. Vincent and the Grenadines,2023,All creditors,13751507.5,23190158.2
-St. Vincent and the Grenadines,2024,All creditors,16190068.700000001,25124638.700000003
+St. Vincent and the Grenadines,2024,All creditors,16190068.700000001,25124638.7
 St. Vincent and the Grenadines,2025,All creditors,21367188.7,40374136.1
 St. Vincent and the Grenadines,2026,All creditors,23787320.3,43476666.1
 St. Vincent and the Grenadines,2027,All creditors,24423026.9,41623250.1
@@ -92085,7 +92085,7 @@ St. Vincent and the Grenadines,2027,World Bank-IDA               
 St. Vincent and the Grenadines,2028,World Bank-IDA                         ,2104250.2,2419981.0
 St. Vincent and the Grenadines,2029,World Bank-IDA                         ,2113513.1,2799981.0
 St. Vincent and the Grenadines,2030,World Bank-IDA                         ,2104471.6,3932846.7
-Sub-Saharan Africa (excluding high income),2000,All creditors,3064944349.1,7243913186.4
+Sub-Saharan Africa (excluding high income),2000,All creditors,3064944349.1,7243913186.400001
 Sub-Saharan Africa (excluding high income),2001,All creditors,2662555215.4,7973592493.400001
 Sub-Saharan Africa (excluding high income),2002,All creditors,2620949509.9,5873852973.6
 Sub-Saharan Africa (excluding high income),2003,All creditors,2787612960.2,6578141018.9
@@ -92100,7 +92100,7 @@ Sub-Saharan Africa (excluding high income),2011,All creditors,3446019165.6,80467
 Sub-Saharan Africa (excluding high income),2012,All creditors,4849080439.7,10371925194.4
 Sub-Saharan Africa (excluding high income),2013,All creditors,5551017131.099999,15268435003.3
 Sub-Saharan Africa (excluding high income),2014,All creditors,6442201111.700001,13828353215.9
-Sub-Saharan Africa (excluding high income),2015,All creditors,7612874792.2,23330900821.899998
+Sub-Saharan Africa (excluding high income),2015,All creditors,7612874792.2,23330900821.9
 Sub-Saharan Africa (excluding high income),2016,All creditors,9260835617.9,16095397281.1
 Sub-Saharan Africa (excluding high income),2017,All creditors,9149692268.4,17335186096.1
 Sub-Saharan Africa (excluding high income),2018,All creditors,12358624879.8,29084736639.600002
@@ -94811,10 +94811,10 @@ Suriname,2023,All creditors,47502539.7,79413572.2
 Suriname,2024,All creditors,126824030.8,81134447.0
 Suriname,2025,All creditors,140575027.7,159541877.7
 Suriname,2026,All creditors,141732190.6,159893158.5
-Suriname,2027,All creditors,138044392.4,252266941.3
+Suriname,2027,All creditors,138044392.4,252266941.29999998
 Suriname,2028,All creditors,126225735.5,259730962.8
 Suriname,2029,All creditors,112272251.5,246360048.6
-Suriname,2030,All creditors,98047012.8,249799730.79999998
+Suriname,2030,All creditors,98047012.8,249799730.8
 Suriname,2023,Belgium,32439.2,
 Suriname,2024,Belgium,173159.5,864715.3
 Suriname,2025,Belgium,105967.8,829734.8
@@ -97777,7 +97777,7 @@ Tunisia,2001,All creditors,418655990.3,824458402.1
 Tunisia,2002,All creditors,468575866.4,903007914.1
 Tunisia,2003,All creditors,527708043.6,979418442.3
 Tunisia,2004,All creditors,555995003.9,1359032658.5
-Tunisia,2005,All creditors,583907249.8000001,1136416772.6999998
+Tunisia,2005,All creditors,583907249.8000001,1136416772.7
 Tunisia,2006,All creditors,601111623.8000001,1588648149.7
 Tunisia,2007,All creditors,621510656.2,1506340976.6
 Tunisia,2008,All creditors,632497068.9,1071902405.5
@@ -98826,7 +98826,7 @@ Tunisia,2022,World Trade Organization,47405.4,
 Tunisia,2023,World Trade Organization,0.0,0.0
 Tunisia,2024,World Trade Organization,48701.1,0.0
 Tunisia,2025,World Trade Organization,895531.8,0.0
-Turkiye,2000,All creditors,3467111045.9,6268403925.1
+Turkiye,2000,All creditors,3467111045.9,6268403925.099999
 Turkiye,2001,All creditors,3842443397.7999997,7669906946.4
 Turkiye,2002,All creditors,3627076169.0,6443056609.1
 Turkiye,2003,All creditors,3962831118.8,8495028206.1
@@ -98847,13 +98847,13 @@ Turkiye,2017,All creditors,4881101449.3,11918290308.5
 Turkiye,2018,All creditors,4897347904.9,10928905077.8
 Turkiye,2019,All creditors,5549320548.6,13017232519.5
 Turkiye,2020,All creditors,5748612553.1,12575136297.3
-Turkiye,2021,All creditors,6072727213.6,17307307848.699997
+Turkiye,2021,All creditors,6072727213.6,17307307848.7
 Turkiye,2022,All creditors,6311598299.499999,15070747839.5
 Turkiye,2023,All creditors,8149303994.1,16123043900.1
 Turkiye,2024,All creditors,9428083587.300001,20229881486.7
 Turkiye,2025,All creditors,9077308902.4,27430615290.6
 Turkiye,2026,All creditors,7748878967.1,20649212030.8
-Turkiye,2027,All creditors,6731691127.599999,16721366140.9
+Turkiye,2027,All creditors,6731691127.599999,16721366140.900002
 Turkiye,2028,All creditors,5773246901.6,15968298761.300001
 Turkiye,2029,All creditors,4832609785.3,13456325533.8
 Turkiye,2030,All creditors,4142433738.0,15951054451.6
@@ -101148,10 +101148,10 @@ Ukraine,2011,All creditors,855028284.5,1609197695.7
 Ukraine,2012,All creditors,916698167.8,2514574761.7000003
 Ukraine,2013,All creditors,1269507533.6,6413089464.200001
 Ukraine,2014,All creditors,1668157674.6000001,2397963989.8
-Ukraine,2015,All creditors,1292529892.6,13655313072.900002
+Ukraine,2015,All creditors,1292529892.6,13655313072.9
 Ukraine,2016,All creditors,1444324206.1000001,1972821831.2
 Ukraine,2017,All creditors,1515543096.4,3530665570.3
-Ukraine,2018,All creditors,1479070676.8000002,3677780649.8999996
+Ukraine,2018,All creditors,1479070676.8000002,3677780649.9
 Ukraine,2019,All creditors,1699184500.4,3074979976.5
 Ukraine,2020,All creditors,1893010044.5,4986518525.0
 Ukraine,2021,All creditors,2126290008.6000001,2939689342.9
@@ -101654,7 +101654,7 @@ Upper middle income,2005,All creditors,34199734323.300003,73539305104.0
 Upper middle income,2006,All creditors,34699013221.0,110225627596.7
 Upper middle income,2007,All creditors,38639216594.1,73387881006.7
 Upper middle income,2008,All creditors,36728900631.5,76521157493.7
-Upper middle income,2009,All creditors,33012238858.0,68410270764.600006
+Upper middle income,2009,All creditors,33012238858.0,68410270764.6
 Upper middle income,2010,All creditors,32787225712.7,73239669607.6
 Upper middle income,2011,All creditors,36151273477.3,76895949023.3
 Upper middle income,2012,All creditors,59367747080.6,59929877268.0
@@ -104952,7 +104952,7 @@ Uzbekistan,2023,All creditors,1230639787.4,1977868401.0
 Uzbekistan,2024,All creditors,1718528692.3999999,2697815245.7
 Uzbekistan,2025,All creditors,1910056936.3999999,2605507768.9
 Uzbekistan,2026,All creditors,1884797382.0,2722430680.6
-Uzbekistan,2027,All creditors,1717497366.9,4273589469.2999997
+Uzbekistan,2027,All creditors,1717497366.9,4273589469.3
 Uzbekistan,2028,All creditors,1519465181.3000002,4632693861.6
 Uzbekistan,2029,All creditors,1249993335.7,4684858353.6
 Uzbekistan,2030,All creditors,1058814715.0,2710911704.6000004
@@ -105814,9 +105814,9 @@ Viet Nam,2021,All creditors,756089741.6,3751401799.6
 Viet Nam,2022,All creditors,739370919.2,3665006163.3
 Viet Nam,2023,All creditors,1041004055.8000001,3604957864.3
 Viet Nam,2024,All creditors,1066690350.5999999,4783919113.6
-Viet Nam,2025,All creditors,909529590.4,3556643827.3999996
+Viet Nam,2025,All creditors,909529590.4,3556643827.4
 Viet Nam,2026,All creditors,875058632.1999999,3419563979.3
-Viet Nam,2027,All creditors,837129365.5,3300330724.3999996
+Viet Nam,2027,All creditors,837129365.5,3300330724.4
 Viet Nam,2028,All creditors,780596184.5,3213678928.5
 Viet Nam,2029,All creditors,727569337.9,3151967066.0
 Viet Nam,2030,All creditors,669834932.8,3121029649.7
