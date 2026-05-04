@@ -3,7 +3,7 @@ year,creditor_name,debtor_name,value
 2000,China (bilateral),Albania,0.614356126265536
 2000,China (bilateral),Algeria,0.3084472239323659
 2000,China (bilateral),Angola,0.7631687002310783
-2000,China (bilateral),Bangladesh,0.22801838166503624
+2000,China (bilateral),Bangladesh,0.22801838166503627
 2000,China (bilateral),Belize,0.05658889926316698
 2000,China (bilateral),Benin,2.937616729798345
 2000,China (bilateral),Bolivia,0.7310341396495049
@@ -53,7 +53,7 @@ year,creditor_name,debtor_name,value
 2000,China (bilateral),Lao PDR,0.08083865579718272
 2000,China (bilateral),Latin America & Caribbean (excluding high income),0.07443202755993303
 2000,China (bilateral),Least developed countries: UN classification,2.1102706593333984
-2000,China (bilateral),Lebanon,0.05200401656138651
+2000,China (bilateral),Lebanon,0.0520040165613865
 2000,China (bilateral),Lesotho,0.6891006052063829
 2000,China (bilateral),Liberia,1.4673497116291068
 2000,China (bilateral),Low & lower middle income,0.8328466973598947
@@ -61,7 +61,7 @@ year,creditor_name,debtor_name,value
 2000,China (bilateral),Low income,2.2979769445978446
 2000,China (bilateral),Lower middle income,0.5375842591424507
 2000,China (bilateral),Madagascar,0.49401277214276373
-2000,China (bilateral),Maldives,1.1094821194805036
+2000,China (bilateral),Maldives,1.1094821194805033
 2000,China (bilateral),Mali,5.622334843079374
 2000,China (bilateral),Mauritania,3.9515489417314753
 2000,China (bilateral),Mauritius,2.0650565759263624
@@ -77,7 +77,7 @@ year,creditor_name,debtor_name,value
 2000,China (bilateral),Niger,1.572798892447634
 2000,China (bilateral),North Macedonia,5.385663966424344
 2000,China (bilateral),Pakistan,1.5314994036596459
-2000,China (bilateral),Papua New Guinea,0.5868948849029864
+2000,China (bilateral),Papua New Guinea,0.5868948849029862
 2000,China (bilateral),Paraguay,0.7408331779699494
 2000,China (bilateral),Peru,0.32374112870840427
 2000,China (bilateral),Philippines,0.019857701059656174
@@ -109,7 +109,7 @@ year,creditor_name,debtor_name,value
 2000,China (bilateral),Zimbabwe,1.7397483570114873
 2000,China (private),Africa (excluding high income),0.00039205363554067256
 2000,China (private),Algeria,0.0
-2000,China (private),Bangladesh,0.46033019011537885
+2000,China (private),Bangladesh,0.4603301901153789
 2000,China (private),Belarus,4.499995324141955
 2000,China (private),Belize,1.79665722114258
 2000,China (private),Brazil,0.0
@@ -151,13 +151,13 @@ year,creditor_name,debtor_name,value
 2001,China (bilateral),Cambodia,0.5328957935992392
 2001,China (bilateral),Cameroon,0.3739987697712927
 2001,China (bilateral),Central African Republic,0.9697660997739497
-2001,China (bilateral),Chad,1.9744638792041413
+2001,China (bilateral),Chad,1.9744638792041416
 2001,China (bilateral),Comoros,0.5565153136971385
 2001,China (bilateral),"Congo, Dem. Rep.",0.8144066475704201
 2001,China (bilateral),"Congo, Rep.",1.045081110030906
 2001,China (bilateral),Cote d'Ivoire,0.17805231074806477
 2001,China (bilateral),Djibouti,1.7862699060239706
-2001,China (bilateral),Dominica,4.934948249796047
+2001,China (bilateral),Dominica,4.934948249796048
 2001,China (bilateral),Dominican Republic,0.2586201011495259
 2001,China (bilateral),East Asia & Pacific (excluding high income),0.48292582855462973
 2001,China (bilateral),Ecuador,0.05519328596725313
@@ -191,7 +191,7 @@ year,creditor_name,debtor_name,value
 2001,China (bilateral),Latin America & Caribbean (excluding high income),0.0781830725621656
 2001,China (bilateral),Least developed countries: UN classification,2.252121109688021
 2001,China (bilateral),Lebanon,0.06424756469618474
-2001,China (bilateral),Lesotho,1.8340100706533475
+2001,China (bilateral),Lesotho,1.834010070653347
 2001,China (bilateral),Liberia,1.503919072179312
 2001,China (bilateral),Low & lower middle income,0.7957924896936712
 2001,China (bilateral),Low & middle income,0.45847733760630427
@@ -214,7 +214,7 @@ year,creditor_name,debtor_name,value
 2001,China (bilateral),North Macedonia,4.692268957710122
 2001,China (bilateral),Pakistan,0.3197208634105408
 2001,China (bilateral),Papua New Guinea,0.5476405382278657
-2001,China (bilateral),Paraguay,0.49281948046280116
+2001,China (bilateral),Paraguay,0.4928194804628013
 2001,China (bilateral),Peru,0.24083727156034113
 2001,China (bilateral),Philippines,0.022938886970149494
 2001,China (bilateral),Rwanda,1.5366186319416009
@@ -249,7 +249,7 @@ year,creditor_name,debtor_name,value
 2001,China (private),Bangladesh,0.7068240548938254
 2001,China (private),Belarus,4.365455260704694
 2001,China (private),Belize,1.4388395053705705
-2001,China (private),Brazil,0.001635298985393683
+2001,China (private),Brazil,0.0016352989853936828
 2001,China (private),East Asia & Pacific (excluding high income),0.05740256369321599
 2001,China (private),Europe & Central Asia (excluding high income),0.06201349398811397
 2001,China (private),IDA only,0.1587308458027831
@@ -305,7 +305,7 @@ year,creditor_name,debtor_name,value
 2002,China (bilateral),Europe & Central Asia (excluding high income),0.38933735094103084
 2002,China (bilateral),Fiji,43.21280579506753
 2002,China (bilateral),Gabon,1.6037284503599214
-2002,China (bilateral),"Gambia, The",3.499235400810903
+2002,China (bilateral),"Gambia, The",3.4992354008109023
 2002,China (bilateral),Georgia,0.19069309156020528
 2002,China (bilateral),Ghana,0.9935624895201706
 2002,China (bilateral),Grenada,0.09745462060505806
@@ -319,7 +319,7 @@ year,creditor_name,debtor_name,value
 2002,China (bilateral),Indonesia,0.02780514777289321
 2002,China (bilateral),"Iran, Islamic Rep.",3.1968647231918346
 2002,China (bilateral),Jamaica,0.2957584789004776
-2002,China (bilateral),Jordan,0.18968327250623454
+2002,China (bilateral),Jordan,0.1896832725062345
 2002,China (bilateral),Kenya,0.1619017911369747
 2002,China (bilateral),Kyrgyz Republic,0.7362490247916834
 2002,China (bilateral),Lao PDR,0.4343770861326334
@@ -369,9 +369,9 @@ year,creditor_name,debtor_name,value
 2002,China (bilateral),Togo,2.0645529386959884
 2002,China (bilateral),Tonga,7.105706918789183
 2002,China (bilateral),Tunisia,0.1520580860954986
-2002,China (bilateral),Turkiye,0.012186402286305032
+2002,China (bilateral),Turkiye,0.012186402286305034
 2002,China (bilateral),Turkmenistan,1.8704994857022181
-2002,China (bilateral),Uganda,0.5059736007957917
+2002,China (bilateral),Uganda,0.5059736007957916
 2002,China (bilateral),Upper middle income,0.16383629301278835
 2002,China (bilateral),Uzbekistan,0.3726865879385314
 2002,China (bilateral),Vanuatu,4.985249308621211
@@ -528,7 +528,7 @@ year,creditor_name,debtor_name,value
 2003,China (private),IDA total,0.10722030473156384
 2003,China (private),"Iran, Islamic Rep.",1.734089176145515
 2003,China (private),Kenya,0.09056127378983489
-2003,China (private),Latin America & Caribbean (excluding high income),0.001643055107767071
+2003,China (private),Latin America & Caribbean (excluding high income),0.0016430551077670707
 2003,China (private),Least developed countries: UN classification,0.17989492724278666
 2003,China (private),Low & lower middle income,0.06137434715070386
 2003,China (private),Low & middle income,0.04222880919322984
@@ -561,7 +561,7 @@ year,creditor_name,debtor_name,value
 2004,China (bilateral),Cambodia,1.3104644332974673
 2004,China (bilateral),Cameroon,0.5289842319301559
 2004,China (bilateral),Central African Republic,1.0422434975136432
-2004,China (bilateral),Chad,0.960473998898224
+2004,China (bilateral),Chad,0.9604739988982242
 2004,China (bilateral),Comoros,0.44889015151380196
 2004,China (bilateral),"Congo, Dem. Rep.",0.6865124804413133
 2004,China (bilateral),"Congo, Rep.",0.8388904556007054
@@ -596,7 +596,7 @@ year,creditor_name,debtor_name,value
 2004,China (bilateral),Kenya,0.19624842098548498
 2004,China (bilateral),Kyrgyz Republic,0.7807013760164282
 2004,China (bilateral),Lao PDR,3.2265202930188486
-2004,China (bilateral),Latin America & Caribbean (excluding high income),0.06066804201983146
+2004,China (bilateral),Latin America & Caribbean (excluding high income),0.060668042019831454
 2004,China (bilateral),Least developed countries: UN classification,2.047875512876699
 2004,China (bilateral),Lebanon,0.03271843945956164
 2004,China (bilateral),Lesotho,1.0046606100755755
@@ -634,10 +634,10 @@ year,creditor_name,debtor_name,value
 2004,China (bilateral),South Asia,0.17338601552607602
 2004,China (bilateral),Sri Lanka,1.0076372580242976
 2004,China (bilateral),St. Vincent and the Grenadines,1.5441310053678776
-2004,China (bilateral),Sub-Saharan Africa (excluding high income),1.5319119634803844
+2004,China (bilateral),Sub-Saharan Africa (excluding high income),1.5319119634803846
 2004,China (bilateral),Sudan,10.055914058576114
 2004,China (bilateral),Tajikistan,0.8287135399071072
-2004,China (bilateral),Tanzania,2.114267425901564
+2004,China (bilateral),Tanzania,2.1142674259015646
 2004,China (bilateral),Togo,1.7253433720112297
 2004,China (bilateral),Tonga,9.128196867632202
 2004,China (bilateral),Tunisia,0.09111034632542242
@@ -664,7 +664,7 @@ year,creditor_name,debtor_name,value
 2004,China (private),Indonesia,0.012065317985308249
 2004,China (private),"Iran, Islamic Rep.",1.298446999169281
 2004,China (private),Kenya,0.08681200196777555
-2004,China (private),Latin America & Caribbean (excluding high income),0.0012816916050964176
+2004,China (private),Latin America & Caribbean (excluding high income),0.0012816916050964174
 2004,China (private),Least developed countries: UN classification,0.1745867889974317
 2004,China (private),Low & lower middle income,0.06648218710460534
 2004,China (private),Low & middle income,0.041060717633431894
@@ -677,7 +677,7 @@ year,creditor_name,debtor_name,value
 2004,China (private),North Macedonia,1.5111188425268423
 2004,China (private),Pakistan,0.18465443569811354
 2004,China (private),South Asia,0.10120565935590127
-2004,China (private),Sub-Saharan Africa (excluding high income),0.00276919474741808
+2004,China (private),Sub-Saharan Africa (excluding high income),0.0027691947474180805
 2004,China (private),Sudan,0.0006910599397307814
 2004,China (private),Upper middle income,0.025038366605017164
 2004,China (private),Uzbekistan,0.5988399526177453
@@ -685,7 +685,7 @@ year,creditor_name,debtor_name,value
 2005,China (bilateral),Africa (excluding high income),1.3634562349473502
 2005,China (bilateral),Albania,2.5398044976536336
 2005,China (bilateral),Algeria,0.17623412256344875
-2005,China (bilateral),Angola,1.909439019311354
+2005,China (bilateral),Angola,1.9094390193113544
 2005,China (bilateral),Bangladesh,0.33435313801685174
 2005,China (bilateral),Belarus,4.4892463400555
 2005,China (bilateral),Belize,0.0030017223494037135
@@ -726,11 +726,11 @@ year,creditor_name,debtor_name,value
 2005,China (bilateral),IDA only,2.0305782174565707
 2005,China (bilateral),IDA total,1.7234450957010752
 2005,China (bilateral),India,0.013346457935374022
-2005,China (bilateral),Indonesia,0.026726521515037953
+2005,China (bilateral),Indonesia,0.02672652151503796
 2005,China (bilateral),"Iran, Islamic Rep.",5.835201882371441
 2005,China (bilateral),Jamaica,0.47959884717454915
 2005,China (bilateral),Jordan,0.3334762018488843
-2005,China (bilateral),Kenya,0.4029826563769714
+2005,China (bilateral),Kenya,0.40298265637697134
 2005,China (bilateral),Kyrgyz Republic,0.8370572156982757
 2005,China (bilateral),Lao PDR,5.097240814973174
 2005,China (bilateral),Latin America & Caribbean (excluding high income),0.07742112766572161
@@ -742,8 +742,8 @@ year,creditor_name,debtor_name,value
 2005,China (bilateral),Low & middle income,0.5640626932660493
 2005,China (bilateral),Low income,2.6664876262554666
 2005,China (bilateral),Lower middle income,0.8425937810149549
-2005,China (bilateral),Madagascar,1.1111764067075376
-2005,China (bilateral),Maldives,0.3241665159544798
+2005,China (bilateral),Madagascar,1.1111764067075374
+2005,China (bilateral),Maldives,0.3241665159544799
 2005,China (bilateral),Mali,4.618736768319173
 2005,China (bilateral),Mauritania,3.0132160832496235
 2005,China (bilateral),Mauritius,3.8443425878628092
@@ -756,7 +756,7 @@ year,creditor_name,debtor_name,value
 2005,China (bilateral),Nicaragua,0.3846784790396775
 2005,China (bilateral),Niger,1.189697528806179
 2005,China (bilateral),Nigeria,0.6634980563888578
-2005,China (bilateral),North Macedonia,5.2777219432281575
+2005,China (bilateral),North Macedonia,5.277721943228158
 2005,China (bilateral),Pakistan,1.5781013055959723
 2005,China (bilateral),Papua New Guinea,0.4881975324486998
 2005,China (bilateral),Paraguay,0.03850869257053582
@@ -765,7 +765,7 @@ year,creditor_name,debtor_name,value
 2005,China (bilateral),Rwanda,1.056583836966368
 2005,China (bilateral),Samoa,7.231909882287156
 2005,China (bilateral),Sao Tome and Principe,5.385083744732737
-2005,China (bilateral),Senegal,2.6410672384968352
+2005,China (bilateral),Senegal,2.6410672384968357
 2005,China (bilateral),Serbia,2.146357401532773
 2005,China (bilateral),Sierra Leone,1.9884166385635766
 2005,China (bilateral),South Asia,0.19364860148293692
@@ -790,18 +790,18 @@ year,creditor_name,debtor_name,value
 2005,China (bilateral),Zimbabwe,3.45485061755843
 2005,China (private),Africa (excluding high income),0.07225919895840943
 2005,China (private),Algeria,0.005097879919114523
-2005,China (private),Angola,0.2508781094874552
+2005,China (private),Angola,0.25087810948745526
 2005,China (private),Bangladesh,0.5589457598751343
 2005,China (private),Belarus,2.673293928654089
 2005,China (private),Belize,0.40374220375987274
 2005,China (private),"Congo, Rep.",2.1768031735195374
 2005,China (private),East Asia & Pacific (excluding high income),0.05789532451597657
 2005,China (private),Europe & Central Asia (excluding high income),0.07138124626060156
-2005,China (private),IDA only,0.15046023995523874
+2005,China (private),IDA only,0.15046023995523877
 2005,China (private),IDA total,0.19924770014188045
-2005,China (private),Indonesia,0.006948303701372343
+2005,China (private),Indonesia,0.006948303701372345
 2005,China (private),"Iran, Islamic Rep.",1.6470601156403433
-2005,China (private),Kenya,0.09340920818828993
+2005,China (private),Kenya,0.09340920818828992
 2005,China (private),Latin America & Caribbean (excluding high income),0.0010879359234820813
 2005,China (private),Least developed countries: UN classification,0.19712647901341923
 2005,China (private),Low & lower middle income,0.11526977986164419
@@ -813,7 +813,7 @@ year,creditor_name,debtor_name,value
 2005,China (private),Mongolia,0.0
 2005,China (private),Myanmar,2.128698789151689
 2005,China (private),Nigeria,0.12911264556965799
-2005,China (private),North Macedonia,1.4362295241234881
+2005,China (private),North Macedonia,1.4362295241234884
 2005,China (private),Pakistan,0.23201949795743745
 2005,China (private),South Asia,0.11351618521227595
 2005,China (private),Sub-Saharan Africa (excluding high income),0.10111012446430595
@@ -875,13 +875,13 @@ year,creditor_name,debtor_name,value
 2006,China (bilateral),Lao PDR,6.186543798842401
 2006,China (bilateral),Latin America & Caribbean (excluding high income),0.08160620684966935
 2006,China (bilateral),Least developed countries: UN classification,3.536578959354779
-2006,China (bilateral),Lebanon,0.0317006816278218
+2006,China (bilateral),Lebanon,0.031700681627821796
 2006,China (bilateral),Lesotho,1.2524818629998444
 2006,China (bilateral),Liberia,1.3457266837176405
 2006,China (bilateral),Low & lower middle income,1.5495704264152048
 2006,China (bilateral),Low & middle income,0.8852492003849153
 2006,China (bilateral),Low income,3.5607681239624376
-2006,China (bilateral),Lower middle income,1.2258679315119105
+2006,China (bilateral),Lower middle income,1.2258679315119103
 2006,China (bilateral),Madagascar,3.0311558996247365
 2006,China (bilateral),Maldives,0.23855878418426021
 2006,China (bilateral),Mali,9.542496179595249
@@ -910,11 +910,11 @@ year,creditor_name,debtor_name,value
 2006,China (bilateral),Sierra Leone,1.8024486844427074
 2006,China (bilateral),South Asia,0.1766793631985665
 2006,China (bilateral),Sri Lanka,0.9997432547003969
-2006,China (bilateral),St. Vincent and the Grenadines,0.979316928946466
+2006,China (bilateral),St. Vincent and the Grenadines,0.9793169289464662
 2006,China (bilateral),Sub-Saharan Africa (excluding high income),3.2928869019783065
 2006,China (bilateral),Sudan,10.93255541105145
 2006,China (bilateral),Tajikistan,4.453824907800541
-2006,China (bilateral),Tanzania,6.140244270548826
+2006,China (bilateral),Tanzania,6.140244270548828
 2006,China (bilateral),Togo,0.8299726787915097
 2006,China (bilateral),Tonga,9.89092019584157
 2006,China (bilateral),Tunisia,0.2972883339278262
@@ -947,7 +947,7 @@ year,creditor_name,debtor_name,value
 2006,China (private),Low & lower middle income,0.2047804224536017
 2006,China (private),Low & middle income,0.09409057776770674
 2006,China (private),Low income,0.0001449914251045334
-2006,China (private),Lower middle income,0.2377165180200993
+2006,China (private),Lower middle income,0.23771651802009927
 2006,China (private),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",0.13671479789481336
 2006,China (private),Middle income,0.09913109672707954
 2006,China (private),Mongolia,0.9404935004593762
@@ -963,7 +963,7 @@ year,creditor_name,debtor_name,value
 2006,China (private),Viet Nam,0.0023354251738878615
 2006,China (private),Zambia,0.0
 2007,China (bilateral),Africa (excluding high income),2.592256677276659
-2007,China (bilateral),Albania,1.5827561581964567
+2007,China (bilateral),Albania,1.5827561581964564
 2007,China (bilateral),Algeria,1.5966536111336134
 2007,China (bilateral),Angola,11.631998243655143
 2007,China (bilateral),Bangladesh,0.2106335625066128
@@ -990,10 +990,10 @@ year,creditor_name,debtor_name,value
 2007,China (bilateral),"Egypt, Arab Rep.",0.39041492949343304
 2007,China (bilateral),El Salvador,0.5913593419141056
 2007,China (bilateral),Eritrea,1.8394443954936608
-2007,China (bilateral),Eswatini,0.5795420405676318
+2007,China (bilateral),Eswatini,0.5795420405676317
 2007,China (bilateral),Ethiopia,0.935404509251584
-2007,China (bilateral),Europe & Central Asia (excluding high income),0.663336364903571
-2007,China (bilateral),Fiji,20.86318026647982
+2007,China (bilateral),Europe & Central Asia (excluding high income),0.6633363649035708
+2007,China (bilateral),Fiji,20.863180266479823
 2007,China (bilateral),Gabon,2.275893707621775
 2007,China (bilateral),"Gambia, The",1.237493411649079
 2007,China (bilateral),Georgia,0.0
@@ -1001,7 +1001,7 @@ year,creditor_name,debtor_name,value
 2007,China (bilateral),Guatemala,1.3480808223648235
 2007,China (bilateral),Guinea,1.5239403027390024
 2007,China (bilateral),Guyana,4.596625009848523
-2007,China (bilateral),Honduras,1.4109697752347812
+2007,China (bilateral),Honduras,1.4109697752347814
 2007,China (bilateral),IDA only,3.0277496209152215
 2007,China (bilateral),IDA total,2.984127238620287
 2007,China (bilateral),India,0.005804800018021578
@@ -1021,8 +1021,8 @@ year,creditor_name,debtor_name,value
 2007,China (bilateral),Low & middle income,1.0088744692542249
 2007,China (bilateral),Low income,3.0914342533192425
 2007,China (bilateral),Lower middle income,1.6329059350642539
-2007,China (bilateral),Madagascar,0.21071237736925488
-2007,China (bilateral),Maldives,0.17380812900800022
+2007,China (bilateral),Madagascar,0.21071237736925486
+2007,China (bilateral),Maldives,0.17380812900800025
 2007,China (bilateral),Mali,3.2567249608641875
 2007,China (bilateral),Mauritania,0.0
 2007,China (bilateral),Mauritius,4.226212301677221
@@ -1049,14 +1049,14 @@ year,creditor_name,debtor_name,value
 2007,China (bilateral),Sierra Leone,2.451726155764358
 2007,China (bilateral),South Asia,0.29988645547819726
 2007,China (bilateral),Sri Lanka,2.2976498515148913
-2007,China (bilateral),St. Vincent and the Grenadines,0.9196061724454911
+2007,China (bilateral),St. Vincent and the Grenadines,0.9196061724454913
 2007,China (bilateral),Sub-Saharan Africa (excluding high income),3.7249871719779226
 2007,China (bilateral),Sudan,10.174162070037823
-2007,China (bilateral),Tajikistan,20.949522215172564
+2007,China (bilateral),Tajikistan,20.949522215172568
 2007,China (bilateral),Tanzania,5.486350949280646
 2007,China (bilateral),Togo,0.8335196245375428
 2007,China (bilateral),Tonga,9.97437311795225
-2007,China (bilateral),Tunisia,0.3412801328680608
+2007,China (bilateral),Tunisia,0.34128013286806075
 2007,China (bilateral),Turkiye,0.0
 2007,China (bilateral),Turkmenistan,14.574470092384892
 2007,China (bilateral),Uganda,1.582057902884886
@@ -1077,8 +1077,8 @@ year,creditor_name,debtor_name,value
 2007,China (private),East Asia & Pacific (excluding high income),0.05903680705232892
 2007,China (private),"Egypt, Arab Rep.",0.0
 2007,China (private),Ethiopia,0.0
-2007,China (private),Europe & Central Asia (excluding high income),0.04956872262076529
-2007,China (private),Honduras,2.489975956013802
+2007,China (private),Europe & Central Asia (excluding high income),0.04956872262076528
+2007,China (private),Honduras,2.4899759560138026
 2007,China (private),IDA only,0.22321666652437475
 2007,China (private),IDA total,0.3503183302277607
 2007,China (private),India,0.2899811381473132
@@ -1109,7 +1109,7 @@ year,creditor_name,debtor_name,value
 2008,China (bilateral),Albania,1.0879178440281074
 2008,China (bilateral),Algeria,1.7391762952393464
 2008,China (bilateral),Angola,11.249660779421669
-2008,China (bilateral),Bangladesh,0.29603156176609513
+2008,China (bilateral),Bangladesh,0.2960315617660952
 2008,China (bilateral),Belarus,4.60100780906141
 2008,China (bilateral),Belize,0.0
 2008,China (bilateral),Benin,14.750816799148446
@@ -1201,7 +1201,7 @@ year,creditor_name,debtor_name,value
 2008,China (bilateral),Togo,0.995684691396896
 2008,China (bilateral),Tonga,18.566009629932296
 2008,China (bilateral),Tunisia,0.35212834160922657
-2008,China (bilateral),Turkiye,0.15131214375096805
+2008,China (bilateral),Turkiye,0.15131214375096808
 2008,China (bilateral),Turkmenistan,23.322264030363037
 2008,China (bilateral),Uganda,1.832654984141944
 2008,China (bilateral),Upper middle income,0.6858776940502254
@@ -1213,7 +1213,7 @@ year,creditor_name,debtor_name,value
 2008,China (bilateral),Zimbabwe,8.735209065749181
 2008,China (private),Africa (excluding high income),0.1894255955434741
 2008,China (private),Angola,0.016566439862455012
-2008,China (private),Bangladesh,0.12812087168974717
+2008,China (private),Bangladesh,0.1281208716897472
 2008,China (private),Belarus,0.27580852506834996
 2008,China (private),Belize,0.0
 2008,China (private),"Congo, Rep.",4.808606153840298
@@ -1272,7 +1272,7 @@ year,creditor_name,debtor_name,value
 2009,China (bilateral),Djibouti,3.5701351963174357
 2009,China (bilateral),Dominican Republic,0.08168106772783201
 2009,China (bilateral),East Asia & Pacific (excluding high income),0.9452805279071269
-2009,China (bilateral),Ecuador,0.033075466337316166
+2009,China (bilateral),Ecuador,0.03307546633731617
 2009,China (bilateral),"Egypt, Arab Rep.",0.46180255730677794
 2009,China (bilateral),El Salvador,0.4592461279249023
 2009,China (bilateral),Eritrea,13.153451278097684
@@ -1308,7 +1308,7 @@ year,creditor_name,debtor_name,value
 2009,China (bilateral),Low income,5.269123632292593
 2009,China (bilateral),Lower middle income,2.4621976679974384
 2009,China (bilateral),Madagascar,2.852693304001596
-2009,China (bilateral),Malawi,3.1172513860088116
+2009,China (bilateral),Malawi,3.117251386008812
 2009,China (bilateral),Maldives,0.08226243464101779
 2009,China (bilateral),Mali,3.8658681767971728
 2009,China (bilateral),Mauritania,7.266501096053762
@@ -1322,7 +1322,7 @@ year,creditor_name,debtor_name,value
 2009,China (bilateral),Nicaragua,0.7179346909460261
 2009,China (bilateral),Niger,14.848215237533058
 2009,China (bilateral),Nigeria,14.497390404925188
-2009,China (bilateral),North Macedonia,2.3052950743174563
+2009,China (bilateral),North Macedonia,2.3052950743174567
 2009,China (bilateral),Pakistan,4.23445136461808
 2009,China (bilateral),Papua New Guinea,0.8920423149904624
 2009,China (bilateral),Peru,0.007841221012198595
@@ -1330,7 +1330,7 @@ year,creditor_name,debtor_name,value
 2009,China (bilateral),Rwanda,0.8623848706056979
 2009,China (bilateral),Samoa,19.733873233283475
 2009,China (bilateral),Sao Tome and Principe,14.315755578561545
-2009,China (bilateral),Senegal,5.944746174950798
+2009,China (bilateral),Senegal,5.944746174950796
 2009,China (bilateral),Serbia,2.321009903648794
 2009,China (bilateral),Sierra Leone,4.161220309802932
 2009,China (bilateral),South Asia,0.5231509467651602
@@ -1384,7 +1384,7 @@ year,creditor_name,debtor_name,value
 2009,China (private),Mongolia,0.4919383458195917
 2009,China (private),Myanmar,2.26467227470502
 2009,China (private),Nigeria,1.9603559388654799
-2009,China (private),North Macedonia,0.8843031181443914
+2009,China (private),North Macedonia,0.8843031181443916
 2009,China (private),Pakistan,0.23009661326416575
 2009,China (private),South Asia,0.20235256406422605
 2009,China (private),Sub-Saharan Africa (excluding high income),0.8866517588156824
@@ -1406,7 +1406,7 @@ year,creditor_name,debtor_name,value
 2010,China (bilateral),Brazil,8.221380094775059
 2010,China (bilateral),Burkina Faso,2.808756163276774
 2010,China (bilateral),Burundi,0.0
-2010,China (bilateral),Cabo Verde,2.5726780347187628
+2010,China (bilateral),Cabo Verde,2.572678034718763
 2010,China (bilateral),Cambodia,17.17810491508554
 2010,China (bilateral),Cameroon,9.138352701662106
 2010,China (bilateral),Central African Republic,12.773896609442911
@@ -1423,10 +1423,10 @@ year,creditor_name,debtor_name,value
 2010,China (bilateral),"Egypt, Arab Rep.",0.5143841552370556
 2010,China (bilateral),El Salvador,0.3586426606797824
 2010,China (bilateral),Eritrea,13.410004438421975
-2010,China (bilateral),Eswatini,0.37445212253054017
+2010,China (bilateral),Eswatini,0.3744521225305402
 2010,China (bilateral),Ethiopia,8.447834529282149
 2010,China (bilateral),Europe & Central Asia (excluding high income),2.3712583326024106
-2010,China (bilateral),Fiji,24.971015654281146
+2010,China (bilateral),Fiji,24.97101565428115
 2010,China (bilateral),Gabon,12.782346336945233
 2010,China (bilateral),"Gambia, The",3.1604155590192367
 2010,China (bilateral),Georgia,0.13833614318718077
@@ -1455,9 +1455,9 @@ year,creditor_name,debtor_name,value
 2010,China (bilateral),Low income,8.338609321672207
 2010,China (bilateral),Lower middle income,3.2195965811277625
 2010,China (bilateral),Madagascar,3.0573214534704394
-2010,China (bilateral),Malawi,6.441368886602528
+2010,China (bilateral),Malawi,6.441368886602527
 2010,China (bilateral),Maldives,3.5183554544299462
-2010,China (bilateral),Mali,3.226817745423389
+2010,China (bilateral),Mali,3.2268177454233893
 2010,China (bilateral),Mauritania,6.406409764261165
 2010,China (bilateral),Mauritius,14.874205774053708
 2010,China (bilateral),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",3.099516083715038
@@ -1501,7 +1501,7 @@ year,creditor_name,debtor_name,value
 2010,China (bilateral),Viet Nam,4.998733743995977
 2010,China (bilateral),"Yemen, Rep.",4.736866595067716
 2010,China (bilateral),Zambia,25.007688043411758
-2010,China (bilateral),Zimbabwe,9.949793129999325
+2010,China (bilateral),Zimbabwe,9.949793129999327
 2010,China (private),Africa (excluding high income),2.2880866216876243
 2010,China (private),Angola,21.814942205598935
 2010,China (private),Bangladesh,0.006360678560126907
@@ -1528,7 +1528,7 @@ year,creditor_name,debtor_name,value
 2010,China (private),Lower middle income,1.0916542907383064
 2010,China (private),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",0.1125987759624071
 2010,China (private),Middle income,0.39207633723986074
-2010,China (private),Moldova,1.5139319607160564
+2010,China (private),Moldova,1.5139319607160562
 2010,China (private),Mongolia,0.3871170192517613
 2010,China (private),Myanmar,5.867964450886014
 2010,China (private),Nigeria,0.0
@@ -1546,7 +1546,7 @@ year,creditor_name,debtor_name,value
 2011,China (bilateral),Algeria,3.2230645675469796
 2011,China (bilateral),Angola,8.022468547276778
 2011,China (bilateral),Argentina,0.05278767880895145
-2011,China (bilateral),Bangladesh,0.22620060392102168
+2011,China (bilateral),Bangladesh,0.22620060392102173
 2011,China (bilateral),Belarus,11.872311720120111
 2011,China (bilateral),Belize,0.0
 2011,China (bilateral),Benin,10.84659053698409
@@ -1569,7 +1569,7 @@ year,creditor_name,debtor_name,value
 2011,China (bilateral),Dominican Republic,0.04269801024678869
 2011,China (bilateral),East Asia & Pacific (excluding high income),1.864398066566137
 2011,China (bilateral),Ecuador,22.51571849223144
-2011,China (bilateral),"Egypt, Arab Rep.",0.5533419815399965
+2011,China (bilateral),"Egypt, Arab Rep.",0.5533419815399966
 2011,China (bilateral),El Salvador,0.28634604044883327
 2011,China (bilateral),Eritrea,13.410847766323776
 2011,China (bilateral),Eswatini,0.36442322602023364
@@ -1580,11 +1580,11 @@ year,creditor_name,debtor_name,value
 2011,China (bilateral),"Gambia, The",3.2102588887611168
 2011,China (bilateral),Georgia,0.12528041269679052
 2011,China (bilateral),Ghana,12.227593340378418
-2011,China (bilateral),Guatemala,0.43150812138910993
+2011,China (bilateral),Guatemala,0.4315081213891099
 2011,China (bilateral),Guinea,2.0817903638003505
 2011,China (bilateral),Guyana,6.365577279084247
-2011,China (bilateral),Honduras,1.2429413655437764
-2011,China (bilateral),IDA only,8.796039029774349
+2011,China (bilateral),Honduras,1.2429413655437762
+2011,China (bilateral),IDA only,8.79603902977435
 2011,China (bilateral),IDA total,8.23188649716977
 2011,China (bilateral),Indonesia,0.711079523203134
 2011,China (bilateral),"Iran, Islamic Rep.",7.993593055770398
@@ -1595,17 +1595,17 @@ year,creditor_name,debtor_name,value
 2011,China (bilateral),Lao PDR,26.346232903891153
 2011,China (bilateral),Latin America & Caribbean (excluding high income),2.4218550984744125
 2011,China (bilateral),Least developed countries: UN classification,8.35322951472932
-2011,China (bilateral),Lebanon,0.03816473603563129
+2011,China (bilateral),Lebanon,0.03816473603563128
 2011,China (bilateral),Lesotho,4.456896004850542
 2011,China (bilateral),Liberia,3.1281179878400422
-2011,China (bilateral),Low & lower middle income,4.576013936187619
+2011,China (bilateral),Low & lower middle income,4.576013936187618
 2011,China (bilateral),Low & middle income,3.0625413561568906
 2011,China (bilateral),Low income,9.051904832059057
 2011,China (bilateral),Lower middle income,3.9933490965229628
 2011,China (bilateral),Madagascar,3.0457821635731346
-2011,China (bilateral),Malawi,16.71700248410684
+2011,China (bilateral),Malawi,16.717002484106835
 2011,China (bilateral),Maldives,5.898805701812954
-2011,China (bilateral),Mali,3.1940683165435866
+2011,China (bilateral),Mali,3.194068316543587
 2011,China (bilateral),Mauritania,7.093660645089587
 2011,China (bilateral),Mauritius,18.733387908129732
 2011,China (bilateral),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",3.294060531992593
@@ -1630,7 +1630,7 @@ year,creditor_name,debtor_name,value
 2011,China (bilateral),Serbia,2.4317015301908507
 2011,China (bilateral),Sierra Leone,3.895134700818501
 2011,China (bilateral),South Asia,1.2884393514586816
-2011,China (bilateral),Sri Lanka,10.040272628398604
+2011,China (bilateral),Sri Lanka,10.0402726283986
 2011,China (bilateral),St. Vincent and the Grenadines,0.0
 2011,China (bilateral),Sub-Saharan Africa (excluding high income),7.326905065221732
 2011,China (bilateral),Sudan,11.000155319577528
@@ -1661,8 +1661,8 @@ year,creditor_name,debtor_name,value
 2011,China (private),Ethiopia,15.93055824270944
 2011,China (private),Europe & Central Asia (excluding high income),0.025282320195281895
 2011,China (private),Gabon,0.0
-2011,China (private),Honduras,1.5536767069297206
-2011,China (private),IDA only,1.4814414568728433
+2011,China (private),Honduras,1.5536767069297202
+2011,China (private),IDA only,1.4814414568728438
 2011,China (private),IDA total,1.274754049621978
 2011,China (private),India,0.044598336774879684
 2011,China (private),Indonesia,0.023181545096503157
@@ -1670,7 +1670,7 @@ year,creditor_name,debtor_name,value
 2011,China (private),Kenya,0.0100769667473548
 2011,China (private),Latin America & Caribbean (excluding high income),0.011149688092075227
 2011,China (private),Least developed countries: UN classification,5.259336809849515
-2011,China (private),Low & lower middle income,1.5111236960983903
+2011,China (private),Low & lower middle income,1.51112369609839
 2011,China (private),Low & middle income,0.579925918220952
 2011,China (private),Low income,1.978407643125336
 2011,China (private),Lower middle income,1.450293364795305
@@ -1720,18 +1720,18 @@ year,creditor_name,debtor_name,value
 2012,China (bilateral),"Egypt, Arab Rep.",1.1699225436324936
 2012,China (bilateral),El Salvador,0.22043198586620857
 2012,China (bilateral),Eritrea,10.107919501796388
-2012,China (bilateral),Eswatini,0.34241190417146355
+2012,China (bilateral),Eswatini,0.3424119041714635
 2012,China (bilateral),Ethiopia,13.77568651730271
 2012,China (bilateral),Europe & Central Asia (excluding high income),4.9631522940118415
 2012,China (bilateral),Fiji,29.65834491128633
 2012,China (bilateral),Gabon,15.930348030813928
-2012,China (bilateral),"Gambia, The",3.1158079776500434
+2012,China (bilateral),"Gambia, The",3.115807977650044
 2012,China (bilateral),Georgia,0.09349168279560455
 2012,China (bilateral),Ghana,17.404104797895382
 2012,China (bilateral),Guatemala,0.26206420103744066
 2012,China (bilateral),Guinea,5.904169288629107
 2012,China (bilateral),Guyana,8.003867927697382
-2012,China (bilateral),Honduras,1.7402732234524254
+2012,China (bilateral),Honduras,1.7402732234524256
 2012,China (bilateral),IDA only,10.36816864312809
 2012,China (bilateral),IDA total,10.077860568331257
 2012,China (bilateral),Indonesia,0.6432328046450047
@@ -1744,7 +1744,7 @@ year,creditor_name,debtor_name,value
 2012,China (bilateral),Latin America & Caribbean (excluding high income),2.2579717700128805
 2012,China (bilateral),Least developed countries: UN classification,9.501542209512815
 2012,China (bilateral),Lebanon,0.032771564599658236
-2012,China (bilateral),Lesotho,5.457830808155251
+2012,China (bilateral),Lesotho,5.45783080815525
 2012,China (bilateral),Liberia,2.7862100956946105
 2012,China (bilateral),Low & lower middle income,5.447260850708117
 2012,China (bilateral),Low & middle income,3.3867702415078473
@@ -1753,7 +1753,7 @@ year,creditor_name,debtor_name,value
 2012,China (bilateral),Madagascar,2.918546609622673
 2012,China (bilateral),Malawi,16.843285437577503
 2012,China (bilateral),Maldives,9.792515954393437
-2012,China (bilateral),Mali,7.467852955647801
+2012,China (bilateral),Mali,7.467852955647799
 2012,China (bilateral),Mauritania,6.034097502069028
 2012,China (bilateral),Mauritius,24.566564794267844
 2012,China (bilateral),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",3.6110747423452296
@@ -1808,9 +1808,9 @@ year,creditor_name,debtor_name,value
 2012,China (private),Europe & Central Asia (excluding high income),0.016487932173858237
 2012,China (private),Gabon,0.0
 2012,China (private),Ghana,0.2110542854788464
-2012,China (private),Honduras,1.3595884558222073
+2012,China (private),Honduras,1.3595884558222076
 2012,China (private),IDA only,1.8264321951920033
-2012,China (private),IDA total,1.5376885029288847
+2012,China (private),IDA total,1.5376885029288845
 2012,China (private),India,0.0
 2012,China (private),Indonesia,0.018735780884419878
 2012,China (private),"Iran, Islamic Rep.",4.30588369653853
@@ -1865,7 +1865,7 @@ year,creditor_name,debtor_name,value
 2013,China (bilateral),"Egypt, Arab Rep.",0.8912122491766753
 2013,China (bilateral),El Salvador,0.1736077641193462
 2013,China (bilateral),Eritrea,6.415681465166745
-2013,China (bilateral),Eswatini,0.31238616955939275
+2013,China (bilateral),Eswatini,0.31238616955939263
 2013,China (bilateral),Ethiopia,15.719679771168787
 2013,China (bilateral),Europe & Central Asia (excluding high income),5.963815455146092
 2013,China (bilateral),Fiji,33.6969790603861
@@ -1873,7 +1873,7 @@ year,creditor_name,debtor_name,value
 2013,China (bilateral),"Gambia, The",3.0277692049568965
 2013,China (bilateral),Georgia,0.08250047904833356
 2013,China (bilateral),Ghana,19.55798355989886
-2013,China (bilateral),Guatemala,0.16639453718877345
+2013,China (bilateral),Guatemala,0.16639453718877348
 2013,China (bilateral),Guinea,19.001846875173225
 2013,China (bilateral),Guyana,10.198342739386312
 2013,China (bilateral),Honduras,1.209174872579385
@@ -1889,7 +1889,7 @@ year,creditor_name,debtor_name,value
 2013,China (bilateral),Latin America & Caribbean (excluding high income),2.433627283231127
 2013,China (bilateral),Least developed countries: UN classification,11.060624211227427
 2013,China (bilateral),Lebanon,0.03183289250184723
-2013,China (bilateral),Lesotho,5.644146606386643
+2013,China (bilateral),Lesotho,5.644146606386642
 2013,China (bilateral),Liberia,2.567099057196666
 2013,China (bilateral),Low & lower middle income,6.528684265724052
 2013,China (bilateral),Low & middle income,4.0283007902362655
@@ -2005,7 +2005,7 @@ year,creditor_name,debtor_name,value
 2014,China (bilateral),East Asia & Pacific (excluding high income),2.790369054747427
 2014,China (bilateral),Ecuador,29.49178844692064
 2014,China (bilateral),"Egypt, Arab Rep.",0.9741525511946203
-2014,China (bilateral),El Salvador,0.1142594642501601
+2014,China (bilateral),El Salvador,0.11425946425016008
 2014,China (bilateral),Eritrea,6.660994281298817
 2014,China (bilateral),Eswatini,0.25235605672777645
 2014,China (bilateral),Ethiopia,22.209775565985744
@@ -2015,12 +2015,12 @@ year,creditor_name,debtor_name,value
 2014,China (bilateral),"Gambia, The",0.0
 2014,China (bilateral),Georgia,0.07033984238255736
 2014,China (bilateral),Ghana,18.304682386444664
-2014,China (bilateral),Guatemala,0.1438314426103214
+2014,China (bilateral),Guatemala,0.14383144261032144
 2014,China (bilateral),Guinea,25.3045924085901
 2014,China (bilateral),Guyana,11.785138272496896
 2014,China (bilateral),Honduras,1.112297956791925
 2014,China (bilateral),IDA only,14.39359592036325
-2014,China (bilateral),IDA total,14.561933154495433
+2014,China (bilateral),IDA total,14.561933154495435
 2014,China (bilateral),Indonesia,0.6695398841299834
 2014,China (bilateral),"Iran, Islamic Rep.",7.28806214824959
 2014,China (bilateral),Jamaica,6.9734511437173285
@@ -2049,7 +2049,7 @@ year,creditor_name,debtor_name,value
 2014,China (bilateral),Montenegro,3.97274710261098
 2014,China (bilateral),Morocco,1.7875539009818535
 2014,China (bilateral),Mozambique,15.187504170890701
-2014,China (bilateral),Myanmar,13.779556359129945
+2014,China (bilateral),Myanmar,13.779556359129948
 2014,China (bilateral),Nepal,2.2700059366060374
 2014,China (bilateral),Nicaragua,0.5332467222318632
 2014,China (bilateral),Niger,17.70022937133565
@@ -2096,7 +2096,7 @@ year,creditor_name,debtor_name,value
 2014,China (private),Ghana,0.13215263412942957
 2014,China (private),Honduras,0.8970144812838104
 2014,China (private),IDA only,2.3469669202180454
-2014,China (private),IDA total,1.7976869424146884
+2014,China (private),IDA total,1.7976869424146886
 2014,China (private),Indonesia,0.009102913558948184
 2014,China (private),"Iran, Islamic Rep.",3.659045555000357
 2014,China (private),Latin America & Caribbean (excluding high income),0.0076146874629813704
@@ -2107,9 +2107,9 @@ year,creditor_name,debtor_name,value
 2014,China (private),Lower middle income,1.9486251858318298
 2014,China (private),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",0.11055632945740367
 2014,China (private),Middle income,0.6400458180251962
-2014,China (private),Moldova,0.7312840816454542
+2014,China (private),Moldova,0.7312840816454543
 2014,China (private),Mongolia,0.050623457115992226
-2014,China (private),Myanmar,29.85523712702779
+2014,China (private),Myanmar,29.8552371270278
 2014,China (private),North Macedonia,0.23592686305760505
 2014,China (private),Pakistan,0.2056354173136354
 2014,China (private),Sub-Saharan Africa (excluding high income),4.224291690831506
@@ -2124,7 +2124,7 @@ year,creditor_name,debtor_name,value
 2015,China (bilateral),Angola,7.858563712931619
 2015,China (bilateral),Argentina,2.3381609875944696
 2015,China (bilateral),Armenia,0.5095620238126901
-2015,China (bilateral),Bangladesh,3.3921531162376426
+2015,China (bilateral),Bangladesh,3.392153116237642
 2015,China (bilateral),Belarus,23.241195618042056
 2015,China (bilateral),Benin,12.903890800223818
 2015,China (bilateral),Bolivia,8.189436758397406
@@ -2161,8 +2161,8 @@ year,creditor_name,debtor_name,value
 2015,China (bilateral),Guyana,11.931828607234038
 2015,China (bilateral),Honduras,2.7156327565898404
 2015,China (bilateral),IDA only,15.623026115011827
-2015,China (bilateral),IDA total,15.849394754450865
-2015,China (bilateral),Indonesia,0.6037135456553114
+2015,China (bilateral),IDA total,15.849394754450866
+2015,China (bilateral),Indonesia,0.6037135456553115
 2015,China (bilateral),"Iran, Islamic Rep.",4.998284061613725
 2015,China (bilateral),Iraq,9.43947859148242
 2015,China (bilateral),Jamaica,5.8994346884996
@@ -2182,7 +2182,7 @@ year,creditor_name,debtor_name,value
 2015,China (bilateral),Madagascar,2.1962737534472856
 2015,China (bilateral),Malawi,16.3941323881817
 2015,China (bilateral),Maldives,21.867196203109714
-2015,China (bilateral),Mali,13.240681920607601
+2015,China (bilateral),Mali,13.2406819206076
 2015,China (bilateral),Mauritania,9.175219409239817
 2015,China (bilateral),Mauritius,24.28680021211724
 2015,China (bilateral),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",4.359707653490123
@@ -2203,7 +2203,7 @@ year,creditor_name,debtor_name,value
 2015,China (bilateral),Rwanda,5.693027275795878
 2015,China (bilateral),Samoa,40.84584257705277
 2015,China (bilateral),Sao Tome and Principe,8.496105523491861
-2015,China (bilateral),Senegal,9.458092641618304
+2015,China (bilateral),Senegal,9.458092641618302
 2015,China (bilateral),Serbia,4.552484160723955
 2015,China (bilateral),Sierra Leone,5.975259147672699
 2015,China (bilateral),South Asia,2.5421472642372542
@@ -2241,8 +2241,8 @@ year,creditor_name,debtor_name,value
 2015,China (private),Ghana,0.6130833548202985
 2015,China (private),Honduras,1.6524540987428167
 2015,China (private),IDA only,2.4878397826353518
-2015,China (private),IDA total,1.840457612117306
-2015,China (private),Indonesia,0.0035679475325295427
+2015,China (private),IDA total,1.8404576121173062
+2015,China (private),Indonesia,0.003567947532529543
 2015,China (private),"Iran, Islamic Rep.",2.5731160171140246
 2015,China (private),Latin America & Caribbean (excluding high income),0.014368689437017098
 2015,China (private),Least developed countries: UN classification,6.334295618347528
@@ -2269,7 +2269,7 @@ year,creditor_name,debtor_name,value
 2016,China (bilateral),Angola,8.053882320982622
 2016,China (bilateral),Argentina,1.6889392097400882
 2016,China (bilateral),Armenia,0.5001654488912026
-2016,China (bilateral),Bangladesh,3.349442385008027
+2016,China (bilateral),Bangladesh,3.3494423850080266
 2016,China (bilateral),Belarus,22.195210962223612
 2016,China (bilateral),Benin,11.864592190670754
 2016,China (bilateral),Bolivia,8.152185556904445
@@ -2285,7 +2285,7 @@ year,creditor_name,debtor_name,value
 2016,China (bilateral),Comoros,20.17568708624015
 2016,China (bilateral),"Congo, Dem. Rep.",46.51156724680851
 2016,China (bilateral),"Congo, Rep.",37.89626082807703
-2016,China (bilateral),Cote d'Ivoire,13.878302268967516
+2016,China (bilateral),Cote d'Ivoire,13.878302268967518
 2016,China (bilateral),Djibouti,55.37237453887123
 2016,China (bilateral),Dominica,14.109726373619706
 2016,China (bilateral),Dominican Republic,0.011166310286091217
@@ -2301,13 +2301,13 @@ year,creditor_name,debtor_name,value
 2016,China (bilateral),Gabon,18.81751092370595
 2016,China (bilateral),Georgia,0.04161637094876112
 2016,China (bilateral),Ghana,13.526306729948905
-2016,China (bilateral),Guatemala,0.26395488176921095
+2016,China (bilateral),Guatemala,0.263954881769211
 2016,China (bilateral),Guinea,31.110765851375817
 2016,China (bilateral),Guyana,13.502976773999803
 2016,China (bilateral),Honduras,2.626553881419956
 2016,China (bilateral),IDA only,16.102058706175214
 2016,China (bilateral),IDA total,16.885647999516678
-2016,China (bilateral),Indonesia,0.5790787700344295
+2016,China (bilateral),Indonesia,0.5790787700344294
 2016,China (bilateral),"Iran, Islamic Rep.",7.115513868472754
 2016,China (bilateral),Iraq,7.439134548844997
 2016,China (bilateral),Jamaica,5.797323757615841
@@ -2317,18 +2317,18 @@ year,creditor_name,debtor_name,value
 2016,China (bilateral),Kyrgyz Republic,42.17174255600623
 2016,China (bilateral),Lao PDR,42.95796828266153
 2016,China (bilateral),Latin America & Caribbean (excluding high income),2.103741580002258
-2016,China (bilateral),Least developed countries: UN classification,15.004743962377969
-2016,China (bilateral),Lebanon,0.025957050005767476
-2016,China (bilateral),Lesotho,6.41477471847884
+2016,China (bilateral),Least developed countries: UN classification,15.00474396237797
+2016,China (bilateral),Lebanon,0.02595705000576748
+2016,China (bilateral),Lesotho,6.414774718478841
 2016,China (bilateral),Liberia,0.9706272961622562
 2016,China (bilateral),Low & lower middle income,8.987036315076963
 2016,China (bilateral),Low & middle income,4.784126399448552
 2016,China (bilateral),Low income,15.318663411676448
 2016,China (bilateral),Lower middle income,8.158603861062716
-2016,China (bilateral),Madagascar,1.9095990061182946
+2016,China (bilateral),Madagascar,1.9095990061182941
 2016,China (bilateral),Malawi,14.41509384086411
 2016,China (bilateral),Maldives,33.62292538395493
-2016,China (bilateral),Mali,14.709376900538997
+2016,China (bilateral),Mali,14.709376900538999
 2016,China (bilateral),Mauritania,8.782129379412208
 2016,China (bilateral),Mauritius,22.62248118064805
 2016,China (bilateral),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",5.5658850490653755
@@ -2379,7 +2379,7 @@ year,creditor_name,debtor_name,value
 2016,China (private),Belarus,0.0
 2016,China (private),Cameroon,0.7900300484568723
 2016,China (private),"Congo, Rep.",6.398600337420329
-2016,China (private),Cote d'Ivoire,0.5079933034539861
+2016,China (private),Cote d'Ivoire,0.5079933034539862
 2016,China (private),East Asia & Pacific (excluding high income),0.5405182511017746
 2016,China (private),Ecuador,2.724804479337524
 2016,China (private),Ethiopia,11.9947261923692
@@ -2400,7 +2400,7 @@ year,creditor_name,debtor_name,value
 2016,China (private),Lower middle income,2.748931456212161
 2016,China (private),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",0.06547316607219786
 2016,China (private),Middle income,0.9493748196980915
-2016,China (private),Moldova,0.03944752016933426
+2016,China (private),Moldova,0.03944752016933427
 2016,China (private),Myanmar,26.649365655795233
 2016,China (private),North Macedonia,0.12796436710176945
 2016,China (private),Pakistan,0.16254750837878365
@@ -2418,7 +2418,7 @@ year,creditor_name,debtor_name,value
 2017,China (bilateral),Armenia,0.45664640003446366
 2017,China (bilateral),Bangladesh,3.846054438853951
 2017,China (bilateral),Belarus,20.82580244676543
-2017,China (bilateral),Benin,11.493394326682447
+2017,China (bilateral),Benin,11.493394326682449
 2017,China (bilateral),Bolivia,7.7987525942673575
 2017,China (bilateral),Botswana,1.8212595563639915
 2017,China (bilateral),Brazil,6.196023782786328
@@ -2473,11 +2473,11 @@ year,creditor_name,debtor_name,value
 2017,China (bilateral),Low & lower middle income,8.94626053922724
 2017,China (bilateral),Low & middle income,5.010716942566637
 2017,China (bilateral),Low income,15.439882293564759
-2017,China (bilateral),Lower middle income,8.142987640197807
-2017,China (bilateral),Madagascar,1.666031673831772
+2017,China (bilateral),Lower middle income,8.142987640197806
+2017,China (bilateral),Madagascar,1.6660316738317715
 2017,China (bilateral),Malawi,12.296783136975735
 2017,China (bilateral),Maldives,32.04333405305318
-2017,China (bilateral),Mali,13.887446983376448
+2017,China (bilateral),Mali,13.887446983376446
 2017,China (bilateral),Mauritania,8.702029725519962
 2017,China (bilateral),Mauritius,21.963126869963876
 2017,China (bilateral),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",5.840452992932579
@@ -2488,12 +2488,12 @@ year,creditor_name,debtor_name,value
 2017,China (bilateral),Mozambique,18.835809930157026
 2017,China (bilateral),Myanmar,14.184497411718388
 2017,China (bilateral),Nepal,1.8194641233926734
-2017,China (bilateral),Nicaragua,0.39382374597349
+2017,China (bilateral),Nicaragua,0.39382374597348996
 2017,China (bilateral),Niger,12.56780439739145
 2017,China (bilateral),Nigeria,10.240358018561569
 2017,China (bilateral),North Macedonia,10.668465135408335
 2017,China (bilateral),Pakistan,15.152554949564047
-2017,China (bilateral),Papua New Guinea,23.634323583925866
+2017,China (bilateral),Papua New Guinea,23.63432358392587
 2017,China (bilateral),Philippines,0.7624932914476239
 2017,China (bilateral),Rwanda,5.6475283780331225
 2017,China (bilateral),Samoa,39.7913607656892
@@ -2501,7 +2501,7 @@ year,creditor_name,debtor_name,value
 2017,China (bilateral),Senegal,13.699355824601462
 2017,China (bilateral),Serbia,5.633053577285764
 2017,China (bilateral),Sierra Leone,4.8637543023559395
-2017,China (bilateral),South Africa,1.1032309151840867
+2017,China (bilateral),South Africa,1.1032309151840864
 2017,China (bilateral),South Asia,2.6633550658219147
 2017,China (bilateral),Sri Lanka,15.540345396306432
 2017,China (bilateral),Sub-Saharan Africa (excluding high income),13.17677987670372
@@ -2509,7 +2509,7 @@ year,creditor_name,debtor_name,value
 2017,China (bilateral),Suriname,16.38142512742103
 2017,China (bilateral),Syrian Arab Republic,2.042141672086052
 2017,China (bilateral),Tajikistan,42.06246296988514
-2017,China (bilateral),Tanzania,16.996620180560775
+2017,China (bilateral),Tanzania,16.99662018056078
 2017,China (bilateral),Togo,45.83646640714878
 2017,China (bilateral),Tonga,61.11111657593542
 2017,China (bilateral),Tunisia,0.3548302021704837
@@ -2520,12 +2520,12 @@ year,creditor_name,debtor_name,value
 2017,China (bilateral),Upper middle income,2.7464042712382946
 2017,China (bilateral),Uzbekistan,20.693766155662814
 2017,China (bilateral),Vanuatu,54.43643318792913
-2017,China (bilateral),Viet Nam,4.586185190450285
+2017,China (bilateral),Viet Nam,4.586185190450284
 2017,China (bilateral),"Yemen, Rep.",2.480753714545849
 2017,China (bilateral),Zambia,27.184906031286054
 2017,China (bilateral),Zimbabwe,26.863524942321728
 2017,China (private),Africa (excluding high income),4.250570816694561
-2017,China (private),Angola,40.29239053102437
+2017,China (private),Angola,40.29239053102436
 2017,China (private),Cameroon,0.9986691768098571
 2017,China (private),"Congo, Rep.",5.641743429190781
 2017,China (private),Cote d'Ivoire,0.32561255147268453
@@ -2546,7 +2546,7 @@ year,creditor_name,debtor_name,value
 2017,China (private),Low & lower middle income,2.651767649331098
 2017,China (private),Low & middle income,1.0000051929135259
 2017,China (private),Low income,2.3954915299706756
-2017,China (private),Lower middle income,2.6834694744663787
+2017,China (private),Lower middle income,2.6834694744663783
 2017,China (private),Maldives,0.0
 2017,China (private),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",0.33313985540987484
 2017,China (private),Middle income,0.9415494870294591
@@ -2557,7 +2557,7 @@ year,creditor_name,debtor_name,value
 2017,China (private),South Asia,0.0
 2017,China (private),Sub-Saharan Africa (excluding high income),5.7135850303290825
 2017,China (private),Suriname,3.877103554085911
-2017,China (private),Tanzania,1.5125890751024025
+2017,China (private),Tanzania,1.5125890751024027
 2017,China (private),Upper middle income,0.049664644465706856
 2017,China (private),Zambia,5.479509037389042
 2018,China (bilateral),Africa (excluding high income),11.093967528514447
@@ -2602,7 +2602,7 @@ year,creditor_name,debtor_name,value
 2018,China (bilateral),Grenada,0.0
 2018,China (bilateral),Guatemala,0.6330378015593648
 2018,China (bilateral),Guinea,30.319018387886395
-2018,China (bilateral),Guyana,17.70686525905349
+2018,China (bilateral),Guyana,17.706865259053494
 2018,China (bilateral),Honduras,2.1465368478309848
 2018,China (bilateral),IDA only,16.074696065038793
 2018,China (bilateral),IDA total,17.976264230161927
@@ -2617,11 +2617,11 @@ year,creditor_name,debtor_name,value
 2018,China (bilateral),Lao PDR,45.47228290930218
 2018,China (bilateral),Latin America & Caribbean (excluding high income),2.6159260501701995
 2018,China (bilateral),Least developed countries: UN classification,15.838812273096886
-2018,China (bilateral),Lebanon,0.02204695056707487
+2018,China (bilateral),Lebanon,0.022046950567074865
 2018,China (bilateral),Lesotho,5.397718570683496
 2018,China (bilateral),Liberia,7.565590353505671
 2018,China (bilateral),Low & lower middle income,10.015309228092566
-2018,China (bilateral),Low & middle income,5.287272939626048
+2018,China (bilateral),Low & middle income,5.287272939626047
 2018,China (bilateral),Low income,16.158555208994084
 2018,China (bilateral),Lower middle income,9.261208803177691
 2018,China (bilateral),Madagascar,2.6744084891637945
@@ -2644,7 +2644,7 @@ year,creditor_name,debtor_name,value
 2018,China (bilateral),North Macedonia,11.587730811587159
 2018,China (bilateral),Pakistan,22.99510099846284
 2018,China (bilateral),Papua New Guinea,17.672326204659957
-2018,China (bilateral),Philippines,0.6702834394169835
+2018,China (bilateral),Philippines,0.6702834394169837
 2018,China (bilateral),Rwanda,4.93469873168904
 2018,China (bilateral),Samoa,39.92111498046717
 2018,China (bilateral),Sao Tome and Principe,0.0
@@ -2695,7 +2695,7 @@ year,creditor_name,debtor_name,value
 2018,China (private),Latin America & Caribbean (excluding high income),0.10040598617740747
 2018,China (private),Least developed countries: UN classification,8.412614044081101
 2018,China (private),Low & lower middle income,2.6952611135829994
-2018,China (private),Low & middle income,1.0318195385903304
+2018,China (private),Low & middle income,1.0318195385903302
 2018,China (private),Low income,1.9923425303531852
 2018,China (private),Lower middle income,2.781546312636086
 2018,China (private),Maldives,12.17788483178076
@@ -2727,7 +2727,7 @@ year,creditor_name,debtor_name,value
 2019,China (bilateral),Brazil,2.6021351982451564
 2019,China (bilateral),Burkina Faso,1.691874208194279
 2019,China (bilateral),Burundi,8.814532110281075
-2019,China (bilateral),Cabo Verde,1.66263744890541
+2019,China (bilateral),Cabo Verde,1.6626374489054103
 2019,China (bilateral),Cambodia,47.592829995692135
 2019,China (bilateral),Cameroon,32.96929007766263
 2019,China (bilateral),Central African Republic,14.408211318720564
@@ -2737,10 +2737,10 @@ year,creditor_name,debtor_name,value
 2019,China (bilateral),"Congo, Rep.",30.02339571821359
 2019,China (bilateral),Cote d'Ivoire,15.21707947245677
 2019,China (bilateral),Djibouti,55.718867067772806
-2019,China (bilateral),Dominica,11.750961818873607
+2019,China (bilateral),Dominica,11.750961818873606
 2019,China (bilateral),Dominican Republic,0.005761974975404763
 2019,China (bilateral),East Asia & Pacific (excluding high income),2.3782283303082115
-2019,China (bilateral),Ecuador,15.087901573911436
+2019,China (bilateral),Ecuador,15.08790157391144
 2019,China (bilateral),"Egypt, Arab Rep.",4.770690223251064
 2019,China (bilateral),El Salvador,0.018541727939330586
 2019,China (bilateral),Equatorial Guinea,94.36019061072169
@@ -2749,7 +2749,7 @@ year,creditor_name,debtor_name,value
 2019,China (bilateral),Ethiopia,21.715028756120333
 2019,China (bilateral),Europe & Central Asia (excluding high income),5.781575682087614
 2019,China (bilateral),Fiji,29.982465911049797
-2019,China (bilateral),Gabon,17.73631285877714
+2019,China (bilateral),Gabon,17.736312858777143
 2019,China (bilateral),"Gambia, The",3.3458664375709457
 2019,China (bilateral),Georgia,0.018417587566958497
 2019,China (bilateral),Ghana,7.709093146791891
@@ -2774,7 +2774,7 @@ year,creditor_name,debtor_name,value
 2019,China (bilateral),Lebanon,0.021463668794776448
 2019,China (bilateral),Lesotho,8.355472156271821
 2019,China (bilateral),Liberia,6.429500214323396
-2019,China (bilateral),Low & lower middle income,10.039755329303855
+2019,China (bilateral),Low & lower middle income,10.039755329303857
 2019,China (bilateral),Low & middle income,5.04720679791509
 2019,China (bilateral),Low income,15.396518656790102
 2019,China (bilateral),Lower middle income,9.400897955241335
@@ -2812,18 +2812,18 @@ year,creditor_name,debtor_name,value
 2019,China (bilateral),Suriname,22.83903529297988
 2019,China (bilateral),Syrian Arab Republic,1.9130357375241533
 2019,China (bilateral),Tajikistan,39.7162825763629
-2019,China (bilateral),Tanzania,12.861873178762286
+2019,China (bilateral),Tanzania,12.861873178762288
 2019,China (bilateral),Togo,37.85628757014388
 2019,China (bilateral),Tonga,57.23791131436491
 2019,China (bilateral),Tunisia,0.2494676810762572
-2019,China (bilateral),Turkiye,0.9172765253118037
+2019,China (bilateral),Turkiye,0.9172765253118036
 2019,China (bilateral),Turkmenistan,25.00089421991413
 2019,China (bilateral),Uganda,24.81426757299326
 2019,China (bilateral),Ukraine,2.6627012247714203
 2019,China (bilateral),Upper middle income,2.1445067820668036
 2019,China (bilateral),Uzbekistan,17.194052358179025
 2019,China (bilateral),Vanuatu,40.40460285563891
-2019,China (bilateral),Viet Nam,3.3563771572533287
+2019,China (bilateral),Viet Nam,3.356377157253329
 2019,China (bilateral),"Yemen, Rep.",2.4585345881748943
 2019,China (bilateral),Zambia,26.130376548927885
 2019,China (bilateral),Zimbabwe,32.28204778914137
@@ -2834,21 +2834,21 @@ year,creditor_name,debtor_name,value
 2019,China (private),"Congo, Rep.",20.944350446854074
 2019,China (private),Cote d'Ivoire,0.9531058165855056
 2019,China (private),East Asia & Pacific (excluding high income),0.3160514034084637
-2019,China (private),Ecuador,0.6848185216166256
+2019,China (private),Ecuador,0.6848185216166257
 2019,China (private),"Egypt, Arab Rep.",0.0
 2019,China (private),Ethiopia,6.482169298195983
 2019,China (private),Europe & Central Asia (excluding high income),0.31175176046690495
-2019,China (private),Gabon,1.9357614086584924
+2019,China (private),Gabon,1.9357614086584927
 2019,China (private),Ghana,1.5845798770923456
 2019,China (private),Guinea,1.5446190279117038
 2019,China (private),Honduras,3.823288135580679
 2019,China (private),IDA only,2.3573555220786133
-2019,China (private),IDA total,2.124858695399835
+2019,China (private),IDA total,2.1248586953998356
 2019,China (private),Indonesia,0.007118442105112599
 2019,China (private),Lao PDR,0.7874824646835169
 2019,China (private),Latin America & Caribbean (excluding high income),0.07252222298741995
 2019,China (private),Least developed countries: UN classification,7.990652517164134
-2019,China (private),Low & lower middle income,2.6886323577007825
+2019,China (private),Low & lower middle income,2.688632357700783
 2019,China (private),Low & middle income,1.0450667641021008
 2019,China (private),Low income,1.665531854036562
 2019,China (private),Lower middle income,2.810649191601056
@@ -2863,8 +2863,8 @@ year,creditor_name,debtor_name,value
 2019,China (private),Sri Lanka,2.70365646730536
 2019,China (private),Sub-Saharan Africa (excluding high income),5.4985845105273805
 2019,China (private),Suriname,2.7381155029999924
-2019,China (private),Tanzania,1.702886887527032
-2019,China (private),Turkiye,0.6930119627794945
+2019,China (private),Tanzania,1.7028868875270322
+2019,China (private),Turkiye,0.6930119627794944
 2019,China (private),Upper middle income,0.08948709480251804
 2019,China (private),Uzbekistan,0.5603677132752066
 2019,China (private),Zambia,11.628069110413533
@@ -2877,7 +2877,7 @@ year,creditor_name,debtor_name,value
 2020,China (bilateral),Bangladesh,8.33780890298349
 2020,China (bilateral),Belarus,23.567439836010838
 2020,China (bilateral),Benin,7.161793626044523
-2020,China (bilateral),Bolivia,9.029722965212764
+2020,China (bilateral),Bolivia,9.029722965212763
 2020,China (bilateral),Botswana,0.7053611297860427
 2020,China (bilateral),Brazil,2.5769413928856437
 2020,China (bilateral),Burkina Faso,2.1986698915566794
@@ -2892,7 +2892,7 @@ year,creditor_name,debtor_name,value
 2020,China (bilateral),"Congo, Rep.",28.399064015874437
 2020,China (bilateral),Cote d'Ivoire,14.70090262739986
 2020,China (bilateral),Djibouti,56.99121112683633
-2020,China (bilateral),Dominica,10.248620184005505
+2020,China (bilateral),Dominica,10.248620184005507
 2020,China (bilateral),Dominican Republic,0.0037211653414004693
 2020,China (bilateral),East Asia & Pacific (excluding high income),2.139984881925068
 2020,China (bilateral),Ecuador,13.467201970891107
@@ -2907,7 +2907,7 @@ year,creditor_name,debtor_name,value
 2020,China (bilateral),Gabon,16.541221220340596
 2020,China (bilateral),"Gambia, The",3.219580506268263
 2020,China (bilateral),Georgia,0.01152302007063997
-2020,China (bilateral),Ghana,6.478377995278484
+2020,China (bilateral),Ghana,6.4783779952784855
 2020,China (bilateral),Grenada,0.0
 2020,China (bilateral),Guatemala,0.48674699599920784
 2020,China (bilateral),Guinea,39.05223041975299
@@ -2943,14 +2943,14 @@ year,creditor_name,debtor_name,value
 2020,China (bilateral),Middle income,4.402909765473119
 2020,China (bilateral),Mongolia,26.65476619539028
 2020,China (bilateral),Montenegro,17.54312305451792
-2020,China (bilateral),Morocco,1.0134356463869165
+2020,China (bilateral),Morocco,1.0134356463869163
 2020,China (bilateral),Mozambique,18.08547641516271
 2020,China (bilateral),Myanmar,8.721416205888596
 2020,China (bilateral),Nepal,3.4863721108814825
-2020,China (bilateral),Nicaragua,0.3136800438367449
+2020,China (bilateral),Nicaragua,0.31368004383674497
 2020,China (bilateral),Niger,7.563125119786245
 2020,China (bilateral),Nigeria,10.618453446118084
-2020,China (bilateral),North Macedonia,10.272175394171146
+2020,China (bilateral),North Macedonia,10.272175394171144
 2020,China (bilateral),Pakistan,25.897769283450444
 2020,China (bilateral),Papua New Guinea,18.360981260050835
 2020,China (bilateral),Philippines,0.4555639487142801
@@ -2995,7 +2995,7 @@ year,creditor_name,debtor_name,value
 2020,China (private),Ethiopia,5.321329654002455
 2020,China (private),Europe & Central Asia (excluding high income),0.41135954328927277
 2020,China (private),Gabon,1.8236742066231006
-2020,China (private),Ghana,1.2135940907639629
+2020,China (private),Ghana,1.213594090763963
 2020,China (private),Guinea,6.165788987627547
 2020,China (private),Honduras,3.0499341174570644
 2020,China (private),IDA only,2.3223414414281884
@@ -3027,7 +3027,7 @@ year,creditor_name,debtor_name,value
 2021,China (bilateral),Albania,0.03503669249065478
 2021,China (bilateral),Algeria,5.746909200305321
 2021,China (bilateral),Angola,9.795708244399561
-2021,China (bilateral),Argentina,2.446599478557821
+2021,China (bilateral),Argentina,2.4465994785578205
 2021,China (bilateral),Armenia,0.35157831517150273
 2021,China (bilateral),Bangladesh,8.420139948758731
 2021,China (bilateral),Belarus,21.340709226028288
@@ -3057,13 +3057,13 @@ year,creditor_name,debtor_name,value
 2021,China (bilateral),Eritrea,2.7623794659084844
 2021,China (bilateral),Eswatini,29.96329591942419
 2021,China (bilateral),Ethiopia,19.941742036503808
-2021,China (bilateral),Europe & Central Asia (excluding high income),5.136793003506085
+2021,China (bilateral),Europe & Central Asia (excluding high income),5.136793003506084
 2021,China (bilateral),Fiji,17.998363910153472
 2021,China (bilateral),Gabon,15.917291364906868
 2021,China (bilateral),"Gambia, The",3.2426212616430563
 2021,China (bilateral),Georgia,0.005185404855650372
-2021,China (bilateral),Ghana,5.987393130008494
-2021,China (bilateral),Grenada,3.1654617324532066
+2021,China (bilateral),Ghana,5.987393130008495
+2021,China (bilateral),Grenada,3.165461732453206
 2021,China (bilateral),Guatemala,0.45198883856180483
 2021,China (bilateral),Guinea,36.3950892664557
 2021,China (bilateral),Guyana,17.920131335419743
@@ -3095,7 +3095,7 @@ year,creditor_name,debtor_name,value
 2021,China (bilateral),Mauritania,8.798914063946222
 2021,China (bilateral),Mauritius,8.919341419769196
 2021,China (bilateral),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",8.63634566478081
-2021,China (bilateral),Middle income,4.221218512724744
+2021,China (bilateral),Middle income,4.221218512724743
 2021,China (bilateral),Mongolia,26.906336007071943
 2021,China (bilateral),Montenegro,20.19832132462274
 2021,China (bilateral),Morocco,0.9569045986471387
@@ -3106,15 +3106,15 @@ year,creditor_name,debtor_name,value
 2021,China (bilateral),Niger,6.812121588041763
 2021,China (bilateral),Nigeria,10.05442751455234
 2021,China (bilateral),North Macedonia,10.0334104789574
-2021,China (bilateral),Pakistan,25.518896351895798
+2021,China (bilateral),Pakistan,25.518896351895794
 2021,China (bilateral),Papua New Guinea,18.28177368442379
 2021,China (bilateral),Philippines,0.4280012993066581
 2021,China (bilateral),Rwanda,5.7556092703263175
 2021,China (bilateral),Samoa,42.281038811674996
-2021,China (bilateral),Senegal,11.46554338182399
+2021,China (bilateral),Senegal,11.465543381823991
 2021,China (bilateral),Serbia,8.270157429827453
 2021,China (bilateral),Sierra Leone,5.499216758263548
-2021,China (bilateral),South Africa,3.4705210297055604
+2021,China (bilateral),South Africa,3.47052102970556
 2021,China (bilateral),South Asia,4.085462849506376
 2021,China (bilateral),Sri Lanka,17.003575680632828
 2021,China (bilateral),Sub-Saharan Africa (excluding high income),12.83560882548042
@@ -3130,7 +3130,7 @@ year,creditor_name,debtor_name,value
 2021,China (bilateral),Turkmenistan,3.3885590910991494
 2021,China (bilateral),Uganda,20.366660034707603
 2021,China (bilateral),Ukraine,2.003665445759285
-2021,China (bilateral),Upper middle income,1.7156752072139176
+2021,China (bilateral),Upper middle income,1.7156752072139179
 2021,China (bilateral),Uzbekistan,15.795984491230694
 2021,China (bilateral),Vanuatu,42.189220664658976
 2021,China (bilateral),Viet Nam,2.391560481636388
@@ -3148,14 +3148,14 @@ year,creditor_name,debtor_name,value
 2021,China (private),Ecuador,0.0
 2021,China (private),"Egypt, Arab Rep.",0.7856848747916918
 2021,China (private),Ethiopia,4.6541700849595715
-2021,China (private),Europe & Central Asia (excluding high income),0.44079992348976554
+2021,China (private),Europe & Central Asia (excluding high income),0.44079992348976543
 2021,China (private),Gabon,1.8814312546737002
-2021,China (private),Ghana,1.0008231220057426
+2021,China (private),Ghana,1.0008231220057429
 2021,China (private),Guinea,7.325631636634032
 2021,China (private),Honduras,2.6351352545133864
 2021,China (private),IDA only,2.2559407040847126
 2021,China (private),IDA total,1.916980332497464
-2021,China (private),Indonesia,0.001536076523558669
+2021,China (private),Indonesia,0.0015360765235586688
 2021,China (private),Lao PDR,0.6944587199809785
 2021,China (private),Latin America & Caribbean (excluding high income),0.03750012309732696
 2021,China (private),Least developed countries: UN classification,6.780234567343175
@@ -3165,9 +3165,9 @@ year,creditor_name,debtor_name,value
 2021,China (private),Lower middle income,2.5947291338670686
 2021,China (private),Maldives,12.348218549319483
 2021,China (private),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",0.6000473102202154
-2021,China (private),Middle income,0.9389767313514764
+2021,China (private),Middle income,0.9389767313514763
 2021,China (private),Myanmar,17.168217126101954
-2021,China (private),Pakistan,1.3642150005475142
+2021,China (private),Pakistan,1.364215000547514
 2021,China (private),Senegal,0.0
 2021,China (private),South Asia,0.8148225581432419
 2021,China (private),Sri Lanka,5.775504372019309
@@ -3237,7 +3237,7 @@ year,creditor_name,debtor_name,value
 2022,China (bilateral),Lao PDR,50.68669887909611
 2022,China (bilateral),Latin America & Caribbean (excluding high income),1.6019585674368526
 2022,China (bilateral),Least developed countries: UN classification,13.950060092108767
-2022,China (bilateral),Lebanon,0.021433782873813173
+2022,China (bilateral),Lebanon,0.02143378287381317
 2022,China (bilateral),Lesotho,16.79727584753053
 2022,China (bilateral),Liberia,4.8490514871517965
 2022,China (bilateral),Low & lower middle income,9.313857972495555
@@ -3249,7 +3249,7 @@ year,creditor_name,debtor_name,value
 2022,China (bilateral),Maldives,29.851641900057825
 2022,China (bilateral),Mali,10.032229212005138
 2022,China (bilateral),Mauritania,8.603346638622606
-2022,China (bilateral),Mauritius,6.085441463733141
+2022,China (bilateral),Mauritius,6.08544146373314
 2022,China (bilateral),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",8.295861868811098
 2022,China (bilateral),Middle income,4.145640381513551
 2022,China (bilateral),Mongolia,30.781621148158074
@@ -3258,7 +3258,7 @@ year,creditor_name,debtor_name,value
 2022,China (bilateral),Mozambique,16.348010455106365
 2022,China (bilateral),Myanmar,7.4857020993901795
 2022,China (bilateral),Nepal,3.2813233094525636
-2022,China (bilateral),Nicaragua,0.26719598885008544
+2022,China (bilateral),Nicaragua,0.2671959888500855
 2022,China (bilateral),Niger,4.881002196702158
 2022,China (bilateral),Nigeria,10.734349055159647
 2022,China (bilateral),North Macedonia,10.158036658354483
@@ -3270,7 +3270,7 @@ year,creditor_name,debtor_name,value
 2022,China (bilateral),Senegal,11.646770011812386
 2022,China (bilateral),Serbia,10.44283731407773
 2022,China (bilateral),Sierra Leone,5.141192671212933
-2022,China (bilateral),South Africa,3.7579410677479284
+2022,China (bilateral),South Africa,3.757941067747929
 2022,China (bilateral),South Asia,4.090423257312443
 2022,China (bilateral),Sri Lanka,15.792210029960316
 2022,China (bilateral),Sub-Saharan Africa (excluding high income),12.345307180423452
@@ -3278,11 +3278,11 @@ year,creditor_name,debtor_name,value
 2022,China (bilateral),Suriname,20.818908390872338
 2022,China (bilateral),Syrian Arab Republic,1.98818474252075
 2022,China (bilateral),Tajikistan,32.12457780658825
-2022,China (bilateral),Tanzania,8.024090955876094
+2022,China (bilateral),Tanzania,8.024090955876096
 2022,China (bilateral),Togo,23.940873203545948
 2022,China (bilateral),Tonga,58.93584342610337
 2022,China (bilateral),Tunisia,0.19064385667540482
-2022,China (bilateral),Turkiye,0.6636055115707193
+2022,China (bilateral),Turkiye,0.6636055115707192
 2022,China (bilateral),Turkmenistan,2.8980899697059708
 2022,China (bilateral),Uganda,21.137310609542336
 2022,China (bilateral),Ukraine,1.3394556599383243
@@ -3294,7 +3294,7 @@ year,creditor_name,debtor_name,value
 2022,China (bilateral),Zambia,23.467874572195488
 2022,China (bilateral),Zimbabwe,39.09699464292055
 2022,China (private),Africa (excluding high income),3.653665988844652
-2022,China (private),Angola,35.062730071528044
+2022,China (private),Angola,35.06273007152804
 2022,China (private),Benin,0.28164628392071045
 2022,China (private),Brazil,0.02665336790994675
 2022,China (private),Cameroon,1.004754800040458
@@ -3328,8 +3328,8 @@ year,creditor_name,debtor_name,value
 2022,China (private),Sri Lanka,5.704040204635516
 2022,China (private),Sub-Saharan Africa (excluding high income),4.637615841471021
 2022,China (private),Suriname,2.4644666250728253
-2022,China (private),Tanzania,0.7111564827970925
-2022,China (private),Turkiye,0.5800755808222039
+2022,China (private),Tanzania,0.7111564827970926
+2022,China (private),Turkiye,0.5800755808222038
 2022,China (private),Upper middle income,0.06388759732269478
 2022,China (private),Uzbekistan,1.0253474196509038
 2022,China (private),Zambia,11.489503003366197
@@ -3378,7 +3378,7 @@ year,creditor_name,debtor_name,value
 2023,China (bilateral),Guinea,30.57761943215438
 2023,China (bilateral),Guyana,15.594399840479518
 2023,China (bilateral),Honduras,1.593530533375612
-2023,China (bilateral),IDA only,13.091916099559517
+2023,China (bilateral),IDA only,13.091916099559521
 2023,China (bilateral),IDA total,15.188923660868362
 2023,China (bilateral),Indonesia,0.61807301113394
 2023,China (bilateral),"Iran, Islamic Rep.",1.56461550168023
@@ -3438,12 +3438,12 @@ year,creditor_name,debtor_name,value
 2023,China (bilateral),Togo,18.550096799313447
 2023,China (bilateral),Tonga,55.41063640715063
 2023,China (bilateral),Tunisia,0.16819419889991175
-2023,China (bilateral),Turkiye,0.48925269584654757
+2023,China (bilateral),Turkiye,0.4892526958465477
 2023,China (bilateral),Turkmenistan,2.783836778211145
 2023,China (bilateral),Uganda,18.29681597062762
 2023,China (bilateral),Ukraine,0.919381558002506
 2023,China (bilateral),Upper middle income,1.7636832398395645
-2023,China (bilateral),Uzbekistan,12.749763026090701
+2023,China (bilateral),Uzbekistan,12.749763026090703
 2023,China (bilateral),Vanuatu,43.080958278846936
 2023,China (bilateral),Viet Nam,1.6435974368815809
 2023,China (bilateral),"Yemen, Rep.",2.594561178679241
@@ -3464,14 +3464,14 @@ year,creditor_name,debtor_name,value
 2023,China (private),Ghana,0.8734417722988517
 2023,China (private),Guinea,14.479765766875172
 2023,China (private),Honduras,2.13687340691221
-2023,China (private),IDA only,1.8743549736366205
+2023,China (private),IDA only,1.8743549736366207
 2023,China (private),IDA total,1.4538184014076387
 2023,China (private),Lao PDR,0.6782797150657356
 2023,China (private),Latin America & Caribbean (excluding high income),0.03199913748011179
 2023,China (private),Least developed countries: UN classification,5.3309764079628374
 2023,China (private),Low & lower middle income,2.030379012728521
 2023,China (private),Low & middle income,0.7983347358946552
-2023,China (private),Low income,0.823132083773746
+2023,China (private),Low income,0.8231320837737459
 2023,China (private),Lower middle income,2.1650068614839917
 2023,China (private),Maldives,9.036067515116997
 2023,China (private),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",0.6384168435236673
@@ -3484,9 +3484,9 @@ year,creditor_name,debtor_name,value
 2023,China (private),Sub-Saharan Africa (excluding high income),4.008457527889437
 2023,China (private),Suriname,2.2728785917742877
 2023,China (private),Tanzania,0.43403603593104084
-2023,China (private),Turkiye,0.22911273600275417
+2023,China (private),Turkiye,0.22911273600275422
 2023,China (private),Upper middle income,0.0388793311443591
-2023,China (private),Uzbekistan,0.7881041374993971
+2023,China (private),Uzbekistan,0.7881041374993972
 2023,China (private),Zambia,11.606690229690768
 2024,China (bilateral),Africa (excluding high income),8.779547768082491
 2024,China (bilateral),Albania,0.036562284391127874
@@ -3500,7 +3500,7 @@ year,creditor_name,debtor_name,value
 2024,China (bilateral),Bolivia,9.588711338138337
 2024,China (bilateral),Bosnia and Herzegovina,0.608504756400344
 2024,China (bilateral),Brazil,1.334974182832771
-2024,China (bilateral),Burkina Faso,1.930075497985426
+2024,China (bilateral),Burkina Faso,1.9300754979854258
 2024,China (bilateral),Burundi,6.1944263798778225
 2024,China (bilateral),Cabo Verde,1.1218341112792285
 2024,China (bilateral),Cambodia,34.13060770774244
@@ -3534,7 +3534,7 @@ year,creditor_name,debtor_name,value
 2024,China (bilateral),Honduras,1.406167591741046
 2024,China (bilateral),IDA only,13.384987318100443
 2024,China (bilateral),IDA total,14.886658254049228
-2024,China (bilateral),Indonesia,0.5893271586642848
+2024,China (bilateral),Indonesia,0.5893271586642846
 2024,China (bilateral),"Iran, Islamic Rep.",1.8773491182883337
 2024,China (bilateral),Iraq,3.1772328000236914
 2024,China (bilateral),Jamaica,6.697093522762952
@@ -3544,9 +3544,9 @@ year,creditor_name,debtor_name,value
 2024,China (bilateral),Kyrgyz Republic,39.21875520140093
 2024,China (bilateral),Lao PDR,52.26957367900972
 2024,China (bilateral),Latin America & Caribbean (excluding high income),1.4299070362044484
-2024,China (bilateral),Least developed countries: UN classification,12.272905083191723
+2024,China (bilateral),Least developed countries: UN classification,12.272905083191722
 2024,China (bilateral),Lebanon,0.02030958556908807
-2024,China (bilateral),Lesotho,17.87099496952721
+2024,China (bilateral),Lesotho,17.870994969527207
 2024,China (bilateral),Liberia,3.521685059937866
 2024,China (bilateral),Low & lower middle income,8.45475294112004
 2024,China (bilateral),Low & middle income,4.145169132426498
@@ -3572,14 +3572,14 @@ year,creditor_name,debtor_name,value
 2024,China (bilateral),North Macedonia,8.57994769806826
 2024,China (bilateral),Pakistan,24.99555308806422
 2024,China (bilateral),Papua New Guinea,15.252630701137777
-2024,China (bilateral),Philippines,0.420596855482676
+2024,China (bilateral),Philippines,0.42059685548267606
 2024,China (bilateral),Rwanda,4.3308578847075365
 2024,China (bilateral),Samoa,35.18491522856335
 2024,China (bilateral),Senegal,8.758764998760569
 2024,China (bilateral),Serbia,11.465412775361115
 2024,China (bilateral),Sierra Leone,4.403922447451181
 2024,China (bilateral),Solomon Islands,6.3154511431559035
-2024,China (bilateral),South Africa,3.404979320047523
+2024,China (bilateral),South Africa,3.4049793200475222
 2024,China (bilateral),South Asia,4.377300445894823
 2024,China (bilateral),Sri Lanka,21.970018733050665
 2024,China (bilateral),St. Vincent and the Grenadines,6.516178571171668
@@ -3597,7 +3597,7 @@ year,creditor_name,debtor_name,value
 2024,China (bilateral),Uganda,18.20961751834896
 2024,China (bilateral),Ukraine,0.7843670208152929
 2024,China (bilateral),Upper middle income,1.490297226715053
-2024,China (bilateral),Uzbekistan,9.442941040439269
+2024,China (bilateral),Uzbekistan,9.44294104043927
 2024,China (bilateral),Vanuatu,44.6495831008335
 2024,China (bilateral),Viet Nam,1.3096456642219256
 2024,China (bilateral),"Yemen, Rep.",2.641933512144152
@@ -3622,7 +3622,7 @@ year,creditor_name,debtor_name,value
 2024,China (private),IDA total,1.084971058096825
 2024,China (private),Lao PDR,0.6900332767892842
 2024,China (private),Latin America & Caribbean (excluding high income),0.026600630636633354
-2024,China (private),Least developed countries: UN classification,4.445882149583504
+2024,China (private),Least developed countries: UN classification,4.445882149583503
 2024,China (private),Low & lower middle income,1.5969160856070912
 2024,China (private),Low & middle income,0.6290758983638867
 2024,China (private),Low income,1.0406158172388202
@@ -3631,7 +3631,7 @@ year,creditor_name,debtor_name,value
 2024,China (private),"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",0.6673691239038805
 2024,China (private),Middle income,0.6129129635571495
 2024,China (private),Myanmar,13.611523014330768
-2024,China (private),Senegal,0.08722263439153302
+2024,China (private),Senegal,0.08722263439153304
 2024,China (private),South Asia,0.0769976424711354
 2024,China (private),Sri Lanka,0.0
 2024,China (private),Sub-Saharan Africa (excluding high income),3.342089430654764
@@ -3639,7 +3639,7 @@ year,creditor_name,debtor_name,value
 2024,China (private),Tanzania,0.23279089876768336
 2024,China (private),Turkiye,0.15972494026202264
 2024,China (private),Upper middle income,0.03284855103926516
-2024,China (private),Uzbekistan,0.5617281321138423
+2024,China (private),Uzbekistan,0.5617281321138424
 2024,China (private),Zambia,11.365785891274465
 2000,Other creditors,Africa (excluding high income),98.86469420306288
 2000,Other creditors,Albania,99.38564387373445
@@ -3654,9 +3654,9 @@ year,creditor_name,debtor_name,value
 2000,Other creditors,Benin,97.06238327020166
 2000,Other creditors,Bhutan,100.00000000000001
 2000,Other creditors,Bolivia,98.97178755997744
-2000,Other creditors,Bosnia and Herzegovina,100.0
+2000,Other creditors,Bosnia and Herzegovina,100.00000000000001
 2000,Other creditors,Botswana,93.21546254550431
-2000,Other creditors,Brazil,100.00000000000001
+2000,Other creditors,Brazil,100.0
 2000,Other creditors,Burkina Faso,97.19800918028054
 2000,Other creditors,Burundi,98.06334435670179
 2000,Other creditors,Cabo Verde,98.09379723322355
@@ -3696,7 +3696,7 @@ year,creditor_name,debtor_name,value
 2000,Other creditors,IDA only,98.15644336856643
 2000,Other creditors,IDA total,98.49515769694726
 2000,Other creditors,India,99.98101137705872
-2000,Other creditors,Indonesia,99.97309359154994
+2000,Other creditors,Indonesia,99.97309359154991
 2000,Other creditors,"Iran, Islamic Rep.",86.1728850740681
 2000,Other creditors,Jamaica,99.8020960114112
 2000,Other creditors,Jordan,99.78674338613057
@@ -3706,7 +3706,7 @@ year,creditor_name,debtor_name,value
 2000,Other creditors,Lao PDR,99.91916134420282
 2000,Other creditors,Latin America & Caribbean (excluding high income),99.90220176216347
 2000,Other creditors,Least developed countries: UN classification,97.69429912601329
-2000,Other creditors,Lebanon,99.94799598343862
+2000,Other creditors,Lebanon,99.9479959834386
 2000,Other creditors,Lesotho,99.31089939479361
 2000,Other creditors,Liberia,98.21852875751104
 2000,Other creditors,Low & lower middle income,99.05931652787183
@@ -3715,7 +3715,7 @@ year,creditor_name,debtor_name,value
 2000,Other creditors,Lower middle income,99.33994397897568
 2000,Other creditors,Madagascar,99.2512785008068
 2000,Other creditors,Malawi,100.0
-2000,Other creditors,Maldives,98.8905178805195
+2000,Other creditors,Maldives,98.89051788051948
 2000,Other creditors,Mali,94.37766515692063
 2000,Other creditors,Mauritania,96.04845105826853
 2000,Other creditors,Mauritius,97.93494342407364
@@ -3733,7 +3733,7 @@ year,creditor_name,debtor_name,value
 2000,Other creditors,Nigeria,100.0
 2000,Other creditors,North Macedonia,92.52179102854235
 2000,Other creditors,Pakistan,97.63712827355175
-2000,Other creditors,Papua New Guinea,99.41310511509703
+2000,Other creditors,Papua New Guinea,99.41310511509701
 2000,Other creditors,Paraguay,97.02139977834744
 2000,Other creditors,Peru,99.64458151653433
 2000,Other creditors,Philippines,99.98014229894035
@@ -3784,14 +3784,14 @@ year,creditor_name,debtor_name,value
 2001,Other creditors,Bolivia,98.82946675646193
 2001,Other creditors,Bosnia and Herzegovina,100.0
 2001,Other creditors,Botswana,92.55093695210222
-2001,Other creditors,Brazil,99.99836470101461
+2001,Other creditors,Brazil,99.9983647010146
 2001,Other creditors,Burkina Faso,97.34004625227111
 2001,Other creditors,Burundi,99.65567881406734
 2001,Other creditors,Cabo Verde,100.0
 2001,Other creditors,Cambodia,99.46710420640076
 2001,Other creditors,Cameroon,99.62600123022871
 2001,Other creditors,Central African Republic,99.03023390022605
-2001,Other creditors,Chad,98.02553612079586
+2001,Other creditors,Chad,98.02553612079588
 2001,Other creditors,China,100.0
 2001,Other creditors,Colombia,99.9983181515214
 2001,Other creditors,Comoros,99.44348468630287
@@ -3799,7 +3799,7 @@ year,creditor_name,debtor_name,value
 2001,Other creditors,"Congo, Rep.",98.95491888996911
 2001,Other creditors,Cote d'Ivoire,99.82194768925193
 2001,Other creditors,Djibouti,98.21373009397603
-2001,Other creditors,Dominica,95.06505175020395
+2001,Other creditors,Dominica,95.06505175020396
 2001,Other creditors,Dominican Republic,99.74137989885047
 2001,Other creditors,East Asia & Pacific (excluding high income),99.45967160775216
 2001,Other creditors,Ecuador,99.94480671403275
@@ -3824,7 +3824,7 @@ year,creditor_name,debtor_name,value
 2001,Other creditors,IDA only,98.021065034059
 2001,Other creditors,IDA total,98.63515122089449
 2001,Other creditors,India,99.98253309606926
-2001,Other creditors,Indonesia,99.96975898370509
+2001,Other creditors,Indonesia,99.96975898370506
 2001,Other creditors,"Iran, Islamic Rep.",89.0098126939094
 2001,Other creditors,Jamaica,99.8325341817037
 2001,Other creditors,Jordan,99.79774424272524
@@ -3835,7 +3835,7 @@ year,creditor_name,debtor_name,value
 2001,Other creditors,Latin America & Caribbean (excluding high income),99.89999803705086
 2001,Other creditors,Least developed countries: UN classification,97.5181205446321
 2001,Other creditors,Lebanon,99.93575243530381
-2001,Other creditors,Lesotho,98.16598992934668
+2001,Other creditors,Lesotho,98.16598992934665
 2001,Other creditors,Liberia,98.17413084496155
 2001,Other creditors,Low & lower middle income,99.1379350421578
 2001,Other creditors,Low & middle income,99.47328230904385
@@ -3927,7 +3927,7 @@ year,creditor_name,debtor_name,value
 2002,Other creditors,"Congo, Rep.",98.98056999084088
 2002,Other creditors,Cote d'Ivoire,99.81033882382658
 2002,Other creditors,Djibouti,98.00018396591312
-2002,Other creditors,Dominica,96.33336159449237
+2002,Other creditors,Dominica,96.33336159449236
 2002,Other creditors,Dominican Republic,99.7807457996666
 2002,Other creditors,East Asia & Pacific (excluding high income),99.61815634366161
 2002,Other creditors,Ecuador,99.94748769006425
@@ -3939,7 +3939,7 @@ year,creditor_name,debtor_name,value
 2002,Other creditors,Europe & Central Asia (excluding high income),99.54248892816646
 2002,Other creditors,Fiji,56.787194204932476
 2002,Other creditors,Gabon,98.39627154964008
-2002,Other creditors,"Gambia, The",96.50076459918911
+2002,Other creditors,"Gambia, The",96.5007645991891
 2002,Other creditors,Georgia,99.8093069084398
 2002,Other creditors,Ghana,99.00643751047983
 2002,Other creditors,Grenada,99.90254537939494
@@ -3955,12 +3955,12 @@ year,creditor_name,debtor_name,value
 2002,Other creditors,Indonesia,99.9721948522271
 2002,Other creditors,"Iran, Islamic Rep.",93.02682369007601
 2002,Other creditors,Jamaica,99.70424152109953
-2002,Other creditors,Jordan,99.81031672749377
+2002,Other creditors,Jordan,99.81031672749376
 2002,Other creditors,Kazakhstan,100.0
 2002,Other creditors,Kenya,99.73039939685938
 2002,Other creditors,Kyrgyz Republic,99.26375097520831
 2002,Other creditors,Lao PDR,99.56562291386736
-2002,Other creditors,Latin America & Caribbean (excluding high income),99.9100206044979
+2002,Other creditors,Latin America & Caribbean (excluding high income),99.91002060449789
 2002,Other creditors,Least developed countries: UN classification,97.693304342427
 2002,Other creditors,Lebanon,99.95807216083325
 2002,Other creditors,Lesotho,98.6544027962019
@@ -3980,7 +3980,7 @@ year,creditor_name,debtor_name,value
 2002,Other creditors,Middle income,99.6536517539916
 2002,Other creditors,Moldova,100.0
 2002,Other creditors,Mongolia,98.42003447684202
-2002,Other creditors,Morocco,100.0
+2002,Other creditors,Morocco,99.99999999999999
 2002,Other creditors,Mozambique,99.33628126435863
 2002,Other creditors,Myanmar,96.16599649233981
 2002,Other creditors,Nepal,100.0
@@ -4004,7 +4004,7 @@ year,creditor_name,debtor_name,value
 2002,Other creditors,South Africa,100.0
 2002,Other creditors,South Asia,99.77108132772243
 2002,Other creditors,Sri Lanka,99.17001054988202
-2002,Other creditors,St. Lucia,100.0
+2002,Other creditors,St. Lucia,99.99999999999999
 2002,Other creditors,St. Vincent and the Grenadines,97.37642431553836
 2002,Other creditors,Sub-Saharan Africa (excluding high income),98.47755700304376
 2002,Other creditors,Sudan,89.72226997839864
@@ -4016,7 +4016,7 @@ year,creditor_name,debtor_name,value
 2002,Other creditors,Tunisia,99.8479419139045
 2002,Other creditors,Turkiye,99.9878135977137
 2002,Other creditors,Turkmenistan,98.12950051429779
-2002,Other creditors,Uganda,99.49402639920422
+2002,Other creditors,Uganda,99.4940263992042
 2002,Other creditors,Ukraine,100.0
 2002,Other creditors,Upper middle income,99.7852197829382
 2002,Other creditors,Uzbekistan,99.62731341206147
@@ -4031,7 +4031,7 @@ year,creditor_name,debtor_name,value
 2003,Other creditors,Angola,99.29135880264826
 2003,Other creditors,Argentina,100.0
 2003,Other creditors,Armenia,100.0
-2003,Other creditors,Azerbaijan,100.00000000000001
+2003,Other creditors,Azerbaijan,100.0
 2003,Other creditors,Bangladesh,99.07952231264984
 2003,Other creditors,Belarus,96.47884834241471
 2003,Other creditors,Belize,99.29215087260756
@@ -4088,13 +4088,13 @@ year,creditor_name,debtor_name,value
 2003,Other creditors,Kenya,99.7616748605546
 2003,Other creditors,Kyrgyz Republic,99.1530632941101
 2003,Other creditors,Lao PDR,98.32042579946754
-2003,Other creditors,Latin America & Caribbean (excluding high income),99.91469516769475
+2003,Other creditors,Latin America & Caribbean (excluding high income),99.91469516769472
 2003,Other creditors,Least developed countries: UN classification,97.81838741997676
 2003,Other creditors,Lebanon,99.96159227276424
-2003,Other creditors,Lesotho,98.74264287365988
+2003,Other creditors,Lesotho,98.7426428736599
 2003,Other creditors,Liberia,98.3492185503907
 2003,Other creditors,Low & lower middle income,99.09919239497576
-2003,Other creditors,Low & middle income,99.53017109044168
+2003,Other creditors,Low & middle income,99.53017109044166
 2003,Other creditors,Low income,97.85692978009611
 2003,Other creditors,Lower middle income,99.36446511298269
 2003,Other creditors,Madagascar,99.29544724429596
@@ -4171,11 +4171,11 @@ year,creditor_name,debtor_name,value
 2004,Other creditors,Brazil,100.0
 2004,Other creditors,Burkina Faso,96.77555589265083
 2004,Other creditors,Burundi,99.00908060203668
-2004,Other creditors,Cabo Verde,100.0
+2004,Other creditors,Cabo Verde,99.99999999999999
 2004,Other creditors,Cambodia,98.68953556670255
 2004,Other creditors,Cameroon,99.47101576806986
 2004,Other creditors,Central African Republic,98.95775650248636
-2004,Other creditors,Chad,99.03952600110176
+2004,Other creditors,Chad,99.03952600110178
 2004,Other creditors,China,100.0
 2004,Other creditors,Colombia,99.99870411734295
 2004,Other creditors,Comoros,99.5511098484862
@@ -4207,16 +4207,16 @@ year,creditor_name,debtor_name,value
 2004,Other creditors,Honduras,99.0657471302731
 2004,Other creditors,IDA only,98.12499860791714
 2004,Other creditors,IDA total,98.498818164817
-2004,Other creditors,India,99.98624064378812
+2004,Other creditors,India,99.98624064378814
 2004,Other creditors,Indonesia,99.94945464474097
 2004,Other creditors,"Iran, Islamic Rep.",96.61352059274118
 2004,Other creditors,Jamaica,99.74863798459339
 2004,Other creditors,Jordan,99.80333051671721
-2004,Other creditors,Kazakhstan,100.0
+2004,Other creditors,Kazakhstan,99.99999999999999
 2004,Other creditors,Kenya,99.71693957704674
 2004,Other creditors,Kyrgyz Republic,99.21929862398358
 2004,Other creditors,Lao PDR,96.77347970698115
-2004,Other creditors,Latin America & Caribbean (excluding high income),99.92426691625653
+2004,Other creditors,Latin America & Caribbean (excluding high income),99.92426691625651
 2004,Other creditors,Least developed countries: UN classification,97.76713894734273
 2004,Other creditors,Lebanon,99.96728156054044
 2004,Other creditors,Lesotho,98.99533938992442
@@ -4226,7 +4226,7 @@ year,creditor_name,debtor_name,value
 2004,Other creditors,Low income,97.75859462367355
 2004,Other creditors,Lower middle income,99.24938092265714
 2004,Other creditors,Madagascar,99.01065617485274
-2004,Other creditors,Malawi,100.00000000000001
+2004,Other creditors,Malawi,100.0
 2004,Other creditors,Maldives,99.64214807388234
 2004,Other creditors,Mali,95.23688191454566
 2004,Other creditors,Mauritania,96.48032909008407
@@ -4261,11 +4261,11 @@ year,creditor_name,debtor_name,value
 2004,Other creditors,South Asia,99.72540832511801
 2004,Other creditors,Sri Lanka,98.99236274197571
 2004,Other creditors,St. Lucia,100.0
-2004,Other creditors,St. Vincent and the Grenadines,98.45586899463213
-2004,Other creditors,Sub-Saharan Africa (excluding high income),98.45803424211115
+2004,Other creditors,St. Vincent and the Grenadines,98.4558689946321
+2004,Other creditors,Sub-Saharan Africa (excluding high income),98.45803424211117
 2004,Other creditors,Sudan,89.94339488148415
 2004,Other creditors,Tajikistan,99.1712864600929
-2004,Other creditors,Tanzania,97.88573257409843
+2004,Other creditors,Tanzania,97.88573257409844
 2004,Other creditors,Thailand,99.99999999999999
 2004,Other creditors,Togo,98.27465662798876
 2004,Other creditors,Tonga,90.8718031323678
@@ -4284,7 +4284,7 @@ year,creditor_name,debtor_name,value
 2005,Other creditors,Africa (excluding high income),98.55916361209806
 2005,Other creditors,Albania,97.46019550234637
 2005,Other creditors,Algeria,99.81866799751745
-2005,Other creditors,Angola,97.83968287120118
+2005,Other creditors,Angola,97.83968287120119
 2005,Other creditors,Argentina,100.0
 2005,Other creditors,Armenia,100.0
 2005,Other creditors,Azerbaijan,99.99999999999999
@@ -4294,7 +4294,7 @@ year,creditor_name,debtor_name,value
 2005,Other creditors,Benin,95.5803432441006
 2005,Other creditors,Bhutan,100.0
 2005,Other creditors,Bolivia,99.0699088775259
-2005,Other creditors,Bosnia and Herzegovina,99.99999999999999
+2005,Other creditors,Bosnia and Herzegovina,100.0
 2005,Other creditors,Botswana,88.17153593306094
 2005,Other creditors,Brazil,100.0
 2005,Other creditors,Burkina Faso,97.06089244617077
@@ -4333,15 +4333,15 @@ year,creditor_name,debtor_name,value
 2005,Other creditors,Guyana,96.83292699772792
 2005,Other creditors,Haiti,100.0
 2005,Other creditors,Honduras,99.15558504759541
-2005,Other creditors,IDA only,97.8070429031323
+2005,Other creditors,IDA only,97.80704290313233
 2005,Other creditors,IDA total,98.06978049347707
 2005,Other creditors,India,99.98665354206463
-2005,Other creditors,Indonesia,99.96632517478359
+2005,Other creditors,Indonesia,99.96632517478362
 2005,Other creditors,"Iran, Islamic Rep.",92.51773800198822
 2005,Other creditors,Jamaica,99.52040115282546
 2005,Other creditors,Jordan,99.66652379815112
 2005,Other creditors,Kazakhstan,100.0
-2005,Other creditors,Kenya,99.50360813543475
+2005,Other creditors,Kenya,99.50360813543473
 2005,Other creditors,Kyrgyz Republic,99.16294278430173
 2005,Other creditors,Lao PDR,94.90275918502682
 2005,Other creditors,Latin America & Caribbean (excluding high income),99.9090991719278
@@ -4353,9 +4353,9 @@ year,creditor_name,debtor_name,value
 2005,Other creditors,Low & middle income,99.36734022539399
 2005,Other creditors,Low income,97.31583770294945
 2005,Other creditors,Lower middle income,99.01489374202086
-2005,Other creditors,Madagascar,98.88882359329247
+2005,Other creditors,Madagascar,98.88882359329246
 2005,Other creditors,Malawi,100.0
-2005,Other creditors,Maldives,99.67583348404553
+2005,Other creditors,Maldives,99.67583348404554
 2005,Other creditors,Mali,95.38126323168082
 2005,Other creditors,Mauritania,96.98678391675038
 2005,Other creditors,Mauritius,96.1556574121372
@@ -4371,7 +4371,7 @@ year,creditor_name,debtor_name,value
 2005,Other creditors,Nicaragua,99.46418625029085
 2005,Other creditors,Niger,98.81030247119382
 2005,Other creditors,Nigeria,99.20738929804146
-2005,Other creditors,North Macedonia,93.28604853264835
+2005,Other creditors,North Macedonia,93.28604853264837
 2005,Other creditors,Pakistan,98.18987919644658
 2005,Other creditors,Papua New Guinea,99.5118024675513
 2005,Other creditors,Paraguay,99.04418106830593
@@ -4380,9 +4380,9 @@ year,creditor_name,debtor_name,value
 2005,Other creditors,Rwanda,98.87759829362145
 2005,Other creditors,Samoa,92.76809011771284
 2005,Other creditors,Sao Tome and Principe,94.61491625526727
-2005,Other creditors,Senegal,97.35893276150316
+2005,Other creditors,Senegal,97.35893276150317
 2005,Other creditors,Serbia,97.85364259846722
-2005,Other creditors,Sierra Leone,98.01158336143644
+2005,Other creditors,Sierra Leone,98.01158336143641
 2005,Other creditors,Solomon Islands,100.00000000000003
 2005,Other creditors,"Somalia, Fed. Rep.",100.0
 2005,Other creditors,South Africa,100.0
@@ -4393,7 +4393,7 @@ year,creditor_name,debtor_name,value
 2005,Other creditors,Sub-Saharan Africa (excluding high income),98.06620023518344
 2005,Other creditors,Sudan,89.66055605223332
 2005,Other creditors,Tajikistan,99.16637180164403
-2005,Other creditors,Tanzania,97.77975543880456
+2005,Other creditors,Tanzania,97.77975543880454
 2005,Other creditors,Thailand,100.0
 2005,Other creditors,Togo,98.45494074153513
 2005,Other creditors,Tonga,90.18128751395463
@@ -4414,7 +4414,7 @@ year,creditor_name,debtor_name,value
 2006,Other creditors,Albania,97.99615186752952
 2006,Other creditors,Algeria,99.33940227147819
 2006,Other creditors,Angola,92.21839938382513
-2006,Other creditors,Argentina,100.00000000000001
+2006,Other creditors,Argentina,100.0
 2006,Other creditors,Armenia,100.0
 2006,Other creditors,Azerbaijan,100.0
 2006,Other creditors,Bangladesh,99.17394474021884
@@ -4481,8 +4481,8 @@ year,creditor_name,debtor_name,value
 2006,Other creditors,Low & lower middle income,98.2393951407626
 2006,Other creditors,Low & middle income,99.01615316759396
 2006,Other creditors,Low income,96.43043751959883
-2006,Other creditors,Lower middle income,98.53054707269808
-2006,Other creditors,Madagascar,96.96884410037528
+2006,Other creditors,Lower middle income,98.53054707269807
+2006,Other creditors,Madagascar,96.96884410037526
 2006,Other creditors,Malawi,100.0
 2006,Other creditors,Maldives,99.76144121581574
 2006,Other creditors,Mali,90.45750382040477
@@ -4519,11 +4519,11 @@ year,creditor_name,debtor_name,value
 2006,Other creditors,South Asia,99.55100621432443
 2006,Other creditors,Sri Lanka,99.00025674529961
 2006,Other creditors,St. Lucia,100.0
-2006,Other creditors,St. Vincent and the Grenadines,99.02068307105353
+2006,Other creditors,St. Vincent and the Grenadines,99.02068307105354
 2006,Other creditors,Sub-Saharan Africa (excluding high income),96.44263233095425
 2006,Other creditors,Sudan,89.06677045998698
 2006,Other creditors,Tajikistan,95.54617509219946
-2006,Other creditors,Tanzania,93.85975572945115
+2006,Other creditors,Tanzania,93.85975572945117
 2006,Other creditors,Thailand,100.0
 2006,Other creditors,Togo,99.1700273212085
 2006,Other creditors,Tonga,90.10907980415843
@@ -4532,7 +4532,7 @@ year,creditor_name,debtor_name,value
 2006,Other creditors,Turkmenistan,93.7621017096156
 2006,Other creditors,Uganda,98.26102770752912
 2006,Other creditors,Ukraine,100.0
-2006,Other creditors,Upper middle income,99.46708674655856
+2006,Other creditors,Upper middle income,99.46708674655855
 2006,Other creditors,Uzbekistan,97.54306835481503
 2006,Other creditors,Vanuatu,100.0
 2006,Other creditors,Viet Nam,99.28613298916034
@@ -4541,7 +4541,7 @@ year,creditor_name,debtor_name,value
 2006,Other creditors,Zimbabwe,96.22489876834148
 2007,Other creditors,Afghanistan,100.0
 2007,Other creditors,Africa (excluding high income),97.22644704447676
-2007,Other creditors,Albania,98.41724384180355
+2007,Other creditors,Albania,98.41724384180354
 2007,Other creditors,Algeria,98.40334638886638
 2007,Other creditors,Angola,88.20718752899009
 2007,Other creditors,Argentina,100.0
@@ -4562,13 +4562,13 @@ year,creditor_name,debtor_name,value
 2007,Other creditors,Cambodia,95.22575062782472
 2007,Other creditors,Cameroon,97.65072671519441
 2007,Other creditors,Central African Republic,98.7095803620023
-2007,Other creditors,Chad,100.0
+2007,Other creditors,Chad,100.00000000000001
 2007,Other creditors,China,100.0
 2007,Other creditors,Colombia,99.99909610319166
 2007,Other creditors,Comoros,99.50201634903637
 2007,Other creditors,"Congo, Dem. Rep.",99.40408214588821
 2007,Other creditors,"Congo, Rep.",93.63827457722434
-2007,Other creditors,Cote d'Ivoire,99.48239032848382
+2007,Other creditors,Cote d'Ivoire,99.48239032848383
 2007,Other creditors,Djibouti,96.70297004022925
 2007,Other creditors,Dominica,100.0
 2007,Other creditors,Dominican Republic,99.87200405207602
@@ -4577,10 +4577,10 @@ year,creditor_name,debtor_name,value
 2007,Other creditors,"Egypt, Arab Rep.",99.60958507050657
 2007,Other creditors,El Salvador,99.40864065808589
 2007,Other creditors,Eritrea,98.16055560450636
-2007,Other creditors,Eswatini,99.42045795943237
+2007,Other creditors,Eswatini,99.42045795943234
 2007,Other creditors,Ethiopia,99.06459549074843
-2007,Other creditors,Europe & Central Asia (excluding high income),99.28709491247567
-2007,Other creditors,Fiji,79.13681973352017
+2007,Other creditors,Europe & Central Asia (excluding high income),99.28709491247565
+2007,Other creditors,Fiji,79.13681973352018
 2007,Other creditors,Gabon,97.72410629237822
 2007,Other creditors,"Gambia, The",98.76250658835093
 2007,Other creditors,Georgia,100.0
@@ -4591,8 +4591,8 @@ year,creditor_name,debtor_name,value
 2007,Other creditors,Guinea-Bissau,100.0
 2007,Other creditors,Guyana,95.40337499015146
 2007,Other creditors,Haiti,99.99999999999999
-2007,Other creditors,Honduras,96.09905426875142
-2007,Other creditors,IDA only,96.74107052183554
+2007,Other creditors,Honduras,96.09905426875143
+2007,Other creditors,IDA only,96.74107052183552
 2007,Other creditors,IDA total,96.66035501749087
 2007,Other creditors,India,99.70421406183465
 2007,Other creditors,Indonesia,99.70196324122577
@@ -4612,15 +4612,15 @@ year,creditor_name,debtor_name,value
 2007,Other creditors,Low & middle income,98.89173209615454
 2007,Other creditors,Low income,96.90063436950842
 2007,Other creditors,Lower middle income,98.10594707088042
-2007,Other creditors,Madagascar,99.78928762263075
+2007,Other creditors,Madagascar,99.78928762263074
 2007,Other creditors,Malawi,99.99999999999999
-2007,Other creditors,Maldives,99.82619187099199
+2007,Other creditors,Maldives,99.826191870992
 2007,Other creditors,Mali,96.74327503913581
 2007,Other creditors,Mauritania,100.0
 2007,Other creditors,Mauritius,95.77378769832279
 2007,Other creditors,Mexico,100.0
 2007,Other creditors,"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",97.80320047265525
-2007,Other creditors,Middle income,98.99992532853857
+2007,Other creditors,Middle income,98.99992532853854
 2007,Other creditors,Moldova,100.0
 2007,Other creditors,Mongolia,97.91417435946097
 2007,Other creditors,Montenegro,100.0
@@ -4649,15 +4649,15 @@ year,creditor_name,debtor_name,value
 2007,Other creditors,South Asia,99.41899102506484
 2007,Other creditors,Sri Lanka,97.70235014848511
 2007,Other creditors,St. Lucia,100.0
-2007,Other creditors,St. Vincent and the Grenadines,99.0803938275545
+2007,Other creditors,St. Vincent and the Grenadines,99.08039382755452
 2007,Other creditors,Sub-Saharan Africa (excluding high income),96.0000663298109
 2007,Other creditors,Sudan,89.82521067324188
-2007,Other creditors,Tajikistan,79.05047778482742
+2007,Other creditors,Tajikistan,79.05047778482744
 2007,Other creditors,Tanzania,94.51364905071935
 2007,Other creditors,Thailand,100.0
 2007,Other creditors,Togo,99.16648037546244
 2007,Other creditors,Tonga,90.02562688204775
-2007,Other creditors,Tunisia,99.65871986713195
+2007,Other creditors,Tunisia,99.65871986713194
 2007,Other creditors,Turkiye,100.0
 2007,Other creditors,Turkmenistan,85.42552990761513
 2007,Other creditors,Uganda,98.4179420971151
@@ -4677,7 +4677,7 @@ year,creditor_name,debtor_name,value
 2008,Other creditors,Argentina,100.0
 2008,Other creditors,Armenia,100.00000000000001
 2008,Other creditors,Azerbaijan,99.99999999999997
-2008,Other creditors,Bangladesh,99.57584756654416
+2008,Other creditors,Bangladesh,99.57584756654417
 2008,Other creditors,Belarus,95.12318366587026
 2008,Other creditors,Belize,100.0
 2008,Other creditors,Benin,85.24918320085156
@@ -4699,7 +4699,7 @@ year,creditor_name,debtor_name,value
 2008,Other creditors,"Congo, Dem. Rep.",99.41472603831042
 2008,Other creditors,"Congo, Rep.",93.51563074892982
 2008,Other creditors,Cote d'Ivoire,99.36766935794235
-2008,Other creditors,Djibouti,96.51695831891502
+2008,Other creditors,Djibouti,96.51695831891504
 2008,Other creditors,Dominica,100.00000000000001
 2008,Other creditors,Dominican Republic,99.894294034688
 2008,Other creditors,East Asia & Pacific (excluding high income),99.1084381873435
@@ -4748,7 +4748,7 @@ year,creditor_name,debtor_name,value
 2008,Other creditors,Mali,96.47944501582741
 2008,Other creditors,Mauritania,100.0
 2008,Other creditors,Mauritius,95.94935496940232
-2008,Other creditors,Mexico,100.0
+2008,Other creditors,Mexico,100.00000000000001
 2008,Other creditors,"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",97.55964474843088
 2008,Other creditors,Middle income,98.75952775120368
 2008,Other creditors,Moldova,99.99999999999999
@@ -4775,7 +4775,7 @@ year,creditor_name,debtor_name,value
 2008,Other creditors,Sierra Leone,95.38422516730417
 2008,Other creditors,Solomon Islands,100.0
 2008,Other creditors,"Somalia, Fed. Rep.",100.0
-2008,Other creditors,South Africa,99.99999999999997
+2008,Other creditors,South Africa,100.0
 2008,Other creditors,South Asia,99.4431690024381
 2008,Other creditors,Sri Lanka,97.51065347581614
 2008,Other creditors,St. Lucia,100.0
@@ -4789,14 +4789,14 @@ year,creditor_name,debtor_name,value
 2008,Other creditors,Togo,99.0043153086031
 2008,Other creditors,Tonga,81.4339903700677
 2008,Other creditors,Tunisia,99.64787165839077
-2008,Other creditors,Turkiye,99.84868785624901
+2008,Other creditors,Turkiye,99.84868785624903
 2008,Other creditors,Turkmenistan,76.67773596963696
 2008,Other creditors,Uganda,98.16734501585806
 2008,Other creditors,Ukraine,100.0
 2008,Other creditors,Upper middle income,99.29609216702974
 2008,Other creditors,Uzbekistan,93.64682975681205
 2008,Other creditors,Vanuatu,83.61287520712213
-2008,Other creditors,Viet Nam,98.6602922597706
+2008,Other creditors,Viet Nam,98.66029225977057
 2008,Other creditors,"Yemen, Rep.",96.76381190794368
 2008,Other creditors,Zambia,75.46741461982242
 2008,Other creditors,Zimbabwe,91.26479093425081
@@ -4810,7 +4810,7 @@ year,creditor_name,debtor_name,value
 2009,Other creditors,Azerbaijan,100.0
 2009,Other creditors,Bangladesh,99.66657202148194
 2009,Other creditors,Belarus,87.5696461776673
-2009,Other creditors,Belize,99.99999999999999
+2009,Other creditors,Belize,100.0
 2009,Other creditors,Benin,88.45341796536349
 2009,Other creditors,Bhutan,100.00000000000001
 2009,Other creditors,Bolivia,96.33712545339532
@@ -4833,8 +4833,8 @@ year,creditor_name,debtor_name,value
 2009,Other creditors,Djibouti,96.42986480368255
 2009,Other creditors,Dominica,100.0
 2009,Other creditors,Dominican Republic,99.91831893227216
-2009,Other creditors,East Asia & Pacific (excluding high income),98.9886629009028
-2009,Other creditors,Ecuador,99.96692453366269
+2009,Other creditors,East Asia & Pacific (excluding high income),98.98866290090277
+2009,Other creditors,Ecuador,99.9669245336627
 2009,Other creditors,"Egypt, Arab Rep.",99.53819744269325
 2009,Other creditors,El Salvador,99.5407538720751
 2009,Other creditors,Eritrea,86.84654872190232
@@ -4875,7 +4875,7 @@ year,creditor_name,debtor_name,value
 2009,Other creditors,Low income,93.23892606938341
 2009,Other creditors,Lower middle income,97.30767617364269
 2009,Other creditors,Madagascar,97.1473066959984
-2009,Other creditors,Malawi,96.88274861399118
+2009,Other creditors,Malawi,96.8827486139912
 2009,Other creditors,Maldives,99.91773756535899
 2009,Other creditors,Mali,96.13413182320284
 2009,Other creditors,Mauritania,92.73349890394624
@@ -4885,7 +4885,7 @@ year,creditor_name,debtor_name,value
 2009,Other creditors,Middle income,98.29483063792497
 2009,Other creditors,Moldova,98.38089822517219
 2009,Other creditors,Mongolia,98.38651670902486
-2009,Other creditors,Montenegro,100.0
+2009,Other creditors,Montenegro,99.99999999999997
 2009,Other creditors,Morocco,99.3656819524765
 2009,Other creditors,Mozambique,95.1262967899782
 2009,Other creditors,Myanmar,90.15941789743347
@@ -4893,16 +4893,16 @@ year,creditor_name,debtor_name,value
 2009,Other creditors,Nicaragua,99.04576935820823
 2009,Other creditors,Niger,85.15178476246695
 2009,Other creditors,Nigeria,83.54225365620933
-2009,Other creditors,North Macedonia,96.81040180753814
+2009,Other creditors,North Macedonia,96.81040180753816
 2009,Other creditors,Pakistan,95.53545202211774
 2009,Other creditors,Papua New Guinea,99.10795768500954
-2009,Other creditors,Paraguay,99.48753692762466
+2009,Other creditors,Paraguay,99.48753692762467
 2009,Other creditors,Peru,99.97846791088921
 2009,Other creditors,Philippines,99.21619430597733
 2009,Other creditors,Rwanda,99.1376151293943
 2009,Other creditors,Samoa,80.26612676671652
 2009,Other creditors,Sao Tome and Principe,85.68424442143845
-2009,Other creditors,Senegal,94.0552538250492
+2009,Other creditors,Senegal,94.05525382504919
 2009,Other creditors,Serbia,97.6789900963512
 2009,Other creditors,Sierra Leone,95.83877969019706
 2009,Other creditors,Solomon Islands,100.0
@@ -4923,7 +4923,7 @@ year,creditor_name,debtor_name,value
 2009,Other creditors,Tunisia,99.68628196298988
 2009,Other creditors,Turkiye,99.71343171780696
 2009,Other creditors,Turkmenistan,71.13080373851308
-2009,Other creditors,Uganda,97.50472346625237
+2009,Other creditors,Uganda,97.5047234662524
 2009,Other creditors,Ukraine,100.0
 2009,Other creditors,Upper middle income,98.83356194292303
 2009,Other creditors,Uzbekistan,88.41293547680733
@@ -4951,7 +4951,7 @@ year,creditor_name,debtor_name,value
 2010,Other creditors,Brazil,91.77861990522494
 2010,Other creditors,Burkina Faso,97.19124383672323
 2010,Other creditors,Burundi,99.86038902024823
-2010,Other creditors,Cabo Verde,97.42732196528122
+2010,Other creditors,Cabo Verde,97.42732196528124
 2010,Other creditors,Cambodia,82.82189508491444
 2010,Other creditors,Cameroon,90.86164729833787
 2010,Other creditors,Central African Republic,87.2261033905571
@@ -4973,19 +4973,19 @@ year,creditor_name,debtor_name,value
 2010,Other creditors,Eswatini,99.62554787746946
 2010,Other creditors,Ethiopia,72.6360236179436
 2010,Other creditors,Europe & Central Asia (excluding high income),97.59701322893447
-2010,Other creditors,Fiji,75.02898434571884
+2010,Other creditors,Fiji,75.02898434571885
 2010,Other creditors,Gabon,87.21765366305475
 2010,Other creditors,"Gambia, The",96.83958444098077
 2010,Other creditors,Georgia,99.86166385681283
 2010,Other creditors,Ghana,89.00904379459794
-2010,Other creditors,Grenada,99.99999999999999
+2010,Other creditors,Grenada,100.0
 2010,Other creditors,Guatemala,99.39052366202301
 2010,Other creditors,Guinea,97.92367132346047
 2010,Other creditors,Guinea-Bissau,100.0
 2010,Other creditors,Guyana,94.95535627056876
 2010,Other creditors,Haiti,100.0
 2010,Other creditors,Honduras,97.58921865971888
-2010,Other creditors,IDA only,91.5392456915196
+2010,Other creditors,IDA only,91.53924569151962
 2010,Other creditors,IDA total,92.23127483546425
 2010,Other creditors,India,99.75386431122473
 2010,Other creditors,Indonesia,99.50641652976061
@@ -4999,23 +4999,23 @@ year,creditor_name,debtor_name,value
 2010,Other creditors,Lao PDR,83.9989143458629
 2010,Other creditors,Latin America & Caribbean (excluding high income),97.79630949046806
 2010,Other creditors,Least developed countries: UN classification,88.76970007633102
-2010,Other creditors,Lebanon,99.96298509134301
+2010,Other creditors,Lebanon,99.962985091343
 2010,Other creditors,Lesotho,95.82666776509413
 2010,Other creditors,Liberia,100.0
 2010,Other creditors,Low & lower middle income,94.97827717992725
 2010,Other creditors,Low & middle income,96.98522966570057
 2010,Other creditors,Low income,89.65388813342713
 2010,Other creditors,Lower middle income,95.68439723897636
-2010,Other creditors,Madagascar,96.94267854652955
-2010,Other creditors,Malawi,93.55863111339748
+2010,Other creditors,Madagascar,96.94267854652956
+2010,Other creditors,Malawi,93.55863111339747
 2010,Other creditors,Maldives,96.48164454557005
-2010,Other creditors,Mali,96.7731822545766
+2010,Other creditors,Mali,96.77318225457662
 2010,Other creditors,Mauritania,93.59359023573883
 2010,Other creditors,Mauritius,85.1257942259463
 2010,Other creditors,Mexico,100.0
 2010,Other creditors,"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",96.78788514032257
 2010,Other creditors,Middle income,97.32321479285874
-2010,Other creditors,Moldova,98.48606803928395
+2010,Other creditors,Moldova,98.48606803928394
 2010,Other creditors,Mongolia,98.61136678959063
 2010,Other creditors,Montenegro,100.0
 2010,Other creditors,Morocco,97.50260186028834
@@ -5028,7 +5028,7 @@ year,creditor_name,debtor_name,value
 2010,Other creditors,North Macedonia,97.78524697948814
 2010,Other creditors,Pakistan,95.23756895210957
 2010,Other creditors,Papua New Guinea,98.83195359301027
-2010,Other creditors,Paraguay,99.64343812904275
+2010,Other creditors,Paraguay,99.64343812904278
 2010,Other creditors,Peru,99.98860502401756
 2010,Other creditors,Philippines,99.10410448460546
 2010,Other creditors,Rwanda,97.31215208988083
@@ -5063,7 +5063,7 @@ year,creditor_name,debtor_name,value
 2010,Other creditors,Viet Nam,94.79926751954483
 2010,Other creditors,"Yemen, Rep.",95.26313340493229
 2010,Other creditors,Zambia,70.72262484731887
-2010,Other creditors,Zimbabwe,90.05020687000066
+2010,Other creditors,Zimbabwe,90.05020687000068
 2011,Other creditors,Afghanistan,100.0
 2011,Other creditors,Africa (excluding high income),91.70616705626502
 2011,Other creditors,Albania,99.55251362020738
@@ -5072,15 +5072,15 @@ year,creditor_name,debtor_name,value
 2011,Other creditors,Argentina,99.94721232119106
 2011,Other creditors,Armenia,100.0
 2011,Other creditors,Azerbaijan,100.0
-2011,Other creditors,Bangladesh,99.77379939607897
+2011,Other creditors,Bangladesh,99.77379939607899
 2011,Other creditors,Belarus,88.0429074756203
 2011,Other creditors,Belize,100.0
 2011,Other creditors,Benin,89.1534094630159
 2011,Other creditors,Bhutan,100.0
 2011,Other creditors,Bolivia,94.61901502732442
-2011,Other creditors,Bosnia and Herzegovina,100.00000000000001
+2011,Other creditors,Bosnia and Herzegovina,100.0
 2011,Other creditors,Botswana,96.97538526742814
-2011,Other creditors,Brazil,91.60468870679728
+2011,Other creditors,Brazil,91.60468870679729
 2011,Other creditors,Burkina Faso,97.48323888437895
 2011,Other creditors,Burundi,99.85352637489395
 2011,Other creditors,Cabo Verde,97.06859445088304
@@ -5089,7 +5089,7 @@ year,creditor_name,debtor_name,value
 2011,Other creditors,Central African Republic,83.47783075410386
 2011,Other creditors,Chad,94.02419705258595
 2011,Other creditors,China,100.0
-2011,Other creditors,Colombia,99.99973552957893
+2011,Other creditors,Colombia,99.99973552957894
 2011,Other creditors,Comoros,99.99999999999999
 2011,Other creditors,"Congo, Dem. Rep.",76.494442802275
 2011,Other creditors,"Congo, Rep.",50.514151160379974
@@ -5099,7 +5099,7 @@ year,creditor_name,debtor_name,value
 2011,Other creditors,Dominican Republic,99.95730198975323
 2011,Other creditors,East Asia & Pacific (excluding high income),97.81274548591345
 2011,Other creditors,Ecuador,77.48428150776856
-2011,Other creditors,"Egypt, Arab Rep.",99.44665801846
+2011,Other creditors,"Egypt, Arab Rep.",99.44665801846001
 2011,Other creditors,El Salvador,99.71365395955117
 2011,Other creditors,Eritrea,86.58915223367622
 2011,Other creditors,Eswatini,99.63557677397976
@@ -5116,8 +5116,8 @@ year,creditor_name,debtor_name,value
 2011,Other creditors,Guinea-Bissau,100.0
 2011,Other creditors,Guyana,93.63442272091575
 2011,Other creditors,Haiti,100.0
-2011,Other creditors,Honduras,97.20338192752652
-2011,Other creditors,IDA only,89.71864052628787
+2011,Other creditors,Honduras,97.20338192752651
+2011,Other creditors,IDA only,89.71864052628788
 2011,Other creditors,IDA total,90.49081099668885
 2011,Other creditors,India,99.95540166322512
 2011,Other creditors,Indonesia,99.26573893170037
@@ -5125,23 +5125,23 @@ year,creditor_name,debtor_name,value
 2011,Other creditors,Jamaica,96.54990292971617
 2011,Other creditors,Jordan,99.0738108026481
 2011,Other creditors,Kazakhstan,100.0
-2011,Other creditors,Kenya,93.76600790124714
+2011,Other creditors,Kenya,93.76600790124712
 2011,Other creditors,Kosovo,100.0
 2011,Other creditors,Kyrgyz Republic,89.6166353119726
 2011,Other creditors,Lao PDR,73.65376709610885
 2011,Other creditors,Latin America & Caribbean (excluding high income),97.561016147748
 2011,Other creditors,Least developed countries: UN classification,86.38705824245969
-2011,Other creditors,Lebanon,99.96183526396437
+2011,Other creditors,Lebanon,99.96183526396435
 2011,Other creditors,Lesotho,95.54310399514945
 2011,Other creditors,Liberia,96.87188201215997
-2011,Other creditors,Low & lower middle income,93.90923959409301
+2011,Other creditors,Low & lower middle income,93.909239594093
 2011,Other creditors,Low & middle income,96.35570253834716
 2011,Other creditors,Low income,88.96885414898428
 2011,Other creditors,Lower middle income,94.5523716453928
-2011,Other creditors,Madagascar,96.95421783642688
-2011,Other creditors,Malawi,83.28299751589319
+2011,Other creditors,Madagascar,96.95421783642686
+2011,Other creditors,Malawi,83.28299751589317
 2011,Other creditors,Maldives,94.10119429818705
-2011,Other creditors,Mali,96.8059316834564
+2011,Other creditors,Mali,96.80593168345642
 2011,Other creditors,Mauritania,92.90633935491041
 2011,Other creditors,Mauritius,81.26661209187029
 2011,Other creditors,Mexico,100.0
@@ -5150,7 +5150,7 @@ year,creditor_name,debtor_name,value
 2011,Other creditors,Moldova,98.43243370746973
 2011,Other creditors,Mongolia,98.28850374369509
 2011,Other creditors,Montenegro,98.29800491022299
-2011,Other creditors,Morocco,97.63714109585598
+2011,Other creditors,Morocco,97.637141095856
 2011,Other creditors,Mozambique,94.22875166165326
 2011,Other creditors,Myanmar,79.07658382830799
 2011,Other creditors,Nepal,99.45162638550913
@@ -5171,12 +5171,12 @@ year,creditor_name,debtor_name,value
 2011,Other creditors,Sierra Leone,96.1048652991815
 2011,Other creditors,Solomon Islands,100.0
 2011,Other creditors,"Somalia, Fed. Rep.",100.0
-2011,Other creditors,South Africa,100.0
+2011,Other creditors,South Africa,99.99999999999999
 2011,Other creditors,South Asia,98.6803200504536
-2011,Other creditors,Sri Lanka,89.95972737160142
+2011,Other creditors,Sri Lanka,89.95972737160139
 2011,Other creditors,St. Lucia,100.0
 2011,Other creditors,St. Vincent and the Grenadines,100.0
-2011,Other creditors,Sub-Saharan Africa (excluding high income),88.7692431117779
+2011,Other creditors,Sub-Saharan Africa (excluding high income),88.76924311177787
 2011,Other creditors,Sudan,88.99984468042247
 2011,Other creditors,Syrian Arab Republic,98.07501275726106
 2011,Other creditors,Tajikistan,55.317795022719885
@@ -5206,7 +5206,7 @@ year,creditor_name,debtor_name,value
 2012,Other creditors,Azerbaijan,100.0
 2012,Other creditors,Bangladesh,99.02754903469224
 2012,Other creditors,Belarus,86.63149184719393
-2012,Other creditors,Belize,99.99999999999999
+2012,Other creditors,Belize,100.0
 2012,Other creditors,Benin,88.96667227305744
 2012,Other creditors,Bhutan,100.0
 2012,Other creditors,Bolivia,92.86196632077333
@@ -5234,12 +5234,12 @@ year,creditor_name,debtor_name,value
 2012,Other creditors,"Egypt, Arab Rep.",98.8300774563675
 2012,Other creditors,El Salvador,99.77956801413379
 2012,Other creditors,Eritrea,89.89208049820361
-2012,Other creditors,Eswatini,99.65758809582854
+2012,Other creditors,Eswatini,99.65758809582853
 2012,Other creditors,Ethiopia,72.85638677427828
 2012,Other creditors,Europe & Central Asia (excluding high income),95.0203597738143
 2012,Other creditors,Fiji,70.34165508871367
 2012,Other creditors,Gabon,84.06965196918607
-2012,Other creditors,"Gambia, The",96.88419202234995
+2012,Other creditors,"Gambia, The",96.88419202234996
 2012,Other creditors,Georgia,99.9065083172044
 2012,Other creditors,Ghana,82.38484091662578
 2012,Other creditors,Grenada,100.0
@@ -5248,8 +5248,8 @@ year,creditor_name,debtor_name,value
 2012,Other creditors,Guinea-Bissau,100.0
 2012,Other creditors,Guyana,91.9961320723026
 2012,Other creditors,Haiti,100.0
-2012,Other creditors,Honduras,96.90013832072536
-2012,Other creditors,IDA only,87.8021904146528
+2012,Other creditors,Honduras,96.90013832072538
+2012,Other creditors,IDA only,87.80219041465281
 2012,Other creditors,IDA total,88.38216841876685
 2012,Other creditors,India,99.99999999999999
 2012,Other creditors,Indonesia,99.33803141447056
@@ -5264,26 +5264,26 @@ year,creditor_name,debtor_name,value
 2012,Other creditors,Latin America & Caribbean (excluding high income),97.72772289502778
 2012,Other creditors,Least developed countries: UN classification,85.31390403979076
 2012,Other creditors,Lebanon,99.96722843540034
-2012,Other creditors,Lesotho,94.54216919184475
+2012,Other creditors,Lesotho,94.54216919184474
 2012,Other creditors,Liberia,97.2137899043054
 2012,Other creditors,Low & lower middle income,93.05211870868285
 2012,Other creditors,Low & middle income,96.06588284872608
 2012,Other creditors,Low income,88.77383479081085
 2012,Other creditors,Lower middle income,93.61437881496587
 2012,Other creditors,Madagascar,97.08145339037732
-2012,Other creditors,Malawi,83.15671456242251
+2012,Other creditors,Malawi,83.1567145624225
 2012,Other creditors,Maldives,90.20748404560655
-2012,Other creditors,Mali,92.53214704435221
+2012,Other creditors,Mali,92.53214704435219
 2012,Other creditors,Mauritania,93.96590249793098
 2012,Other creditors,Mauritius,75.43343520573215
-2012,Other creditors,Mexico,100.0
+2012,Other creditors,Mexico,100.00000000000001
 2012,Other creditors,"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",96.23472475370643
 2012,Other creditors,Middle income,96.37940120912646
 2012,Other creditors,Moldova,99.08636934866958
 2012,Other creditors,Mongolia,87.21113820660733
 2012,Other creditors,Montenegro,96.762730796934
 2012,Other creditors,Morocco,97.84079195413564
-2012,Other creditors,Mozambique,92.06102933779162
+2012,Other creditors,Mozambique,92.06102933779161
 2012,Other creditors,Myanmar,72.52103176530494
 2012,Other creditors,Nepal,98.95586113427008
 2012,Other creditors,Nicaragua,99.19254873089777
@@ -5293,7 +5293,7 @@ year,creditor_name,debtor_name,value
 2012,Other creditors,Pakistan,93.09337125898728
 2012,Other creditors,Papua New Guinea,90.22012400368162
 2012,Other creditors,Paraguay,99.8984205138653
-2012,Other creditors,Peru,99.99436033322901
+2012,Other creditors,Peru,99.99436033322898
 2012,Other creditors,Philippines,98.72387516965499
 2012,Other creditors,Rwanda,97.03029600314842
 2012,Other creditors,Samoa,68.23254557596431
@@ -5313,7 +5313,7 @@ year,creditor_name,debtor_name,value
 2012,Other creditors,Syrian Arab Republic,98.04710031058072
 2012,Other creditors,Tajikistan,55.80508742913655
 2012,Other creditors,Tanzania,90.40588469847584
-2012,Other creditors,Thailand,100.00000000000001
+2012,Other creditors,Thailand,100.0
 2012,Other creditors,Timor-Leste,100.0
 2012,Other creditors,Togo,64.41971006258169
 2012,Other creditors,Tonga,35.30944977979979
@@ -5367,8 +5367,8 @@ year,creditor_name,debtor_name,value
 2013,Other creditors,"Egypt, Arab Rep.",99.10878775082331
 2013,Other creditors,El Salvador,99.82639223588065
 2013,Other creditors,Eritrea,93.58431853483326
-2013,Other creditors,Eswatini,99.68761383044061
-2013,Other creditors,Ethiopia,72.899390666986
+2013,Other creditors,Eswatini,99.6876138304406
+2013,Other creditors,Ethiopia,72.89939066698597
 2013,Other creditors,Europe & Central Asia (excluding high income),94.02413945915036
 2013,Other creditors,Fiji,66.3030209396139
 2013,Other creditors,Gabon,84.39094239366398
@@ -5376,7 +5376,7 @@ year,creditor_name,debtor_name,value
 2013,Other creditors,Georgia,99.91749952095165
 2013,Other creditors,Ghana,80.28497467286948
 2013,Other creditors,Grenada,100.0
-2013,Other creditors,Guatemala,99.83360546281122
+2013,Other creditors,Guatemala,99.83360546281124
 2013,Other creditors,Guinea,80.99815312482679
 2013,Other creditors,Guinea-Bissau,100.0
 2013,Other creditors,Guyana,89.80165726061368
@@ -5388,7 +5388,7 @@ year,creditor_name,debtor_name,value
 2013,Other creditors,Indonesia,99.27274867848736
 2013,Other creditors,"Iran, Islamic Rep.",88.68185419984029
 2013,Other creditors,Jamaica,93.17714221724178
-2013,Other creditors,Jordan,99.17432954435432
+2013,Other creditors,Jordan,99.1743295443543
 2013,Other creditors,Kazakhstan,100.0
 2013,Other creditors,Kenya,90.45314766410236
 2013,Other creditors,Kosovo,100.0
@@ -5397,7 +5397,7 @@ year,creditor_name,debtor_name,value
 2013,Other creditors,Latin America & Caribbean (excluding high income),97.55408004665104
 2013,Other creditors,Least developed countries: UN classification,82.79140947114593
 2013,Other creditors,Lebanon,99.96816710749815
-2013,Other creditors,Lesotho,94.35585339361337
+2013,Other creditors,Lesotho,94.35585339361336
 2013,Other creditors,Liberia,97.43290094280333
 2013,Other creditors,Low & lower middle income,91.68507914308931
 2013,Other creditors,Low & middle income,95.3262359242344
@@ -5458,7 +5458,7 @@ year,creditor_name,debtor_name,value
 2013,Other creditors,Upper middle income,97.32967589499766
 2013,Other creditors,Uzbekistan,78.77877939547395
 2013,Other creditors,Vanuatu,63.22000797203373
-2013,Other creditors,Viet Nam,94.65120112967433
+2013,Other creditors,Viet Nam,94.65120112967436
 2013,Other creditors,"Yemen, Rep.",95.86344424576927
 2013,Other creditors,Zambia,59.49294896525808
 2013,Other creditors,Zimbabwe,83.30253708731594
@@ -5468,7 +5468,7 @@ year,creditor_name,debtor_name,value
 2014,Other creditors,Algeria,93.28468633971512
 2014,Other creditors,Angola,67.57899063707589
 2014,Other creditors,Argentina,99.13809167668353
-2014,Other creditors,Armenia,100.0
+2014,Other creditors,Armenia,99.99999999999999
 2014,Other creditors,Azerbaijan,100.0
 2014,Other creditors,Bangladesh,96.6536172210222
 2014,Other creditors,Belarus,79.5444921570584
@@ -5493,12 +5493,12 @@ year,creditor_name,debtor_name,value
 2014,Other creditors,"Congo, Rep.",48.92642472651124
 2014,Other creditors,Cote d'Ivoire,91.39391353983535
 2014,Other creditors,Djibouti,78.02551493149832
-2014,Other creditors,Dominica,85.94626434206819
+2014,Other creditors,Dominica,85.94626434206818
 2014,Other creditors,Dominican Republic,99.98520447072781
 2014,Other creditors,East Asia & Pacific (excluding high income),96.57996713560271
 2014,Other creditors,Ecuador,70.50821155307936
-2014,Other creditors,"Egypt, Arab Rep.",99.0258474488054
-2014,Other creditors,El Salvador,99.88574053574986
+2014,Other creditors,"Egypt, Arab Rep.",99.02584744880537
+2014,Other creditors,El Salvador,99.88574053574983
 2014,Other creditors,Eritrea,93.3390057187012
 2014,Other creditors,Eswatini,99.74764394327222
 2014,Other creditors,Ethiopia,66.27035041903076
@@ -5509,14 +5509,14 @@ year,creditor_name,debtor_name,value
 2014,Other creditors,Georgia,99.92966015761745
 2014,Other creditors,Ghana,81.56316497942592
 2014,Other creditors,Grenada,100.0
-2014,Other creditors,Guatemala,99.85616855738968
+2014,Other creditors,Guatemala,99.8561685573897
 2014,Other creditors,Guinea,74.6954075914099
 2014,Other creditors,Guinea-Bissau,100.0
 2014,Other creditors,Guyana,88.21486172750312
 2014,Other creditors,Haiti,100.0
 2014,Other creditors,Honduras,97.99068756192426
 2014,Other creditors,IDA only,83.256777009936
-2014,Other creditors,IDA total,83.63849889619885
+2014,Other creditors,IDA total,83.63849889619887
 2014,Other creditors,India,100.0
 2014,Other creditors,Indonesia,99.32135720231106
 2014,Other creditors,"Iran, Islamic Rep.",89.05289229675006
@@ -5533,7 +5533,7 @@ year,creditor_name,debtor_name,value
 2014,Other creditors,Lesotho,94.4569198293077
 2014,Other creditors,Liberia,98.04528302420914
 2014,Other creditors,Low & lower middle income,90.50562072906303
-2014,Other creditors,Low & middle income,94.98547238592427
+2014,Other creditors,Low & middle income,94.98547238592425
 2014,Other creditors,Low income,84.86386003637911
 2014,Other creditors,Lower middle income,91.25894018173481
 2014,Other creditors,Madagascar,97.38213760547205
@@ -5550,7 +5550,7 @@ year,creditor_name,debtor_name,value
 2014,Other creditors,Montenegro,96.02725289738902
 2014,Other creditors,Morocco,98.21244609901815
 2014,Other creditors,Mozambique,84.81249582910931
-2014,Other creditors,Myanmar,56.36520651384224
+2014,Other creditors,Myanmar,56.36520651384225
 2014,Other creditors,Nepal,97.72999406339396
 2014,Other creditors,Nicaragua,99.30015453418488
 2014,Other creditors,Niger,82.29977062866435
@@ -5575,7 +5575,7 @@ year,creditor_name,debtor_name,value
 2014,Other creditors,St. Lucia,100.0
 2014,Other creditors,St. Vincent and the Grenadines,99.99999999999997
 2014,Other creditors,Sub-Saharan Africa (excluding high income),84.01091526944091
-2014,Other creditors,Sudan,89.55119255014355
+2014,Other creditors,Sudan,89.55119255014357
 2014,Other creditors,Syrian Arab Republic,97.83745914815461
 2014,Other creditors,Tajikistan,54.55953719166824
 2014,Other creditors,Tanzania,81.73258872491468
@@ -5603,7 +5603,7 @@ year,creditor_name,debtor_name,value
 2015,Other creditors,Argentina,97.66183901240554
 2015,Other creditors,Armenia,99.49043797618731
 2015,Other creditors,Azerbaijan,100.0
-2015,Other creditors,Bangladesh,96.60784688376236
+2015,Other creditors,Bangladesh,96.60784688376235
 2015,Other creditors,Belarus,76.75249006070935
 2015,Other creditors,Belize,100.0
 2015,Other creditors,Benin,87.0961091997762
@@ -5638,7 +5638,7 @@ year,creditor_name,debtor_name,value
 2015,Other creditors,Europe & Central Asia (excluding high income),93.36052893624567
 2015,Other creditors,Fiji,57.2888455912516
 2015,Other creditors,Gabon,81.28747388321727
-2015,Other creditors,"Gambia, The",100.0
+2015,Other creditors,"Gambia, The",99.99999999999999
 2015,Other creditors,Georgia,99.94345338441728
 2015,Other creditors,Ghana,83.54905830059838
 2015,Other creditors,Grenada,100.0
@@ -5649,9 +5649,9 @@ year,creditor_name,debtor_name,value
 2015,Other creditors,Haiti,100.0
 2015,Other creditors,Honduras,95.63176133910952
 2015,Other creditors,IDA only,81.88664365509302
-2015,Other creditors,IDA total,82.3084100040367
+2015,Other creditors,IDA total,82.30841000403672
 2015,Other creditors,India,100.0
-2015,Other creditors,Indonesia,99.39271850681214
+2015,Other creditors,Indonesia,99.39271850681216
 2015,Other creditors,"Iran, Islamic Rep.",92.42859992127225
 2015,Other creditors,Iraq,90.56052140851759
 2015,Other creditors,Jamaica,94.10056531150042
@@ -5670,7 +5670,7 @@ year,creditor_name,debtor_name,value
 2015,Other creditors,Low & middle income,94.68375372719996
 2015,Other creditors,Low income,82.67533319896113
 2015,Other creditors,Lower middle income,91.08048685790872
-2015,Other creditors,Madagascar,97.80372624655273
+2015,Other creditors,Madagascar,97.8037262465527
 2015,Other creditors,Malawi,83.60586761181828
 2015,Other creditors,Maldives,78.13280379689029
 2015,Other creditors,Mali,86.7593180793924
@@ -5679,7 +5679,7 @@ year,creditor_name,debtor_name,value
 2015,Other creditors,Mexico,100.0
 2015,Other creditors,"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",95.5655764119518
 2015,Other creditors,Middle income,95.21809951336921
-2015,Other creditors,Moldova,99.74049979226982
+2015,Other creditors,Moldova,99.7404997922698
 2015,Other creditors,Mongolia,58.378925678147894
 2015,Other creditors,Montenegro,89.03625677422812
 2015,Other creditors,Morocco,98.3319495506205
@@ -5698,7 +5698,7 @@ year,creditor_name,debtor_name,value
 2015,Other creditors,Rwanda,94.30697272420412
 2015,Other creditors,Samoa,59.15415742294723
 2015,Other creditors,Sao Tome and Principe,91.50389447650814
-2015,Other creditors,Senegal,90.54190735838169
+2015,Other creditors,Senegal,90.54190735838168
 2015,Other creditors,Serbia,95.44751583927605
 2015,Other creditors,Sierra Leone,94.02474085232731
 2015,Other creditors,Solomon Islands,100.0
@@ -5737,8 +5737,8 @@ year,creditor_name,debtor_name,value
 2016,Other creditors,Angola,54.110616592559694
 2016,Other creditors,Argentina,98.31106079025992
 2016,Other creditors,Armenia,99.49983455110879
-2016,Other creditors,Azerbaijan,99.99999999999999
-2016,Other creditors,Bangladesh,96.65055761499198
+2016,Other creditors,Azerbaijan,100.0
+2016,Other creditors,Bangladesh,96.65055761499197
 2016,Other creditors,Belarus,77.80478903777639
 2016,Other creditors,Belize,100.0
 2016,Other creditors,Benin,88.13540780932925
@@ -5754,12 +5754,12 @@ year,creditor_name,debtor_name,value
 2016,Other creditors,Cameroon,62.11373893171199
 2016,Other creditors,Central African Republic,75.94876557145527
 2016,Other creditors,Chad,90.67011581152163
-2016,Other creditors,China,99.99999999999999
+2016,Other creditors,China,100.0
 2016,Other creditors,Colombia,100.0
 2016,Other creditors,Comoros,79.82431291375985
 2016,Other creditors,"Congo, Dem. Rep.",53.48843275319149
 2016,Other creditors,"Congo, Rep.",55.70513883450264
-2016,Other creditors,Cote d'Ivoire,85.61370442757848
+2016,Other creditors,Cote d'Ivoire,85.6137044275785
 2016,Other creditors,Djibouti,44.62762546112878
 2016,Other creditors,Dominica,85.82690855831495
 2016,Other creditors,Dominican Republic,99.98883368971391
@@ -5777,7 +5777,7 @@ year,creditor_name,debtor_name,value
 2016,Other creditors,Georgia,99.95838362905123
 2016,Other creditors,Ghana,85.83060687852789
 2016,Other creditors,Grenada,100.0
-2016,Other creditors,Guatemala,99.73604511823079
+2016,Other creditors,Guatemala,99.7360451182308
 2016,Other creditors,Guinea,68.8892341486242
 2016,Other creditors,Guinea-Bissau,100.0
 2016,Other creditors,Guyana,86.4970232260002
@@ -5786,7 +5786,7 @@ year,creditor_name,debtor_name,value
 2016,Other creditors,IDA only,81.52892727757558
 2016,Other creditors,IDA total,81.35851375797775
 2016,Other creditors,India,100.0
-2016,Other creditors,Indonesia,99.42092122996557
+2016,Other creditors,Indonesia,99.42092122996556
 2016,Other creditors,"Iran, Islamic Rep.",85.22786762709258
 2016,Other creditors,Iraq,92.56086545115498
 2016,Other creditors,Jamaica,94.20267624238417
@@ -5797,18 +5797,18 @@ year,creditor_name,debtor_name,value
 2016,Other creditors,Kyrgyz Republic,57.82825744399377
 2016,Other creditors,Lao PDR,56.59716066842377
 2016,Other creditors,Latin America & Caribbean (excluding high income),97.77369873921413
-2016,Other creditors,Least developed countries: UN classification,75.53241220949461
-2016,Other creditors,Lebanon,99.97404294999423
-2016,Other creditors,Lesotho,93.58522528152115
+2016,Other creditors,Least developed countries: UN classification,75.53241220949462
+2016,Other creditors,Lebanon,99.97404294999424
+2016,Other creditors,Lesotho,93.58522528152116
 2016,Other creditors,Liberia,99.02937270383774
 2016,Other creditors,Low & lower middle income,88.2489859864182
 2016,Other creditors,Low & middle income,94.18665337904321
-2016,Other creditors,Low income,81.81944768703327
+2016,Other creditors,Low income,81.8194476870333
 2016,Other creditors,Lower middle income,89.09022917877216
-2016,Other creditors,Madagascar,98.09040099388172
+2016,Other creditors,Madagascar,98.09040099388167
 2016,Other creditors,Malawi,85.5849061591359
 2016,Other creditors,Maldives,66.37707461604509
-2016,Other creditors,Mali,85.290623099461
+2016,Other creditors,Mali,85.29062309946102
 2016,Other creditors,Mauritania,91.2178706205878
 2016,Other creditors,Mauritius,77.37751881935195
 2016,Other creditors,Mexico,100.0
@@ -5846,7 +5846,7 @@ year,creditor_name,debtor_name,value
 2016,Other creditors,Sub-Saharan Africa (excluding high income),80.27937910967965
 2016,Other creditors,Sudan,90.51822712901489
 2016,Other creditors,Suriname,85.02084176635047
-2016,Other creditors,Syrian Arab Republic,98.00101397560204
+2016,Other creditors,Syrian Arab Republic,98.00101397560206
 2016,Other creditors,Tajikistan,46.82819723467434
 2016,Other creditors,Tanzania,79.76302942862687
 2016,Other creditors,Thailand,100.0
@@ -5859,7 +5859,7 @@ year,creditor_name,debtor_name,value
 2016,Other creditors,Uganda,79.83022672902732
 2016,Other creditors,Ukraine,96.54430244706192
 2016,Other creditors,Upper middle income,97.49197313036382
-2016,Other creditors,Uzbekistan,77.4441255536841
+2016,Other creditors,Uzbekistan,77.44412555368409
 2016,Other creditors,Vanuatu,39.113418987025916
 2016,Other creditors,Viet Nam,95.35876138273879
 2016,Other creditors,"Yemen, Rep.",95.94321628376844
@@ -5868,15 +5868,15 @@ year,creditor_name,debtor_name,value
 2017,Other creditors,Afghanistan,100.00000000000001
 2017,Other creditors,Africa (excluding high income),85.27091602388107
 2017,Other creditors,Albania,99.95714473225688
-2017,Other creditors,Algeria,95.7327464816802
-2017,Other creditors,Angola,51.347796935461254
+2017,Other creditors,Algeria,95.73274648168021
+2017,Other creditors,Angola,51.34779693546124
 2017,Other creditors,Argentina,97.81387441238466
-2017,Other creditors,Armenia,99.54335359996551
+2017,Other creditors,Armenia,99.54335359996554
 2017,Other creditors,Azerbaijan,100.0
 2017,Other creditors,Bangladesh,96.15394556114606
 2017,Other creditors,Belarus,79.17419755323458
 2017,Other creditors,Belize,100.0
-2017,Other creditors,Benin,88.50660567331755
+2017,Other creditors,Benin,88.50660567331757
 2017,Other creditors,Bhutan,100.0
 2017,Other creditors,Bolivia,92.09297451300858
 2017,Other creditors,Bosnia and Herzegovina,100.00000000000003
@@ -5898,9 +5898,9 @@ year,creditor_name,debtor_name,value
 2017,Other creditors,Djibouti,40.3291865510995
 2017,Other creditors,Dominica,85.82251261634592
 2017,Other creditors,Dominican Republic,99.9907259014109
-2017,Other creditors,East Asia & Pacific (excluding high income),96.58009688509789
+2017,Other creditors,East Asia & Pacific (excluding high income),96.5800968850979
 2017,Other creditors,Ecuador,76.1315434907134
-2017,Other creditors,"Egypt, Arab Rep.",96.41789720256084
+2017,Other creditors,"Egypt, Arab Rep.",96.41789720256085
 2017,Other creditors,El Salvador,99.96560612794497
 2017,Other creditors,Eritrea,95.13011905021044
 2017,Other creditors,Eswatini,86.63339532236601
@@ -5937,16 +5937,16 @@ year,creditor_name,debtor_name,value
 2017,Other creditors,Lesotho,93.9590911938604
 2017,Other creditors,Liberia,96.75074903868406
 2017,Other creditors,Low & lower middle income,88.40090311267568
-2017,Other creditors,Low & middle income,93.98888190759163
+2017,Other creditors,Low & middle income,93.98888190759166
 2017,Other creditors,Low income,82.16462617646457
-2017,Other creditors,Lower middle income,89.17234198657599
-2017,Other creditors,Madagascar,98.33396832616823
+2017,Other creditors,Lower middle income,89.17234198657597
+2017,Other creditors,Madagascar,98.33396832616822
 2017,Other creditors,Malawi,87.70321686302427
 2017,Other creditors,Maldives,67.95666594694681
 2017,Other creditors,Mali,86.11255301662355
 2017,Other creditors,Mauritania,91.29797027448004
 2017,Other creditors,Mauritius,78.03687313003613
-2017,Other creditors,Mexico,100.0
+2017,Other creditors,Mexico,100.00000000000003
 2017,Other creditors,"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",93.82640715165755
 2017,Other creditors,Middle income,94.48418967017022
 2017,Other creditors,Moldova,100.0
@@ -5956,12 +5956,12 @@ year,creditor_name,debtor_name,value
 2017,Other creditors,Mozambique,81.16419006984299
 2017,Other creditors,Myanmar,59.47997903392676
 2017,Other creditors,Nepal,98.18053587660734
-2017,Other creditors,Nicaragua,99.60617625402651
+2017,Other creditors,Nicaragua,99.60617625402648
 2017,Other creditors,Niger,87.43219560260856
 2017,Other creditors,Nigeria,89.75964198143842
 2017,Other creditors,North Macedonia,89.25414329939483
 2017,Other creditors,Pakistan,83.52246642323593
-2017,Other creditors,Papua New Guinea,76.36567641607414
+2017,Other creditors,Papua New Guinea,76.36567641607415
 2017,Other creditors,Paraguay,100.0
 2017,Other creditors,Peru,100.0
 2017,Other creditors,Philippines,99.23750670855236
@@ -5973,7 +5973,7 @@ year,creditor_name,debtor_name,value
 2017,Other creditors,Sierra Leone,95.13624569764406
 2017,Other creditors,Solomon Islands,100.0
 2017,Other creditors,"Somalia, Fed. Rep.",100.0
-2017,Other creditors,South Africa,98.89676908481592
+2017,Other creditors,South Africa,98.8967690848159
 2017,Other creditors,South Asia,97.33664493417808
 2017,Other creditors,Sri Lanka,84.45965460369356
 2017,Other creditors,St. Lucia,100.0
@@ -5986,17 +5986,17 @@ year,creditor_name,debtor_name,value
 2017,Other creditors,Tanzania,81.49079074433682
 2017,Other creditors,Thailand,100.0
 2017,Other creditors,Timor-Leste,100.0
-2017,Other creditors,Togo,54.16353359285124
+2017,Other creditors,Togo,54.16353359285122
 2017,Other creditors,Tonga,38.88888342406458
 2017,Other creditors,Tunisia,99.64516979782952
 2017,Other creditors,Turkiye,99.26931815622383
 2017,Other creditors,Turkmenistan,55.31370085267898
 2017,Other creditors,Uganda,77.59146328513182
-2017,Other creditors,Ukraine,96.87863244254024
+2017,Other creditors,Ukraine,96.87863244254021
 2017,Other creditors,Upper middle income,97.20392218898473
 2017,Other creditors,Uzbekistan,79.30623384433719
 2017,Other creditors,Vanuatu,45.56356681207086
-2017,Other creditors,Viet Nam,95.41381480954972
+2017,Other creditors,Viet Nam,95.4138148095497
 2017,Other creditors,"Yemen, Rep.",97.51924628545416
 2017,Other creditors,Zambia,67.3355849313249
 2017,Other creditors,Zimbabwe,73.13647505767827
@@ -6050,7 +6050,7 @@ year,creditor_name,debtor_name,value
 2018,Other creditors,Guatemala,99.36696219844063
 2018,Other creditors,Guinea,69.68098161211361
 2018,Other creditors,Guinea-Bissau,100.0
-2018,Other creditors,Guyana,82.2931347409465
+2018,Other creditors,Guyana,82.29313474094651
 2018,Other creditors,Haiti,100.0
 2018,Other creditors,Honduras,93.6518618147124
 2018,Other creditors,IDA only,81.6125611781053
@@ -6068,11 +6068,11 @@ year,creditor_name,debtor_name,value
 2018,Other creditors,Lao PDR,53.60318150365742
 2018,Other creditors,Latin America & Caribbean (excluding high income),97.28256488140431
 2018,Other creditors,Least developed countries: UN classification,75.748573682822
-2018,Other creditors,Lebanon,99.97795304943291
+2018,Other creditors,Lebanon,99.97795304943293
 2018,Other creditors,Lesotho,94.6022814293165
 2018,Other creditors,Liberia,92.43440964649433
 2018,Other creditors,Low & lower middle income,87.28851598218337
-2018,Other creditors,Low & middle income,93.6805699952983
+2018,Other creditors,Low & middle income,93.68056999529828
 2018,Other creditors,Low income,81.84910226065273
 2018,Other creditors,Lower middle income,87.95621905177332
 2018,Other creditors,Madagascar,97.3255915108362
@@ -6083,12 +6083,12 @@ year,creditor_name,debtor_name,value
 2018,Other creditors,Mauritius,76.56603003764883
 2018,Other creditors,Mexico,100.0
 2018,Other creditors,"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",91.33585032996203
-2018,Other creditors,Middle income,94.17167094385817
+2018,Other creditors,Middle income,94.1716709438582
 2018,Other creditors,Moldova,99.99999999999999
 2018,Other creditors,Mongolia,71.15660571012205
 2018,Other creditors,Montenegro,80.51583086743553
 2018,Other creditors,Morocco,98.34279152634893
-2018,Other creditors,Mozambique,80.43768815324081
+2018,Other creditors,Mozambique,80.43768815324083
 2018,Other creditors,Myanmar,63.98768706833807
 2018,Other creditors,Nepal,97.57014511602846
 2018,Other creditors,Nicaragua,99.6454163645667
@@ -6099,7 +6099,7 @@ year,creditor_name,debtor_name,value
 2018,Other creditors,Papua New Guinea,82.32767379534005
 2018,Other creditors,Paraguay,100.0
 2018,Other creditors,Peru,100.0
-2018,Other creditors,Philippines,99.329716560583
+2018,Other creditors,Philippines,99.32971656058301
 2018,Other creditors,Rwanda,95.06530126831096
 2018,Other creditors,Samoa,60.07888501953283
 2018,Other creditors,Sao Tome and Principe,100.0
@@ -6112,8 +6112,8 @@ year,creditor_name,debtor_name,value
 2018,Other creditors,South Asia,96.15891678544027
 2018,Other creditors,Sri Lanka,82.358459137055
 2018,Other creditors,St. Lucia,100.0
-2018,Other creditors,St. Vincent and the Grenadines,100.00000000000001
-2018,Other creditors,Sub-Saharan Africa (excluding high income),80.78221843591
+2018,Other creditors,St. Vincent and the Grenadines,100.0
+2018,Other creditors,Sub-Saharan Africa (excluding high income),80.78221843591002
 2018,Other creditors,Sudan,91.56065915809035
 2018,Other creditors,Suriname,76.38414245175704
 2018,Other creditors,Syrian Arab Republic,98.05609562586608
@@ -6124,7 +6124,7 @@ year,creditor_name,debtor_name,value
 2018,Other creditors,Togo,54.13005999007963
 2018,Other creditors,Tonga,41.74155153082851
 2018,Other creditors,Tunisia,99.6956912559911
-2018,Other creditors,Turkiye,98.68306816494487
+2018,Other creditors,Turkiye,98.68306816494486
 2018,Other creditors,Turkmenistan,66.11347001038465
 2018,Other creditors,Uganda,74.77733502657746
 2018,Other creditors,Ukraine,96.97840365645685
@@ -6142,11 +6142,11 @@ year,creditor_name,debtor_name,value
 2019,Other creditors,Angola,52.82449887473949
 2019,Other creditors,Argentina,97.33109424220822
 2019,Other creditors,Armenia,99.606415940028
-2019,Other creditors,Azerbaijan,100.0
+2019,Other creditors,Azerbaijan,100.00000000000001
 2019,Other creditors,Bangladesh,92.24492082535562
 2019,Other creditors,Belarus,74.49736654994331
 2019,Other creditors,Belize,100.0
-2019,Other creditors,Benin,91.6158649026378
+2019,Other creditors,Benin,91.61586490263781
 2019,Other creditors,Bhutan,100.00000000000001
 2019,Other creditors,Bolivia,90.42356052261025
 2019,Other creditors,Bosnia and Herzegovina,99.99999999999999
@@ -6154,7 +6154,7 @@ year,creditor_name,debtor_name,value
 2019,Other creditors,Brazil,97.39786480175484
 2019,Other creditors,Burkina Faso,98.30812579180572
 2019,Other creditors,Burundi,91.18546788971894
-2019,Other creditors,Cabo Verde,98.33736255109459
+2019,Other creditors,Cabo Verde,98.3373625510946
 2019,Other creditors,Cambodia,52.40717000430786
 2019,Other creditors,Cameroon,65.31643377294687
 2019,Other creditors,Central African Republic,85.59178868127944
@@ -6178,9 +6178,9 @@ year,creditor_name,debtor_name,value
 2019,Other creditors,Ethiopia,71.80280194568368
 2019,Other creditors,Europe & Central Asia (excluding high income),93.90667255744548
 2019,Other creditors,Fiji,70.01753408895021
-2019,Other creditors,Gabon,80.32792573256437
+2019,Other creditors,Gabon,80.32792573256438
 2019,Other creditors,"Gambia, The",96.65413356242905
-2019,Other creditors,Georgia,99.98158241243304
+2019,Other creditors,Georgia,99.98158241243306
 2019,Other creditors,Ghana,90.70632697611576
 2019,Other creditors,Grenada,100.0
 2019,Other creditors,Guatemala,99.44187213020128
@@ -6225,7 +6225,7 @@ year,creditor_name,debtor_name,value
 2019,Other creditors,Montenegro,77.90559188584328
 2019,Other creditors,Morocco,98.68237797979263
 2019,Other creditors,Mozambique,81.67633530142531
-2019,Other creditors,Myanmar,68.46291309677694
+2019,Other creditors,Myanmar,68.46291309677696
 2019,Other creditors,Nepal,96.32535065661074
 2019,Other creditors,Nicaragua,99.66925357073178
 2019,Other creditors,Niger,89.64102894936154
@@ -6254,7 +6254,7 @@ year,creditor_name,debtor_name,value
 2019,Other creditors,Suriname,74.42284920402012
 2019,Other creditors,Syrian Arab Republic,98.08696426247585
 2019,Other creditors,Tajikistan,60.2837174236371
-2019,Other creditors,Tanzania,85.43523993371068
+2019,Other creditors,Tanzania,85.43523993371069
 2019,Other creditors,Thailand,100.0
 2019,Other creditors,Timor-Leste,100.0
 2019,Other creditors,Togo,62.14371242985614
@@ -6263,11 +6263,11 @@ year,creditor_name,debtor_name,value
 2019,Other creditors,Turkiye,98.3897115119087
 2019,Other creditors,Turkmenistan,74.99910578008587
 2019,Other creditors,Uganda,75.18573242700676
-2019,Other creditors,Ukraine,97.33729877522858
+2019,Other creditors,Ukraine,97.3372987752286
 2019,Other creditors,Upper middle income,97.76600064162365
 2019,Other creditors,Uzbekistan,82.24557992854577
 2019,Other creditors,Vanuatu,59.59539714436109
-2019,Other creditors,Viet Nam,96.64362284274667
+2019,Other creditors,Viet Nam,96.64362284274668
 2019,Other creditors,"Yemen, Rep.",97.5414654118251
 2019,Other creditors,Zambia,62.24155434065859
 2019,Other creditors,Zimbabwe,67.71795221085861
@@ -6278,16 +6278,16 @@ year,creditor_name,debtor_name,value
 2020,Other creditors,Angola,53.43027078833369
 2020,Other creditors,Argentina,97.4108137392371
 2020,Other creditors,Armenia,99.59060226842185
-2020,Other creditors,Azerbaijan,100.0
+2020,Other creditors,Azerbaijan,99.99999999999999
 2020,Other creditors,Bangladesh,91.66219109701652
 2020,Other creditors,Belarus,76.43256016398915
 2020,Other creditors,Belize,100.0
 2020,Other creditors,Benin,92.83820637395547
 2020,Other creditors,Bhutan,100.0
-2020,Other creditors,Bolivia,90.9005159726385
+2020,Other creditors,Bolivia,90.90051597263849
 2020,Other creditors,Bosnia and Herzegovina,100.0
 2020,Other creditors,Botswana,99.29463887021396
-2020,Other creditors,Brazil,97.39695172413263
+2020,Other creditors,Brazil,97.3969517241326
 2020,Other creditors,Burkina Faso,97.80133010844332
 2020,Other creditors,Burundi,91.51089466779027
 2020,Other creditors,Cabo Verde,98.44625194245157
@@ -6295,14 +6295,14 @@ year,creditor_name,debtor_name,value
 2020,Other creditors,Cameroon,66.88614410255043
 2020,Other creditors,Central African Republic,90.33410887402881
 2020,Other creditors,Chad,88.82061720898392
-2020,Other creditors,China,99.99999999999999
+2020,Other creditors,China,100.0
 2020,Other creditors,Colombia,100.0
 2020,Other creditors,Comoros,64.41967338963818
 2020,Other creditors,"Congo, Dem. Rep.",41.50870128750858
 2020,Other creditors,"Congo, Rep.",51.18526200630446
 2020,Other creditors,Cote d'Ivoire,84.35691914542122
 2020,Other creditors,Djibouti,43.00878887316367
-2020,Other creditors,Dominica,89.72221249538703
+2020,Other creditors,Dominica,89.72221249538704
 2020,Other creditors,Dominican Republic,99.99627883465861
 2020,Other creditors,East Asia & Pacific (excluding high income),97.57555433028371
 2020,Other creditors,Ecuador,86.39253165643618
@@ -6317,7 +6317,7 @@ year,creditor_name,debtor_name,value
 2020,Other creditors,Gabon,81.63510457303632
 2020,Other creditors,"Gambia, The",96.78041949373174
 2020,Other creditors,Georgia,99.98847697992936
-2020,Other creditors,Ghana,92.30802791395756
+2020,Other creditors,Ghana,92.30802791395757
 2020,Other creditors,Grenada,100.0
 2020,Other creditors,Guatemala,99.51325300400079
 2020,Other creditors,Guinea,54.78198059261946
@@ -6340,7 +6340,7 @@ year,creditor_name,debtor_name,value
 2020,Other creditors,Lao PDR,54.07664061051131
 2020,Other creditors,Latin America & Caribbean (excluding high income),98.1852654627206
 2020,Other creditors,Least developed countries: UN classification,77.96018077002657
-2020,Other creditors,Lebanon,99.97708264943904
+2020,Other creditors,Lebanon,99.97708264943905
 2020,Other creditors,Lesotho,87.67975511011542
 2020,Other creditors,Liberia,93.92273417153851
 2020,Other creditors,Low & lower middle income,87.70672953394877
@@ -6359,17 +6359,17 @@ year,creditor_name,debtor_name,value
 2020,Other creditors,Moldova,100.0
 2020,Other creditors,Mongolia,73.34523380460973
 2020,Other creditors,Montenegro,82.45687694548208
-2020,Other creditors,Morocco,98.98656435361308
+2020,Other creditors,Morocco,98.98656435361306
 2020,Other creditors,Mozambique,81.91452358483728
-2020,Other creditors,Myanmar,72.97892022686365
+2020,Other creditors,Myanmar,72.97892022686366
 2020,Other creditors,Nepal,96.51362788911852
-2020,Other creditors,Nicaragua,99.68631995616326
+2020,Other creditors,Nicaragua,99.68631995616327
 2020,Other creditors,Niger,92.43687488021375
 2020,Other creditors,Nigeria,89.38154655388192
 2020,Other creditors,North Macedonia,89.72782460582886
 2020,Other creditors,Pakistan,72.03107508987912
 2020,Other creditors,Papua New Guinea,81.63901873994917
-2020,Other creditors,Paraguay,100.00000000000003
+2020,Other creditors,Paraguay,100.0
 2020,Other creditors,Peru,100.0
 2020,Other creditors,Philippines,99.54443605128571
 2020,Other creditors,Rwanda,94.96147157038392
@@ -6399,7 +6399,7 @@ year,creditor_name,debtor_name,value
 2020,Other creditors,Turkiye,98.60580735361415
 2020,Other creditors,Turkmenistan,88.06627298457418
 2020,Other creditors,Uganda,77.9715980699298
-2020,Other creditors,Ukraine,97.70744379324682
+2020,Other creditors,Ukraine,97.70744379324681
 2020,Other creditors,Upper middle income,97.99351958221096
 2020,Other creditors,Uzbekistan,81.79893178812372
 2020,Other creditors,Vanuatu,59.88586096602078
@@ -6420,7 +6420,7 @@ year,creditor_name,debtor_name,value
 2021,Other creditors,Belize,100.0
 2021,Other creditors,Benin,93.95608552784971
 2021,Other creditors,Bhutan,100.0
-2021,Other creditors,Bolivia,89.66912711965261
+2021,Other creditors,Bolivia,89.66912711965263
 2021,Other creditors,Bosnia and Herzegovina,100.0
 2021,Other creditors,Botswana,99.74285631636621
 2021,Other creditors,Brazil,97.82438676858338
@@ -6448,39 +6448,39 @@ year,creditor_name,debtor_name,value
 2021,Other creditors,Eritrea,97.23762053409152
 2021,Other creditors,Eswatini,70.03670408057582
 2021,Other creditors,Ethiopia,75.40408787853661
-2021,Other creditors,Europe & Central Asia (excluding high income),94.41246937720936
+2021,Other creditors,Europe & Central Asia (excluding high income),94.41246937720935
 2021,Other creditors,Fiji,82.00163608984653
 2021,Other creditors,Gabon,82.20127738041944
 2021,Other creditors,"Gambia, The",96.75737873835695
 2021,Other creditors,Georgia,99.99481459514435
-2021,Other creditors,Ghana,93.01178374798576
-2021,Other creditors,Grenada,96.83453826754682
+2021,Other creditors,Ghana,93.01178374798577
+2021,Other creditors,Grenada,96.8345382675468
 2021,Other creditors,Guatemala,99.5480111614382
 2021,Other creditors,Guinea,56.27927909691028
-2021,Other creditors,Guinea-Bissau,100.0
+2021,Other creditors,Guinea-Bissau,100.00000000000003
 2021,Other creditors,Guyana,82.07986866458025
 2021,Other creditors,Haiti,100.0
 2021,Other creditors,Honduras,95.60002242388518
 2021,Other creditors,IDA only,82.98946810925399
 2021,Other creditors,IDA total,81.12126656141275
 2021,Other creditors,India,100.0
-2021,Other creditors,Indonesia,99.29763095086227
+2021,Other creditors,Indonesia,99.29763095086226
 2021,Other creditors,"Iran, Islamic Rep.",98.17279346808488
 2021,Other creditors,Iraq,96.2984050413414
 2021,Other creditors,Jamaica,93.36453393902187
-2021,Other creditors,Jordan,99.72373906618287
+2021,Other creditors,Jordan,99.72373906618286
 2021,Other creditors,Kazakhstan,95.78301025448698
 2021,Other creditors,Kenya,79.08455228182306
 2021,Other creditors,Kosovo,100.0
 2021,Other creditors,Kyrgyz Republic,54.58329027516551
 2021,Other creditors,Lao PDR,50.82329370471426
-2021,Other creditors,Latin America & Caribbean (excluding high income),98.32005671865718
+2021,Other creditors,Latin America & Caribbean (excluding high income),98.32005671865721
 2021,Other creditors,Least developed countries: UN classification,78.61216664124794
 2021,Other creditors,Lebanon,99.97643095613208
 2021,Other creditors,Lesotho,85.02414035788908
 2021,Other creditors,Liberia,94.20152327523647
 2021,Other creditors,Low & lower middle income,87.89137251151503
-2021,Other creditors,Low & middle income,94.43689301709249
+2021,Other creditors,Low & middle income,94.43689301709247
 2021,Other creditors,Low income,84.08417946567732
 2021,Other creditors,Lower middle income,88.3254182377379
 2021,Other creditors,Madagascar,95.03885074761922
@@ -6491,7 +6491,7 @@ year,creditor_name,debtor_name,value
 2021,Other creditors,Mauritius,91.08065858023082
 2021,Other creditors,Mexico,100.0
 2021,Other creditors,"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",90.76360702499896
-2021,Other creditors,Middle income,94.8385006679001
+2021,Other creditors,Middle income,94.83850066790009
 2021,Other creditors,Moldova,100.00000000000001
 2021,Other creditors,Mongolia,73.09366399292806
 2021,Other creditors,Montenegro,79.80167867537726
@@ -6502,8 +6502,8 @@ year,creditor_name,debtor_name,value
 2021,Other creditors,Nicaragua,99.70747883702488
 2021,Other creditors,Niger,93.18787841195824
 2021,Other creditors,Nigeria,89.94557248544767
-2021,Other creditors,North Macedonia,89.96658952104262
-2021,Other creditors,Pakistan,73.1168886475567
+2021,Other creditors,North Macedonia,89.96658952104261
+2021,Other creditors,Pakistan,73.11688864755669
 2021,Other creditors,Papua New Guinea,81.71822631557622
 2021,Other creditors,Paraguay,100.0
 2021,Other creditors,Peru,100.0
@@ -6511,7 +6511,7 @@ year,creditor_name,debtor_name,value
 2021,Other creditors,Rwanda,94.24439072967368
 2021,Other creditors,Samoa,57.718961188325004
 2021,Other creditors,Sao Tome and Principe,99.99999999999999
-2021,Other creditors,Senegal,88.534456618176
+2021,Other creditors,Senegal,88.53445661817601
 2021,Other creditors,Serbia,91.72984257017255
 2021,Other creditors,Sierra Leone,94.50078324173646
 2021,Other creditors,Solomon Islands,100.0
@@ -6534,7 +6534,7 @@ year,creditor_name,debtor_name,value
 2021,Other creditors,Tunisia,99.79867081171
 2021,Other creditors,Turkiye,98.38507464956704
 2021,Other creditors,Turkmenistan,96.61144090890086
-2021,Other creditors,Uganda,79.63333996529238
+2021,Other creditors,Uganda,79.6333399652924
 2021,Other creditors,Ukraine,97.99633455424072
 2021,Other creditors,Upper middle income,98.19768781683655
 2021,Other creditors,Uzbekistan,82.89405635998357
@@ -6547,11 +6547,11 @@ year,creditor_name,debtor_name,value
 2022,Other creditors,Africa (excluding high income),86.47119399202941
 2022,Other creditors,Albania,99.96176470973323
 2022,Other creditors,Algeria,93.72045197396022
-2022,Other creditors,Angola,56.548385301252054
+2022,Other creditors,Angola,56.54838530125205
 2022,Other creditors,Argentina,96.29393342522005
 2022,Other creditors,Armenia,99.70660524814056
 2022,Other creditors,Azerbaijan,100.0
-2022,Other creditors,Bangladesh,91.03768295707911
+2022,Other creditors,Bangladesh,91.0376829570791
 2022,Other creditors,Belarus,79.59557812798636
 2022,Other creditors,Belize,100.0
 2022,Other creditors,Benin,94.80202094834452
@@ -6610,7 +6610,7 @@ year,creditor_name,debtor_name,value
 2022,Other creditors,Kosovo,100.0
 2022,Other creditors,Kyrgyz Republic,55.786165404849925
 2022,Other creditors,Lao PDR,48.63974109403549
-2022,Other creditors,Latin America & Caribbean (excluding high income),98.36045510236816
+2022,Other creditors,Latin America & Caribbean (excluding high income),98.36045510236815
 2022,Other creditors,Least developed countries: UN classification,79.70631949748712
 2022,Other creditors,Lebanon,99.97856621712619
 2022,Other creditors,Lesotho,83.20272415246947
@@ -6624,7 +6624,7 @@ year,creditor_name,debtor_name,value
 2022,Other creditors,Maldives,58.80694881384406
 2022,Other creditors,Mali,89.96777078799487
 2022,Other creditors,Mauritania,91.39665336137739
-2022,Other creditors,Mauritius,93.91455853626687
+2022,Other creditors,Mauritius,93.91455853626685
 2022,Other creditors,Mexico,100.0
 2022,Other creditors,"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",91.00509078020698
 2022,Other creditors,Middle income,94.91043034656838
@@ -6635,7 +6635,7 @@ year,creditor_name,debtor_name,value
 2022,Other creditors,Mozambique,83.65198954489365
 2022,Other creditors,Myanmar,76.51071303402037
 2022,Other creditors,Nepal,96.71867669054743
-2022,Other creditors,Nicaragua,99.73280401114991
+2022,Other creditors,Nicaragua,99.73280401114992
 2022,Other creditors,Niger,95.11899780329783
 2022,Other creditors,Nigeria,89.26565094484037
 2022,Other creditors,North Macedonia,89.84196334164551
@@ -6652,7 +6652,7 @@ year,creditor_name,debtor_name,value
 2022,Other creditors,Sierra Leone,94.85880732878707
 2022,Other creditors,Solomon Islands,100.0
 2022,Other creditors,"Somalia, Fed. Rep.",100.0
-2022,Other creditors,South Africa,96.24205893225206
+2022,Other creditors,South Africa,96.24205893225208
 2022,Other creditors,South Asia,95.12787837219992
 2022,Other creditors,Sri Lanka,78.50374976540417
 2022,Other creditors,St. Lucia,100.0
@@ -6662,17 +6662,17 @@ year,creditor_name,debtor_name,value
 2022,Other creditors,Suriname,76.71662498405483
 2022,Other creditors,Syrian Arab Republic,98.01181525747926
 2022,Other creditors,Tajikistan,67.87542219341177
-2022,Other creditors,Tanzania,91.26475256132679
+2022,Other creditors,Tanzania,91.26475256132682
 2022,Other creditors,Thailand,100.0
 2022,Other creditors,Timor-Leste,100.0
 2022,Other creditors,Togo,76.05912679645407
 2022,Other creditors,Tonga,41.06415657389663
 2022,Other creditors,Tunisia,99.8093561433246
-2022,Other creditors,Turkiye,98.68837647028519
+2022,Other creditors,Turkiye,98.68837647028518
 2022,Other creditors,Turkmenistan,97.10191003029402
 2022,Other creditors,Uganda,78.86268939045767
 2022,Other creditors,Ukraine,98.66054434006168
-2022,Other creditors,Upper middle income,98.19521030061699
+2022,Other creditors,Upper middle income,98.19521030061698
 2022,Other creditors,Uzbekistan,85.02257970332572
 2022,Other creditors,Vanuatu,55.828219964572455
 2022,Other creditors,Viet Nam,97.92124583279536
@@ -6703,7 +6703,7 @@ year,creditor_name,debtor_name,value
 2023,Other creditors,Cameroon,70.68973049959901
 2023,Other creditors,Central African Republic,95.702488022293
 2023,Other creditors,Chad,89.63704559771811
-2023,Other creditors,China,100.0
+2023,Other creditors,China,100.00000000000001
 2023,Other creditors,Colombia,100.0
 2023,Other creditors,Comoros,68.93671194479997
 2023,Other creditors,"Congo, Dem. Rep.",52.534185464075286
@@ -6733,7 +6733,7 @@ year,creditor_name,debtor_name,value
 2023,Other creditors,Guyana,84.40560015952049
 2023,Other creditors,Haiti,100.0
 2023,Other creditors,Honduras,96.26959605971219
-2023,Other creditors,IDA only,85.03362958484196
+2023,Other creditors,IDA only,85.03362958484198
 2023,Other creditors,IDA total,83.3571945013123
 2023,Other creditors,India,100.0
 2023,Other creditors,Indonesia,99.38192698886607
@@ -6753,7 +6753,7 @@ year,creditor_name,debtor_name,value
 2023,Other creditors,Liberia,95.86862670866917
 2023,Other creditors,Low & lower middle income,89.2198396399882
 2023,Other creditors,Low & middle income,94.74092296940056
-2023,Other creditors,Low income,86.42673736874565
+2023,Other creditors,Low income,86.42673736874563
 2023,Other creditors,Lower middle income,89.53131639019784
 2023,Other creditors,Madagascar,92.62928711147278
 2023,Other creditors,Malawi,92.8451540820709
@@ -6804,12 +6804,12 @@ year,creditor_name,debtor_name,value
 2023,Other creditors,Togo,81.44990320068655
 2023,Other creditors,Tonga,44.58936359284936
 2023,Other creditors,Tunisia,99.83180580110009
-2023,Other creditors,Turkiye,99.18551793047844
+2023,Other creditors,Turkiye,99.18551793047847
 2023,Other creditors,Turkmenistan,97.21616322178885
 2023,Other creditors,Uganda,81.70318402937238
 2023,Other creditors,Ukraine,99.08061844199749
-2023,Other creditors,Upper middle income,98.14422320254985
-2023,Other creditors,Uzbekistan,86.46213283640989
+2023,Other creditors,Upper middle income,98.14422320254987
+2023,Other creditors,Uzbekistan,86.4621328364099
 2023,Other creditors,Vanuatu,56.919041721153064
 2023,Other creditors,Viet Nam,98.35640256311842
 2023,Other creditors,"Yemen, Rep.",97.40543882132077
@@ -6824,7 +6824,7 @@ year,creditor_name,debtor_name,value
 2024,Other creditors,Armenia,99.76391641858201
 2024,Other creditors,Azerbaijan,100.0
 2024,Other creditors,Bangladesh,91.45464687799681
-2024,Other creditors,Belarus,83.11033875351107
+2024,Other creditors,Belarus,83.11033875351109
 2024,Other creditors,Belize,100.0
 2024,Other creditors,Benin,95.9013396852886
 2024,Other creditors,Bhutan,99.99999999999999
@@ -6832,7 +6832,7 @@ year,creditor_name,debtor_name,value
 2024,Other creditors,Bosnia and Herzegovina,99.39149524359966
 2024,Other creditors,Botswana,100.0
 2024,Other creditors,Brazil,98.63892394164496
-2024,Other creditors,Burkina Faso,98.06992450201457
+2024,Other creditors,Burkina Faso,98.06992450201456
 2024,Other creditors,Burundi,93.80557362012217
 2024,Other creditors,Cabo Verde,98.87816588872077
 2024,Other creditors,Cambodia,65.86939229225756
@@ -6883,10 +6883,10 @@ year,creditor_name,debtor_name,value
 2024,Other creditors,Kyrgyz Republic,60.781244798599076
 2024,Other creditors,Lao PDR,47.04039304420099
 2024,Other creditors,Latin America & Caribbean (excluding high income),98.54291286001511
-2024,Other creditors,Least developed countries: UN classification,83.28110024068583
+2024,Other creditors,Least developed countries: UN classification,83.28110024068582
 2024,Other creditors,Lebanon,99.9796904144309
 2024,Other creditors,Lesotho,82.12900503047278
-2024,Other creditors,Liberia,96.44785778536053
+2024,Other creditors,Liberia,96.4478577853605
 2024,Other creditors,Low & lower middle income,89.94790743247835
 2024,Other creditors,Low & middle income,95.19321504110911
 2024,Other creditors,Low income,86.26902750783769
@@ -6905,8 +6905,8 @@ year,creditor_name,debtor_name,value
 2024,Other creditors,Montenegro,84.10803610181722
 2024,Other creditors,Morocco,99.37227971337427
 2024,Other creditors,Mozambique,84.37363606761387
-2024,Other creditors,Myanmar,81.29094813103274
-2024,Other creditors,Nepal,97.21462135570907
+2024,Other creditors,Myanmar,81.29094813103272
+2024,Other creditors,Nepal,97.21462135570904
 2024,Other creditors,Nicaragua,99.75574105459839
 2024,Other creditors,Niger,96.36821876130644
 2024,Other creditors,Nigeria,89.40180462634618
@@ -6919,14 +6919,14 @@ year,creditor_name,debtor_name,value
 2024,Other creditors,Rwanda,95.66914211529246
 2024,Other creditors,Samoa,64.81508477143664
 2024,Other creditors,Sao Tome and Principe,100.0
-2024,Other creditors,Senegal,91.1540123668479
+2024,Other creditors,Senegal,91.15401236684791
 2024,Other creditors,Serbia,84.95948872109483
 2024,Other creditors,Sierra Leone,95.5960775525488
 2024,Other creditors,Solomon Islands,93.6845488568441
 2024,Other creditors,"Somalia, Fed. Rep.",100.0
-2024,Other creditors,South Africa,96.59502067995248
+2024,Other creditors,South Africa,96.59502067995247
 2024,Other creditors,South Asia,95.54570191163405
-2024,Other creditors,Sri Lanka,78.02998126694932
+2024,Other creditors,Sri Lanka,78.02998126694933
 2024,Other creditors,St. Lucia,100.0
 2024,Other creditors,St. Vincent and the Grenadines,93.48382142882834
 2024,Other creditors,Sub-Saharan Africa (excluding high income),85.96191522724652
@@ -6944,8 +6944,8 @@ year,creditor_name,debtor_name,value
 2024,Other creditors,Turkmenistan,97.35700531302372
 2024,Other creditors,Uganda,81.79038248165105
 2024,Other creditors,Ukraine,99.2156329791847
-2024,Other creditors,Upper middle income,98.42452934549202
-2024,Other creditors,Uzbekistan,89.99533082744686
+2024,Other creditors,Upper middle income,98.424529345492
+2024,Other creditors,Uzbekistan,89.99533082744688
 2024,Other creditors,Vanuatu,55.350416899166504
 2024,Other creditors,Viet Nam,98.69035433577807
 2024,Other creditors,"Yemen, Rep.",97.35806648785585
