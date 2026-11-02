@@ -5,12 +5,17 @@ from datetime import datetime
 
 import pandas as pd
 import unesco_reader as uis
-from bblocks import places
 from bblocks.data_importers import GHED, InternationalDebtStatistics, get_dsa
 
 from scripts.config import Paths
 from scripts.logger import logger
-from scripts.utils import custom_sort, format_values, get_gov_expenditure_curr_usd
+from scripts.utils import (
+    african_iso3_codes,
+    custom_sort,
+    format_values,
+    get_gov_expenditure_curr_usd,
+    names_to_iso3,
+)
 
 LATEST_YEAR = 2024
 START_YEAR = 2000
@@ -351,11 +356,7 @@ def chart_5() -> None:
                 "debt_sustainability_assessment",
             ],
         ]
-        .assign(
-            iso3_code=lambda d: places.resolve_places(
-                d.country_name, to_type="iso3_code"
-            )
-        )
+        .assign(iso3_code=lambda d: names_to_iso3(d.country_name, strict=True))
         .assign(
             latest_publication=lambda d: pd.to_datetime(
                 d.latest_publication
@@ -626,11 +627,7 @@ def chart_8() -> None:
         ds.loc[lambda d: d.creditor_name == "All creditors"]
         .groupby(["debtor_name", "year"], as_index=False)
         .agg({"value": "sum"})
-        .assign(
-            entity_code=lambda d: places.resolve_places(
-                d.debtor_name, to_type="iso3_code", not_found="ignore"
-            )
-        )
+        .assign(entity_code=lambda d: names_to_iso3(d.debtor_name))
         .merge(gov_exp, how="left")
         .assign(**{"debt service": lambda d: d.value / d.gov_expenditure_usd * 100})
         .dropna(subset=["debt service"])
@@ -669,12 +666,7 @@ def chart_8() -> None:
     )
 
     africa_median = (
-        df.assign(
-            region=lambda d: places.resolve_places(
-                d.entity_code, from_type="iso3_code", to_type="region"
-            )
-        )
-        .loc[lambda d: d.region == "Africa"]
+        df.loc[lambda d: d.entity_code.isin(african_iso3_codes())]
         .groupby("year", as_index=False)
         .agg({"debt service": "median", "health": "median", "education": "median"})
         .assign(debtor_name="Africa (excluding high income) (median)")

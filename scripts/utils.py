@@ -2,16 +2,70 @@
 
 import signal
 from collections.abc import Callable
+from functools import cache
 from typing import Any
 
 import pandas as pd
-from bblocks import places
+import resolvekit as rk
 from bblocks.data_importers import WEO
 from pydeflate import imf_exchange, set_pydeflate_path
 
 from scripts.config import Paths
 
 set_pydeflate_path(Paths.raw_data)
+
+# Country names (IMF spellings, from the DSA list) that resolvekit doesn't match
+_NAME_CROSSWALK = rk.Crosswalk.from_dict(
+    {
+        "Lao P.D.R.": "country/LAO",
+        "Somalia, Fed. Rep.": "country/SOM",
+    }
+)
+
+
+@cache
+def _country_resolver() -> rk.Resolver:
+    """Resolver restricted to countries, so country names never match a
+    same-named region (e.g. "Micronesia", "Kosovo")."""
+    return rk.Resolver.from_modules(module_ids=["geo.countries"])
+
+
+def names_to_iso3(names: pd.Series, *, strict: bool = False) -> pd.Series:
+    """Resolve country names to ISO3 codes, offline.
+
+    Args:
+        names: Series of country names.
+        strict: If True, raise when a name can't be resolved to a single
+            country. If False, unresolved names (e.g. aggregates such as
+            "Low & middle income") become None.
+
+    Returns:
+        Series of ISO3 codes aligned to the input index.
+    """
+    policy = "raise" if strict else "null"
+    return _country_resolver().bulk(
+        values=names,
+        to="iso3",
+        on_missing="null",
+        not_found=policy,
+        on_ambiguous=policy,
+        crosswalk=_NAME_CROSSWALK,
+    )
+
+
+@cache
+def african_iso3_codes() -> frozenset[str]:
+    """ISO3 codes of countries in Africa (UN M.49)."""
+    codes = rk.default().within("Africa", entity_type="geo.country", to="iso3")
+    return frozenset(c for c in codes if c)
+
+
+@cache
+def high_income_iso3_codes() -> frozenset[str]:
+    """ISO3 codes of countries in the World Bank high income group."""
+    return frozenset(
+        rk.default().members_of("World Bank High-Income Countries", as_codes="iso3")
+    )
 
 
 def custom_sort(
@@ -88,24 +142,15 @@ def add_africa_values(df, agg_operation: "sum") -> pd.DataFrame:
     dff = df.copy(deep=True)  # make a copy to avoid modifying the original dataframe
 
     afr_dff = (
-        df.assign(
-            iso3_code=lambda d: places.resolve_places(
-                d.entity_name, to_type="iso3_code", not_found="ignore"
-            )
-        )
+        df.assign(iso3_code=lambda d: names_to_iso3(d.entity_name))
         .dropna(subset=["iso3_code"])
-        .assign(
-            continent=lambda d: places.resolve_places(
-                d.iso3_code, from_type="iso3_code", to_type="region"
+        .loc[
+            lambda d: (
+                d.iso3_code.isin(african_iso3_codes())
+                & ~d.iso3_code.isin(high_income_iso3_codes())
             )
-        )
-        .assign(
-            income_level=lambda d: places.resolve_places(
-                d.iso3_code, from_type="iso3_code", to_type="income_level"
-            )
-        )
-        .loc[lambda d: (d.continent == "Africa") & (d.income_level != "High income")]
-        .drop(columns=["income_level", "iso3_code", "continent"])
+        ]
+        .drop(columns=["iso3_code"])
         .dropna(subset="value")
         .groupby(
             [
