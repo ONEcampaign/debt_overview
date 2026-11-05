@@ -1,68 +1,68 @@
 country_name,risk_of_debt_distress,latest_publication,debt_sustainability_assessment,iso3_code
 Afghanistan,High,28 June 2021,Sustainable,AFG
 Bangladesh,Moderate,30 January 2026,,BGD
-Benin,Moderate,14 July 2025,,BEN
+Benin,Moderate,30 April 2026,,BEN
 Bhutan,Moderate,27 January 2026,,BTN
-Burkina Faso,Moderate,23 March 2026,,BFA
-Burundi,High,25 July 2023,Sustainable,BDI
-Cambodia,Low,02 December 2025,,KHM
-Cameroon,High,24 March 2025,Sustainable,CMR
+Burkina Faso,Moderate,28 July 2026,,BFA
+Burundi,High,23 June 2026,Sustainable,BDI
+Cambodia,Low,28 September 2026,,KHM
+Cameroon,High,03 April 2026,Sustainable,CMR
 Cabo Verde,Moderate,26 February 2026,,CPV
 Central African Republic,High,23 June 2025,Sustainable,CAF
 Chad,High,13 August 2025,Sustainable,TCD
 Comoros,High,19 February 2026,Sustainable,COM
-"Congo, Democratic Republic of",Moderate,16 July 2025,,COD
-"Congo, Republic of",In debt distress,24 March 2025,Sustainable,COG
-Côte d'Ivoire,Moderate,11 February 2026,,CIV
+"Congo, Democratic Republic of",Moderate,08 September 2026,,COD
+"Congo, Republic of",In debt distress,03 April 2026,Sustainable,COG
+Côte d'Ivoire,Low,09 July 2026,,CIV
 Djibouti,In debt distress,22 September 2025,Unsustainable,DJI
-Dominica,Moderate,12 June 2025,,DMA
-Ethiopia,In debt distress,30 January 2026,Unsustainable,ETH
-"Gambia, The",High,23 December 2025,Sustainable,GMB
-Ghana,High,22 December 2025,Sustainable,GHA
+Dominica,Moderate,02 June 2026,,DMA
+Ethiopia,In debt distress,13 July 2026,Unsustainable,ETH
+"Gambia, The",High,14 July 2026,Sustainable,GMB
+Ghana,Moderate,04 August 2026,,GHA
 Grenada,In debt distress,04 February 2025,Sustainable,GRD
 Guinea,Moderate,17 May 2024,,GIN
-Guinea-Bissau,High,07 July 2025,Sustainable,GNB
-Haiti,High,10 December 2024,Sustainable,HTI
-Honduras,Low,10 December 2024,,HND
+Guinea-Bissau,High,17 June 2026,Sustainable,GNB
+Haiti,High,16 December 2025,Sustainable,HTI
+Honduras,Low,30 June 2026,,HND
 Kenya,High,01 November 2024,Sustainable,KEN
-Kiribati,High,10 July 2025,Sustainable,KIR
-Kyrgyz Republic,Moderate,04 June 2025,,KGZ
+Kiribati,High,15 May 2026,Sustainable,KIR
+Kyrgyz Republic,Moderate,02 July 2026,,KGZ
 Lao P.D.R.,In debt distress,20 February 2026,Unsustainable,LAO
 Lesotho,Moderate,18 September 2025,,LSO
-Liberia,Moderate,07 November 2025,,LBR
+Liberia,Moderate,13 May 2026,,LBR
 Madagascar,Moderate,21 March 2025,,MDG
 Malawi,In debt distress,06 August 2025,Unsustainable,MWI
 Maldives,High,13 May 2024,Unsustainable,MDV
 Mali,Moderate,10 September 2025,,MLI
 Marshall Islands,Moderate,04 December 2025,,MHL
-Mauritania,Moderate,05 February 2026,,MRT
-Micronesia,Moderate,04 March 2024,,FSM
+Mauritania,Moderate,29 June 2026,,MRT
+Micronesia,Moderate,05 May 2026,,FSM
 Moldova,Low,05 March 2026,,MDA
 Mozambique,High,19 February 2026,Unsustainable,MOZ
 Myanmar,Low,28 January 2021,,MMR
-Nepal,Low,06 October 2025,,NPL
+Nepal,Low,08 June 2026,,NPL
 Nicaragua,Moderate,26 January 2026,,NIC
 Niger,High,31 March 2026,Sustainable,NER
-Papua New Guinea,High,18 June 2025,Sustainable,PNG
-Rwanda,Moderate,04 December 2025,,RWA
-Samoa,Moderate,31 January 2025,,WSM
+Papua New Guinea,High,10 June 2026,Sustainable,PNG
+Rwanda,Moderate,12 June 2026,,RWA
+Samoa,Moderate,21 September 2026,,WSM
 São Tomé and Príncipe,In debt distress,23 December 2025,Sustainable,STP
 Senegal,Moderate,07 July 2023,,SEN
-Sierra Leone,High,13 February 2026,Sustainable,SLE
-Solomon Islands,Low,25 February 2025,,SLB
+Sierra Leone,High,07 July 2026,Sustainable,SLE
+Solomon Islands,Low,07 July 2026,,SLB
 Somalia,Moderate,16 December 2025,,SOM
 South Sudan,High,10 June 2024,Sustainable,SSD
-St. Vincent and the Grenadines,High,22 July 2024,Sustainable,VCT
+St. Vincent and the Grenadines,High,17 July 2026,Unsustainable,VCT
 Sudan,In debt distress,01 July 2021,Sustainable,SDN
 Tajikistan,High,08 July 2025,Sustainable,TJK
 Tanzania,Moderate,03 July 2025,,TZA
 Timor Leste,Moderate,26 September 2025,,TLS
-Togo,Moderate,11 July 2025,,TGO
+Togo,Moderate,22 July 2026,,TGO
 Tonga,High,10 November 2025,Sustainable,TON
 Tuvalu,High,12 September 2025,Sustainable,TUV
-Uganda,Moderate,03 February 2026,,UGA
-Uzbekistan,Low,24 June 2025,,UZB
+Uganda,Moderate,06 August 2026,,UGA
+Uzbekistan,Low,23 June 2026,,UZB
 Vanuatu,Moderate,25 September 2025,,VUT
-"Yemen, Republic of",Moderate,24 September 2014,,YEM
+"Yemen, Republic of",In debt distress,03 April 2026,Unsustainable,YEM
 Zambia,High,02 February 2026,Sustainable,ZMB
 Zimbabwe,In debt distress,02 October 2025,Unsustainable,ZWE
