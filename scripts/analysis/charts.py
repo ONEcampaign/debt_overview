@@ -18,7 +18,7 @@ from scripts.utils import (
     names_to_iso3,
 )
 
-LATEST_YEAR = 2024
+LATEST_YEAR = 2025
 START_YEAR = 2000
 NUM_EST_YEARS = 6  # number of estimated years in debt service data
 GHED_END_YEAR = (
