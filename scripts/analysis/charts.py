@@ -5,8 +5,9 @@ from datetime import datetime
 
 import pandas as pd
 import unesco_reader as uis
-from bblocks.data_importers import GHED, InternationalDebtStatistics, get_dsa
+from bblocks.data_importers import GHED, InternationalDebtStatistics
 
+from scripts.analysis.get_raw_data import DSA_PATH
 from scripts.config import Paths
 from scripts.logger import logger
 from scripts.utils import (
@@ -17,7 +18,7 @@ from scripts.utils import (
     names_to_iso3,
 )
 
-LATEST_YEAR = 2024
+LATEST_YEAR = 2025
 START_YEAR = 2000
 NUM_EST_YEARS = 6  # number of estimated years in debt service data
 GHED_END_YEAR = (
@@ -119,6 +120,12 @@ def chart_1() -> None:
     )
 
     logger.info("Chart 1 created successfully")
+
+
+def _read_dsa_data() -> pd.DataFrame:
+    """Read the IMF DSA list saved by get_raw_data"""
+
+    return pd.read_csv(DSA_PATH, parse_dates=["latest_publication"])
 
 
 def _get_debt_service_data() -> pd.DataFrame:
@@ -343,8 +350,8 @@ def chart_5() -> None:
         "In debt distress": "#73175a",
     }
 
-    # fetch DSA data
-    df = get_dsa()
+    # read DSA data
+    df = _read_dsa_data()
 
     df = (
         df.loc[
@@ -556,7 +563,7 @@ def key_stats() -> None:
 
     # countries in debt distress
     val = len(
-        get_dsa().loc[
+        _read_dsa_data().loc[
             lambda d: d.risk_of_debt_distress.isin(["In debt distress", "High"])
         ]
     )
